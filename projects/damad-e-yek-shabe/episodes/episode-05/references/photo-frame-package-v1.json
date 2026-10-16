@@ -128,24 +128,24 @@
       "shared_owner": "EP05-SH07"
     },
     "EP05-SH15-END": {
-      "path": "shots/EP05-SH05/images/EP05-SH05-start-v1.png",
-      "sha256": "b091090b6a29a1b859c6ad37ce4c3efbf8bf0c5ac3db4680607f5c34e7adc4fd",
+      "path": "shots/EP05-SH15/images/EP05-SH15-ending-v2.png",
+      "sha256": "2cae12f43c5bbca4d7e64ba19005f206eeb29476aae39fc48b1d6262456bcf03",
       "size": [
-        941,
-        1672
+        851,
+        1847
       ],
-      "native_aspect": 0.562799043062201,
       "exact_9_16": false,
-      "generation_id": "B3",
-      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-aa8495cd-31cf-4a17-8034-aa10532a9041.png",
-      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v1-prompt.txt",
-      "role": "review_candidate_not_approved_generation_input",
-      "shared_owner": "EP05-SH05 version1 tight frame; no foreground Farhad"
+      "native_aspect": 0.4607471575527883,
+      "generation_id": "ending-spacing-v2",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-0424ad1a-0842-42be-85c7-ab58a9589b73.png",
+      "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-v2-prompt.txt",
+      "role": "proposed_destination_pose_not_motion_or_video_approval",
+      "source_reference": "shots/EP05-SH05/images/EP05-SH05-start-v3.png"
     }
   },
   "duration_seconds": 44.5416666667,
   "tool": "builtin image_gen.imagegen",
-  "generated_calls": 19,
+  "generated_calls": 20,
   "generated_final_files": 8,
   "existing_source_extracted_frames": 1,
   "flow_credits_used": 0,
@@ -213,7 +213,7 @@
   },
   "framing_adjustments": {
     "EP05-SH05": "Wide v3: inward angled chairs with visible outward upholstery sides; tabletop stays tea-left/bowl-middle/tray-right. Numeric angle not measured.",
-    "EP05-SH15-END": "Shared tighter two-shot; planned eye turn and emotion change not yet executed"
+    "EP05-SH15-END": "Same wide camera, body spacing and room as SH05 v3; heads/eyes turn only; Farhad absent after farewell. Destination pose, not executed motion."
   },
   "table_reference": {
     "path": "references/episode04-table-user-reference.jpg",
@@ -226,5 +226,10 @@
     "prompts": "references/chair-correction-prompts-v3.json",
     "visual_review": "photo-review-v3.md in SH05",
     "status": "inward orientation visually reviewed; exact numerical angle unmeasured"
+  },
+  "ending_spacing_review": {
+    "report": "shots/EP05-SH15/ending-photo-review-v2.md",
+    "status": "visually_compared_static_candidate",
+    "video_generated": false
   }
 }
