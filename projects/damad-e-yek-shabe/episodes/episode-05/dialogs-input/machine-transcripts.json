@@ -1,0 +1,682 @@
+[
+  {
+    "file": "01.m4a",
+    "shot": "EP05-SH03",
+    "sha256": "e207174438070d5a9370c36cb72b696a73f5df2e0f3f72ef25f013318fbf3462",
+    "expected_text": "بیرون.",
+    "machine_transcript": "بیرون",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 1.22,
+        "text": " بیرون",
+        "avg_logprob": -0.4430768149239676,
+        "no_speech_prob": 0.21920280158519745,
+        "words": [
+          {
+            "word": " بیرون",
+            "start": 0.0,
+            "end": 1.22,
+            "probability": 0.6961853876709938
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "02.m4a",
+    "shot": "EP05-SH04",
+    "sha256": "0deb309511e0eb23ccaee9443f976a070ac86778b9d25acf7b2377ae34ba16e3",
+    "expected_text": "بیرون که اِسمِ جا نیست.",
+    "machine_transcript": "بیرون که اسمه جانیز",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.06,
+        "text": " بیرون که اسمه جانیز",
+        "avg_logprob": -0.2773108519613743,
+        "no_speech_prob": 0.24067528545856476,
+        "words": [
+          {
+            "word": " بیرون",
+            "start": 0.0,
+            "end": 0.92,
+            "probability": 0.7478097528219223
+          },
+          {
+            "word": " که",
+            "start": 0.92,
+            "end": 1.16,
+            "probability": 0.7936493754386902
+          },
+          {
+            "word": " اسمه",
+            "start": 1.16,
+            "end": 1.46,
+            "probability": 0.6760545372962952
+          },
+          {
+            "word": " جانیز",
+            "start": 1.46,
+            "end": 2.06,
+            "probability": 0.9207820296287537
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "03.m4a",
+    "shot": "EP05-SH05",
+    "sha256": "0c7acc8af008388358cc177ed7cfd2cfbfd0420463dd45f1ceac0f7c9e02f315",
+    "expected_text": "جِلوی هَمین ساختمون. روزِ اَسباب‌کِشی. داشْتَم کُمَک می‌کَردَم، چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد.",
+    "machine_transcript": "جلوهی همی ساخ دمون روزه از باب کشی تشتم کمک میگیردم چراک مطالعش از دستم افتاد",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.8,
+        "text": " جلوهی همی ساخ دمون روزه از باب کشی تشتم کمک میگیردم چراک مطالعش از دستم افتاد",
+        "avg_logprob": -0.4307932087353298,
+        "no_speech_prob": 0.021607354283332825,
+        "words": [
+          {
+            "word": " جلوهی",
+            "start": 0.0,
+            "end": 1.32,
+            "probability": 0.6579867601394653
+          },
+          {
+            "word": " همی",
+            "start": 1.32,
+            "end": 1.68,
+            "probability": 0.8251868486404419
+          },
+          {
+            "word": " ساخ",
+            "start": 1.68,
+            "end": 1.98,
+            "probability": 0.6577800810337067
+          },
+          {
+            "word": " دمون",
+            "start": 1.98,
+            "end": 2.5,
+            "probability": 0.6660377681255341
+          },
+          {
+            "word": " روزه",
+            "start": 2.5,
+            "end": 3.06,
+            "probability": 0.7520731389522552
+          },
+          {
+            "word": " از",
+            "start": 3.06,
+            "end": 3.16,
+            "probability": 0.7013823986053467
+          },
+          {
+            "word": " باب",
+            "start": 3.16,
+            "end": 3.38,
+            "probability": 0.5449754595756531
+          },
+          {
+            "word": " کشی",
+            "start": 3.38,
+            "end": 3.84,
+            "probability": 0.915900448958079
+          },
+          {
+            "word": " تشتم",
+            "start": 3.84,
+            "end": 4.66,
+            "probability": 0.6044996678829193
+          },
+          {
+            "word": " کمک",
+            "start": 4.66,
+            "end": 5.02,
+            "probability": 0.7641823391119639
+          },
+          {
+            "word": " میگیردم",
+            "start": 5.02,
+            "end": 5.64,
+            "probability": 0.6291550755500793
+          },
+          {
+            "word": " چراک",
+            "start": 5.64,
+            "end": 6.06,
+            "probability": 0.756981352965037
+          },
+          {
+            "word": " مطالعش",
+            "start": 6.06,
+            "end": 6.66,
+            "probability": 0.6590856730937957
+          },
+          {
+            "word": " از",
+            "start": 6.66,
+            "end": 6.82,
+            "probability": 0.9212349951267242
+          },
+          {
+            "word": " دستم",
+            "start": 6.82,
+            "end": 7.3,
+            "probability": 0.9088683327039083
+          },
+          {
+            "word": " افتاد",
+            "start": 7.3,
+            "end": 7.8,
+            "probability": 0.6280294060707092
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "04.m4a",
+    "shot": "EP05-SH06",
+    "sha256": "b245e62529965c3c216c75745a947734c2549704665fba2f5464fe405ff84c3c",
+    "expected_text": "بَعدَم گُفتی نَگَران نَباش، دُرُستِش می‌کُنَم.",
+    "machine_transcript": "بعدم گفتی نگرا نباش درستش مکنه",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.04,
+        "text": " بعدم گفتی نگرا نباش درستش مکنه",
+        "avg_logprob": -0.578401083531587,
+        "no_speech_prob": 0.26266181468963623,
+        "words": [
+          {
+            "word": " بعدم",
+            "start": 0.0,
+            "end": 1.56,
+            "probability": 0.501766711473465
+          },
+          {
+            "word": " گفتی",
+            "start": 1.56,
+            "end": 1.92,
+            "probability": 0.722049206495285
+          },
+          {
+            "word": " نگرا",
+            "start": 1.92,
+            "end": 2.3,
+            "probability": 0.47262441118558246
+          },
+          {
+            "word": " نباش",
+            "start": 2.3,
+            "end": 2.86,
+            "probability": 0.7629053592681885
+          },
+          {
+            "word": " درستش",
+            "start": 2.86,
+            "end": 3.54,
+            "probability": 0.6118042469024658
+          },
+          {
+            "word": " مکنه",
+            "start": 3.54,
+            "end": 4.04,
+            "probability": 0.6994727402925491
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "05.m4a",
+    "shot": "EP05-SH07",
+    "sha256": "45c427e17e77535721bf49440e49fae3fec9ccf9249b3bc10bac3d56a561b365",
+    "expected_text": "نَشُد. شُماره‌شو گِرِفتَم یِه دونه مِثلِ هَمون بَراش پیدا کُنَم.",
+    "machine_transcript": "نه شو چو مرا شو گرفتم یادونه مثل همون برش پیدا کنه",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.92,
+        "text": " نه شو چو مرا شو گرفتم یادونه مثل همون برش پیدا کنه",
+        "avg_logprob": -0.5134876830237253,
+        "no_speech_prob": 0.3229977786540985,
+        "words": [
+          {
+            "word": " نه",
+            "start": 0.0,
+            "end": 1.18,
+            "probability": 0.4379642456769943
+          },
+          {
+            "word": " شو",
+            "start": 1.18,
+            "end": 1.52,
+            "probability": 0.6488446891307831
+          },
+          {
+            "word": " چو",
+            "start": 1.52,
+            "end": 1.9,
+            "probability": 0.3435118794441223
+          },
+          {
+            "word": " مرا",
+            "start": 1.9,
+            "end": 2.08,
+            "probability": 0.5664221346378326
+          },
+          {
+            "word": " شو",
+            "start": 2.08,
+            "end": 2.28,
+            "probability": 0.5611793696880341
+          },
+          {
+            "word": " گرفتم",
+            "start": 2.28,
+            "end": 2.84,
+            "probability": 0.6475328952074051
+          },
+          {
+            "word": " یادونه",
+            "start": 2.84,
+            "end": 3.24,
+            "probability": 0.5423945896327496
+          },
+          {
+            "word": " مثل",
+            "start": 3.24,
+            "end": 3.56,
+            "probability": 0.8302557170391083
+          },
+          {
+            "word": " همون",
+            "start": 3.56,
+            "end": 3.88,
+            "probability": 0.8360713521639506
+          },
+          {
+            "word": " برش",
+            "start": 3.88,
+            "end": 4.2,
+            "probability": 0.7762870987256368
+          },
+          {
+            "word": " پیدا",
+            "start": 4.2,
+            "end": 4.54,
+            "probability": 0.7522095640500387
+          },
+          {
+            "word": " کنه",
+            "start": 4.54,
+            "end": 4.92,
+            "probability": 0.8180337349573771
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "06.m4a",
+    "shot": "EP05-SH08",
+    "sha256": "8307983d50958d61ac32eceb63d6001ef527cef795584796d458398a58512e47",
+    "expected_text": "آها، اون چِراغو تو شِکَسته بودی؟",
+    "machine_transcript": "اهان اون چراقه تو شکسته بودی",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.14,
+        "text": " اهان اون چراقه تو شکسته بودی",
+        "avg_logprob": -0.5535518765449524,
+        "no_speech_prob": 0.004135761875659227,
+        "words": [
+          {
+            "word": " اهان",
+            "start": 0.0,
+            "end": 1.3,
+            "probability": 0.47133101026217145
+          },
+          {
+            "word": " اون",
+            "start": 1.3,
+            "end": 1.56,
+            "probability": 0.4778318703174591
+          },
+          {
+            "word": " چراقه",
+            "start": 1.56,
+            "end": 1.98,
+            "probability": 0.6451469585299492
+          },
+          {
+            "word": " تو",
+            "start": 1.98,
+            "end": 2.08,
+            "probability": 0.7892395257949829
+          },
+          {
+            "word": " شکسته",
+            "start": 2.08,
+            "end": 2.74,
+            "probability": 0.7277969047427177
+          },
+          {
+            "word": " بودی",
+            "start": 2.74,
+            "end": 3.14,
+            "probability": 0.9158611098925272
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "07.m4a",
+    "shot": "EP05-SH09",
+    "sha256": "bbba62fa62227f531acefd2fe42978367c2d5ff495394a014460acad00b631aa",
+    "expected_text": "آره. بَعدِش هَر روز عَکسِ چِراغ می‌فِرِستاد.",
+    "machine_transcript": "آره, پدش هروز اکسه چراک میفرست دارد",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.02,
+        "text": " آره, پدش هروز اکسه چراک میفرست دارد",
+        "avg_logprob": -0.633755277310099,
+        "no_speech_prob": 0.03659621998667717,
+        "words": [
+          {
+            "word": " آره,",
+            "start": 0.0,
+            "end": 1.22,
+            "probability": 0.7007689078648885
+          },
+          {
+            "word": " پدش",
+            "start": 1.74,
+            "end": 2.06,
+            "probability": 0.5692159334818522
+          },
+          {
+            "word": " هروز",
+            "start": 2.06,
+            "end": 2.44,
+            "probability": 0.5880632139742374
+          },
+          {
+            "word": " اکسه",
+            "start": 2.44,
+            "end": 2.78,
+            "probability": 0.6597403287887573
+          },
+          {
+            "word": " چراک",
+            "start": 2.78,
+            "end": 3.16,
+            "probability": 0.7218569914499918
+          },
+          {
+            "word": " میفرست",
+            "start": 3.16,
+            "end": 3.64,
+            "probability": 0.7607771158218384
+          },
+          {
+            "word": " دارد",
+            "start": 3.64,
+            "end": 4.02,
+            "probability": 0.31815717617670697
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "08.m4a",
+    "shot": "EP05-SH10",
+    "sha256": "1c7ab0459439f035765f310dbfc7dc801a561b588c0f4f124095a4c6625dd175",
+    "expected_text": "آخه هیچ‌کُدومو نَمی‌پَسَندیدی.",
+    "machine_transcript": "اخایش بودو ما نیم پسندیدی",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.66,
+        "text": " اخایش بودو ما نیم پسندیدی",
+        "avg_logprob": -0.550109999520438,
+        "no_speech_prob": 0.12669497728347778,
+        "words": [
+          {
+            "word": " اخایش",
+            "start": 0.0,
+            "end": 1.08,
+            "probability": 0.5744771525263787
+          },
+          {
+            "word": " بودو",
+            "start": 1.08,
+            "end": 1.34,
+            "probability": 0.6601885755856832
+          },
+          {
+            "word": " ما",
+            "start": 1.34,
+            "end": 1.48,
+            "probability": 0.4732454717159271
+          },
+          {
+            "word": " نیم",
+            "start": 1.48,
+            "end": 1.78,
+            "probability": 0.8219925363858541
+          },
+          {
+            "word": " پسندیدی",
+            "start": 1.78,
+            "end": 2.66,
+            "probability": 0.7264631042877833
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "09.m4a",
+    "shot": "EP05-SH14",
+    "sha256": "457efabadd4d12d295f2fd58f3d7848e1e453042c718e891b294e026abce80ed",
+    "expected_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
+    "machine_transcript": "خیلی هم آلی، منم کم کم مرخز بشم.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.5,
+        "text": " خیلی هم آلی، منم کم کم مرخز بشم.",
+        "avg_logprob": -0.5056452442098547,
+        "no_speech_prob": 0.06163906306028366,
+        "words": [
+          {
+            "word": " خیلی",
+            "start": 0.0,
+            "end": 1.42,
+            "probability": 0.864946037530899
+          },
+          {
+            "word": " هم",
+            "start": 1.42,
+            "end": 1.64,
+            "probability": 0.8411398828029633
+          },
+          {
+            "word": " آلی،",
+            "start": 1.64,
+            "end": 2.52,
+            "probability": 0.6125989109277725
+          },
+          {
+            "word": " منم",
+            "start": 2.52,
+            "end": 2.96,
+            "probability": 0.5875615179538727
+          },
+          {
+            "word": " کم",
+            "start": 2.96,
+            "end": 3.22,
+            "probability": 0.9727240204811096
+          },
+          {
+            "word": " کم",
+            "start": 3.22,
+            "end": 3.5,
+            "probability": 0.9389159381389618
+          },
+          {
+            "word": " مرخز",
+            "start": 3.5,
+            "end": 3.98,
+            "probability": 0.5122853480279446
+          },
+          {
+            "word": " بشم.",
+            "start": 3.98,
+            "end": 4.5,
+            "probability": 0.6435041924317678
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  },
+  {
+    "file": "10.m4a",
+    "shot": "EP05-SH15",
+    "sha256": "c0d4cc4a44f92352a5b04a662153facdb557ecdf40fba09cdddfdc92f50416e0",
+    "expected_text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
+    "machine_transcript": "برو به سلامت از ازیزا. سامان پس با مداره ترفضم. به این فرده میتونه بیا.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.84,
+        "text": " برو به سلامت از ازیزا. سامان پس با مداره ترفضم. به این فرده میتونه بیا.",
+        "avg_logprob": -0.5781270443124974,
+        "no_speech_prob": 0.2844228148460388,
+        "words": [
+          {
+            "word": " برو",
+            "start": 0.0,
+            "end": 0.98,
+            "probability": 0.6192812919616699
+          },
+          {
+            "word": " به",
+            "start": 0.98,
+            "end": 1.12,
+            "probability": 0.22583934664726257
+          },
+          {
+            "word": " سلامت",
+            "start": 1.12,
+            "end": 1.7,
+            "probability": 0.8882045149803162
+          },
+          {
+            "word": " از",
+            "start": 1.7,
+            "end": 1.94,
+            "probability": 0.7439782321453094
+          },
+          {
+            "word": " ازیزا.",
+            "start": 1.94,
+            "end": 2.26,
+            "probability": 0.6035178184509278
+          },
+          {
+            "word": " سامان",
+            "start": 2.9,
+            "end": 3.52,
+            "probability": 0.7132386962572733
+          },
+          {
+            "word": " پس",
+            "start": 3.52,
+            "end": 3.88,
+            "probability": 0.809461921453476
+          },
+          {
+            "word": " با",
+            "start": 3.88,
+            "end": 4.08,
+            "probability": 0.48932259529829025
+          },
+          {
+            "word": " مداره",
+            "start": 4.08,
+            "end": 4.46,
+            "probability": 0.6356643438339233
+          },
+          {
+            "word": " ترفضم.",
+            "start": 4.46,
+            "end": 5.16,
+            "probability": 0.46150689758360386
+          },
+          {
+            "word": " به",
+            "start": 5.4,
+            "end": 5.52,
+            "probability": 0.27180105447769165
+          },
+          {
+            "word": " این",
+            "start": 5.52,
+            "end": 5.62,
+            "probability": 0.5691910088062286
+          },
+          {
+            "word": " فرده",
+            "start": 5.62,
+            "end": 6.1,
+            "probability": 0.7903675734996796
+          },
+          {
+            "word": " میتونه",
+            "start": 6.1,
+            "end": 6.56,
+            "probability": 0.6957561522722244
+          },
+          {
+            "word": " بیا.",
+            "start": 6.56,
+            "end": 6.84,
+            "probability": 0.8183188140392303
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+  }
+]
