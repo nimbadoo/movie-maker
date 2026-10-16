@@ -56,7 +56,8 @@
       "current_approved_text": "چِراغ‌فُروشی.",
       "text_alignment_status": "outdated_after_approved_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only"
+      "timing_applicability": "old_text_only",
+      "used_in_current_script": true
     },
     {
       "file": "02.m4a",
@@ -114,7 +115,8 @@
       "current_approved_text": "چِراغ‌فُروشی؟",
       "text_alignment_status": "outdated_after_approved_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only"
+      "timing_applicability": "old_text_only",
+      "used_in_current_script": true
     },
     {
       "file": "03.m4a",
@@ -189,10 +191,11 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "روزِ اَسباب‌کِشی چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد. رَفتیم یِه دونه مِثلِ هَمون بَراش بِگیریم.",
+      "current_approved_text": "روزِ اَسباب‌کِشی چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد. رَفتیم یِه دونه جاش بِگیریم.",
       "text_alignment_status": "outdated_after_approved_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only"
+      "timing_applicability": "old_text_only",
+      "used_in_current_script": true
     },
     {
       "file": "04.m4a",
@@ -246,7 +249,12 @@
       "machine_text_review": "معنای جمله نزدیک است؛ نگران و درستش می‌کنم خطای تشخیص دارند.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "used_in_current_script": true,
+      "current_approved_text": "سِه تا مَغازه گَشتیم. بِه هَر کُدوم یِه ایرادی می‌گِرِفتی.",
+      "text_alignment_status": "outdated_after_approved_revision",
+      "replacement_recording": "not_received",
+      "timing_applicability": "old_text_only"
     },
     {
       "file": "05.m4a",
@@ -316,7 +324,12 @@
       "machine_text_review": "اجرای مستقل آشفته است؛ اجرای پیوسته گرفتن شماره و یافتن مشابه را بهتر تشخیص داد.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "used_in_current_script": true,
+      "current_approved_text": "خودِت گُفته بودی نورِ تُند اَذیَّتِت می‌کُنِه.",
+      "text_alignment_status": "outdated_after_approved_revision",
+      "replacement_recording": "not_received",
+      "timing_applicability": "old_text_only"
     },
     {
       "file": "06.m4a",
@@ -370,7 +383,10 @@
       "machine_text_review": "پرسش دربارهٔ شکستن چراغ در هر دو اجرا نزدیک است؛ آهان به جای آها قطعی نیست.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "used_in_current_script": false,
+      "text_alignment_status": "inactive_dialogue",
+      "timing_applicability": "not_in_current_script"
     },
     {
       "file": "07.m4a",
@@ -432,7 +448,12 @@
       "machine_text_review": "معنا در اجرای مستقل نزدیک است؛ اجرای پیوسته این جمله را جا انداخت.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "used_in_current_script": true,
+      "current_approved_text": "یادِت مونده بود؟",
+      "text_alignment_status": "outdated_after_approved_revision",
+      "replacement_recording": "not_received",
+      "timing_applicability": "old_text_only"
     },
     {
       "file": "08.m4a",
@@ -487,10 +508,11 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "می‌خواسْتَم خودِت اِنتِخاب کُنی.",
+      "current_approved_text": "آره.",
       "text_alignment_status": "outdated_after_approved_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only"
+      "timing_applicability": "old_text_only",
+      "used_in_current_script": true
     },
     {
       "file": "09.m4a",
@@ -560,7 +582,9 @@
       "machine_text_review": "عبارت‌های خداحافظی در هر دو اجرا نزدیک‌اند؛ املاهای غلط، شاهد تلفظ غلط نیستند.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "used_in_current_script": true,
+      "current_approved_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم."
     },
     {
       "file": "10.m4a",
@@ -630,7 +654,9 @@
       "machine_text_review": "اجرای پیوسته درخواست صحبت با مادر و آمدن فردا را بهتر استخراج کرد؛ بدرقه ناپایدار است.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "used_in_current_script": true,
+      "current_approved_text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟"
     }
   ],
   "total_file_seconds": 48.074,

@@ -9,7 +9,7 @@
 {
   "shot": "EP05-SH15",
   "active": true,
-  "order": 11,
+  "order": 10,
   "selected_take": null,
   "selected_video": null,
   "selected_sha256": null,
