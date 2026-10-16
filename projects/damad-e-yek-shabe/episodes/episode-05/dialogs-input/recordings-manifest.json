@@ -8,7 +8,47 @@
       "decoded_duration_seconds": 2.153,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0.847,
+          "activity_end": 1.466,
+          "activity_span_seconds": 0.619,
+          "silence_intervals": [
+            [
+              0.0,
+              0.847375
+            ],
+            [
+              1.466167,
+              2.153333
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0.848,
+          "activity_end": 1.318,
+          "activity_span_seconds": 0.471,
+          "silence_intervals": [
+            [
+              0.0,
+              0.847604
+            ],
+            [
+              1.31825,
+              2.153333
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0.697,
+        "end": 1.666,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 0.969
+      }
     },
     {
       "file": "02.m4a",
@@ -18,7 +58,47 @@
       "decoded_duration_seconds": 2.751,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0.664,
+          "activity_end": 2.751,
+          "activity_span_seconds": 2.087,
+          "silence_intervals": [
+            [
+              0.0,
+              0.663854
+            ],
+            [
+              2.042187,
+              2.545125
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0.666,
+          "activity_end": 2.751,
+          "activity_span_seconds": 2.085,
+          "silence_intervals": [
+            [
+              0.0,
+              0.666271
+            ],
+            [
+              1.963625,
+              2.547646
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0.514,
+        "end": 2.751,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 2.237
+      }
     },
     {
       "file": "03.m4a",
@@ -28,7 +108,67 @@
       "decoded_duration_seconds": 8.383,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 1.003,
+          "activity_end": 7.802,
+          "activity_span_seconds": 6.799,
+          "silence_intervals": [
+            [
+              0.0,
+              1.003125
+            ],
+            [
+              2.563438,
+              2.777937
+            ],
+            [
+              3.871417,
+              4.331083
+            ],
+            [
+              7.802458,
+              8.382667
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 1.003,
+          "activity_end": 7.797,
+          "activity_span_seconds": 6.794,
+          "silence_intervals": [
+            [
+              0.0,
+              1.003313
+            ],
+            [
+              2.550208,
+              2.778292
+            ],
+            [
+              3.861146,
+              4.367854
+            ],
+            [
+              7.409229,
+              7.607708
+            ],
+            [
+              7.797187,
+              8.382667
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0.853,
+        "end": 8.002,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 7.149
+      }
     },
     {
       "file": "04.m4a",
@@ -38,7 +178,47 @@
       "decoded_duration_seconds": 5.055,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 1.221,
+          "activity_end": 4.06,
+          "activity_span_seconds": 2.838,
+          "silence_intervals": [
+            [
+              0.0,
+              1.221375
+            ],
+            [
+              4.059833,
+              5.054667
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 1.238,
+          "activity_end": 4.034,
+          "activity_span_seconds": 2.796,
+          "silence_intervals": [
+            [
+              0.0,
+              1.2375
+            ],
+            [
+              4.033896,
+              5.054667
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 1.071,
+        "end": 4.26,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 3.189
+      }
     },
     {
       "file": "05.m4a",
@@ -48,7 +228,63 @@
       "decoded_duration_seconds": 5.396,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0,
+          "activity_end": 4.942,
+          "activity_span_seconds": 4.942,
+          "silence_intervals": [
+            [
+              0.0733125,
+              0.888646
+            ],
+            [
+              1.479,
+              1.709333
+            ],
+            [
+              4.942,
+              5.396
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0,
+          "activity_end": 4.914,
+          "activity_span_seconds": 4.914,
+          "silence_intervals": [
+            [
+              0.0702292,
+              0.892771
+            ],
+            [
+              1.472708,
+              1.718938
+            ],
+            [
+              2.520292,
+              2.680396
+            ],
+            [
+              4.543792,
+              4.702917
+            ],
+            [
+              4.913896,
+              5.396
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0,
+        "end": 5.142,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 5.142
+      }
     },
     {
       "file": "06.m4a",
@@ -58,7 +294,47 @@
       "decoded_duration_seconds": 3.775,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0.769,
+          "activity_end": 3.231,
+          "activity_span_seconds": 2.462,
+          "silence_intervals": [
+            [
+              0.0,
+              0.768917
+            ],
+            [
+              3.230833,
+              3.774667
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0.771,
+          "activity_end": 3.224,
+          "activity_span_seconds": 2.453,
+          "silence_intervals": [
+            [
+              0.0,
+              0.770604
+            ],
+            [
+              3.223625,
+              3.774667
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0.619,
+        "end": 3.431,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 2.812
+      }
     },
     {
       "file": "07.m4a",
@@ -68,7 +344,55 @@
       "decoded_duration_seconds": 4.287,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0,
+          "activity_end": 3.87,
+          "activity_span_seconds": 3.87,
+          "silence_intervals": [
+            [
+              0.0651667,
+              0.867958
+            ],
+            [
+              1.390062,
+              1.759021
+            ],
+            [
+              3.869521,
+              4.286667
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0.874,
+          "activity_end": 3.864,
+          "activity_span_seconds": 2.991,
+          "silence_intervals": [
+            [
+              0.0,
+              0.873687
+            ],
+            [
+              1.383854,
+              1.767833
+            ],
+            [
+              3.864417,
+              4.286667
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0,
+        "end": 4.07,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 4.07
+      }
     },
     {
       "file": "08.m4a",
@@ -78,7 +402,47 @@
       "decoded_duration_seconds": 3.263,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0,
+          "activity_end": 2.702,
+          "activity_span_seconds": 2.702,
+          "silence_intervals": [
+            [
+              0.166229,
+              0.652354
+            ],
+            [
+              2.702437,
+              3.262667
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0,
+          "activity_end": 2.695,
+          "activity_span_seconds": 2.695,
+          "silence_intervals": [
+            [
+              0.144875,
+              0.652875
+            ],
+            [
+              2.695354,
+              3.262667
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0,
+        "end": 2.902,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 2.902
+      }
     },
     {
       "file": "09.m4a",
@@ -88,7 +452,63 @@
       "decoded_duration_seconds": 5.396,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0.32,
+          "activity_end": 4.436,
+          "activity_span_seconds": 4.116,
+          "silence_intervals": [
+            [
+              0.0,
+              0.319979
+            ],
+            [
+              0.3225,
+              1.021167
+            ],
+            [
+              2.271062,
+              2.549333
+            ],
+            [
+              4.436438,
+              5.396
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0.32,
+          "activity_end": 4.423,
+          "activity_span_seconds": 4.103,
+          "silence_intervals": [
+            [
+              0.0,
+              0.320167
+            ],
+            [
+              0.320688,
+              1.042708
+            ],
+            [
+              2.2565,
+              2.549333
+            ],
+            [
+              4.422896,
+              5.396
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0.17,
+        "end": 4.636,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 4.466
+      }
     },
     {
       "file": "10.m4a",
@@ -98,7 +518,63 @@
       "decoded_duration_seconds": 7.615,
       "decode": "passed",
       "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
+      "automatic_timing": [
+        {
+          "threshold_db": -40,
+          "activity_start": 0.816,
+          "activity_end": 6.951,
+          "activity_span_seconds": 6.135,
+          "silence_intervals": [
+            [
+              0.0,
+              0.815667
+            ],
+            [
+              2.281833,
+              3.087792
+            ],
+            [
+              5.22425,
+              5.449854
+            ],
+            [
+              6.951042,
+              7.614667
+            ]
+          ]
+        },
+        {
+          "threshold_db": -35,
+          "activity_start": 0.818,
+          "activity_end": 6.949,
+          "activity_span_seconds": 6.131,
+          "silence_intervals": [
+            [
+              0.0,
+              0.817688
+            ],
+            [
+              2.272292,
+              3.107896
+            ],
+            [
+              5.198083,
+              5.450104
+            ],
+            [
+              6.948896,
+              7.614667
+            ]
+          ]
+        }
+      ],
+      "candidate_trim": {
+        "start": 0.666,
+        "end": 7.151,
+        "status": "provisional_unheard_do_not_apply",
+        "duration": 6.485
+      }
     }
   ],
   "total_file_seconds": 48.074,
