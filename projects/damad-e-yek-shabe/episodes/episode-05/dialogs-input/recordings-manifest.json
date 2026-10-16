@@ -1,0 +1,106 @@
+{
+  "recordings": [
+    {
+      "file": "01.m4a",
+      "shot": "EP05-SH03",
+      "expected_text": "بیرون.",
+      "sha256": "e207174438070d5a9370c36cb72b696a73f5df2e0f3f72ef25f013318fbf3462",
+      "decoded_duration_seconds": 2.153,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "02.m4a",
+      "shot": "EP05-SH04",
+      "expected_text": "بیرون که اِسمِ جا نیست.",
+      "sha256": "0deb309511e0eb23ccaee9443f976a070ac86778b9d25acf7b2377ae34ba16e3",
+      "decoded_duration_seconds": 2.751,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "03.m4a",
+      "shot": "EP05-SH05",
+      "expected_text": "جِلوی هَمین ساختمون. روزِ اَسباب‌کِشی. داشْتَم کُمَک می‌کَردَم، چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد.",
+      "sha256": "0c7acc8af008388358cc177ed7cfd2cfbfd0420463dd45f1ceac0f7c9e02f315",
+      "decoded_duration_seconds": 8.383,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "04.m4a",
+      "shot": "EP05-SH06",
+      "expected_text": "بَعدَم گُفتی نَگَران نَباش، دُرُستِش می‌کُنَم.",
+      "sha256": "b245e62529965c3c216c75745a947734c2549704665fba2f5464fe405ff84c3c",
+      "decoded_duration_seconds": 5.055,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "05.m4a",
+      "shot": "EP05-SH07",
+      "expected_text": "نَشُد. شُماره‌شو گِرِفتَم یِه دونه مِثلِ هَمون بَراش پیدا کُنَم.",
+      "sha256": "45c427e17e77535721bf49440e49fae3fec9ccf9249b3bc10bac3d56a561b365",
+      "decoded_duration_seconds": 5.396,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "06.m4a",
+      "shot": "EP05-SH08",
+      "expected_text": "آها، اون چِراغو تو شِکَسته بودی؟",
+      "sha256": "8307983d50958d61ac32eceb63d6001ef527cef795584796d458398a58512e47",
+      "decoded_duration_seconds": 3.775,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "07.m4a",
+      "shot": "EP05-SH09",
+      "expected_text": "آره. بَعدِش هَر روز عَکسِ چِراغ می‌فِرِستاد.",
+      "sha256": "bbba62fa62227f531acefd2fe42978367c2d5ff495394a014460acad00b631aa",
+      "decoded_duration_seconds": 4.287,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "08.m4a",
+      "shot": "EP05-SH10",
+      "expected_text": "آخه هیچ‌کُدومو نَمی‌پَسَندیدی.",
+      "sha256": "1c7ab0459439f035765f310dbfc7dc801a561b588c0f4f124095a4c6625dd175",
+      "decoded_duration_seconds": 3.263,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "09.m4a",
+      "shot": "EP05-SH14",
+      "expected_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
+      "sha256": "457efabadd4d12d295f2fd58f3d7848e1e453042c718e891b294e026abce80ed",
+      "decoded_duration_seconds": 5.396,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    },
+    {
+      "file": "10.m4a",
+      "shot": "EP05-SH15",
+      "expected_text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
+      "sha256": "c0d4cc4a44f92352a5b04a662153facdb557ecdf40fba09cdddfdc92f50416e0",
+      "decoded_duration_seconds": 7.615,
+      "decode": "passed",
+      "listening_review": "not_done",
+      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified"
+    }
+  ],
+  "total_file_seconds": 48.074,
+  "note": "Full file duration includes silence; not final speech or episode timing."
+}
