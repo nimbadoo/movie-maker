@@ -180,7 +180,11 @@
       "machine_text_review": "اجزای خاطره تشخیص داده شدند؛ واژه‌های ساختمون، اسباب‌کشی و مطالعه‌ش ناپایدارند.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "current_approved_text": "ما اَز روزِ اَسباب‌کِشی با هَم آشنا شُدیم. جِلوی هَمین ساختمون. داشْتَم کُمَک می‌کَردَم، چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد.",
+      "text_alignment_status": "outdated_after_approved_revision",
+      "replacement_recording": "not_received",
+      "timing_applicability": "old_text_only"
     },
     {
       "file": "04.m4a",
@@ -474,7 +478,11 @@
       "machine_text_review": "اجرای مستقل بسیار نامطمئن است؛ اجرای پیوسته این جمله را جا انداخت.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "current_approved_text": "می‌خواسْتَم خودِت اِنتِخاب کُنی.",
+      "text_alignment_status": "outdated_after_approved_revision",
+      "replacement_recording": "not_received",
+      "timing_applicability": "old_text_only"
     },
     {
       "file": "09.m4a",
