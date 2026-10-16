@@ -53,10 +53,10 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "چِراغ‌فُروشی.",
-      "text_alignment_status": "outdated_after_approved_revision",
+      "current_approved_text": "ساندویچیِ سَرِ کوچه.",
+      "text_alignment_status": "outdated_after_sandwich_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only",
+      "timing_applicability": "old_lamp_text_only",
       "used_in_current_script": true
     },
     {
@@ -113,10 +113,10 @@
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
       "current_approved_text": "چِراغ‌فُروشی؟",
-      "text_alignment_status": "outdated_after_approved_revision",
+      "text_alignment_status": "inactive_dialogue",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only",
-      "used_in_current_script": true
+      "timing_applicability": "not_in_current_script",
+      "used_in_current_script": false
     },
     {
       "file": "03.m4a",
@@ -191,10 +191,10 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "روزِ اَسباب‌کِشی چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد. رَفتیم یِه دونه جاش بِگیریم.",
-      "text_alignment_status": "outdated_after_approved_revision",
+      "current_approved_text": "روزِ اَسباب‌کِشی کُمَکِشون کَردَم. نازْلی و مادَرِش گُفتَن شام مِهمونِ ما.",
+      "text_alignment_status": "outdated_after_sandwich_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only",
+      "timing_applicability": "old_lamp_text_only",
       "used_in_current_script": true
     },
     {
@@ -251,10 +251,10 @@
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
       "used_in_current_script": true,
-      "current_approved_text": "سِه تا مَغازه گَشتیم. بِه هَر کُدوم یِه ایرادی می‌گِرِفتی.",
-      "text_alignment_status": "outdated_after_approved_revision",
+      "current_approved_text": "تو که بیشتَر آب خوردی تا ساندویچ.",
+      "text_alignment_status": "outdated_after_sandwich_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only"
+      "timing_applicability": "old_lamp_text_only"
     },
     {
       "file": "05.m4a",
@@ -326,10 +326,10 @@
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
       "used_in_current_script": true,
-      "current_approved_text": "خودِت گُفته بودی نورِ تُند اَذیَّتِت می‌کُنِه.",
-      "text_alignment_status": "outdated_after_approved_revision",
+      "current_approved_text": "دَهَنَم می‌سوخت. اَشتِباه کَردَم تُند سِفارش دادَم.",
+      "text_alignment_status": "outdated_after_sandwich_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only"
+      "timing_applicability": "old_lamp_text_only"
     },
     {
       "file": "06.m4a",
@@ -384,9 +384,11 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "used_in_current_script": false,
-      "text_alignment_status": "inactive_dialogue",
-      "timing_applicability": "not_in_current_script"
+      "used_in_current_script": true,
+      "text_alignment_status": "outdated_after_sandwich_revision",
+      "timing_applicability": "old_lamp_text_only",
+      "current_approved_text": "پَس چرا هَرچی می‌پُرسیدَم تُنده، می‌گُفتی نَه؟",
+      "replacement_recording": "not_received"
     },
     {
       "file": "07.m4a",
@@ -449,11 +451,11 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "used_in_current_script": true,
+      "used_in_current_script": false,
       "current_approved_text": "یادِت مونده بود؟",
-      "text_alignment_status": "outdated_after_approved_revision",
+      "text_alignment_status": "inactive_dialogue",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only"
+      "timing_applicability": "not_in_current_script"
     },
     {
       "file": "08.m4a",
@@ -508,10 +510,10 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "آره.",
-      "text_alignment_status": "outdated_after_approved_revision",
+      "current_approved_text": "گُفتَم اوّلین شامی که مِهمونِتونَم، غُر نَزَنَم.",
+      "text_alignment_status": "outdated_after_sandwich_revision",
       "replacement_recording": "not_received",
-      "timing_applicability": "old_text_only",
+      "timing_applicability": "old_lamp_text_only",
       "used_in_current_script": true
     },
     {
@@ -584,7 +586,9 @@
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
       "used_in_current_script": true,
-      "current_approved_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم."
+      "current_approved_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
+      "text_alignment_status": "unchanged_text_audition_pending",
+      "timing_applicability": "provisional_unheard"
     },
     {
       "file": "10.m4a",
@@ -656,7 +660,9 @@
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
       "used_in_current_script": true,
-      "current_approved_text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟"
+      "current_approved_text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
+      "text_alignment_status": "unchanged_text_audition_pending",
+      "timing_applicability": "provisional_unheard"
     }
   ],
   "total_file_seconds": 48.074,
