@@ -52,7 +52,11 @@
       "machine_text_review": "واژهٔ مورد انتظار در هر دو اجرا استخراج شد.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "current_approved_text": "چِراغ‌فُروشی.",
+      "text_alignment_status": "outdated_after_approved_revision",
+      "replacement_recording": "not_received",
+      "timing_applicability": "old_text_only"
     },
     {
       "file": "02.m4a",
@@ -106,7 +110,11 @@
       "machine_text_review": "ساختار جمله نزدیک است؛ «اسم جا نیست» چسبیده و با املای غلط ثبت شد.",
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
-      "pronunciation_review": "not_performed"
+      "pronunciation_review": "not_performed",
+      "current_approved_text": "چِراغ‌فُروشی؟",
+      "text_alignment_status": "outdated_after_approved_revision",
+      "replacement_recording": "not_received",
+      "timing_applicability": "old_text_only"
     },
     {
       "file": "03.m4a",
@@ -181,7 +189,7 @@
       "machine_transcript_source": "machine-transcripts.json",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "ما اَز روزِ اَسباب‌کِشی با هَم آشنا شُدیم. جِلوی هَمین ساختمون. داشْتَم کُمَک می‌کَردَم، چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد.",
+      "current_approved_text": "روزِ اَسباب‌کِشی چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد. رَفتیم یِه دونه مِثلِ هَمون بَراش بِگیریم.",
       "text_alignment_status": "outdated_after_approved_revision",
       "replacement_recording": "not_received",
       "timing_applicability": "old_text_only"
