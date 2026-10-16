@@ -4,7 +4,7 @@
   "video_generated": false,
   "flow_credits_used": 0,
   "builtin_unit_price": "not_exposed; not claimed zero money",
-  "successful_generation_calls": 20,
+  "successful_generation_calls": 21,
   "pre_generation_rejection": {
     "reason": "SVG reference unsupported; raster diagram used instead",
     "generated_image": false
@@ -148,5 +148,14 @@
     "output": "shots/EP05-SH15/images/EP05-SH15-ending-v2.png",
     "video_generated": false,
     "input": "shots/EP05-SH05/images/EP05-SH05-start-v3.png"
+  },
+  "ending_start_v1": {
+    "inputs": [
+      "shots/EP05-SH15/images/EP05-SH15-ending-v2.png",
+      "shots/EP05-SH05/images/EP05-SH05-start-v3.png"
+    ],
+    "video_generated": false,
+    "output": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1.png",
+    "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1-prompt.txt"
   }
 }

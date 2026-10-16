@@ -437,11 +437,13 @@
     "prompt": "shots/EP05-SH15/takes/take-02/prompt.txt",
     "preflight": "shots/EP05-SH15/takes/take-02/preflight.md",
     "open_issues": [
-      "قاب شروعِ بدون فرهاد و با نگاه به مادر آماده نشده؛ عکس موجود حالت مقصد است.",
       "روش ورودی پایان/دو قاب، مدت و قیمت مدل باید در رابط واقعی بررسی شوند.",
       "قالب دقیق۹:۱۶و نسخهٔ برش باید قبل از ارسال دیده شوند.",
       "مجوز تولید و هزینه وجود ندارد."
-    ]
+    ],
+    "start_frame": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1.png",
+    "start_frame_sha256": "a553cdedef6967d328121d5ffa9a6e45b51dfdc5376dbba7f89124a4972c646a",
+    "start_frame_role": "start_pose_both_look_at_mother_no_farhad"
   },
   "question_replay": {
     "source": "shots/EP05-SH02/sources/EP04-SH12-question-restored-v1.mp4",

@@ -141,11 +141,24 @@
       "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-v2-prompt.txt",
       "role": "proposed_destination_pose_not_motion_or_video_approval",
       "source_reference": "shots/EP05-SH05/images/EP05-SH05-start-v3.png"
+    },
+    "EP05-SH15-END-START": {
+      "path": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1.png",
+      "sha256": "a553cdedef6967d328121d5ffa9a6e45b51dfdc5376dbba7f89124a4972c646a",
+      "size": [
+        851,
+        1847
+      ],
+      "exact_9_16": false,
+      "role": "start_pose_candidate_both_look_at_mother_no_farhad",
+      "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1-prompt.txt",
+      "generation_id": "ending-start-v1",
+      "original_output": "C:/Users/momen/.codex/generated_images/01a14646-f317-7750-8b51-7d15cd8058a6/exec-405d02e1-b9f9-4ffd-8586-d592904f3bfb.png"
     }
   },
   "duration_seconds": 44.5416666667,
   "tool": "builtin image_gen.imagegen",
-  "generated_calls": 20,
+  "generated_calls": 21,
   "generated_final_files": 8,
   "existing_source_extracted_frames": 1,
   "flow_credits_used": 0,
