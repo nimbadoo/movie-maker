@@ -1,0 +1,576 @@
+[
+  {
+    "file": "01.m4a",
+    "sha256": "1362029a688eddc6a7294a0abe263919adc563dab2e93ca3d623a92e9acd318e",
+    "decoded_duration_seconds": 3.86,
+    "machine_transcript": "سندوی چیه ساره کوچه",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.8,
+        "text": " سندوی چیه ساره کوچه",
+        "words": [
+          {
+            "word": " سندوی",
+            "start": 0.0,
+            "end": 1.48,
+            "probability": 0.6223149523139
+          },
+          {
+            "word": " چیه",
+            "start": 1.48,
+            "end": 1.92,
+            "probability": 0.663657526175181
+          },
+          {
+            "word": " ساره",
+            "start": 1.92,
+            "end": 2.34,
+            "probability": 0.6834925611813863
+          },
+          {
+            "word": " کوچه",
+            "start": 2.34,
+            "end": 2.8,
+            "probability": 0.7914132326841354
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  },
+  {
+    "file": "02.m4a",
+    "sha256": "f79934ba1ea6f61c19c1beb4a9b507f1291394bcd6413e28abb066f78b9e3182",
+    "decoded_duration_seconds": 8.041,
+    "machine_transcript": "روزه از باب کشییی کامکشون کردم. نازلی و مدرش گفتن شام محمون ما.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.88,
+        "text": " روزه از باب کشییی کامکشون کردم. نازلی و مدرش گفتن شام محمون ما.",
+        "words": [
+          {
+            "word": " روزه",
+            "start": 0.0,
+            "end": 1.66,
+            "probability": 0.719207376241684
+          },
+          {
+            "word": " از",
+            "start": 1.66,
+            "end": 1.84,
+            "probability": 0.7996711730957031
+          },
+          {
+            "word": " باب",
+            "start": 1.84,
+            "end": 2.1,
+            "probability": 0.8078186810016632
+          },
+          {
+            "word": " کشییی",
+            "start": 2.1,
+            "end": 2.58,
+            "probability": 0.6830101430416107
+          },
+          {
+            "word": " کامکشون",
+            "start": 2.58,
+            "end": 3.32,
+            "probability": 0.6113752126693726
+          },
+          {
+            "word": " کردم.",
+            "start": 3.32,
+            "end": 3.88,
+            "probability": 0.6476195454597473
+          },
+          {
+            "word": " نازلی",
+            "start": 4.12,
+            "end": 4.66,
+            "probability": 0.8316787928342819
+          },
+          {
+            "word": " و",
+            "start": 4.66,
+            "end": 4.72,
+            "probability": 0.44806575775146484
+          },
+          {
+            "word": " مدرش",
+            "start": 4.72,
+            "end": 5.28,
+            "probability": 0.6203009635210037
+          },
+          {
+            "word": " گفتن",
+            "start": 5.28,
+            "end": 5.72,
+            "probability": 0.7479449659585953
+          },
+          {
+            "word": " شام",
+            "start": 5.72,
+            "end": 6.14,
+            "probability": 0.789900004863739
+          },
+          {
+            "word": " محمون",
+            "start": 6.14,
+            "end": 6.62,
+            "probability": 0.5165106554826101
+          },
+          {
+            "word": " ما.",
+            "start": 6.62,
+            "end": 6.88,
+            "probability": 0.4109233021736145
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  },
+  {
+    "file": "03.m4a",
+    "sha256": "fcf95433d8be2d1c5c5eddfa405a1df8383f18f7b5f8b6f19fe86cf6fc29e095",
+    "decoded_duration_seconds": 4.543,
+    "machine_transcript": "توکه بیشتر آب خوردی تا ستن دویچ",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.74,
+        "text": " توکه بیشتر آب خوردی تا ستن دویچ",
+        "words": [
+          {
+            "word": " توکه",
+            "start": 0.0,
+            "end": 1.48,
+            "probability": 0.6683933734893799
+          },
+          {
+            "word": " بیشتر",
+            "start": 1.48,
+            "end": 1.98,
+            "probability": 0.8198689699172974
+          },
+          {
+            "word": " آب",
+            "start": 1.98,
+            "end": 2.3,
+            "probability": 0.6749933063983917
+          },
+          {
+            "word": " خوردی",
+            "start": 2.3,
+            "end": 2.7,
+            "probability": 0.7487392425537109
+          },
+          {
+            "word": " تا",
+            "start": 2.7,
+            "end": 2.94,
+            "probability": 0.661049485206604
+          },
+          {
+            "word": " ستن",
+            "start": 2.94,
+            "end": 3.2,
+            "probability": 0.45957230528195697
+          },
+          {
+            "word": " دویچ",
+            "start": 3.2,
+            "end": 3.74,
+            "probability": 0.7094858437776566
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  },
+  {
+    "file": "04.m4a",
+    "sha256": "bc088d7193ad7e99cad9c0c90eb11080fac8a274cc1de05b52bcaf11d50da4ba",
+    "decoded_duration_seconds": 5.823,
+    "machine_transcript": "ده هنم می سوخت اشتباه کردم توند سفرش دادم.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.98,
+        "text": " ده هنم می سوخت اشتباه کردم توند سفرش دادم.",
+        "words": [
+          {
+            "word": " ده",
+            "start": 0.0,
+            "end": 0.9,
+            "probability": 0.834470808506012
+          },
+          {
+            "word": " هنم",
+            "start": 0.9,
+            "end": 1.2,
+            "probability": 0.528550311923027
+          },
+          {
+            "word": " می",
+            "start": 1.2,
+            "end": 1.38,
+            "probability": 0.7106111645698547
+          },
+          {
+            "word": " سوخت",
+            "start": 1.38,
+            "end": 2.12,
+            "probability": 0.4329010993242264
+          },
+          {
+            "word": " اشتباه",
+            "start": 2.12,
+            "end": 3.0,
+            "probability": 0.7467667937278748
+          },
+          {
+            "word": " کردم",
+            "start": 3.0,
+            "end": 3.46,
+            "probability": 0.7861206531524658
+          },
+          {
+            "word": " توند",
+            "start": 3.46,
+            "end": 4.0,
+            "probability": 0.5885397295157114
+          },
+          {
+            "word": " سفرش",
+            "start": 4.0,
+            "end": 4.58,
+            "probability": 0.755361407995224
+          },
+          {
+            "word": " دادم.",
+            "start": 4.58,
+            "end": 4.98,
+            "probability": 0.7805917461713155
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  },
+  {
+    "file": "05.m4a",
+    "sha256": "ad38cf259a661af224e6f4d4b155d0a49a50fdf69242090d8685a681c7cf37b4",
+    "decoded_duration_seconds": 5.396,
+    "machine_transcript": "پس چرا هرچی می پورسیدم تونده می گفتی نا.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.78,
+        "text": " پس چرا هرچی می پورسیدم تونده می گفتی نا.",
+        "words": [
+          {
+            "word": " پس",
+            "start": 0.0,
+            "end": 1.12,
+            "probability": 0.8203904330730438
+          },
+          {
+            "word": " چرا",
+            "start": 1.12,
+            "end": 1.52,
+            "probability": 0.9384471774101257
+          },
+          {
+            "word": " هرچی",
+            "start": 1.52,
+            "end": 2.02,
+            "probability": 0.8441381007432938
+          },
+          {
+            "word": " می",
+            "start": 2.02,
+            "end": 2.1,
+            "probability": 0.79554682970047
+          },
+          {
+            "word": " پورسیدم",
+            "start": 2.1,
+            "end": 2.88,
+            "probability": 0.5919570873181025
+          },
+          {
+            "word": " تونده",
+            "start": 2.88,
+            "end": 3.68,
+            "probability": 0.7114741504192352
+          },
+          {
+            "word": " می",
+            "start": 3.68,
+            "end": 4.06,
+            "probability": 0.84567791223526
+          },
+          {
+            "word": " گفتی",
+            "start": 4.06,
+            "end": 4.48,
+            "probability": 0.7980929762125015
+          },
+          {
+            "word": " نا.",
+            "start": 4.48,
+            "end": 4.78,
+            "probability": 0.8091085851192474
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  },
+  {
+    "file": "06.m4a",
+    "sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
+    "decoded_duration_seconds": 5.908,
+    "machine_transcript": "گفتا هم اول ان شامیه که مهمونتونه عور نظنه.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.3,
+        "text": " گفتا هم اول ان شامیه که مهمونتونه عور نظنه.",
+        "words": [
+          {
+            "word": " گفتا",
+            "start": 0.0,
+            "end": 1.48,
+            "probability": 0.570486307144165
+          },
+          {
+            "word": " هم",
+            "start": 1.48,
+            "end": 1.64,
+            "probability": 0.6619560867547989
+          },
+          {
+            "word": " اول",
+            "start": 1.64,
+            "end": 1.86,
+            "probability": 0.6580116152763367
+          },
+          {
+            "word": " ان",
+            "start": 1.86,
+            "end": 2.08,
+            "probability": 0.4733528196811676
+          },
+          {
+            "word": " شامیه",
+            "start": 2.08,
+            "end": 2.7,
+            "probability": 0.6001826301217079
+          },
+          {
+            "word": " که",
+            "start": 2.7,
+            "end": 3.0,
+            "probability": 0.9251100122928619
+          },
+          {
+            "word": " مهمونتونه",
+            "start": 3.0,
+            "end": 4.04,
+            "probability": 0.6161384209990501
+          },
+          {
+            "word": " عور",
+            "start": 4.04,
+            "end": 4.74,
+            "probability": 0.5142656937241554
+          },
+          {
+            "word": " نظنه.",
+            "start": 4.74,
+            "end": 5.3,
+            "probability": 0.6781265959143639
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  },
+  {
+    "file": "07.m4a",
+    "sha256": "0e72ad31bd55764d41fb1fb6198149f2d96ba99974dec738cd32f90612f62d1f",
+    "decoded_duration_seconds": 5.055,
+    "machine_transcript": "خید هم آلی، منم کم کم مور خزبشم.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.58,
+        "text": " خید هم آلی، منم کم کم مور خزبشم.",
+        "words": [
+          {
+            "word": " خید",
+            "start": 0.0,
+            "end": 1.26,
+            "probability": 0.8464343746503195
+          },
+          {
+            "word": " هم",
+            "start": 1.26,
+            "end": 1.6,
+            "probability": 0.7194554507732391
+          },
+          {
+            "word": " آلی،",
+            "start": 1.6,
+            "end": 2.38,
+            "probability": 0.6741943657398224
+          },
+          {
+            "word": " منم",
+            "start": 2.38,
+            "end": 2.94,
+            "probability": 0.6975049674510956
+          },
+          {
+            "word": " کم",
+            "start": 2.94,
+            "end": 3.26,
+            "probability": 0.97516930103302
+          },
+          {
+            "word": " کم",
+            "start": 3.26,
+            "end": 3.6,
+            "probability": 0.95128533244133
+          },
+          {
+            "word": " مور",
+            "start": 3.6,
+            "end": 3.78,
+            "probability": 0.5595565885305405
+          },
+          {
+            "word": " خزبشم.",
+            "start": 3.78,
+            "end": 4.58,
+            "probability": 0.5653717219829559
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  },
+  {
+    "file": "08.m4a",
+    "sha256": "f532f7cc14fb54ee6c86214f0fc4870eafc61b1f1fcb8be015e76dfe2ffc02ed",
+    "decoded_duration_seconds": 8.468,
+    "machine_transcript": "بورو به سلامت ازیزم. سامان پس بما درد حرف بزن. ببین فرده میتون بیا.",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.72,
+        "text": " بورو به سلامت ازیزم. سامان پس بما درد حرف بزن. ببین فرده میتون بیا.",
+        "words": [
+          {
+            "word": " بورو",
+            "start": 0.0,
+            "end": 1.24,
+            "probability": 0.6417712767918905
+          },
+          {
+            "word": " به",
+            "start": 1.24,
+            "end": 1.34,
+            "probability": 0.35461366176605225
+          },
+          {
+            "word": " سلامت",
+            "start": 1.34,
+            "end": 1.98,
+            "probability": 0.8856160044670105
+          },
+          {
+            "word": " ازیزم.",
+            "start": 1.98,
+            "end": 2.66,
+            "probability": 0.7628114342689514
+          },
+          {
+            "word": " سامان",
+            "start": 3.12,
+            "end": 3.74,
+            "probability": 0.7070281406243643
+          },
+          {
+            "word": " پس",
+            "start": 3.74,
+            "end": 4.12,
+            "probability": 0.7483521401882172
+          },
+          {
+            "word": " بما",
+            "start": 4.12,
+            "end": 4.38,
+            "probability": 0.6229770183563232
+          },
+          {
+            "word": " درد",
+            "start": 4.38,
+            "end": 4.82,
+            "probability": 0.6089721073706945
+          },
+          {
+            "word": " حرف",
+            "start": 4.82,
+            "end": 5.2,
+            "probability": 0.900775283575058
+          },
+          {
+            "word": " بزن.",
+            "start": 5.2,
+            "end": 5.62,
+            "probability": 0.8726770281791687
+          },
+          {
+            "word": " ببین",
+            "start": 6.08,
+            "end": 6.5,
+            "probability": 0.8081666429837545
+          },
+          {
+            "word": " فرده",
+            "start": 6.5,
+            "end": 6.94,
+            "probability": 0.7531167268753052
+          },
+          {
+            "word": " میتون",
+            "start": 6.94,
+            "end": 7.3,
+            "probability": 0.7657658557097117
+          },
+          {
+            "word": " بیا.",
+            "start": 7.3,
+            "end": 7.72,
+            "probability": 0.5638294368982315
+          }
+        ]
+      }
+    ],
+    "auditory_review": "not_performed",
+    "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD"
+  }
+]

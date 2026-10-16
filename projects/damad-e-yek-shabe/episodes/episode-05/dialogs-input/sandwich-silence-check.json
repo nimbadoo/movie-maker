@@ -1,0 +1,166 @@
+[
+  {
+    "file": "01.m4a",
+    "silence_intervals": [
+      [
+        0.0,
+        0.240208
+      ],
+      [
+        0.388375,
+        0.822292
+      ],
+      [
+        2.328187,
+        2.482438
+      ],
+      [
+        2.889375,
+        3.86
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  },
+  {
+    "file": "02.m4a",
+    "silence_intervals": [
+      [
+        0.0930208,
+        1.199979
+      ],
+      [
+        3.946458,
+        4.192083
+      ],
+      [
+        6.920792,
+        8.041333
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  },
+  {
+    "file": "03.m4a",
+    "silence_intervals": [
+      [
+        0.152125,
+        1.148042
+      ],
+      [
+        3.78075,
+        4.542667
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  },
+  {
+    "file": "04.m4a",
+    "silence_intervals": [
+      [
+        0.0,
+        0.710604
+      ],
+      [
+        1.877271,
+        2.432167
+      ],
+      [
+        4.944896,
+        5.822667
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  },
+  {
+    "file": "05.m4a",
+    "silence_intervals": [
+      [
+        0.0437083,
+        0.850396
+      ],
+      [
+        3.753125,
+        3.959
+      ],
+      [
+        4.826958,
+        5.396
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  },
+  {
+    "file": "06.m4a",
+    "silence_intervals": [
+      [
+        0.0,
+        1.023937
+      ],
+      [
+        4.079417,
+        4.48325
+      ],
+      [
+        5.378,
+        5.744187
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  },
+  {
+    "file": "07.m4a",
+    "silence_intervals": [
+      [
+        0.0,
+        0.202375
+      ],
+      [
+        0.202396,
+        0.895125
+      ],
+      [
+        2.102125,
+        2.538896
+      ],
+      [
+        4.558021,
+        4.874792
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  },
+  {
+    "file": "08.m4a",
+    "silence_intervals": [
+      [
+        0.0,
+        0.961271
+      ],
+      [
+        2.655104,
+        3.254792
+      ],
+      [
+        3.758,
+        3.921625
+      ],
+      [
+        5.633312,
+        6.239937
+      ],
+      [
+        7.833437,
+        8.468
+      ]
+    ],
+    "pending_silence_start": null,
+    "method": "ffmpeg silencedetect -40dB 0.15s; provisional not word safe"
+  }
+]

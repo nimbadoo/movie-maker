@@ -1,670 +1,696 @@
 {
+  "version": "sandwich-current-numbering-01-to-08",
+  "prior_manifest_evidence": "Git commit 3f5f369 and later revisions; old hashes do not identify current files",
+  "original_replacement_notice": "Files now present under 01-08 differ from prior hashes; previous 09 and 10 are not present. Assistant did not rename or overwrite audio.",
   "recordings": [
     {
       "file": "01.m4a",
-      "shot": "EP05-SH03",
-      "expected_text": "بیرون.",
-      "sha256": "e207174438070d5a9370c36cb72b696a73f5df2e0f3f72ef25f013318fbf3462",
-      "decoded_duration_seconds": 2.153,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "sha256": "1362029a688eddc6a7294a0abe263919adc563dab2e93ca3d623a92e9acd318e",
+      "decoded_duration_seconds": 3.86,
+      "machine_transcript": "سندوی چیه ساره کوچه",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 0.847,
-          "activity_end": 1.466,
-          "activity_span_seconds": 0.619,
-          "silence_intervals": [
-            [
-              0.0,
-              0.847375
-            ],
-            [
-              1.466167,
-              2.153333
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0.848,
-          "activity_end": 1.318,
-          "activity_span_seconds": 0.471,
-          "silence_intervals": [
-            [
-              0.0,
-              0.847604
-            ],
-            [
-              1.31825,
-              2.153333
-            ]
+          "start": 0.0,
+          "end": 2.8,
+          "text": " سندوی چیه ساره کوچه",
+          "words": [
+            {
+              "word": " سندوی",
+              "start": 0.0,
+              "end": 1.48,
+              "probability": 0.6223149523139
+            },
+            {
+              "word": " چیه",
+              "start": 1.48,
+              "end": 1.92,
+              "probability": 0.663657526175181
+            },
+            {
+              "word": " ساره",
+              "start": 1.92,
+              "end": 2.34,
+              "probability": 0.6834925611813863
+            },
+            {
+              "word": " کوچه",
+              "start": 2.34,
+              "end": 2.8,
+              "probability": 0.7914132326841354
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 0.697,
-        "end": 1.666,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 0.969
-      },
-      "machine_text_review": "واژهٔ مورد انتظار در هر دو اجرا استخراج شد.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
+      "shot": "EP05-SH03",
+      "speaker": "نازلی",
+      "expected_text": "ساندویچیِ سَرِ کوچه.",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "ساندویچیِ سَرِ کوچه.",
-      "text_alignment_status": "outdated_after_sandwich_revision",
-      "replacement_recording": "not_received",
-      "timing_applicability": "old_lamp_text_only",
-      "used_in_current_script": true
+      "activity_start": 0.24,
+      "activity_end": 2.889,
+      "candidate_trim": {
+        "start": 0.09,
+        "end": 3.089,
+        "status": "automatic_unheard_not_approved",
+        "duration": 2.999
+      }
     },
     {
       "file": "02.m4a",
-      "shot": "EP05-SH04",
-      "expected_text": "بیرون که اِسمِ جا نیست.",
-      "sha256": "0deb309511e0eb23ccaee9443f976a070ac86778b9d25acf7b2377ae34ba16e3",
-      "decoded_duration_seconds": 2.751,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "sha256": "f79934ba1ea6f61c19c1beb4a9b507f1291394bcd6413e28abb066f78b9e3182",
+      "decoded_duration_seconds": 8.041,
+      "machine_transcript": "روزه از باب کشییی کامکشون کردم. نازلی و مدرش گفتن شام محمون ما.",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 0.664,
-          "activity_end": 2.751,
-          "activity_span_seconds": 2.087,
-          "silence_intervals": [
-            [
-              0.0,
-              0.663854
-            ],
-            [
-              2.042187,
-              2.545125
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0.666,
-          "activity_end": 2.751,
-          "activity_span_seconds": 2.085,
-          "silence_intervals": [
-            [
-              0.0,
-              0.666271
-            ],
-            [
-              1.963625,
-              2.547646
-            ]
+          "start": 0.0,
+          "end": 6.88,
+          "text": " روزه از باب کشییی کامکشون کردم. نازلی و مدرش گفتن شام محمون ما.",
+          "words": [
+            {
+              "word": " روزه",
+              "start": 0.0,
+              "end": 1.66,
+              "probability": 0.719207376241684
+            },
+            {
+              "word": " از",
+              "start": 1.66,
+              "end": 1.84,
+              "probability": 0.7996711730957031
+            },
+            {
+              "word": " باب",
+              "start": 1.84,
+              "end": 2.1,
+              "probability": 0.8078186810016632
+            },
+            {
+              "word": " کشییی",
+              "start": 2.1,
+              "end": 2.58,
+              "probability": 0.6830101430416107
+            },
+            {
+              "word": " کامکشون",
+              "start": 2.58,
+              "end": 3.32,
+              "probability": 0.6113752126693726
+            },
+            {
+              "word": " کردم.",
+              "start": 3.32,
+              "end": 3.88,
+              "probability": 0.6476195454597473
+            },
+            {
+              "word": " نازلی",
+              "start": 4.12,
+              "end": 4.66,
+              "probability": 0.8316787928342819
+            },
+            {
+              "word": " و",
+              "start": 4.66,
+              "end": 4.72,
+              "probability": 0.44806575775146484
+            },
+            {
+              "word": " مدرش",
+              "start": 4.72,
+              "end": 5.28,
+              "probability": 0.6203009635210037
+            },
+            {
+              "word": " گفتن",
+              "start": 5.28,
+              "end": 5.72,
+              "probability": 0.7479449659585953
+            },
+            {
+              "word": " شام",
+              "start": 5.72,
+              "end": 6.14,
+              "probability": 0.789900004863739
+            },
+            {
+              "word": " محمون",
+              "start": 6.14,
+              "end": 6.62,
+              "probability": 0.5165106554826101
+            },
+            {
+              "word": " ما.",
+              "start": 6.62,
+              "end": 6.88,
+              "probability": 0.4109233021736145
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 0.514,
-        "end": 2.751,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 2.237
-      },
-      "machine_text_review": "ساختار جمله نزدیک است؛ «اسم جا نیست» چسبیده و با املای غلط ثبت شد.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
+      "shot": "EP05-SH05",
+      "speaker": "سامان",
+      "expected_text": "روزِ اَسباب‌کِشی کُمَکِشون کَردَم. نازْلی و مادَرِش گُفتَن شام مِهمونِ ما.",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "چِراغ‌فُروشی؟",
-      "text_alignment_status": "inactive_dialogue",
-      "replacement_recording": "not_received",
-      "timing_applicability": "not_in_current_script",
-      "used_in_current_script": false
+      "activity_start": 0,
+      "activity_end": 6.921,
+      "candidate_trim": {
+        "start": 0,
+        "end": 7.121,
+        "status": "automatic_unheard_not_approved",
+        "duration": 7.121
+      }
     },
     {
       "file": "03.m4a",
-      "shot": "EP05-SH05",
-      "expected_text": "جِلوی هَمین ساختمون. روزِ اَسباب‌کِشی. داشْتَم کُمَک می‌کَردَم، چِراغِ مُطالعه‌ش اَز دَستَم اُفتاد.",
-      "sha256": "0c7acc8af008388358cc177ed7cfd2cfbfd0420463dd45f1ceac0f7c9e02f315",
-      "decoded_duration_seconds": 8.383,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "sha256": "fcf95433d8be2d1c5c5eddfa405a1df8383f18f7b5f8b6f19fe86cf6fc29e095",
+      "decoded_duration_seconds": 4.543,
+      "machine_transcript": "توکه بیشتر آب خوردی تا ستن دویچ",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 1.003,
-          "activity_end": 7.802,
-          "activity_span_seconds": 6.799,
-          "silence_intervals": [
-            [
-              0.0,
-              1.003125
-            ],
-            [
-              2.563438,
-              2.777937
-            ],
-            [
-              3.871417,
-              4.331083
-            ],
-            [
-              7.802458,
-              8.382667
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 1.003,
-          "activity_end": 7.797,
-          "activity_span_seconds": 6.794,
-          "silence_intervals": [
-            [
-              0.0,
-              1.003313
-            ],
-            [
-              2.550208,
-              2.778292
-            ],
-            [
-              3.861146,
-              4.367854
-            ],
-            [
-              7.409229,
-              7.607708
-            ],
-            [
-              7.797187,
-              8.382667
-            ]
+          "start": 0.0,
+          "end": 3.74,
+          "text": " توکه بیشتر آب خوردی تا ستن دویچ",
+          "words": [
+            {
+              "word": " توکه",
+              "start": 0.0,
+              "end": 1.48,
+              "probability": 0.6683933734893799
+            },
+            {
+              "word": " بیشتر",
+              "start": 1.48,
+              "end": 1.98,
+              "probability": 0.8198689699172974
+            },
+            {
+              "word": " آب",
+              "start": 1.98,
+              "end": 2.3,
+              "probability": 0.6749933063983917
+            },
+            {
+              "word": " خوردی",
+              "start": 2.3,
+              "end": 2.7,
+              "probability": 0.7487392425537109
+            },
+            {
+              "word": " تا",
+              "start": 2.7,
+              "end": 2.94,
+              "probability": 0.661049485206604
+            },
+            {
+              "word": " ستن",
+              "start": 2.94,
+              "end": 3.2,
+              "probability": 0.45957230528195697
+            },
+            {
+              "word": " دویچ",
+              "start": 3.2,
+              "end": 3.74,
+              "probability": 0.7094858437776566
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 0.853,
-        "end": 8.002,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 7.149
-      },
-      "machine_text_review": "اجزای خاطره تشخیص داده شدند؛ واژه‌های ساختمون، اسباب‌کشی و مطالعه‌ش ناپایدارند.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
+      "shot": "EP05-SH06",
+      "speaker": "نازلی",
+      "expected_text": "تو که بیشتَر آب خوردی تا ساندویچ.",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "current_approved_text": "روزِ اَسباب‌کِشی کُمَکِشون کَردَم. نازْلی و مادَرِش گُفتَن شام مِهمونِ ما.",
-      "text_alignment_status": "outdated_after_sandwich_revision",
-      "replacement_recording": "not_received",
-      "timing_applicability": "old_lamp_text_only",
-      "used_in_current_script": true
+      "activity_start": 0,
+      "activity_end": 3.781,
+      "candidate_trim": {
+        "start": 0,
+        "end": 3.981,
+        "status": "automatic_unheard_not_approved",
+        "duration": 3.981
+      }
     },
     {
       "file": "04.m4a",
-      "shot": "EP05-SH06",
-      "expected_text": "بَعدَم گُفتی نَگَران نَباش، دُرُستِش می‌کُنَم.",
-      "sha256": "b245e62529965c3c216c75745a947734c2549704665fba2f5464fe405ff84c3c",
-      "decoded_duration_seconds": 5.055,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "sha256": "bc088d7193ad7e99cad9c0c90eb11080fac8a274cc1de05b52bcaf11d50da4ba",
+      "decoded_duration_seconds": 5.823,
+      "machine_transcript": "ده هنم می سوخت اشتباه کردم توند سفرش دادم.",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 1.221,
-          "activity_end": 4.06,
-          "activity_span_seconds": 2.838,
-          "silence_intervals": [
-            [
-              0.0,
-              1.221375
-            ],
-            [
-              4.059833,
-              5.054667
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 1.238,
-          "activity_end": 4.034,
-          "activity_span_seconds": 2.796,
-          "silence_intervals": [
-            [
-              0.0,
-              1.2375
-            ],
-            [
-              4.033896,
-              5.054667
-            ]
+          "start": 0.0,
+          "end": 4.98,
+          "text": " ده هنم می سوخت اشتباه کردم توند سفرش دادم.",
+          "words": [
+            {
+              "word": " ده",
+              "start": 0.0,
+              "end": 0.9,
+              "probability": 0.834470808506012
+            },
+            {
+              "word": " هنم",
+              "start": 0.9,
+              "end": 1.2,
+              "probability": 0.528550311923027
+            },
+            {
+              "word": " می",
+              "start": 1.2,
+              "end": 1.38,
+              "probability": 0.7106111645698547
+            },
+            {
+              "word": " سوخت",
+              "start": 1.38,
+              "end": 2.12,
+              "probability": 0.4329010993242264
+            },
+            {
+              "word": " اشتباه",
+              "start": 2.12,
+              "end": 3.0,
+              "probability": 0.7467667937278748
+            },
+            {
+              "word": " کردم",
+              "start": 3.0,
+              "end": 3.46,
+              "probability": 0.7861206531524658
+            },
+            {
+              "word": " توند",
+              "start": 3.46,
+              "end": 4.0,
+              "probability": 0.5885397295157114
+            },
+            {
+              "word": " سفرش",
+              "start": 4.0,
+              "end": 4.58,
+              "probability": 0.755361407995224
+            },
+            {
+              "word": " دادم.",
+              "start": 4.58,
+              "end": 4.98,
+              "probability": 0.7805917461713155
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 1.071,
-        "end": 4.26,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 3.189
-      },
-      "machine_text_review": "معنای جمله نزدیک است؛ نگران و درستش می‌کنم خطای تشخیص دارند.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
+      "shot": "EP05-SH07",
+      "speaker": "سامان",
+      "expected_text": "دَهَنَم می‌سوخت. اَشتِباه کَردَم تُند سِفارش دادَم.",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "used_in_current_script": true,
-      "current_approved_text": "تو که بیشتَر آب خوردی تا ساندویچ.",
-      "text_alignment_status": "outdated_after_sandwich_revision",
-      "replacement_recording": "not_received",
-      "timing_applicability": "old_lamp_text_only"
+      "activity_start": 0.711,
+      "activity_end": 4.945,
+      "candidate_trim": {
+        "start": 0.561,
+        "end": 5.145,
+        "status": "automatic_unheard_not_approved",
+        "duration": 4.584
+      }
     },
     {
       "file": "05.m4a",
-      "shot": "EP05-SH07",
-      "expected_text": "نَشُد. شُماره‌شو گِرِفتَم یِه دونه مِثلِ هَمون بَراش پیدا کُنَم.",
-      "sha256": "45c427e17e77535721bf49440e49fae3fec9ccf9249b3bc10bac3d56a561b365",
+      "sha256": "ad38cf259a661af224e6f4d4b155d0a49a50fdf69242090d8685a681c7cf37b4",
       "decoded_duration_seconds": 5.396,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "machine_transcript": "پس چرا هرچی می پورسیدم تونده می گفتی نا.",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 0,
-          "activity_end": 4.942,
-          "activity_span_seconds": 4.942,
-          "silence_intervals": [
-            [
-              0.0733125,
-              0.888646
-            ],
-            [
-              1.479,
-              1.709333
-            ],
-            [
-              4.942,
-              5.396
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0,
-          "activity_end": 4.914,
-          "activity_span_seconds": 4.914,
-          "silence_intervals": [
-            [
-              0.0702292,
-              0.892771
-            ],
-            [
-              1.472708,
-              1.718938
-            ],
-            [
-              2.520292,
-              2.680396
-            ],
-            [
-              4.543792,
-              4.702917
-            ],
-            [
-              4.913896,
-              5.396
-            ]
+          "start": 0.0,
+          "end": 4.78,
+          "text": " پس چرا هرچی می پورسیدم تونده می گفتی نا.",
+          "words": [
+            {
+              "word": " پس",
+              "start": 0.0,
+              "end": 1.12,
+              "probability": 0.8203904330730438
+            },
+            {
+              "word": " چرا",
+              "start": 1.12,
+              "end": 1.52,
+              "probability": 0.9384471774101257
+            },
+            {
+              "word": " هرچی",
+              "start": 1.52,
+              "end": 2.02,
+              "probability": 0.8441381007432938
+            },
+            {
+              "word": " می",
+              "start": 2.02,
+              "end": 2.1,
+              "probability": 0.79554682970047
+            },
+            {
+              "word": " پورسیدم",
+              "start": 2.1,
+              "end": 2.88,
+              "probability": 0.5919570873181025
+            },
+            {
+              "word": " تونده",
+              "start": 2.88,
+              "end": 3.68,
+              "probability": 0.7114741504192352
+            },
+            {
+              "word": " می",
+              "start": 3.68,
+              "end": 4.06,
+              "probability": 0.84567791223526
+            },
+            {
+              "word": " گفتی",
+              "start": 4.06,
+              "end": 4.48,
+              "probability": 0.7980929762125015
+            },
+            {
+              "word": " نا.",
+              "start": 4.48,
+              "end": 4.78,
+              "probability": 0.8091085851192474
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 0,
-        "end": 5.142,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 5.142
-      },
-      "machine_text_review": "اجرای مستقل آشفته است؛ اجرای پیوسته گرفتن شماره و یافتن مشابه را بهتر تشخیص داد.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
+      "shot": "EP05-SH08",
+      "speaker": "مادر",
+      "expected_text": "پَس چرا هَرچی می‌پُرسیدَم تُنده، می‌گُفتی نَه؟",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "used_in_current_script": true,
-      "current_approved_text": "دَهَنَم می‌سوخت. اَشتِباه کَردَم تُند سِفارش دادَم.",
-      "text_alignment_status": "outdated_after_sandwich_revision",
-      "replacement_recording": "not_received",
-      "timing_applicability": "old_lamp_text_only"
+      "activity_start": 0,
+      "activity_end": 4.827,
+      "candidate_trim": {
+        "start": 0,
+        "end": 5.027,
+        "status": "automatic_unheard_not_approved",
+        "duration": 5.027
+      }
     },
     {
       "file": "06.m4a",
-      "shot": "EP05-SH08",
-      "expected_text": "آها، اون چِراغو تو شِکَسته بودی؟",
-      "sha256": "8307983d50958d61ac32eceb63d6001ef527cef795584796d458398a58512e47",
-      "decoded_duration_seconds": 3.775,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
+      "decoded_duration_seconds": 5.908,
+      "machine_transcript": "گفتا هم اول ان شامیه که مهمونتونه عور نظنه.",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 0.769,
-          "activity_end": 3.231,
-          "activity_span_seconds": 2.462,
-          "silence_intervals": [
-            [
-              0.0,
-              0.768917
-            ],
-            [
-              3.230833,
-              3.774667
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0.771,
-          "activity_end": 3.224,
-          "activity_span_seconds": 2.453,
-          "silence_intervals": [
-            [
-              0.0,
-              0.770604
-            ],
-            [
-              3.223625,
-              3.774667
-            ]
+          "start": 0.0,
+          "end": 5.3,
+          "text": " گفتا هم اول ان شامیه که مهمونتونه عور نظنه.",
+          "words": [
+            {
+              "word": " گفتا",
+              "start": 0.0,
+              "end": 1.48,
+              "probability": 0.570486307144165
+            },
+            {
+              "word": " هم",
+              "start": 1.48,
+              "end": 1.64,
+              "probability": 0.6619560867547989
+            },
+            {
+              "word": " اول",
+              "start": 1.64,
+              "end": 1.86,
+              "probability": 0.6580116152763367
+            },
+            {
+              "word": " ان",
+              "start": 1.86,
+              "end": 2.08,
+              "probability": 0.4733528196811676
+            },
+            {
+              "word": " شامیه",
+              "start": 2.08,
+              "end": 2.7,
+              "probability": 0.6001826301217079
+            },
+            {
+              "word": " که",
+              "start": 2.7,
+              "end": 3.0,
+              "probability": 0.9251100122928619
+            },
+            {
+              "word": " مهمونتونه",
+              "start": 3.0,
+              "end": 4.04,
+              "probability": 0.6161384209990501
+            },
+            {
+              "word": " عور",
+              "start": 4.04,
+              "end": 4.74,
+              "probability": 0.5142656937241554
+            },
+            {
+              "word": " نظنه.",
+              "start": 4.74,
+              "end": 5.3,
+              "probability": 0.6781265959143639
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 0.619,
-        "end": 3.431,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 2.812
-      },
-      "machine_text_review": "پرسش دربارهٔ شکستن چراغ در هر دو اجرا نزدیک است؛ آهان به جای آها قطعی نیست.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
+      "shot": "EP05-SH10",
+      "speaker": "سامان",
+      "expected_text": "گُفتَم اوّلین شامی که مِهمونِتونَم، غُر نَزَنَم.",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "used_in_current_script": true,
-      "text_alignment_status": "outdated_after_sandwich_revision",
-      "timing_applicability": "old_lamp_text_only",
-      "current_approved_text": "پَس چرا هَرچی می‌پُرسیدَم تُنده، می‌گُفتی نَه؟",
-      "replacement_recording": "not_received"
+      "activity_start": 1.024,
+      "activity_end": 5.908,
+      "candidate_trim": {
+        "start": 0.874,
+        "end": 5.908,
+        "status": "automatic_unheard_not_approved",
+        "duration": 5.034
+      }
     },
     {
       "file": "07.m4a",
-      "shot": "EP05-SH09",
-      "expected_text": "آره. بَعدِش هَر روز عَکسِ چِراغ می‌فِرِستاد.",
-      "sha256": "bbba62fa62227f531acefd2fe42978367c2d5ff495394a014460acad00b631aa",
-      "decoded_duration_seconds": 4.287,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "sha256": "0e72ad31bd55764d41fb1fb6198149f2d96ba99974dec738cd32f90612f62d1f",
+      "decoded_duration_seconds": 5.055,
+      "machine_transcript": "خید هم آلی، منم کم کم مور خزبشم.",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 0,
-          "activity_end": 3.87,
-          "activity_span_seconds": 3.87,
-          "silence_intervals": [
-            [
-              0.0651667,
-              0.867958
-            ],
-            [
-              1.390062,
-              1.759021
-            ],
-            [
-              3.869521,
-              4.286667
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0.874,
-          "activity_end": 3.864,
-          "activity_span_seconds": 2.991,
-          "silence_intervals": [
-            [
-              0.0,
-              0.873687
-            ],
-            [
-              1.383854,
-              1.767833
-            ],
-            [
-              3.864417,
-              4.286667
-            ]
+          "start": 0.0,
+          "end": 4.58,
+          "text": " خید هم آلی، منم کم کم مور خزبشم.",
+          "words": [
+            {
+              "word": " خید",
+              "start": 0.0,
+              "end": 1.26,
+              "probability": 0.8464343746503195
+            },
+            {
+              "word": " هم",
+              "start": 1.26,
+              "end": 1.6,
+              "probability": 0.7194554507732391
+            },
+            {
+              "word": " آلی،",
+              "start": 1.6,
+              "end": 2.38,
+              "probability": 0.6741943657398224
+            },
+            {
+              "word": " منم",
+              "start": 2.38,
+              "end": 2.94,
+              "probability": 0.6975049674510956
+            },
+            {
+              "word": " کم",
+              "start": 2.94,
+              "end": 3.26,
+              "probability": 0.97516930103302
+            },
+            {
+              "word": " کم",
+              "start": 3.26,
+              "end": 3.6,
+              "probability": 0.95128533244133
+            },
+            {
+              "word": " مور",
+              "start": 3.6,
+              "end": 3.78,
+              "probability": 0.5595565885305405
+            },
+            {
+              "word": " خزبشم.",
+              "start": 3.78,
+              "end": 4.58,
+              "probability": 0.5653717219829559
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 0,
-        "end": 4.07,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 4.07
-      },
-      "machine_text_review": "معنا در اجرای مستقل نزدیک است؛ اجرای پیوسته این جمله را جا انداخت.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
+      "shot": "EP05-SH14",
+      "speaker": "فرهاد",
+      "expected_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "used_in_current_script": false,
-      "current_approved_text": "یادِت مونده بود؟",
-      "text_alignment_status": "inactive_dialogue",
-      "replacement_recording": "not_received",
-      "timing_applicability": "not_in_current_script"
+      "activity_start": 0.202,
+      "activity_end": 5.055,
+      "candidate_trim": {
+        "start": 0.052,
+        "end": 5.055,
+        "status": "automatic_unheard_not_approved",
+        "duration": 5.003
+      }
     },
     {
       "file": "08.m4a",
-      "shot": "EP05-SH10",
-      "expected_text": "آخه هیچ‌کُدومو نَمی‌پَسَندیدی.",
-      "sha256": "1c7ab0459439f035765f310dbfc7dc801a561b588c0f4f124095a4c6625dd175",
-      "decoded_duration_seconds": 3.263,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
+      "sha256": "f532f7cc14fb54ee6c86214f0fc4870eafc61b1f1fcb8be015e76dfe2ffc02ed",
+      "decoded_duration_seconds": 8.468,
+      "machine_transcript": "بورو به سلامت ازیزم. سامان پس بما درد حرف بزن. ببین فرده میتون بیا.",
+      "segments": [
         {
-          "threshold_db": -40,
-          "activity_start": 0,
-          "activity_end": 2.702,
-          "activity_span_seconds": 2.702,
-          "silence_intervals": [
-            [
-              0.166229,
-              0.652354
-            ],
-            [
-              2.702437,
-              3.262667
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0,
-          "activity_end": 2.695,
-          "activity_span_seconds": 2.695,
-          "silence_intervals": [
-            [
-              0.144875,
-              0.652875
-            ],
-            [
-              2.695354,
-              3.262667
-            ]
-          ]
-        }
-      ],
-      "candidate_trim": {
-        "start": 0,
-        "end": 2.902,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 2.902
-      },
-      "machine_text_review": "اجرای مستقل بسیار نامطمئن است؛ اجرای پیوسته این جمله را جا انداخت.",
-      "machine_transcript_source": "machine-transcripts.json",
-      "tone_review": "not_performed",
-      "pronunciation_review": "not_performed",
-      "current_approved_text": "گُفتَم اوّلین شامی که مِهمونِتونَم، غُر نَزَنَم.",
-      "text_alignment_status": "outdated_after_sandwich_revision",
-      "replacement_recording": "not_received",
-      "timing_applicability": "old_lamp_text_only",
-      "used_in_current_script": true
-    },
-    {
-      "file": "09.m4a",
-      "shot": "EP05-SH14",
-      "expected_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
-      "sha256": "457efabadd4d12d295f2fd58f3d7848e1e453042c718e891b294e026abce80ed",
-      "decoded_duration_seconds": 5.396,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
-        {
-          "threshold_db": -40,
-          "activity_start": 0.32,
-          "activity_end": 4.436,
-          "activity_span_seconds": 4.116,
-          "silence_intervals": [
-            [
-              0.0,
-              0.319979
-            ],
-            [
-              0.3225,
-              1.021167
-            ],
-            [
-              2.271062,
-              2.549333
-            ],
-            [
-              4.436438,
-              5.396
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0.32,
-          "activity_end": 4.423,
-          "activity_span_seconds": 4.103,
-          "silence_intervals": [
-            [
-              0.0,
-              0.320167
-            ],
-            [
-              0.320688,
-              1.042708
-            ],
-            [
-              2.2565,
-              2.549333
-            ],
-            [
-              4.422896,
-              5.396
-            ]
+          "start": 0.0,
+          "end": 7.72,
+          "text": " بورو به سلامت ازیزم. سامان پس بما درد حرف بزن. ببین فرده میتون بیا.",
+          "words": [
+            {
+              "word": " بورو",
+              "start": 0.0,
+              "end": 1.24,
+              "probability": 0.6417712767918905
+            },
+            {
+              "word": " به",
+              "start": 1.24,
+              "end": 1.34,
+              "probability": 0.35461366176605225
+            },
+            {
+              "word": " سلامت",
+              "start": 1.34,
+              "end": 1.98,
+              "probability": 0.8856160044670105
+            },
+            {
+              "word": " ازیزم.",
+              "start": 1.98,
+              "end": 2.66,
+              "probability": 0.7628114342689514
+            },
+            {
+              "word": " سامان",
+              "start": 3.12,
+              "end": 3.74,
+              "probability": 0.7070281406243643
+            },
+            {
+              "word": " پس",
+              "start": 3.74,
+              "end": 4.12,
+              "probability": 0.7483521401882172
+            },
+            {
+              "word": " بما",
+              "start": 4.12,
+              "end": 4.38,
+              "probability": 0.6229770183563232
+            },
+            {
+              "word": " درد",
+              "start": 4.38,
+              "end": 4.82,
+              "probability": 0.6089721073706945
+            },
+            {
+              "word": " حرف",
+              "start": 4.82,
+              "end": 5.2,
+              "probability": 0.900775283575058
+            },
+            {
+              "word": " بزن.",
+              "start": 5.2,
+              "end": 5.62,
+              "probability": 0.8726770281791687
+            },
+            {
+              "word": " ببین",
+              "start": 6.08,
+              "end": 6.5,
+              "probability": 0.8081666429837545
+            },
+            {
+              "word": " فرده",
+              "start": 6.5,
+              "end": 6.94,
+              "probability": 0.7531167268753052
+            },
+            {
+              "word": " میتون",
+              "start": 6.94,
+              "end": 7.3,
+              "probability": 0.7657658557097117
+            },
+            {
+              "word": " بیا.",
+              "start": 7.3,
+              "end": 7.72,
+              "probability": 0.5638294368982315
+            }
           ]
         }
       ],
-      "candidate_trim": {
-        "start": 0.17,
-        "end": 4.636,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 4.466
-      },
-      "machine_text_review": "عبارت‌های خداحافظی در هر دو اجرا نزدیک‌اند؛ املاهای غلط، شاهد تلفظ غلط نیستند.",
-      "machine_transcript_source": "machine-transcripts.json",
-      "tone_review": "not_performed",
-      "pronunciation_review": "not_performed",
-      "used_in_current_script": true,
-      "current_approved_text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
-      "text_alignment_status": "unchanged_text_audition_pending",
-      "timing_applicability": "provisional_unheard"
-    },
-    {
-      "file": "10.m4a",
+      "auditory_review": "not_performed",
+      "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
       "shot": "EP05-SH15",
+      "speaker": "مادر",
       "expected_text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
-      "sha256": "c0d4cc4a44f92352a5b04a662153facdb557ecdf40fba09cdddfdc92f50416e0",
-      "decoded_duration_seconds": 7.615,
-      "decode": "passed",
-      "listening_review": "not_done",
-      "mapping": "ordered_by_user_numbering_not_yet_audibly_verified",
-      "automatic_timing": [
-        {
-          "threshold_db": -40,
-          "activity_start": 0.816,
-          "activity_end": 6.951,
-          "activity_span_seconds": 6.135,
-          "silence_intervals": [
-            [
-              0.0,
-              0.815667
-            ],
-            [
-              2.281833,
-              3.087792
-            ],
-            [
-              5.22425,
-              5.449854
-            ],
-            [
-              6.951042,
-              7.614667
-            ]
-          ]
-        },
-        {
-          "threshold_db": -35,
-          "activity_start": 0.818,
-          "activity_end": 6.949,
-          "activity_span_seconds": 6.131,
-          "silence_intervals": [
-            [
-              0.0,
-              0.817688
-            ],
-            [
-              2.272292,
-              3.107896
-            ],
-            [
-              5.198083,
-              5.450104
-            ],
-            [
-              6.948896,
-              7.614667
-            ]
-          ]
-        }
-      ],
-      "candidate_trim": {
-        "start": 0.666,
-        "end": 7.151,
-        "status": "provisional_unheard_do_not_apply",
-        "duration": 6.485
-      },
-      "machine_text_review": "اجرای پیوسته درخواست صحبت با مادر و آمدن فردا را بهتر استخراج کرد؛ بدرقه ناپایدار است.",
-      "machine_transcript_source": "machine-transcripts.json",
+      "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
-      "used_in_current_script": true,
-      "current_approved_text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
-      "text_alignment_status": "unchanged_text_audition_pending",
-      "timing_applicability": "provisional_unheard"
+      "activity_start": 0.961,
+      "activity_end": 7.833,
+      "candidate_trim": {
+        "start": 0.811,
+        "end": 8.033,
+        "status": "automatic_unheard_not_approved",
+        "duration": 7.222
+      }
     }
   ],
-  "total_file_seconds": 48.074,
-  "note": "Full file duration includes silence; not final speech or episode timing."
+  "total_file_seconds": 47.094,
+  "candidate_total_seconds": 40.971,
+  "auditory_review": "not_performed"
 }
