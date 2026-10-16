@@ -15,13 +15,20 @@
       "source_in_seconds": 0,
       "source_out_seconds": 4.583333333333333,
       "evidence": "episode-04 shot12 selected state; clean-v1.json; assembly-v2.json",
-      "review_status": "duration_from_existing_records_media_missing_here_not_reauditioned",
+      "review_status": "exact_raw_restored_separate_candidate_reconstructed_not_selected_or_auditioned",
       "timeline_in_frame": 0,
       "timeline_out_frame": 110,
       "start_seconds": 0.0,
       "end_seconds": 4.583333,
       "duration_frames": 110,
-      "duration_seconds": 4.583333
+      "duration_seconds": 4.583333,
+      "raw_source_restored": true,
+      "raw_source_sha256": "9b62b2cd2a0d622aeb88ba53eb30fe9caa72f8fc0b4c1e08e7bcde4a8bffbc5c",
+      "raw_source_path": "episodes/episode-04/shots/EP04-SH12/takes/take-01/video.mp4",
+      "candidate_source": "shots/EP05-SH02/sources/EP04-SH12-question-restored-v1.mp4",
+      "candidate_source_exists": true,
+      "candidate_sha256": "dab177f9a33ecbcbb19570ae12ebfbe321e55ebf7f8f0dcc1a4711ec69105457",
+      "candidate_duration_seconds": 4.583333333333333
     },
     {
       "kind": "reference_dialogue",
@@ -299,7 +306,7 @@
   "open_items": [
     "File06 exact pronunciation and whole-sentence auditory match unresolved",
     "All proposed trim boundaries need actual listening before application",
-    "Question media absent on current machine; duration taken from accepted prior records",
+    "Historical selected question edit still missing; exact raw restored and separate candidate available; candidate audition and acceptance pending",
     "Episode5 videos and reaction media not produced; physical movement continuity and performance pending"
   ],
   "no_credit_use": true,

@@ -1,0 +1,37 @@
+{
+  "status": "reconstructed_candidate_not_selected_not_auditioned",
+  "received_file": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\video.mp4",
+  "raw_sha256": "9b62b2cd2a0d622aeb88ba53eb30fe9caa72f8fc0b4c1e08e7bcde4a8bffbc5c",
+  "restored_raw_path": "projects\\damad-e-yek-shabe\\episodes\\episode-04\\shots\\EP04-SH12\\takes\\take-01\\video.mp4",
+  "historical_selected_sha256": "15e312e952068ec8bd05d54727450a2ccce7c6bcdc9339ae60c5659bf02e14d3",
+  "historical_selected_file_still_missing": true,
+  "reconstruction": {
+    "source_frame_in": 8,
+    "source_frame_out": 118,
+    "audio_patch_source_seconds": [
+      1.85,
+      2.4
+    ],
+    "room_tone_source_seconds": [
+      0.02,
+      0.57
+    ],
+    "edge_blend_seconds": 0.015,
+    "patch_changes_duration": false,
+    "reencoded": true,
+    "same_bytes_as_historical_selected": false
+  },
+  "output": "projects\\damad-e-yek-shabe\\episodes\\episode-05\\shots\\EP05-SH02\\sources\\EP04-SH12-question-restored-v1.mp4",
+  "sha256": "dab177f9a33ecbcbb19570ae12ebfbe321e55ebf7f8f0dcc1a4711ec69105457",
+  "frames": 110,
+  "fps": 24,
+  "duration_seconds": 4.583333333333333,
+  "resolution": [
+    360,
+    640
+  ],
+  "decode_check": "passed",
+  "listening_review": "not_performed",
+  "no_external_generation": true,
+  "cost": 0
+}
