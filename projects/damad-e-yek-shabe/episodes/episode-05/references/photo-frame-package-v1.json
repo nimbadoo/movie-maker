@@ -17,17 +17,17 @@
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH05": {
-      "path": "shots/EP05-SH05/images/EP05-SH05-start-v1.png",
-      "sha256": "b091090b6a29a1b859c6ad37ce4c3efbf8bf0c5ac3db4680607f5c34e7adc4fd",
+      "path": "shots/EP05-SH05/images/EP05-SH05-start-v2.png",
+      "sha256": "06b9fe90c7e46343a272d2ac843d65bd13c2e79681573543402b1951ab3533af",
       "size": [
-        941,
-        1672
+        851,
+        1848
       ],
-      "native_aspect": 0.562799043062201,
+      "native_aspect": 0.4604978354978355,
       "exact_9_16": false,
-      "generation_id": "B3",
-      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-aa8495cd-31cf-4a17-8034-aa10532a9041.png",
-      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v1-prompt.txt",
+      "generation_id": "table-continuity-v2",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-deee9d49-e03a-421b-82b5-74765a00d296.png",
+      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v2-prompt.txt",
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH06": {
@@ -140,13 +140,13 @@
       "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-aa8495cd-31cf-4a17-8034-aa10532a9041.png",
       "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v1-prompt.txt",
       "role": "review_candidate_not_approved_generation_input",
-      "shared_owner": "EP05-SH05"
+      "shared_owner": "EP05-SH05 version1 tight frame; no foreground Farhad"
     }
   },
   "duration_seconds": 44.5416666667,
   "tool": "builtin image_gen.imagegen",
-  "generated_calls": 15,
-  "generated_final_files": 7,
+  "generated_calls": 16,
+  "generated_final_files": 8,
   "existing_source_extracted_frames": 1,
   "flow_credits_used": 0,
   "builtin_price": "not_exposed",
@@ -195,7 +195,8 @@
     "generated native images941x1672 are near9:16, not mathematically exact; do not claim delivery-ready crop; final framing normalization pending before generation submission",
     "user artistic acceptance of photographs pending",
     "audio and reconstructed-question auditory acceptance pending",
-    "real video motion, exit, eye turn, lip sync and ending reaction not produced or checked"
+    "real video motion, exit, eye turn, lip sync and ending reaction not produced or checked",
+    "SH05 v2 chair axes inherited from user screenshot conflict with overhead 90-degree plan; unresolved before video submission. Tabletop continuity is visually verified separately."
   ],
   "generation_input_direction_diagram": "references/mother-direction-input-v1.png",
   "ui_checks": {
@@ -211,7 +212,13 @@
     "full_contact_sheet_viewed": true
   },
   "framing_adjustments": {
-    "EP05-SH05": "Tighter two-shot to keep unverified chair geometry outside crop; furniture not moved",
+    "EP05-SH05": "Wider v2 matches user episode4 tabletop reference; chair angle conflict with overhead plan remains open",
     "EP05-SH15-END": "Shared tighter two-shot; planned eye turn and emotion change not yet executed"
+  },
+  "table_reference": {
+    "path": "references/episode04-table-user-reference.jpg",
+    "sha256": "ea8c3a6abeabb141c8632fcebf932634f2b270df70fdad7cce36a6bca87f6fbb",
+    "view_toward_young": "tea image-left; nut bowl middle; empty tray image-right",
+    "status": "observed and matched in SH05 v2"
   }
 }

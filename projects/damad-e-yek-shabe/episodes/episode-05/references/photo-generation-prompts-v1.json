@@ -4,7 +4,7 @@
   "video_generated": false,
   "flow_credits_used": 0,
   "builtin_unit_price": "not_exposed; not claimed zero money",
-  "successful_generation_calls": 15,
+  "successful_generation_calls": 16,
   "pre_generation_rejection": {
     "reason": "SVG reference unsupported; raster diagram used instead",
     "generated_image": false
@@ -132,5 +132,14 @@
         "C:/Users/momen/.codex/tmp/ep05-mother-direction.png"
       ]
     }
-  ]
+  ],
+  "table_correction_v2": {
+    "inputs": [
+      "references/episode04-table-user-reference.jpg",
+      "shots/EP05-SH05/images/EP05-SH05-start-v1.png"
+    ],
+    "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v2-prompt.txt",
+    "output": "shots/EP05-SH05/images/EP05-SH05-start-v2.png",
+    "external_credits_used": 0
+  }
 }
