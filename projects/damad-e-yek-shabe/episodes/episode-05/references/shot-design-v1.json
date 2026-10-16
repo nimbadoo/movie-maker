@@ -1,0 +1,383 @@
+{
+  "status": "proposed_schematic_storyboard_not_generation_inputs",
+  "date": "2026-10-17",
+  "duration_seconds": 44.541666666666664,
+  "references": {
+    "house": {
+      "path": "house\\apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    "plan": {
+      "path": "house\\apartment-plan-v1.svg",
+      "sha256": "4799de71672f45c2cad81992a6f2af5a086f7ce7be8d49ebbc2b42f5e7b4b222"
+    },
+    "identity": {
+      "path": "episodes\\episode-01\\references\\01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    "saman": {
+      "path": "episodes\\episode-02\\references\\01-saman-portrait-v1.png",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    },
+    "standing": {
+      "path": "episodes\\episode-04\\shots\\EP04-SH14\\images\\EP04-SH14-start-v2.png",
+      "sha256": "d92979471024b05256b55e039f8f9d767d399371a9ac67bc1d7b6b1cf5ba932e"
+    },
+    "mother_pose": {
+      "path": "episodes\\episode-04\\shots\\EP04-SH03\\images\\EP04-SH03-start-v2.png",
+      "sha256": "0869906e46160fc8e66fbb2e367dc52f40e4a57f4b212c0943bb3ec27946e4af"
+    },
+    "farhad": {
+      "path": "episodes\\episode-04\\shots\\EP04-SH12\\images\\EP04-SH12-start-v3.png",
+      "sha256": "ecd68abb6ff73285997215c3b956813f49c0228b0a2a7e06add8868f09d85a6c"
+    }
+  },
+  "design_units": "arbitrary; not apartment measurements",
+  "people": {
+    "M": {
+      "name": "مادر",
+      "p": [
+        -0.8,
+        1.6
+      ],
+      "color": "#80364a",
+      "standing": false
+    },
+    "F": {
+      "name": "فرهاد",
+      "p": [
+        0.8,
+        1.6
+      ],
+      "color": "#d4bd98",
+      "standing": false
+    },
+    "N": {
+      "name": "نازلی",
+      "p": [
+        -1.1,
+        -1.05
+      ],
+      "color": "#207a78",
+      "standing": true
+    },
+    "S": {
+      "name": "سامان",
+      "p": [
+        1.1,
+        -1.05
+      ],
+      "color": "#3a6497",
+      "standing": true
+    }
+  },
+  "cameras": {
+    "F": {
+      "p": [
+        2.8,
+        -1.3,
+        1.95
+      ],
+      "target": [
+        0.8,
+        1.6,
+        1.75
+      ],
+      "vfov": 28,
+      "label": "کنار بیرونی سامان، رو به فرهاد؛ شرق محور",
+      "background": "آشپزخانه و دیوار شمالی پشت فرهاد؛ جوان‌ها خارج برش، نه حذف‌شده."
+    },
+    "B": {
+      "p": [
+        2.6,
+        2.6,
+        2.5
+      ],
+      "target": [
+        0,
+        -1.05,
+        1.55
+      ],
+      "vfov": 56,
+      "label": "کنار بیرونی فرهاد، رو به دو جوان ایستاده",
+      "background": "آشپزخانه پشت دوربین؛ دیوار جنوب، تلویزیون در چپ تصویر و پنجره در راست."
+    },
+    "N": {
+      "p": [
+        2.6,
+        1.8,
+        2.55
+      ],
+      "target": [
+        -1.1,
+        -1.05,
+        2.25
+      ],
+      "vfov": 26,
+      "label": "همان نیم‌صفحهٔ شرقی، نزدیک نازلی",
+      "background": "سمت جنوب/غرب؛ پنجره در حاشیهٔ راست ممکن، آشپزخانه پشت دوربین و ممنوع در پس‌زمینه."
+    },
+    "S": {
+      "p": [
+        2.8,
+        0.8,
+        2.5
+      ],
+      "target": [
+        1.1,
+        -1.05,
+        2.25
+      ],
+      "vfov": 34,
+      "label": "شرق سامان، نزدیک با ارتفاع چشم ایستاده",
+      "background": "دیوار جنوب؛ فقط لبهٔ تلویزیون شرق اگر در میدان واقعی جا شد؛ آشپزخانه پشت دوربین."
+    },
+    "M": {
+      "p": [
+        2.6,
+        -0.7,
+        1.95
+      ],
+      "target": [
+        -0.8,
+        1.6,
+        1.75
+      ],
+      "vfov": 27,
+      "label": "شرق و جنوب کاناپه، رو به مادر نشسته",
+      "background": "آشپزخانه پشت مادر؛ فرهاد در سمت ثابت دیگر کاناپه خارج برش است."
+    },
+    "FW": {
+      "p": [
+        3,
+        -1.6,
+        1.95
+      ],
+      "target": [
+        0.8,
+        1.6,
+        1.35
+      ],
+      "vfov": 42,
+      "label": "ایستگاه فرهاد، کمی بازتر برای آغاز بلندشدن",
+      "background": "کاناپه و آشپزخانه؛ دست‌ها روی ران خود فرهاد، هیچ دست همراه از خارج قاب."
+    }
+  },
+  "chair_forward_axes": [
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      1
+    ]
+  ],
+  "chair_dot_product": 0,
+  "shots": [
+    {
+      "shot": "EP05-SH02",
+      "camera": "F",
+      "speaker": "F",
+      "listener": "S",
+      "text": "سامان، اوّلین قَرارتون کُجا بود؟",
+      "start": 0.0,
+      "end": 4.583333,
+      "movement": "ثابت؛ بازپخش منبع موجود",
+      "action": "فرهاد نشسته، نگاه بالا به سامان ایستاده؛ هیچ پاسخ دختر در این بازپخش نباشد.",
+      "schematic": "shots/EP05-SH02/images/EP05-SH02-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH03",
+      "camera": "N",
+      "speaker": "N",
+      "listener": "F",
+      "text": "ساندویچیِ سَرِ کوچه.",
+      "start": 4.583333,
+      "end": 7.083333,
+      "movement": "ثابت",
+      "action": "نازلی ایستاده؛ پاسخ کوتاه رو به فرهاد، سپس نگاه کوتاه به سامان؛ دست‌ها پایین.",
+      "schematic": "shots/EP05-SH03/images/EP05-SH03-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH05",
+      "camera": "B",
+      "speaker": "S",
+      "listener": "M",
+      "text": "روزِ اَسباب‌کِشی کُمَکِشون کَردَم. نازْلی و مادَرِش گُفتَن شام مِهمونِ ما.",
+      "start": 7.083333,
+      "end": 13.541667,
+      "movement": "ثابت؛ معرفی رابطهٔ فضایی",
+      "action": "سامان چپ تصویر و نازلی راست؛ هر دو جلوی صندلی خود ایستاده؛ سامان از فرهاد به مادر و نازلی نگاه می‌برد.",
+      "schematic": "shots/EP05-SH05/images/EP05-SH05-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH06",
+      "camera": "N",
+      "speaker": "N",
+      "listener": "S",
+      "text": "تو که بیشتَر آب خوردی تا ساندویچ.",
+      "start": 13.541667,
+      "end": 16.666667,
+      "movement": "ثابت",
+      "action": "نازلی شوخی را به سامان می‌گوید؛ فقط سر و چشم به او بچرخد، پا و صندلی ثابت.",
+      "schematic": "shots/EP05-SH06/images/EP05-SH06-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH07",
+      "camera": "S",
+      "speaker": "S",
+      "listener": "N",
+      "text": "دَهَنَم می‌سوخت. اَشتِباه کَردَم تُند سِفارش دادَم.",
+      "start": 16.666667,
+      "end": 21.5,
+      "movement": "پیشروی بسیار کوتاه روی محور لنز، حداکثر ۴درصد تغییر اندازه؛ اجرای واقعی هنوز بررسی نشده",
+      "action": "سامان با خجالت مختصر جواب می‌دهد؛ دست به دهان نمی‌برد، آب یا ساندویچ در زمان حال ظاهر نمی‌شود.",
+      "schematic": "shots/EP05-SH07/images/EP05-SH07-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH08",
+      "camera": "M",
+      "speaker": "M",
+      "listener": "S",
+      "text": "پَس چرا هَرچی می‌پُرسیدَم تُنده، می‌گُفتی نَه؟",
+      "start": 21.5,
+      "end": 26.166667,
+      "movement": "ثابت",
+      "action": "مادر نشسته، نگاه بالا به چشم سامان؛ دست‌های خودش روی پا، روسری تک‌لایه و بدون حرکت نمایشی.",
+      "schematic": "shots/EP05-SH08/images/EP05-SH08-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH10",
+      "camera": "S",
+      "speaker": "S",
+      "listener": "M",
+      "text": "گُفتَم اوّلین شامی که مِهمونِتونَم، غُر نَزَنَم.",
+      "start": 26.166667,
+      "end": 31.041667,
+      "movement": "ثابت؛ همان سوی محور نمای جواب سامان",
+      "action": "سامان مؤدبانه رو به مادر؛ پایان جمله لب‌ها بسته و لبخند کوتاه؛ سپس خندهٔ مادر و نازلی خارج قاب در همان دنباله.",
+      "schematic": "shots/EP05-SH10/images/EP05-SH10-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH14",
+      "camera": "FW",
+      "speaker": "F",
+      "listener": "M",
+      "text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
+      "start": 31.666667,
+      "end": 35.791667,
+      "movement": "ثابت",
+      "action": "فرهاد ابتدا نشسته؛ نگاه به مادر و جمع؛ در پایان به جلو متمایل و شروع به بلندشدن می‌کند، بدون اخم. خروج کامل در این نما الزام ندارد.",
+      "schematic": "shots/EP05-SH14/images/EP05-SH14-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH15",
+      "camera": "M",
+      "speaker": "M",
+      "listener": "F",
+      "text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
+      "start": 35.791667,
+      "end": 43.291667,
+      "movement": "ثابت؛ تغییر مخاطب با سر و چشم",
+      "action": "مادر اول به فرهاد در حال بلندشدن، سپس به سامان نگاه کند. فرهاد از کنارهٔ شرقی میز به سمت راهرو برود؛ گذر از وسط میز و نشان‌دادن در ممنوع.",
+      "schematic": "shots/EP05-SH15/images/EP05-SH15-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "inputs": {
+        "space": "house/apartment-cutaway-v2.png",
+        "plan": "house/apartment-plan-v1.svg",
+        "appearance": "references/visuals/character-bible.md"
+      },
+      "active_frame_changed": false
+    },
+    {
+      "shot": "EP05-SH15-END",
+      "camera": "B",
+      "speaker": null,
+      "listener": null,
+      "text": "بدون دیالوگ؛ نگاه نگران نازلی به سامان",
+      "start": 43.291667,
+      "end": 44.541667,
+      "movement": "ثابت؛ برش به دونفره با همان جای پا",
+      "action": "نازلی سمت راست تصویر نگاه را به سامانِ چپ می‌برد؛ سامان نگاه او را می‌بیند. صندلی‌ها خالی و ثابت‌اند؛ دست‌ها پایین و هیچ نشستن مجددی نیست.",
+      "schematic": "shots/EP05-SH15/images/EP05-SH15-ending-blocking-v1.svg",
+      "kind": "diagram_not_production_image",
+      "status": "proposed_camera_and_blocking_only",
+      "active_frame_changed": false
+    }
+  ],
+  "video_generated": false,
+  "credits_used": 0,
+  "open_items": [
+    "photoreal start frames not created",
+    "exact human appearance and spatial output review require actual generated or accepted image",
+    "mother revised scarf and fitted costume must be checked in actual output",
+    "standing entrance and exit movements need video review",
+    "reconstructed question and recording06 still lack auditory acceptance"
+  ]
+}

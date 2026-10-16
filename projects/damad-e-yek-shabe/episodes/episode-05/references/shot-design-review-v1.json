@@ -1,0 +1,50 @@
+{
+  "status": "schematic_design_reviewed_not_production_ready",
+  "date": "2026-10-17",
+  "reference_images_actually_viewed": [
+    "house",
+    "plan",
+    "identity",
+    "saman",
+    "standing",
+    "mother_pose",
+    "farhad"
+  ],
+  "outputs_actually_viewed": [
+    "references/storyboard-overview-v1.png",
+    "references/camera-plan-v1.svg",
+    "references/storyboard-desktop-check.png",
+    "references/storyboard-mobile-check.png"
+  ],
+  "corrections": [
+    "two-shot head clipping widened without moving furniture",
+    "standing feet moved in front of empty chairs, no sitting",
+    "backrests placed along rotated chair rear directions"
+  ],
+  "model_tests": {
+    "fixed_chair_axes_dot": 0,
+    "standing_feet_outside_chair_footprints": true,
+    "same_environment_coordinates_for_all_shots": true
+  },
+  "ui_test": {
+    "browser": "installed Chrome via Playwright headless",
+    "desktop_width": 1440,
+    "mobile_width": 375,
+    "details_opened": 10,
+    "console_pageerrors": [],
+    "horizontal_overflow_at_375": false,
+    "broken_local_images": [],
+    "offline_images_loaded": 6,
+    "offline_all_images_loaded": true,
+    "keyboard_activation_opened_details": 10
+  },
+  "limits": [
+    "no actual face output",
+    "not a spatial approval of generated media",
+    "no video or continuous-motion review",
+    "no audio audition",
+    "photoreal start-frame production would need explicit cost approval if using a credit tool"
+  ],
+  "credits_used": 0,
+  "no_video_generated": true
+}
