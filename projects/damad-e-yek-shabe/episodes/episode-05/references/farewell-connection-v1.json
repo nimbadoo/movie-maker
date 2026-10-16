@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-17",
+  "status": "static_pose_and_edit_plan_reviewed_not_actual_motion",
+  "cut_frame_24fps": 859,
+  "cut_seconds": 35.7916666667,
+  "farhad_local_edit_seconds": [0, 4.125],
+  "farhad_rise_window_proposed_seconds": [2.9, 4.125],
+  "mother_local_edit_seconds": [0, 7.5],
+  "mother_turn_window_proposed_seconds": [2.0, 2.5],
+  "timing_evidence": "Existing VAD-based reference edit plan; gesture timing proposed, not word-aligned auditory acceptance",
+  "farhad_start": "EP05-SH14",
+  "farhad_cut_pose_reference": "EP05-SH14-RISE",
+  "mother_start": "EP05-SH15",
+  "mother_destination_eyeline_reference": "EP05-SH08",
+  "reference_roles": "Rise image and left-looking mother image are pose/eyeline references only, not automatic generation inputs or actual video frames",
+  "static_observations": [
+    "Farhad's torso leans forward and pelvis begins lifting; his own hands remain on his own thighs, left-wrist watch preserved; lower feet not visible and not inferred",
+    "Farhad cut-pose still looks toward the standing group; reciprocal eye contact with mother is not falsely claimed",
+    "Mother seated, head right and slightly up for farewell; later left/up toward Saman, not lens",
+    "Kitchen stays behind the sofa; chair/table positions are not changed to align eyelines"
+  ],
+  "remaining_actual_motion_checks": [
+    "Rise must visibly start before cut and continue after cut without popping to standing or sitting back",
+    "Mother gaze follows Farhad naturally, then turns during existing pause before addressing Saman",
+    "Farhad leaves offscreen via east side of table; no body passes through furniture",
+    "Final young couple spacing and corrected leg/chair separation remain fixed"
+  ],
+  "images_tool": "builtin image_gen.imagegen",
+  "generated_still_calls": 2,
+  "builtin_price": "not_exposed",
+  "flow_credits_used": 0,
+  "video_generated": false,
+  "content_or_cost_submission_approval": false
+}

@@ -10,6 +10,13 @@ def savej(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 frames=readj(E/'references/photo-frame-package-v1.json')['assets']
 timing=readj(E/'edit/timing-plan-sandwich-v1.json')
+normalized_path=E/'references/input-frames-9x16-v1.json'
+normalized=readj(normalized_path) if normalized_path.exists() else {'assets':{}}
+inputs_ready=normalized.get('status')=='exact_crops_visually_reviewed_not_submission_approval'
+if inputs_ready:
+    for key,asset in normalized['assets'].items():
+        if key in frames:
+            frames[key]={**frames[key], 'original_path':frames[key]['path'], 'path':asset['path'], 'sha256':asset['sha256'], 'size':asset['size']}
 
 # Directions are stage instructions, never speech. Existing dialogue stays in cards.
 actions={
@@ -23,6 +30,8 @@ actions={
 'EP05-SH15':('ابتدا فرهادِ درحال برخاستن در راست، سپس سامانِ ایستاده در چپ','بدرقه گرم، سپس پیگیری دعوت با لحن عادی و روشن.','در «بُرو بِه سَلامَت، عَزیزَم» مادر نگاه راست را همراه صاف‌شدن فرهاد آرام بالا ببرد، نه از ابتدا سر شدیداً عقب. پس از پایان بدرقه، گردش طبیعی چشم و سر به چپ و بالای تصویر، سپس جمله خطاب به سامان. فرهاد خارج کادر از کنار شرقی میز به راهرو می‌رود؛ در و عبور از وسط میز نشان داده نشود. مادر نشسته و دست‌ها روی پای خودش بماند.')}
 
 common='''دستورها خوانده نشوند. عکس واقع‌گرایانهٔ مرجع و ظاهر و لباس شب روزاول حفظ شود. دوربین ثابت، بدون زوم و تغییر محور. فقط گوینده تعیین‌شده همان جمله را به فارسی بگوید؛ هیچ نریشن، موسیقی، زیرنویس یا جمله اضافه نباشد. صدای شخصیت باید با مرجع صوتی مصوب او تطبیق داشته باشد؛ توصیف متن تضمین هویت صدا نیست. شنونده‌ها حرف نزنند و لب نزنند. اشیا و دست‌ها مالک مشخص داشته باشند. آشپزخانه پشت کاناپه مادر و فرهاد است؛ پشت جوان‌ها دیوار جنوبی و سمت پنجره راست است. صندلی‌ها رو به داخل و ثابت، چای چپ تصویر رو به جوان‌ها، کاسه وسط و سینی خالی راست؛ در زاویه معکوس جای تصویری معکوس است. هیچ آب یا ساندویچ یا صحنه گذشته ظاهر نشود.'''
+actions['EP05-SH14']=(actions['EP05-SH14'][0],actions['EP05-SH14'][1],'آغاز نشسته، دو دست روی ران خود. در آخرین بخش جمله، حدود ثانیه۲٫۹تا۴٫۱۲۵ِ سهم تدوین، به جلو متمایل شود، وزن روی پاها و لگن از نشیمن جدا شود؛ روی ادامهٔ حرکت رو به بالا قطع شود، نه پس از بازگشت به نشستن. مرجع ثابت برخاستن فقط راهنمای حالت است و فریم واقعی خروجی نیست. هر دو دست روی ران خود بمانند، تماس با میز و عبور اندام از کاناپه ممنوع؛ نگاه به جمع و سپس مادر، بدون اخم. زمان‌های کنش پیشنهادی‌اند و با اجرای واقعی تطبیق می‌خواهند.')
+actions['EP05-SH15']=(actions['EP05-SH15'][0],actions['EP05-SH15'][1],'آغاز با نگاه ملایم به راست و کمی بالا به فرهادِ درحال برخاستن؛ مادر در «بُرو بِه سَلامَت، عَزیزَم» چشم و سر را آرام با ادامهٔ بالا رفتن او دنبال کند، نه جهش ناگهانی گردن. بعدِ پایان بدرقه و در مکث موجود، حدود ثانیه۲٫۰تا۲٫۵ِ سهم تدوین، نگاه به چپ و بالا برای سامان برگردد؛ بخش خطاب به سامان پس از گردش نگاه شروع شود. مکث و زمان‌ها بر پایهٔ تشخیص فعالیت گفتار پیشنهادی‌اند، نه تطبیق شنیداری قطعی. مادر نشسته و دست‌ها روی پای خودش؛ فرهاد خارج قاب از کنار شرقی میز می‌رود، در و عبور از وسط میز نشان داده نشود.')
 rows=[]
 for t in timing['timeline']:
     if t['kind']!='reference_dialogue':continue
@@ -51,7 +60,10 @@ for t in timing['timeline']:
     # Crop spec only; the ending image needs top anchoring to retain heads/table.
     crop={'x':(w-cw)//2,'y':0 if w/h<0.55 else (h-ch)//2,'width':cw,'height':ch,'status':'proposal_not_applied_or_visually_approved'}
     issues=['شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.','نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.','امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.','مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم.']
-    if sid=='EP05-SH15':issues.append('قاب مادر از ابتدا رو به بالا است؛ برای نمایش دنبال‌کردنِ حرکت فرهاد، قاب آغاز با نگاهِ میانهٔ برخاستن باید آماده و دیده شود، یا اتصال واقعی برداشت بر اساس پایان حرکت فرهاد بررسی شود.')
+    if inputs_ready:
+        issues=[x for x in issues if not x.startswith('نسخه دقیق۹:۱۶')]
+        crop['status']='exact_crop_applied_and_visually_reviewed'
+    if sid=='EP05-SH15' and not (E/'references/farewell-connection-v1.json').exists():issues.append('قاب مادر از ابتدا رو به بالا است؛ برای نمایش دنبال‌کردنِ حرکت فرهاد، قاب آغاز با نگاهِ میانهٔ برخاستن باید آماده و دیده شود، یا اتصال واقعی برداشت بر اساس پایان حرکت فرهاد بررسی شود.')
     if sid=='EP05-SH07':issues.append('ارتفاع نگاه آغاز به فرد نشسته است؛ تغییر مخاطب به نازلی باید با گردش کوچک نگاه در اجرای واقعی کنترل شود.')
     checks={k:{'status':'unchecked','evidence':v} for k,v in {
       'dialogue':'متن با کارت تطبیق داده شد؛ تلفظ واقعی شنیده نشده.',
@@ -68,6 +80,8 @@ for t in timing['timeline']:
     checks['camera']={'status':'pass','evidence':'دوربین ثابت و محور عکس حفظ می‌شود.'}
     checks['prompt']={'status':'pass','evidence':'متن کارت و متن پرامپت ماشینی تطبیق شدند، دستورها از جمله جداست.'}
     checks['local_alternative']={'status':'pass','evidence':'برداشت گفتاری پذیرفته برای متن جدید موجود نیست؛ سؤال از منبع موجود استفاده می‌شود؛ تدوین و میکس محلی است.'}
+    if inputs_ready:
+        checks['geometry']={'status':'pass','evidence':'نسخهٔ دقیق۹:۱۶دیده شد، بدون تغییر مقیاس؛ گزارش input-format-review-v1.md. این قبولی عکس ثابت است؛ حرکت واقعی هنوز تولید نشده.'}
     state={'shot':sid,'take':'take-01','ready':False,'open_issues':issues,'checks':checks,'bundle_sha256':None,'content_approval':{'approved':False,'bundle_sha256':None,'user_reply':'','evidence_ref':''},'cost_approval':{'approved':False,'bundle_sha256':None,'user_reply':'','evidence_ref':''},'consumed_attempts':0}
     report=f'# بررسی پیش از ارسال — {sid}\n\nوضعیت: آماده‌سازی انجام‌شده؛ ارسال مسدود.\n\n[پرامپت کامل](prompt.txt) · [قاب پیشنهادی](../../../../'+asset['path']+')\n\nگوینده: '+t['speaker']+'؛ مخاطب: '+recipient+'\n\n'+action+'\n\nزمان مرجع با مکث‌های داخلی: '+str(t['duration_seconds'])+'ثانیه؛ بازهٔ ضبط '+str(t['source_in_seconds'])+'تا'+str(t['source_out_seconds'])+'ثانیه. این مرز شنیداری تأیید نشده.\n\n'+ '\n'.join('- '+x for x in issues)+'\n\n<!-- preflight-state -->\n```json\n'+json.dumps(state,ensure_ascii=False,indent=2)+'\n```\n<!-- /preflight-state -->\n'
     (take/'preflight.md').write_text(report,encoding='utf-8')
@@ -79,7 +93,7 @@ for t in timing['timeline']:
         card.write_text(text+'\n\n'+marker+'\n\n[پرامپت کامل](takes/take-01/prompt.txt) · [بررسی مستقل و موارد باز](takes/take-01/preflight.md) · [مرور بسته](../../production-review.html)\n\nاین آماده‌سازی مجوز ارسال نیست؛ قاب فعال، درخواست ارسال و برداشت منتخب تغییر نکرده‌اند.\n',encoding='utf-8')
 
 endframe=frames['EP05-SH15-END']['path']
-endstart='shots/EP05-SH15/images/EP05-SH15-ending-start-v2.png'
+endstart=frames.get('EP05-SH15-END-START',{}).get('path','shots/EP05-SH15/images/EP05-SH15-ending-start-v2.png')
 has_endstart=(E/endstart).exists()
 enddir=E/'shots/EP05-SH15/takes/take-02';enddir.mkdir(parents=True,exist_ok=True)
 endprompt='''واکنش بی‌کلام پایان قسمت پنج، پس از دعوت مادر. وضعیت بازی پیشنهادی. زمان هدف۱٫۲۵ثانیه؛ زمان تولید پیشنهادی۴ثانیه اگر در مدل جاری قابل‌انتخاب باشد، وگرنه۸ثانیه فقط پس از مرور قیمت تازه. دوربین و فاصله و جای بدن همان نمای باز سامان، بدون قدم یا نزدیک‌شدن یا تماس. آغاز: نگاه دو نفر هنوز به مادر خارج قاب است. سپس نازلی فقط سر و چشم به سامان ببرد و سامان نگاهش را بگیرد؛ نگرانی ظریف، لب‌ها بسته. میز، چای چپ، کاسه وسط و سینی راست و صندلی‌های مورب ثابت. فرهاد پس از خداحافظی از این محدوده خارج شده است. صدای محیط آرام، بدون گفتار، موسیقی یا خندهٔ اضافه. عکس پایان پذیرفته‌شده مرجع حالت مقصد است و نباید به جای قاب شروع وارد شود. تا قاب شروعِ بدون فرهاد با نگاه رو به مادر آماده و بازبینی نشده، ارسال انجام نشود.'''
@@ -89,7 +103,10 @@ if not has_endstart:endissues.insert(0,'قاب شروعِ بدون فرهاد و
 else:
     endprompt=endprompt.replace('تا قاب شروعِ بدون فرهاد با نگاه رو به مادر آماده و بازبینی نشده، ارسال انجام نشود.','قاب آغاز جداگانه با نگاه هر دو به مادر و بدون فرهاد آماده و بررسی ثابت شده است؛ نقش عکس مقصد با عکس آغاز عوض نشود. حرکت واقعی هنوز بررسی نشده است.')
     (enddir/'prompt.txt').write_text(endprompt,encoding='utf-8')
+if inputs_ready:endissues=[x for x in endissues if not x.startswith('قالب دقیق۹:۱۶')]
 endstate={'shot':'EP05-SH15','take':'take-02','purpose':'separate_silent_ending_not_alternative_mother_dialogue','ready':False,'open_issues':endissues,'checks':{'settings':{'status':'unchecked','evidence':'روش ورودی و مدت در رابط واقعی تأیید نشده.'},'geometry':{'status':'unchecked','evidence':'قالب نهایی۹:۱۶و حرکت واقعی باز است.'},'cost':{'status':'unchecked','evidence':'مجوز و قیمت جاری نداریم.'},'continuity':{'status':'pass' if has_endstart else 'unchecked','evidence':'قاب آغاز و مقصد جدا شدند؛ گزارش leg-depth-review-v1.md بررسی ثابت و محدودیت حرکت را ثبت می‌کند.' if has_endstart else 'قاب آغاز موجود نیست.'}},'bundle_sha256':None,'consumed_attempts':0,'content_approval':{'approved':False},'cost_approval':{'approved':False}}
+if inputs_ready:
+    endstate['checks']['geometry']={'status':'pass','evidence':'قاب‌های آغاز و مقصد با برش دقیق۹:۱۶واقعاً دیده شدند؛ بدون تغییر مقیاس. حرکت واقعی هنوز تولید نشده است.'}
 (enddir/'preflight.md').write_text('# واکنش پایان؛ برداشت جداگانه برای قطعهٔ بی‌کلام\n\n'+ '\n'.join('- '+x for x in endissues)+'\n\n<!-- preflight-state -->\n```json\n'+json.dumps(endstate,ensure_ascii=False,indent=2)+'\n```\n<!-- /preflight-state -->\n',encoding='utf-8')
 bundle={'version':'production-preparation-v1','date':'2026-10-17','status':'blocked_pending_auditory_review_final_inputs_provider_and_cost','duration_seconds':timing['duration_seconds'],'dialogue_jobs':rows,'ending':{'frame_role':'destination_only_not_start','frame':endframe,'prompt':'shots/EP05-SH15/takes/take-02/prompt.txt','preflight':'shots/EP05-SH15/takes/take-02/preflight.md','open_issues':endissues},'question_replay':{'source':'shots/EP05-SH02/sources/EP04-SH12-question-restored-v1.mp4','status':'reuse_candidate_not_auditioned_or_selected','new_generation':False},'cost':{'live_price':None,'approved_ceiling':None,'approved':False,'spent':0},'provider_observation':'2026-10-17: existing episode4 project loaded; Omni1.1Flash visible in model dropdown; defaults16:9 and1 output; no settings saved, no upload, no generation; cost for these jobs not displayed','video_generated':False,'source_audio_edited':False}
 if has_endstart:
@@ -111,6 +128,11 @@ if has_endstart:
     output=output.replace('استفاده از این عکس به‌عنوان آغاز چرخش نگاه تناقض ایجاد می‌کند.','قاب آغاز و مقصد در ابزار جابه‌جا انتخاب نشوند؛ مسیر واقعی چرخش نگاه هنوز تولید نشده.')
     needle=f'<img src="{endframe}" alt="مرجع حالت مقصد نگاه پایانی">'
     output=output.replace(needle,f'<p>آغاز؛ نگاه به مادر</p><img src="{endstart}" alt="قاب آغاز؛ نگاه به مادر بدون فرهاد"><p>مقصد؛ نگاه متقابل</p>'+needle)
+if inputs_ready:
+    output=output.replace('شنیدن ضبط‌ها، قاب دقیقِ آغاز بدرقه، قالب نهایی ورودی و هزینهٔ جاری هنوز باید تکمیل شوند.','قاب‌های دقیق۹:۱۶و طرح اتصال بدرقه آماده و بررسی ثابت شدند؛ بررسی شنیداری، روش و تنظیمات مدل و قیمت جاری هنوز بازند.')
+    output=output.replace('قاب موجود؛ برش نهایی هنوز باز است.','قاب ورودی دقیق۹:۱۶؛ بدون بزرگ‌نمایی یا کشیدگی.')
+    output=output.replace('<h2>قیمت و تنظیمات</h2>','<p><a href="input-frames.html">دیدن همهٔ عکس‌های دقیق۹:۱۶</a> · <a href="farewell-connection.html">دیدن اتصال برخاستن و نگاه مادر</a></p><h2>قیمت و تنظیمات</h2>')
+    output=output.replace('نسخهٔ برش باید قبل از ارسال دیده شوند.','نسخهٔ برش دیده شده‌اند؛ تطبیق رابط قبل از ارسال لازم است.')
 output=output.replace('<h2>پایان بی‌کلام؛ فاصله ثابت</h2>','<h2 id="ending">پایان بی‌کلام؛ فاصله ثابت</h2>')
 (E/'production-review.html').write_text(output,encoding='utf-8')
 print('Built 8 dialogue prompts, separate silent-ending prompt, 9 blocking reports and offline review')

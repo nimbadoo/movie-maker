@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-17",
+  "canonical_dialogue_and_shot_state_unchanged": true,
+  "all_local_links_exist": true,
+  "input_roles": 12,
+  "unique_crop_files": 11,
+  "exact_9_16": true,
+  "source_pixel_crop_equality": true,
+  "images_actually_viewed": true,
+  "farewell_plan_review": "static_only_not_actual_motion",
+  "browser_checks": {
+    "offline": true,
+    "page_errors": [],
+    "mobile_width": 375,
+    "horizontal_overflow": false,
+    "all_images_loaded": true,
+    "input_page_images": 12,
+    "farewell_images": 4,
+    "production_images": 10,
+    "screenshots_viewed": true
+  },
+  "external_credits_used": 0,
+  "video_generated": false
+}

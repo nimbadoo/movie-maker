@@ -87,17 +87,17 @@
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH15": {
-      "path": "shots/EP05-SH15/images/EP05-SH15-start-v1.png",
-      "sha256": "195c24bc87e6621ada8d85c84ff6e9264c550ee4830544cfe074900da7ab3d68",
+      "path": "shots/EP05-SH15/images/EP05-SH15-farewell-start-v2.png",
+      "sha256": "3611567e833bf52e5168011bed33b89caba3bd6afc4ae07e3f57b751a872058d",
       "size": [
         941,
         1672
       ],
       "native_aspect": 0.562799043062201,
       "exact_9_16": false,
-      "generation_id": "Mfarewell",
-      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-936bff17-2440-4b0f-bf9c-3e51a7420bd6.png",
-      "prompt": "shots/EP05-SH15/images/EP05-SH15-start-v1-prompt.txt",
+      "generation_id": "farewell-start-v2",
+      "original_output": "C:/Users/momen/.codex/generated_images/01a14646-f317-7750-8b51-7d15cd8058a6/exec-b87b9aee-5a00-47b5-aa82-4b44248abad9.png",
+      "prompt": "shots/EP05-SH15/images/EP05-SH15-farewell-start-v2-prompt.txt",
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH02": {
@@ -155,12 +155,24 @@
       "generation_id": "EP05-SH15-ending-start-v2",
       "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-9f3bf536-f108-4016-b574-c24fb205436b.png",
       "native_aspect": 0.4607471575527883
+    },
+    "EP05-SH14-RISE": {
+      "path": "shots/EP05-SH14/images/EP05-SH14-rise-reference-v1.png",
+      "sha256": "7d728d4c17f641de325a34a684e805febcda4f73ff89efe9135a2f87895c09ac",
+      "size": [
+        941,
+        1672
+      ],
+      "role": "pose_reference_only_not_generation_start_or_actual_video_frame",
+      "prompt": "shots/EP05-SH14/images/EP05-SH14-rise-reference-v1-prompt.txt",
+      "generation_id": "farhad-rise-reference-v1",
+      "original_output": "C:/Users/momen/.codex/generated_images/01a14646-f317-7750-8b51-7d15cd8058a6/exec-16bc34f6-a33f-4682-afde-5bc310f5311b.png"
     }
   },
   "duration_seconds": 44.5416666667,
   "tool": "builtin image_gen.imagegen",
-  "generated_calls": 24,
-  "generated_final_files": 8,
+  "generated_calls": 26,
+  "generated_final_files": 10,
   "existing_source_extracted_frames": 1,
   "flow_credits_used": 0,
   "builtin_price": "not_exposed",
@@ -206,7 +218,6 @@
     "mother question head direction corrected with rasterized camera diagram"
   ],
   "remaining": [
-    "generated native images941x1672 are near9:16, not mathematically exact; do not claim delivery-ready crop; final framing normalization pending before generation submission",
     "user artistic acceptance of photographs pending",
     "audio and reconstructed-question auditory acceptance pending",
     "real video motion, exit, eye turn, lip sync and ending reaction not produced or checked",
@@ -250,5 +261,7 @@
     "report": "references/leg-depth-repair-v1.json",
     "status": "static_candidate_rechecked_after_prior_error",
     "old_geometry_acceptance_withdrawn": true
-  }
+  },
+  "prepared_input_frames": "references/input-frames-9x16-v1.json",
+  "farewell_connection_review": "references/farewell-connection-v1.json"
 }

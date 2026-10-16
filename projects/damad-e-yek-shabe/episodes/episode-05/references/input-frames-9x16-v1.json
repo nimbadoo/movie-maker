@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-17",
+  "status": "exact_crops_visually_reviewed_not_submission_approval",
+  "method": "Pillow crop only; no scaling, stretching, generative fill or new detail",
+  "user_scope": "prepare exact image format; no video",
+  "assets": {
+    "EP05-SH03": {
+      "source": "shots/EP05-SH03/images/EP05-SH03-start-v1.png",
+      "source_sha256": "3d709adad15e7e7f26e7b96252a5e12c5285dfe6bf2074dd43837f89f8568ea9",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH03/images/EP05-SH03-start-v1-input-9x16-v1.png",
+      "sha256": "4b42c7308dde5420aa1fb643f76f6b8dce94990f351ef504f3cd45511c5befae",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH05": {
+      "source": "shots/EP05-SH05/images/EP05-SH05-start-v4.png",
+      "source_sha256": "8f1a820171d0216d57b81dee59141b8aa305531961cc682abcf2a5901b0fb689",
+      "source_size": [
+        851,
+        1847
+      ],
+      "path": "shots/EP05-SH05/images/EP05-SH05-start-v4-input-9x16-v1.png",
+      "sha256": "bc619b430edb2db6394e259b1f16fa256716bd16d33bfb717ea4231b12144ed6",
+      "size": [
+        846,
+        1504
+      ],
+      "crop_xywh": [
+        2,
+        0,
+        846,
+        1504
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH06": {
+      "source": "shots/EP05-SH06/images/EP05-SH06-start-v1.png",
+      "source_sha256": "19270c19ac82f68a8c97bfb4eb2f84730407981f73ce558ec5d1369e80a6000b",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH06/images/EP05-SH06-start-v1-input-9x16-v1.png",
+      "sha256": "f6700610613db07f282e35319511ea7360479592406ac2bd2edf2d7446927ac8",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH07": {
+      "source": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
+      "source_sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH07/images/EP05-SH07-start-v1-input-9x16-v1.png",
+      "sha256": "304096c0a96d8b099ff4e347ef1d2e9ab2b0022ba0588a78144eb6943ba5a261",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH08": {
+      "source": "shots/EP05-SH08/images/EP05-SH08-start-v1.png",
+      "source_sha256": "400a12e63c68cde912b6b926bc1d4e6c8debcdc3fdb19c0b44cb7d1fbc21aaad",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH08/images/EP05-SH08-start-v1-input-9x16-v1.png",
+      "sha256": "a087f94c98a3b15b2cdfd3b1afeab56cf65bd9917409c8387cd65067103d635d",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH14": {
+      "source": "shots/EP05-SH14/images/EP05-SH14-start-v1.png",
+      "source_sha256": "859384d9155caf42d4a71d5c86c551b6cfebb1138c14115f54aafe29e456c484",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH14/images/EP05-SH14-start-v1-input-9x16-v1.png",
+      "sha256": "0dbee97a82487fd89e4e42749697f240f4292e704b54c5ef4c7c51e4da3b27f6",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH15": {
+      "source": "shots/EP05-SH15/images/EP05-SH15-farewell-start-v2.png",
+      "source_sha256": "3611567e833bf52e5168011bed33b89caba3bd6afc4ae07e3f57b751a872058d",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH15/images/EP05-SH15-farewell-start-v2-input-9x16-v1.png",
+      "sha256": "3d199114869248459ff906a62430db2c65c9508ee210f4d67bf7feee1e929f26",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH02": {
+      "source": "shots/EP05-SH02/images/EP05-SH02-start-reference-v1.png",
+      "source_sha256": "93dd3b9cb9231a8644ca22025da02e40a790a92a19c5e5b7c5950dfba2c9d680",
+      "source_size": [
+        360,
+        640
+      ],
+      "path": "shots/EP05-SH02/images/EP05-SH02-start-reference-v1-input-9x16-v1.png",
+      "sha256": "a7389638a572ba13ca3310c42f2ad161ca3736ffcdc9df23f8a572acdc8f4357",
+      "size": [
+        360,
+        640
+      ],
+      "crop_xywh": [
+        0,
+        0,
+        360,
+        640
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "frame_extracted_from_reconstructed_existing_question",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH10": {
+      "source": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
+      "source_sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH07/images/EP05-SH07-start-v1-input-9x16-v1.png",
+      "sha256": "304096c0a96d8b099ff4e347ef1d2e9ab2b0022ba0588a78144eb6943ba5a261",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "review_candidate_not_approved_generation_input",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH15-END": {
+      "source": "shots/EP05-SH15/images/EP05-SH15-ending-v3.png",
+      "source_sha256": "39ad6cbd68412a1308621c860e7d3853aa06fa58bb86766f9f4bbd06639294f8",
+      "source_size": [
+        851,
+        1847
+      ],
+      "path": "shots/EP05-SH15/images/EP05-SH15-ending-v3-input-9x16-v1.png",
+      "sha256": "3d6268a7ed0d1177cf225af4d075a91814a117c7d1d2e3f57b2a9760b9366a70",
+      "size": [
+        846,
+        1504
+      ],
+      "crop_xywh": [
+        2,
+        0,
+        846,
+        1504
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "proposed_destination_pose_not_motion_or_video_approval",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH15-END-START": {
+      "source": "shots/EP05-SH15/images/EP05-SH15-ending-start-v2.png",
+      "source_sha256": "6f6676efd769546fe30fe31cf48ab993bd70085685cfe221a11a2348180eb324",
+      "source_size": [
+        851,
+        1847
+      ],
+      "path": "shots/EP05-SH15/images/EP05-SH15-ending-start-v2-input-9x16-v1.png",
+      "sha256": "3630ad9901c273d55162ea956cfaaeb79da23504e2eed12f4e8560f27b21c9df",
+      "size": [
+        846,
+        1504
+      ],
+      "crop_xywh": [
+        2,
+        0,
+        846,
+        1504
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "start_pose_candidate_both_look_at_mother_no_farhad",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    },
+    "EP05-SH14-RISE": {
+      "source": "shots/EP05-SH14/images/EP05-SH14-rise-reference-v1.png",
+      "source_sha256": "7d728d4c17f641de325a34a684e805febcda4f73ff89efe9135a2f87895c09ac",
+      "source_size": [
+        941,
+        1672
+      ],
+      "path": "shots/EP05-SH14/images/EP05-SH14-rise-reference-v1-input-9x16-v1.png",
+      "sha256": "e78f5fb9fbdf6927b9b2ce06c95809fa331cecd680be531bd829819f330debfc",
+      "size": [
+        936,
+        1664
+      ],
+      "crop_xywh": [
+        2,
+        4,
+        936,
+        1664
+      ],
+      "resampled": false,
+      "exact_9_16": true,
+      "visual_review": "pass_static_crop_viewed_in_overview_and_wide_frame_full_view",
+      "role": "planned_cut_pose_reference_not_start_frame",
+      "visual_evidence": "references/input-frames-overview-v1.png"
+    }
+  },
+  "source_files_unchanged": true,
+  "video_generated": false,
+  "credits_spent": 0,
+  "verification": {
+    "source_hashes": true,
+    "destination_hashes": true,
+    "source_pixels_equal_crop": true,
+    "all_exact_9_16": true,
+    "all_crops_viewed": true,
+    "native_detail_only": true,
+    "video_generated": false
+  }
+}

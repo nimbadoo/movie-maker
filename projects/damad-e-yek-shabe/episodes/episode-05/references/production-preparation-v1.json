@@ -11,18 +11,18 @@
       "recipient": "فرهادِ نشسته، راست و پایین تصویر",
       "tone": "روان و مطمئن، لبخند کوچک؛ پاسخ کوتاه بدون مکث نمایشی.",
       "action": "نازلی ایستاده در جای ثابت، نگاه راست و پایین به فرهاد؛ دست‌ها پایین. تنها خودش حرف می‌زند.",
-      "frame": "shots/EP05-SH03/images/EP05-SH03-start-v1.png",
-      "frame_sha256": "3d709adad15e7e7f26e7b96252a5e12c5285dfe6bf2074dd43837f89f8568ea9",
+      "frame": "shots/EP05-SH03/images/EP05-SH03-start-v1-input-9x16-v1.png",
+      "frame_sha256": "4b42c7308dde5420aa1fb643f76f6b8dce94990f351ef504f3cd45511c5befae",
       "frame_size": [
-        941,
-        1672
+        936,
+        1664
       ],
       "crop_proposal": {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "width": 936,
         "height": 1664,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/01.m4a",
       "audio_sha256": "1362029a688eddc6a7294a0abe263919adc563dab2e93ca3d623a92e9acd318e",
@@ -52,7 +52,6 @@
       "preflight": "shots/EP05-SH03/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
       ]
@@ -64,18 +63,18 @@
       "recipient": "مادر و فرهادِ نشسته، خارج قاب",
       "tone": "خودمانی و ساده؛ قصد توضیح آشنایی و دعوت جمعی.",
       "action": "سامان چپ و نازلی راست با فاصله ثابت؛ سامان به جمع جواب می‌دهد، سپس نگاه کوتاه به مادر و نازلی؛ نازلی و فرهاد ساکت و بدون حرکت لب گفتاری.",
-      "frame": "shots/EP05-SH05/images/EP05-SH05-start-v4.png",
-      "frame_sha256": "8f1a820171d0216d57b81dee59141b8aa305531961cc682abcf2a5901b0fb689",
+      "frame": "shots/EP05-SH05/images/EP05-SH05-start-v4-input-9x16-v1.png",
+      "frame_sha256": "bc619b430edb2db6394e259b1f16fa256716bd16d33bfb717ea4231b12144ed6",
       "frame_size": [
-        851,
-        1847
+        846,
+        1504
       ],
       "crop_proposal": {
-        "x": 2,
+        "x": 0,
         "y": 0,
         "width": 846,
         "height": 1504,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/02.m4a",
       "audio_sha256": "f79934ba1ea6f61c19c1beb4a9b507f1291394bcd6413e28abb066f78b9e3182",
@@ -105,7 +104,6 @@
       "preflight": "shots/EP05-SH05/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
       ]
@@ -117,18 +115,18 @@
       "recipient": "سامانِ ایستاده، چپ و کمی بالای تصویر",
       "tone": "شوخی ملایم و صمیمی، بدون تمسخر.",
       "action": "نازلی فقط سر و چشم را به سامان می‌برد؛ بدن در جای ثابت، سامان بیرون قاب ساکت.",
-      "frame": "shots/EP05-SH06/images/EP05-SH06-start-v1.png",
-      "frame_sha256": "19270c19ac82f68a8c97bfb4eb2f84730407981f73ce558ec5d1369e80a6000b",
+      "frame": "shots/EP05-SH06/images/EP05-SH06-start-v1-input-9x16-v1.png",
+      "frame_sha256": "f6700610613db07f282e35319511ea7360479592406ac2bd2edf2d7446927ac8",
       "frame_size": [
-        941,
-        1672
+        936,
+        1664
       ],
       "crop_proposal": {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "width": 936,
         "height": 1664,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/03.m4a",
       "audio_sha256": "fcf95433d8be2d1c5c5eddfa405a1df8383f18f7b5f8b6f19fe86cf6fc29e095",
@@ -158,7 +156,6 @@
       "preflight": "shots/EP05-SH06/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
       ]
@@ -170,18 +167,18 @@
       "recipient": "نازلی، راست تصویر",
       "tone": "کمی خجالت‌زده و خندان؛ اعتراف ساده و خبری.",
       "action": "سامان از نگاه به جمع با چرخش کوچک سر و چشم به نازلیِ ایستاده نگاه کند؛ برای خطاب به نازلی نگاه عمودیِ پایین به فرد نشسته نماند. هیچ لیوان یا غذای خاطره وارد قاب نشود.",
-      "frame": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
-      "frame_sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "frame": "shots/EP05-SH07/images/EP05-SH07-start-v1-input-9x16-v1.png",
+      "frame_sha256": "304096c0a96d8b099ff4e347ef1d2e9ab2b0022ba0588a78144eb6943ba5a261",
       "frame_size": [
-        941,
-        1672
+        936,
+        1664
       ],
       "crop_proposal": {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "width": 936,
         "height": 1664,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/04.m4a",
       "audio_sha256": "bc088d7193ad7e99cad9c0c90eb11080fac8a274cc1de05b52bcaf11d50da4ba",
@@ -211,7 +208,6 @@
       "preflight": "shots/EP05-SH07/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم.",
         "ارتفاع نگاه آغاز به فرد نشسته است؛ تغییر مخاطب به نازلی باید با گردش کوچک نگاه در اجرای واقعی کنترل شود."
@@ -224,18 +220,18 @@
       "recipient": "سامانِ ایستاده، چپ و بالای تصویر",
       "tone": "پرسش گرم و شوخ؛ تلفظ روشن «تُندِه»، پایان پرسشی.",
       "action": "مادر نشسته، دست‌های خودش روی پا، سر و چشم چپ و بالا به سامان؛ دیگران خارج قاب و ساکت.",
-      "frame": "shots/EP05-SH08/images/EP05-SH08-start-v1.png",
-      "frame_sha256": "400a12e63c68cde912b6b926bc1d4e6c8debcdc3fdb19c0b44cb7d1fbc21aaad",
+      "frame": "shots/EP05-SH08/images/EP05-SH08-start-v1-input-9x16-v1.png",
+      "frame_sha256": "a087f94c98a3b15b2cdfd3b1afeab56cf65bd9917409c8387cd65067103d635d",
       "frame_size": [
-        941,
-        1672
+        936,
+        1664
       ],
       "crop_proposal": {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "width": 936,
         "height": 1664,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/05.m4a",
       "audio_sha256": "ad38cf259a661af224e6f4d4b155d0a49a50fdf69242090d8685a681c7cf37b4",
@@ -265,7 +261,6 @@
       "preflight": "shots/EP05-SH08/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
       ]
@@ -277,18 +272,18 @@
       "recipient": "مادرِ نشسته، راست و پایین تصویر",
       "tone": "مؤدب و خودمانی، لبخند کم؛ «غُر نَزَنَم» خبری و روشن.",
       "action": "سامان به مادر نگاه کند؛ پس از جمله دهان بسته و لبخند کوچک. خنده کوتاه مادر و نازلی خارج قاب فقط پس از تمام‌شدن جمله و بدون گفتار اضافه؛ اگر هویت خنده درست اجرا نشد در تدوین از منبع پذیرفته استفاده شود، منبع خنده فعلاً موجود نیست.",
-      "frame": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
-      "frame_sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "frame": "shots/EP05-SH07/images/EP05-SH07-start-v1-input-9x16-v1.png",
+      "frame_sha256": "304096c0a96d8b099ff4e347ef1d2e9ab2b0022ba0588a78144eb6943ba5a261",
       "frame_size": [
-        941,
-        1672
+        936,
+        1664
       ],
       "crop_proposal": {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "width": 936,
         "height": 1664,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/06.m4a",
       "audio_sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
@@ -318,7 +313,6 @@
       "preflight": "shots/EP05-SH10/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
       ]
@@ -329,19 +323,19 @@
       "text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
       "recipient": "جمع، سپس مادر",
       "tone": "خوش‌برخورد و عادی؛ دلخوری با اخم یا مکث سنگین نشان داده نشود.",
-      "action": "آغاز نشسته با دو دست روی ران خود. ابتدا جمله کامل؛ نزدیک پایانِ بخش «مُرَخَّص بِشَم» آرام به جلو خم شود، کف پا روی زمین، وزن به پاها و آغاز بلندشدن. در پایان هنوز حرکت رو به بالا ادامه دارد؛ جهش یا برگشت به نشستن ممنوع. خروج کامل لازم نیست.",
-      "frame": "shots/EP05-SH14/images/EP05-SH14-start-v1.png",
-      "frame_sha256": "859384d9155caf42d4a71d5c86c551b6cfebb1138c14115f54aafe29e456c484",
+      "action": "آغاز نشسته، دو دست روی ران خود. در آخرین بخش جمله، حدود ثانیه۲٫۹تا۴٫۱۲۵ِ سهم تدوین، به جلو متمایل شود، وزن روی پاها و لگن از نشیمن جدا شود؛ روی ادامهٔ حرکت رو به بالا قطع شود، نه پس از بازگشت به نشستن. مرجع ثابت برخاستن فقط راهنمای حالت است و فریم واقعی خروجی نیست. هر دو دست روی ران خود بمانند، تماس با میز و عبور اندام از کاناپه ممنوع؛ نگاه به جمع و سپس مادر، بدون اخم. زمان‌های کنش پیشنهادی‌اند و با اجرای واقعی تطبیق می‌خواهند.",
+      "frame": "shots/EP05-SH14/images/EP05-SH14-start-v1-input-9x16-v1.png",
+      "frame_sha256": "0dbee97a82487fd89e4e42749697f240f4292e704b54c5ef4c7c51e4da3b27f6",
       "frame_size": [
-        941,
-        1672
+        936,
+        1664
       ],
       "crop_proposal": {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "width": 936,
         "height": 1664,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/07.m4a",
       "audio_sha256": "0e72ad31bd55764d41fb1fb6198149f2d96ba99974dec738cd32f90612f62d1f",
@@ -367,11 +361,10 @@
         }
       },
       "prompt": "shots/EP05-SH14/takes/take-01/prompt.txt",
-      "prompt_sha256": "a587ab5d74b4144290fe58be29a1e6c0ce17b7f0fb30833741debddddb599ab8",
+      "prompt_sha256": "7cc9ca592b88213c4b19f81bcddbe95d03e5ba04dacab30b9dfd1fb50fce5d75",
       "preflight": "shots/EP05-SH14/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
       ]
@@ -382,19 +375,19 @@
       "text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
       "recipient": "ابتدا فرهادِ درحال برخاستن در راست، سپس سامانِ ایستاده در چپ",
       "tone": "بدرقه گرم، سپس پیگیری دعوت با لحن عادی و روشن.",
-      "action": "در «بُرو بِه سَلامَت، عَزیزَم» مادر نگاه راست را همراه صاف‌شدن فرهاد آرام بالا ببرد، نه از ابتدا سر شدیداً عقب. پس از پایان بدرقه، گردش طبیعی چشم و سر به چپ و بالای تصویر، سپس جمله خطاب به سامان. فرهاد خارج کادر از کنار شرقی میز به راهرو می‌رود؛ در و عبور از وسط میز نشان داده نشود. مادر نشسته و دست‌ها روی پای خودش بماند.",
-      "frame": "shots/EP05-SH15/images/EP05-SH15-start-v1.png",
-      "frame_sha256": "195c24bc87e6621ada8d85c84ff6e9264c550ee4830544cfe074900da7ab3d68",
+      "action": "آغاز با نگاه ملایم به راست و کمی بالا به فرهادِ درحال برخاستن؛ مادر در «بُرو بِه سَلامَت، عَزیزَم» چشم و سر را آرام با ادامهٔ بالا رفتن او دنبال کند، نه جهش ناگهانی گردن. بعدِ پایان بدرقه و در مکث موجود، حدود ثانیه۲٫۰تا۲٫۵ِ سهم تدوین، نگاه به چپ و بالا برای سامان برگردد؛ بخش خطاب به سامان پس از گردش نگاه شروع شود. مکث و زمان‌ها بر پایهٔ تشخیص فعالیت گفتار پیشنهادی‌اند، نه تطبیق شنیداری قطعی. مادر نشسته و دست‌ها روی پای خودش؛ فرهاد خارج قاب از کنار شرقی میز می‌رود، در و عبور از وسط میز نشان داده نشود.",
+      "frame": "shots/EP05-SH15/images/EP05-SH15-farewell-start-v2-input-9x16-v1.png",
+      "frame_sha256": "3d199114869248459ff906a62430db2c65c9508ee210f4d67bf7feee1e929f26",
       "frame_size": [
-        941,
-        1672
+        936,
+        1664
       ],
       "crop_proposal": {
-        "x": 2,
-        "y": 4,
+        "x": 0,
+        "y": 0,
         "width": 936,
         "height": 1664,
-        "status": "proposal_not_applied_or_visually_approved"
+        "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/08.m4a",
       "audio_sha256": "f532f7cc14fb54ee6c86214f0fc4870eafc61b1f1fcb8be015e76dfe2ffc02ed",
@@ -420,29 +413,26 @@
         }
       },
       "prompt": "shots/EP05-SH15/takes/take-01/prompt.txt",
-      "prompt_sha256": "d750de9ad07fa06f6414c7efdc5f76ddb7c5a44a18fd639c94cc201a3fc0949d",
+      "prompt_sha256": "b1b587ab9a1f95b7e71d124349eba4371654ef44b50d28c654d26a04e01b81f2",
       "preflight": "shots/EP05-SH15/takes/take-01/preflight.md",
       "open_issues": [
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
-        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
-        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم.",
-        "قاب مادر از ابتدا رو به بالا است؛ برای نمایش دنبال‌کردنِ حرکت فرهاد، قاب آغاز با نگاهِ میانهٔ برخاستن باید آماده و دیده شود، یا اتصال واقعی برداشت بر اساس پایان حرکت فرهاد بررسی شود."
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
       ]
     }
   ],
   "ending": {
     "frame_role": "destination_only_not_start",
-    "frame": "shots/EP05-SH15/images/EP05-SH15-ending-v3.png",
+    "frame": "shots/EP05-SH15/images/EP05-SH15-ending-v3-input-9x16-v1.png",
     "prompt": "shots/EP05-SH15/takes/take-02/prompt.txt",
     "preflight": "shots/EP05-SH15/takes/take-02/preflight.md",
     "open_issues": [
       "روش ورودی پایان/دو قاب، مدت و قیمت مدل باید در رابط واقعی بررسی شوند.",
-      "قالب دقیق۹:۱۶و نسخهٔ برش باید قبل از ارسال دیده شوند.",
       "مجوز تولید و هزینه وجود ندارد."
     ],
-    "start_frame": "shots/EP05-SH15/images/EP05-SH15-ending-start-v2.png",
-    "start_frame_sha256": "6f6676efd769546fe30fe31cf48ab993bd70085685cfe221a11a2348180eb324",
+    "start_frame": "shots/EP05-SH15/images/EP05-SH15-ending-start-v2-input-9x16-v1.png",
+    "start_frame_sha256": "3630ad9901c273d55162ea956cfaaeb79da23504e2eed12f4e8560f27b21c9df",
     "start_frame_role": "start_pose_both_look_at_mother_no_farhad"
   },
   "question_replay": {
