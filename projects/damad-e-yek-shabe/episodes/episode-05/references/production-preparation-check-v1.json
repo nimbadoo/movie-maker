@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-17",
+  "checks": [
+    {
+      "shot": "EP05-SH03",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    },
+    {
+      "shot": "EP05-SH05",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    },
+    {
+      "shot": "EP05-SH06",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    },
+    {
+      "shot": "EP05-SH07",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    },
+    {
+      "shot": "EP05-SH08",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    },
+    {
+      "shot": "EP05-SH10",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    },
+    {
+      "shot": "EP05-SH14",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    },
+    {
+      "shot": "EP05-SH15",
+      "audio_full_decode": "pass",
+      "canonical_state_unchanged": true,
+      "prompt_sha256_verified": true,
+      "audition": "not_performed"
+    }
+  ],
+  "local_links": "all_exist",
+  "browser": {
+    "cards": 9,
+    "audio_players_loaded": 8,
+    "prompts": 9,
+    "all_images_loaded": true,
+    "offline": true,
+    "mobile_width": 375,
+    "horizontal_overflow": false,
+    "page_errors": [],
+    "details_opened": true,
+    "screenshots_viewed": true
+  },
+  "aac_note": "Browser duration metadata about44ms greater than decoded duration; no cut boundaries changed based on browser display; auditory review unresolved",
+  "submission_gate": "BLOCKED: No active submission request or new cost approval",
+  "generated_video": false,
+  "credits_spent": 0
+}

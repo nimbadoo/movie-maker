@@ -1,0 +1,460 @@
+{
+  "version": "production-preparation-v1",
+  "date": "2026-10-17",
+  "status": "blocked_pending_auditory_review_final_inputs_provider_and_cost",
+  "duration_seconds": 44.541666666666664,
+  "dialogue_jobs": [
+    {
+      "shot": "EP05-SH03",
+      "speaker": "نازلی",
+      "text": "ساندویچیِ سَرِ کوچه.",
+      "recipient": "فرهادِ نشسته، راست و پایین تصویر",
+      "tone": "روان و مطمئن، لبخند کوچک؛ پاسخ کوتاه بدون مکث نمایشی.",
+      "action": "نازلی ایستاده در جای ثابت، نگاه راست و پایین به فرهاد؛ دست‌ها پایین. تنها خودش حرف می‌زند.",
+      "frame": "shots/EP05-SH03/images/EP05-SH03-start-v1.png",
+      "frame_sha256": "3d709adad15e7e7f26e7b96252a5e12c5285dfe6bf2074dd43837f89f8568ea9",
+      "frame_size": [
+        941,
+        1672
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 4,
+        "width": 936,
+        "height": 1664,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/01.m4a",
+      "audio_sha256": "1362029a688eddc6a7294a0abe263919adc563dab2e93ca3d623a92e9acd318e",
+      "source_in": 0.75,
+      "source_out": 3.25,
+      "start": 4.583333,
+      "end": 7.083333,
+      "edit_seconds": 2.5,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH03/takes/take-01/prompt.txt",
+      "prompt_sha256": "1f86448b99d548b6cafde1956036b75e9e3f35b1dd3fcb5a1bc8c6bb77c8714c",
+      "preflight": "shots/EP05-SH03/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
+      ]
+    },
+    {
+      "shot": "EP05-SH05",
+      "speaker": "سامان",
+      "text": "روزِ اَسباب‌کِشی کُمَکِشون کَردَم. نازْلی و مادَرِش گُفتَن شام مِهمونِ ما.",
+      "recipient": "مادر و فرهادِ نشسته، خارج قاب",
+      "tone": "خودمانی و ساده؛ قصد توضیح آشنایی و دعوت جمعی.",
+      "action": "سامان چپ و نازلی راست با فاصله ثابت؛ سامان به جمع جواب می‌دهد، سپس نگاه کوتاه به مادر و نازلی؛ نازلی و فرهاد ساکت و بدون حرکت لب گفتاری.",
+      "frame": "shots/EP05-SH05/images/EP05-SH05-start-v3.png",
+      "frame_sha256": "8628517fac7c7cfa300e177c86f1b67d2999a70eb71393e53fcbbe4795a0cc7f",
+      "frame_size": [
+        851,
+        1847
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 0,
+        "width": 846,
+        "height": 1504,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/02.m4a",
+      "audio_sha256": "f79934ba1ea6f61c19c1beb4a9b507f1291394bcd6413e28abb066f78b9e3182",
+      "source_in": 0.9583333333333334,
+      "source_out": 7.416666666666667,
+      "start": 7.083333,
+      "end": 13.541667,
+      "edit_seconds": 6.458333,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH05/takes/take-01/prompt.txt",
+      "prompt_sha256": "bf7c4811ac6f4d4a63f25b08b4fb5acf9f444d7a777a250b8e6cf427e2752cf6",
+      "preflight": "shots/EP05-SH05/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
+      ]
+    },
+    {
+      "shot": "EP05-SH06",
+      "speaker": "نازلی",
+      "text": "تو که بیشتَر آب خوردی تا ساندویچ.",
+      "recipient": "سامانِ ایستاده، چپ و کمی بالای تصویر",
+      "tone": "شوخی ملایم و صمیمی، بدون تمسخر.",
+      "action": "نازلی فقط سر و چشم را به سامان می‌برد؛ بدن در جای ثابت، سامان بیرون قاب ساکت.",
+      "frame": "shots/EP05-SH06/images/EP05-SH06-start-v1.png",
+      "frame_sha256": "19270c19ac82f68a8c97bfb4eb2f84730407981f73ce558ec5d1369e80a6000b",
+      "frame_size": [
+        941,
+        1672
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 4,
+        "width": 936,
+        "height": 1664,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/03.m4a",
+      "audio_sha256": "fcf95433d8be2d1c5c5eddfa405a1df8383f18f7b5f8b6f19fe86cf6fc29e095",
+      "source_in": 1.0,
+      "source_out": 4.125,
+      "start": 13.541667,
+      "end": 16.666667,
+      "edit_seconds": 3.125,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH06/takes/take-01/prompt.txt",
+      "prompt_sha256": "0a80ccd33f760e23364219618df254c4251aae02430d773236781ef4acad8408",
+      "preflight": "shots/EP05-SH06/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
+      ]
+    },
+    {
+      "shot": "EP05-SH07",
+      "speaker": "سامان",
+      "text": "دَهَنَم می‌سوخت. اَشتِباه کَردَم تُند سِفارش دادَم.",
+      "recipient": "نازلی، راست تصویر",
+      "tone": "کمی خجالت‌زده و خندان؛ اعتراف ساده و خبری.",
+      "action": "سامان از نگاه به جمع با چرخش کوچک سر و چشم به نازلیِ ایستاده نگاه کند؛ برای خطاب به نازلی نگاه عمودیِ پایین به فرد نشسته نماند. هیچ لیوان یا غذای خاطره وارد قاب نشود.",
+      "frame": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
+      "frame_sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "frame_size": [
+        941,
+        1672
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 4,
+        "width": 936,
+        "height": 1664,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/04.m4a",
+      "audio_sha256": "bc088d7193ad7e99cad9c0c90eb11080fac8a274cc1de05b52bcaf11d50da4ba",
+      "source_in": 0.5,
+      "source_out": 5.333333333333333,
+      "start": 16.666667,
+      "end": 21.5,
+      "edit_seconds": 4.833333,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH07/takes/take-01/prompt.txt",
+      "prompt_sha256": "97e821b2b05efbb7e17fecdbf0c9b2acc3f22eed9f19222c39cda640abc00dee",
+      "preflight": "shots/EP05-SH07/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم.",
+        "ارتفاع نگاه آغاز به فرد نشسته است؛ تغییر مخاطب به نازلی باید با گردش کوچک نگاه در اجرای واقعی کنترل شود."
+      ]
+    },
+    {
+      "shot": "EP05-SH08",
+      "speaker": "مادر",
+      "text": "پَس چرا هَرچی می‌پُرسیدَم تُندِه، می‌گُفتی نَه؟",
+      "recipient": "سامانِ ایستاده، چپ و بالای تصویر",
+      "tone": "پرسش گرم و شوخ؛ تلفظ روشن «تُندِه»، پایان پرسشی.",
+      "action": "مادر نشسته، دست‌های خودش روی پا، سر و چشم چپ و بالا به سامان؛ دیگران خارج قاب و ساکت.",
+      "frame": "shots/EP05-SH08/images/EP05-SH08-start-v1.png",
+      "frame_sha256": "400a12e63c68cde912b6b926bc1d4e6c8debcdc3fdb19c0b44cb7d1fbc21aaad",
+      "frame_size": [
+        941,
+        1672
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 4,
+        "width": 936,
+        "height": 1664,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/05.m4a",
+      "audio_sha256": "ad38cf259a661af224e6f4d4b155d0a49a50fdf69242090d8685a681c7cf37b4",
+      "source_in": 0.7083333333333334,
+      "source_out": 5.375,
+      "start": 21.5,
+      "end": 26.166667,
+      "edit_seconds": 4.666667,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH08/takes/take-01/prompt.txt",
+      "prompt_sha256": "406ef44503d391eded5629131a1b70aa5233f47a0dc29c6c200e2fd062afe6c7",
+      "preflight": "shots/EP05-SH08/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
+      ]
+    },
+    {
+      "shot": "EP05-SH10",
+      "speaker": "سامان",
+      "text": "گُفتَم اوّلین شامی که مِهمونِتونَم، غُر نَزَنَم.",
+      "recipient": "مادرِ نشسته، راست و پایین تصویر",
+      "tone": "مؤدب و خودمانی، لبخند کم؛ «غُر نَزَنَم» خبری و روشن.",
+      "action": "سامان به مادر نگاه کند؛ پس از جمله دهان بسته و لبخند کوچک. خنده کوتاه مادر و نازلی خارج قاب فقط پس از تمام‌شدن جمله و بدون گفتار اضافه؛ اگر هویت خنده درست اجرا نشد در تدوین از منبع پذیرفته استفاده شود، منبع خنده فعلاً موجود نیست.",
+      "frame": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
+      "frame_sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "frame_size": [
+        941,
+        1672
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 4,
+        "width": 936,
+        "height": 1664,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/06.m4a",
+      "audio_sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
+      "source_in": 0.8333333333333334,
+      "source_out": 5.708333333333333,
+      "start": 26.166667,
+      "end": 31.041667,
+      "edit_seconds": 5.5,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH10/takes/take-01/prompt.txt",
+      "prompt_sha256": "7ccab26381a49ae056cbdc35bf471b2b0656e9621a17a2b41fa6040809e96b3d",
+      "preflight": "shots/EP05-SH10/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
+      ]
+    },
+    {
+      "shot": "EP05-SH14",
+      "speaker": "فرهاد",
+      "text": "خِیلی هَم عالی. مَنَم کَم‌کَم مُرَخَّص بِشَم.",
+      "recipient": "جمع، سپس مادر",
+      "tone": "خوش‌برخورد و عادی؛ دلخوری با اخم یا مکث سنگین نشان داده نشود.",
+      "action": "آغاز نشسته با دو دست روی ران خود. ابتدا جمله کامل؛ نزدیک پایانِ بخش «مُرَخَّص بِشَم» آرام به جلو خم شود، کف پا روی زمین، وزن به پاها و آغاز بلندشدن. در پایان هنوز حرکت رو به بالا ادامه دارد؛ جهش یا برگشت به نشستن ممنوع. خروج کامل لازم نیست.",
+      "frame": "shots/EP05-SH14/images/EP05-SH14-start-v1.png",
+      "frame_sha256": "859384d9155caf42d4a71d5c86c551b6cfebb1138c14115f54aafe29e456c484",
+      "frame_size": [
+        941,
+        1672
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 4,
+        "width": 936,
+        "height": 1664,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/07.m4a",
+      "audio_sha256": "0e72ad31bd55764d41fb1fb6198149f2d96ba99974dec738cd32f90612f62d1f",
+      "source_in": 0.7916666666666666,
+      "source_out": 4.916666666666667,
+      "start": 31.666667,
+      "end": 35.791667,
+      "edit_seconds": 4.125,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH14/takes/take-01/prompt.txt",
+      "prompt_sha256": "a587ab5d74b4144290fe58be29a1e6c0ce17b7f0fb30833741debddddb599ab8",
+      "preflight": "shots/EP05-SH14/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
+      ]
+    },
+    {
+      "shot": "EP05-SH15",
+      "speaker": "مادر",
+      "text": "بُرو بِه سَلامَت، عَزیزَم. سامان، پَس با مادَرِت حَرْف بِزَن، بِبین فَردا می‌تونِه بیاد؟",
+      "recipient": "ابتدا فرهادِ درحال برخاستن در راست، سپس سامانِ ایستاده در چپ",
+      "tone": "بدرقه گرم، سپس پیگیری دعوت با لحن عادی و روشن.",
+      "action": "در «بُرو بِه سَلامَت، عَزیزَم» مادر نگاه راست را همراه صاف‌شدن فرهاد آرام بالا ببرد، نه از ابتدا سر شدیداً عقب. پس از پایان بدرقه، گردش طبیعی چشم و سر به چپ و بالای تصویر، سپس جمله خطاب به سامان. فرهاد خارج کادر از کنار شرقی میز به راهرو می‌رود؛ در و عبور از وسط میز نشان داده نشود. مادر نشسته و دست‌ها روی پای خودش بماند.",
+      "frame": "shots/EP05-SH15/images/EP05-SH15-start-v1.png",
+      "frame_sha256": "195c24bc87e6621ada8d85c84ff6e9264c550ee4830544cfe074900da7ab3d68",
+      "frame_size": [
+        941,
+        1672
+      ],
+      "crop_proposal": {
+        "x": 2,
+        "y": 4,
+        "width": 936,
+        "height": 1664,
+        "status": "proposal_not_applied_or_visually_approved"
+      },
+      "audio": "dialogs-input/08.m4a",
+      "audio_sha256": "f532f7cc14fb54ee6c86214f0fc4870eafc61b1f1fcb8be015e76dfe2ffc02ed",
+      "source_in": 0.75,
+      "source_out": 8.25,
+      "start": 35.791667,
+      "end": 43.291667,
+      "edit_seconds": 7.5,
+      "settings": {
+        "status": "proposed_not_live_verified",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 8,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "cost": {
+          "per_attempt": null,
+          "ceiling": null,
+          "attempts": 1,
+          "approved": false
+        }
+      },
+      "prompt": "shots/EP05-SH15/takes/take-01/prompt.txt",
+      "prompt_sha256": "d750de9ad07fa06f6414c7efdc5f76ddb7c5a44a18fd639c94cc201a3fc0949d",
+      "preflight": "shots/EP05-SH15/takes/take-01/preflight.md",
+      "open_issues": [
+        "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
+        "نسخه دقیق۹:۱۶و برش واقعی ورودی هنوز اعمال و بازبینی نشده است.",
+        "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
+        "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم.",
+        "قاب مادر از ابتدا رو به بالا است؛ برای نمایش دنبال‌کردنِ حرکت فرهاد، قاب آغاز با نگاهِ میانهٔ برخاستن باید آماده و دیده شود، یا اتصال واقعی برداشت بر اساس پایان حرکت فرهاد بررسی شود."
+      ]
+    }
+  ],
+  "ending": {
+    "frame_role": "destination_only_not_start",
+    "frame": "shots/EP05-SH15/images/EP05-SH15-ending-v2.png",
+    "prompt": "shots/EP05-SH15/takes/take-02/prompt.txt",
+    "preflight": "shots/EP05-SH15/takes/take-02/preflight.md",
+    "open_issues": [
+      "قاب شروعِ بدون فرهاد و با نگاه به مادر آماده نشده؛ عکس موجود حالت مقصد است.",
+      "روش ورودی پایان/دو قاب، مدت و قیمت مدل باید در رابط واقعی بررسی شوند.",
+      "قالب دقیق۹:۱۶و نسخهٔ برش باید قبل از ارسال دیده شوند.",
+      "مجوز تولید و هزینه وجود ندارد."
+    ]
+  },
+  "question_replay": {
+    "source": "shots/EP05-SH02/sources/EP04-SH12-question-restored-v1.mp4",
+    "status": "reuse_candidate_not_auditioned_or_selected",
+    "new_generation": false
+  },
+  "cost": {
+    "live_price": null,
+    "approved_ceiling": null,
+    "approved": false,
+    "spent": 0
+  },
+  "provider_observation": "2026-10-17: existing episode4 project loaded; Omni1.1Flash visible in model dropdown; defaults16:9 and1 output; no settings saved, no upload, no generation; cost for these jobs not displayed",
+  "video_generated": false,
+  "source_audio_edited": false
+}
