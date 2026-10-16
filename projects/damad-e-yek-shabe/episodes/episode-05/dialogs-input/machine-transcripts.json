@@ -23,7 +23,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "واژهٔ مورد انتظار در هر دو اجرا استخراج شد.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "02.m4a",
@@ -67,7 +70,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "ساختار جمله نزدیک است؛ «اسم جا نیست» چسبیده و با املای غلط ثبت شد.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "03.m4a",
@@ -183,7 +189,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "اجزای خاطره تشخیص داده شدند؛ واژه‌های ساختمون، اسباب‌کشی و مطالعه‌ش ناپایدارند.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "04.m4a",
@@ -239,7 +248,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "معنای جمله نزدیک است؛ نگران و درستش می‌کنم خطای تشخیص دارند.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "05.m4a",
@@ -331,7 +343,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "اجرای مستقل آشفته است؛ اجرای پیوسته گرفتن شماره و یافتن مشابه را بهتر تشخیص داد.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "06.m4a",
@@ -387,7 +402,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "پرسش دربارهٔ شکستن چراغ در هر دو اجرا نزدیک است؛ آهان به جای آها قطعی نیست.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "07.m4a",
@@ -449,7 +467,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "معنا در اجرای مستقل نزدیک است؛ اجرای پیوسته این جمله را جا انداخت.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "08.m4a",
@@ -499,7 +520,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "اجرای مستقل بسیار نامطمئن است؛ اجرای پیوسته این جمله را جا انداخت.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "09.m4a",
@@ -567,7 +591,10 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "عبارت‌های خداحافظی در هر دو اجرا نزدیک‌اند؛ املاهای غلط، شاهد تلفظ غلط نیستند.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   },
   {
     "file": "10.m4a",
@@ -677,6 +704,9 @@
       }
     ],
     "auditory_review": "not_performed",
-    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps"
+    "method": "faster-whisper small CPU int8 local_files_only; fa beam5 no prompt no VAD word timestamps",
+    "text_review_note": "اجرای پیوسته درخواست صحبت با مادر و آمدن فردا را بهتر استخراج کرد؛ بدرقه ناپایدار است.",
+    "tone_review": "not_performed",
+    "pronunciation_review": "not_performed"
   }
 ]

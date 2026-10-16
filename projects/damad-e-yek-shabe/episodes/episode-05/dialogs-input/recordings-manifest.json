@@ -48,7 +48,11 @@
         "end": 1.666,
         "status": "provisional_unheard_do_not_apply",
         "duration": 0.969
-      }
+      },
+      "machine_text_review": "واژهٔ مورد انتظار در هر دو اجرا استخراج شد.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "02.m4a",
@@ -98,7 +102,11 @@
         "end": 2.751,
         "status": "provisional_unheard_do_not_apply",
         "duration": 2.237
-      }
+      },
+      "machine_text_review": "ساختار جمله نزدیک است؛ «اسم جا نیست» چسبیده و با املای غلط ثبت شد.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "03.m4a",
@@ -168,7 +176,11 @@
         "end": 8.002,
         "status": "provisional_unheard_do_not_apply",
         "duration": 7.149
-      }
+      },
+      "machine_text_review": "اجزای خاطره تشخیص داده شدند؛ واژه‌های ساختمون، اسباب‌کشی و مطالعه‌ش ناپایدارند.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "04.m4a",
@@ -218,7 +230,11 @@
         "end": 4.26,
         "status": "provisional_unheard_do_not_apply",
         "duration": 3.189
-      }
+      },
+      "machine_text_review": "معنای جمله نزدیک است؛ نگران و درستش می‌کنم خطای تشخیص دارند.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "05.m4a",
@@ -284,7 +300,11 @@
         "end": 5.142,
         "status": "provisional_unheard_do_not_apply",
         "duration": 5.142
-      }
+      },
+      "machine_text_review": "اجرای مستقل آشفته است؛ اجرای پیوسته گرفتن شماره و یافتن مشابه را بهتر تشخیص داد.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "06.m4a",
@@ -334,7 +354,11 @@
         "end": 3.431,
         "status": "provisional_unheard_do_not_apply",
         "duration": 2.812
-      }
+      },
+      "machine_text_review": "پرسش دربارهٔ شکستن چراغ در هر دو اجرا نزدیک است؛ آهان به جای آها قطعی نیست.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "07.m4a",
@@ -392,7 +416,11 @@
         "end": 4.07,
         "status": "provisional_unheard_do_not_apply",
         "duration": 4.07
-      }
+      },
+      "machine_text_review": "معنا در اجرای مستقل نزدیک است؛ اجرای پیوسته این جمله را جا انداخت.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "08.m4a",
@@ -442,7 +470,11 @@
         "end": 2.902,
         "status": "provisional_unheard_do_not_apply",
         "duration": 2.902
-      }
+      },
+      "machine_text_review": "اجرای مستقل بسیار نامطمئن است؛ اجرای پیوسته این جمله را جا انداخت.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "09.m4a",
@@ -508,7 +540,11 @@
         "end": 4.636,
         "status": "provisional_unheard_do_not_apply",
         "duration": 4.466
-      }
+      },
+      "machine_text_review": "عبارت‌های خداحافظی در هر دو اجرا نزدیک‌اند؛ املاهای غلط، شاهد تلفظ غلط نیستند.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     },
     {
       "file": "10.m4a",
@@ -574,7 +610,11 @@
         "end": 7.151,
         "status": "provisional_unheard_do_not_apply",
         "duration": 6.485
-      }
+      },
+      "machine_text_review": "اجرای پیوسته درخواست صحبت با مادر و آمدن فردا را بهتر استخراج کرد؛ بدرقه ناپایدار است.",
+      "machine_transcript_source": "machine-transcripts.json",
+      "tone_review": "not_performed",
+      "pronunciation_review": "not_performed"
     }
   ],
   "total_file_seconds": 48.074,
