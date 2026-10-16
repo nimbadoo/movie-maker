@@ -1,0 +1,137 @@
+{
+  "file": "06.m4a",
+  "shot": "EP03-SH06",
+  "source_sha256": "cb5b15872fbf151940a5439105427d87fee0b466dc8573ed9566a6397f0519fc",
+  "duration_seconds": 4.7986875,
+  "speaker_from_card": "سامان",
+  "approved_text_from_card": "مَن بِه نازْلی عَلاقِه دارَم. بَرایِ هَمین هَم اومَدَم با شُما حَرْف بِزَنَم.",
+  "machine_transcript": "من به نازلی علاقه دارم. برای همینم اومدم با شما حرف بزنم.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.34,
+      "text": " من به نازلی علاقه دارم. برای همینم اومدم با شما حرف بزنم.",
+      "tokens": [
+        50365,
+        9154,
+        39627,
+        8717,
+        31377,
+        1211,
+        4135,
+        11203,
+        995,
+        4587,
+        3224,
+        11778,
+        9640,
+        2304,
+        13,
+        4724,
+        23557,
+        4135,
+        8032,
+        2304,
+        32151,
+        2304,
+        1975,
+        20498,
+        40448,
+        4724,
+        995,
+        13412,
+        15042,
+        11331,
+        28480,
+        4724,
+        11622,
+        1863,
+        2304,
+        13,
+        50583
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.08891936352378443,
+      "compression_ratio": 1.188235294117647,
+      "no_speech_prob": 8.262873024689199e-11,
+      "words": [
+        {
+          "word": " من",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.984375
+        },
+        {
+          "word": " به",
+          "start": 0.46,
+          "end": 0.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " نازلی",
+          "start": 0.58,
+          "end": 0.98,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " علاقه",
+          "start": 0.98,
+          "end": 1.4,
+          "probability": 0.931640625
+        },
+        {
+          "word": " دارم.",
+          "start": 1.4,
+          "end": 1.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " برای",
+          "start": 1.84,
+          "end": 2.16,
+          "probability": 1.0
+        },
+        {
+          "word": " همینم",
+          "start": 2.16,
+          "end": 2.62,
+          "probability": 0.8779296875
+        },
+        {
+          "word": " اومدم",
+          "start": 2.62,
+          "end": 2.98,
+          "probability": 0.96630859375
+        },
+        {
+          "word": " با",
+          "start": 2.98,
+          "end": 3.22,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " شما",
+          "start": 3.22,
+          "end": 3.44,
+          "probability": 1.0
+        },
+        {
+          "word": " حرف",
+          "start": 3.44,
+          "end": 3.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " بزنم.",
+          "start": 3.82,
+          "end": 4.34,
+          "probability": 0.99365234375
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

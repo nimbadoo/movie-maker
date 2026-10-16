@@ -1,0 +1,108 @@
+{
+  "skill": "compile-generation-prompts",
+  "status": "selected_with_known_eye_shift_limitation",
+  "data": {
+    "shot_ir": {
+      "segment": "EP03-SH18",
+      "beat": "EP03-final-reaction",
+      "asset_ids": [
+        "CH-NAZ",
+        "CH-SAM",
+        "house-v2"
+      ],
+      "dialogue": null,
+      "performance": "restrained concern3/5, short gaze shift mother to Saman, no speech",
+      "camera": "static close eye-level",
+      "target_edit_seconds": [
+        0.8,
+        1.2
+      ]
+    },
+    "storyboard_frames": [
+      {
+        "id": "EP03-SH18-v4",
+        "path": "images/EP03-SH18-close-house-v4.png",
+        "sha256": "a05a3f32f183b91945040a29284a7797d72ac017ac2a68e59d6c48e60ee69c41"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "segment": "EP03-SH18",
+        "beat": "EP03-final-reaction",
+        "asset_ids": [
+          "CH-NAZ",
+          "CH-SAM",
+          "house-v2"
+        ],
+        "prompt": "takes/take-01/prompt.txt",
+        "mode": "image-to-video",
+        "first_frame": "images/EP03-SH18-close-house-v4.png"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 4,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "price": 4,
+        "submit": false,
+        "reference_roles": {
+          "images/EP03-SH18-close-house-v4.png": "first_frame"
+        },
+        "cost_ceiling": 4,
+        "attempts": 1,
+        "compatibility": "Live visual route and first frame confirmed; actual gaze trajectory remains output review",
+        "price_source": "takes/take-01/ui-ready-for-approval.png",
+        "verified_at": "2026-10-15T20:29:32.599387+00:00"
+      }
+    ],
+    "quality_gate": {
+      "ready": true,
+      "open_issues": []
+    }
+  },
+  "postproduction": {
+    "reaction_preview_audio": "none; discard whole generated audio track, preserve source",
+    "editorial_range_seconds": [
+      0.8,
+      1.2
+    ]
+  },
+  "authorization": {
+    "content": true,
+    "cost": true,
+    "submissions": 1,
+    "evidence": "User selectable approval: تأیید؛ یک ارسال با سقف ۴ اعتبار. Exact SH18 silent reaction package, four seconds, one output, no retry.",
+    "bundle_sha256": "0af7712ff4b910b47acf09ef1b6d874ca926748b41e63c7514cf564be1c674aa",
+    "consumed_attempts": 1
+  },
+  "assets": [
+    {
+      "path": "images/EP03-SH18-close-house-v4.png",
+      "sha256": "a05a3f32f183b91945040a29284a7797d72ac017ac2a68e59d6c48e60ee69c41"
+    },
+    {
+      "path": "takes/take-01/prompt.txt",
+      "sha256": "f4f808ba501997b01ce0b17c0995ed4bf7077322331bb86843f109215f8fa71c"
+    }
+  ],
+  "image_lineage": {
+    "method": "built_in_image_gen",
+    "target": "images/EP03-SH18-reaction-v3.png",
+    "house_reference": "../../../../house/apartment-cutaway-v2.png",
+    "prompt": "images/EP03-SH18-close-house-v4-prompt.txt",
+    "constraint": "No further lip redesign; preserve accepted appearance."
+  },
+  "output_review": {
+    "preview": "edits/review-silent-0.95s.mp4",
+    "selected": true,
+    "requested_eye_shift": "not_clearly_achieved",
+    "user_evidence": "تأیید همین مکث کوتاه برای تدوین"
+  }
+}

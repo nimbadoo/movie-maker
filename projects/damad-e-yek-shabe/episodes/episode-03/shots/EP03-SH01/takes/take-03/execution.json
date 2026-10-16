@@ -1,0 +1,55 @@
+{
+  "skill": "execute-media-generation",
+  "data": {
+    "jobs": [
+      {
+        "request_id": "EP03-SH01-take-03-video-edit-v1",
+        "provider": "Google Flow",
+        "attempt": 1,
+        "idempotency_key": "709626c5eff252f13fe140e7c0234d8326c542a8443b09f82239f6e6cc0d4cfa",
+        "status": "succeeded",
+        "submitted": true,
+        "provider_job_id": "4f488688-5f21-42cd-81b0-eb782bf01a33",
+        "bundle_sha256": "eb5da943a801e4c2ebccf71542d44c562cb09e9fef45b97d5108385d3a55538d",
+        "submitted_at": "2026-10-15T16:51:39.703318+00:00",
+        "evidence": "ui-submitted-once.png",
+        "generation_click_count": 1,
+        "balance_before": 897,
+        "provider_result_url": "https://flow.google.com/project/0290053e-8dcd-4881-91ca-09cde9a42b7c/edit/4f488688-5f21-42cd-81b0-eb782bf01a33",
+        "provider_completion_observed": true,
+        "browser_metadata": {
+          "duration_seconds": 8,
+          "width": 360,
+          "height": 640,
+          "ready_state": 4
+        },
+        "persistence_status": "blocked_download_permission_denied",
+        "local_media_path": null,
+        "balance_after": 887
+      }
+    ],
+    "media_assets": [],
+    "cost_summary": {
+      "currency": "Flow credits",
+      "estimated": 10,
+      "ceiling": 10,
+      "actual": 10,
+      "paid_purchase": false,
+      "balance_before": 897,
+      "balance_after": 887,
+      "price_basis": "live quote 10 and observed balance delta 897 -> 887",
+      "billable_units": 1
+    },
+    "execution_gate": {
+      "status": "closed_by_user_previous_version_accepted",
+      "retry_allowed": false,
+      "remaining_authorized_attempts": 0,
+      "diagnostic": "Browser security denied download because permission was declined. No alternate download attempted."
+    },
+    "user_decision": {
+      "trial": "rejected_as_no_meaningful_change",
+      "accepted": "take-02 previous selected video",
+      "further_work": "stopped_by_user"
+    }
+  }
+}

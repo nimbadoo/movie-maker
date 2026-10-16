@@ -1,0 +1,22 @@
+{
+  "source": "video.mp4",
+  "review_source": "edits/EP04-SH12-review-cut-v1.mp4",
+  "output": "edits/EP04-SH12-clean-v1.mp4",
+  "source_audio_replaced_seconds": [
+    1.85,
+    2.4
+  ],
+  "candidate_audio_replaced_seconds": [
+    1.5166666666666668,
+    2.0666666666666664
+  ],
+  "replacement": "same source room ambience0.02..0.57,15ms boundary blends",
+  "reason": "User identified female confirmation after Saman; isolated activity1.9335..2.2792 has pitch225..232Hz, flanked by low-energy gap; next male phrase starts2.7014",
+  "seconds": 4.583333333333333,
+  "frames": 110,
+  "video_bitstream_identical": true,
+  "no_speed_change": true,
+  "no_external_generation": true,
+  "sha256": "15e312e952068ec8bd05d54727450a2ccce7c6bcdc9339ae60c5659bf02e14d3",
+  "listening_claimed": false
+}

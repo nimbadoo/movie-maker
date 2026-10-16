@@ -1,0 +1,93 @@
+{
+  "text": " مادر شما هم از این آشنایی خبر دارن؟",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.02,
+      "end": 4.64,
+      "text": " مادر شما هم از این آشنایی خبر دارن؟",
+      "tokens": [
+        50415,
+        3714,
+        18513,
+        2288,
+        13412,
+        15042,
+        8032,
+        2304,
+        1975,
+        11622,
+        1975,
+        32151,
+        19753,
+        8592,
+        8315,
+        4135,
+        4135,
+        16490,
+        26890,
+        11778,
+        9640,
+        1863,
+        22807,
+        50615
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.13175743103027343,
+      "compression_ratio": 1.0327868852459017,
+      "no_speech_prob": 9.891534813455394e-11,
+      "words": [
+        {
+          "word": " مادر",
+          "start": 1.02,
+          "end": 1.84,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " شما",
+          "start": 1.84,
+          "end": 2.22,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " هم",
+          "start": 2.22,
+          "end": 2.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " از",
+          "start": 2.5,
+          "end": 2.78,
+          "probability": 1.0
+        },
+        {
+          "word": " این",
+          "start": 2.78,
+          "end": 2.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " آشنایی",
+          "start": 2.9,
+          "end": 3.46,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " خبر",
+          "start": 3.46,
+          "end": 3.9,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " دارن؟",
+          "start": 3.9,
+          "end": 4.64,
+          "probability": 0.96337890625
+        }
+      ]
+    }
+  ],
+  "limitation": "ASR may hallucinate on silent clips; no auditory review; not proof of absence of speech or music"
+}

@@ -1,0 +1,62 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH15",
+  "take": "take-01",
+  "order": 3,
+  "status": "generated_requires_output_review",
+  "ready": false,
+  "submitted": true,
+  "dialogue": null,
+  "prompt_sha256": "7443f90db5c822033ea78605cf66698d6e1c78494b04cc08d1438aa0815555bd",
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/images/EP03-SH15-guided-entry-house-v1.png",
+    "sha256": "c0e777eff8b21b0fefd7fb69a9fe76a18b2bcf75b5db83fd0460214f4713f119",
+    "role": "house_corrected_start_candidate"
+  },
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 4,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "source": "Live IAB settings panel",
+      "verified_at": "2026-10-15T15:12:30.437934+00:00"
+    }
+  },
+  "audio_policy": "Preserve native Flow ambience; no dialogue or voice conversion",
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 4,
+    "attempts": 1,
+    "user_reply": "تاییذ",
+    "bundle_sha256": "c11d55a6fc3d86ab6ed8cd3155a5af8149e20273937bd7fc43512cdb15c2b8df"
+  },
+  "open_issues": [
+    "Full take violates no-standing constraint from about1.4s",
+    "Saman turns toward foreground/camera instead of unambiguous Farhad eyeline",
+    "Native sound not auditioned; ASR emits music label, not definitive"
+  ],
+  "post_generation_checks": [
+    "Spatial and physical continuity",
+    "Identity",
+    "No speech, narrator or music",
+    "Natural environmental sound",
+    "Next-shot readiness for Farhad standing handshake"
+  ],
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تاییذ",
+    "bundle_sha256": "c11d55a6fc3d86ab6ed8cd3155a5af8149e20273937bd7fc43512cdb15c2b8df"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "skill": "review-and-assemble",
+  "authorization": "اجرای من رو به صدای مادر تبدیل کن و روی همین ویدیو بذار تا ببینیم چطور می‌شه. نسخهٔ اصلی رو نگه دار و فعلاً هیچ اعتباری مصرف نکن.",
+  "engine": "Seed-VC offline cached inference.py",
+  "settings": {
+    "steps": 30,
+    "length_adjust": 1,
+    "cfg": 0.7,
+    "seed": 42,
+    "f0_condition": false,
+    "fp16": false,
+    "device": "MPS conversion, CPU vocoder"
+  },
+  "inputs": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/video.mp4",
+      "sha256": "dafa81e028033c2213909f965970f5572b11b3b46ce4f0269e5f0b93fa7e0af6",
+      "bytes": 871313
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+      "sha256": "85086db738c84b1076d369831306c916b37f0d66084a93cf9f58124d450142a4",
+      "bytes": 678990
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-review-v1.mp4",
+      "sha256": "57d35050a9fc813e24896c410df3c55f3ee54075fd1dc5b2eb215100a2881f0c",
+      "bytes": 726221
+    },
+    {
+      "path": "/Users/hrmohseni/Desktop/nazli-mother.m4a",
+      "sha256": "13a8566e9bb5f0f6812d74bce715a4991d7ed4adc6f2b0a0a18421fb4e626c00",
+      "bytes": 202349
+    }
+  ],
+  "recording_copy": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/audio/user-performance-v1/nazli-mother-original.m4a",
+    "sha256": "13a8566e9bb5f0f6812d74bce715a4991d7ed4adc6f2b0a0a18421fb4e626c00",
+    "bytes": 202349
+  },
+  "converted_audio": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/audio/user-performance-v1/converted/vc_user-performance_EP01-SH02-voice-candidate-v1_1.0_30_0.7.wav",
+    "sha256": "155fa42a6ef515be03fa1b988018ef356162fc34ae0aebffdb6e37eadb428d1e",
+    "bytes": 577616
+  },
+  "audio_metrics": {
+    "sample_rate": 22050,
+    "samples": 144384,
+    "duration": 6.548027210884354,
+    "peak": 0.45469093322753906,
+    "samples_at_digital_limit": 0
+  },
+  "outputs": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/user-performance-v1/preview-audio.wav",
+      "sha256": "83c7b4e5b074acae93726de2fa0354957334a428b0574d9cead6b4f4773dcd4c",
+      "bytes": 1536078
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/user-performance-v1/EP03-SH01-user-performance-preview-v1.mp4",
+      "sha256": "c196b24f6ba1c24851567ebeb31e364fb556d108003e3d80ee3e32280affc3c1",
+      "bytes": 896246
+    }
+  ],
+  "external_credits": 0,
+  "network_mode": "HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1",
+  "data": {
+    "reviews": [
+      {
+        "shot_segment": "EP03-SH01",
+        "media_asset": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/user-performance-v1/EP03-SH01-user-performance-preview-v1.mp4",
+        "status": "unreviewed",
+        "reason_codes": [
+          "LISTENING_NOT_VERIFIED",
+          "LIP_SYNC_NOT_VERIFIED",
+          "ASR_TEXT_MISMATCH_REQUIRES_LISTENING"
+        ]
+      }
+    ],
+    "selected_takes": [],
+    "timeline": [
+      {
+        "source_media_id": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/video.mp4",
+        "source_in": 0,
+        "source_out": 8,
+        "video_stream_copy": true
+      },
+      {
+        "source_media_id": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/audio/user-performance-v1/converted/vc_user-performance_EP01-SH02-voice-candidate-v1_1.0_30_0.7.wav",
+        "source_in": 0.45,
+        "source_out": 6.548027210884354,
+        "timeline_in": 0,
+        "audio_only": true,
+        "silent_padding_until": 6.1
+      },
+      {
+        "source_media_id": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/video.mp4",
+        "source_in": 6.1,
+        "source_out": 8,
+        "timeline_in": 6.1,
+        "audio_only": true
+      }
+    ],
+    "quality_control": {
+      "full_decode_passed": true,
+      "video_packet_hash_unchanged": true,
+      "inputs_hash_unchanged": true,
+      "human_listening_verified": false,
+      "lip_sync_verified": false,
+      "spatial_reacceptance": false,
+      "speed_pitch_changes": false,
+      "original_dialogue_mixed_in": false,
+      "silence_claimed_as_word_repair": false
+    },
+    "export_manifest": null
+  },
+  "warnings": [
+    "ASR is not listening and its word times are approximate. User recording ASR differs from script; no words synthesized or repaired.",
+    "Visual performance is unchanged and has a different pause pattern. This is a tone audition, not approved lip sync.",
+    "Cached engine warnings about regenerated positional buffer and unused f0 embedder; f0 disabled."
+  ],
+  "asr_checks": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/audio/user-performance-v1/user-asr.json",
+      "sha256": "da98aeb390636f6d1ce07afd1f771782cdeca2017fb0c95d5256dd031a8e9a1a",
+      "text": " اه آقا سامان شما کمسای بالای ما این"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/audio/user-performance-v1/converted-asr.json",
+      "sha256": "c7ecd84f9d435dd1769476ae64bec817db082b8006aeb89af558ff71cacda838",
+      "text": " اه آه سامان شما کمسه بالایی مایین"
+    }
+  ]
+}

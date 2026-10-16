@@ -1,0 +1,18 @@
+Animate the approved starting frame at natural speed, vertical 9:16. Maintain exact identity, wardrobe, room geometry, eyelines and prop state. A single-speaker close-up or medium close-up of نازلی (CH-NAZ), standing with both hands empty near her body; the same tray and its two glasses stay on the near-right side of the coffee table. The other two characters remain silent and offscreen in their fixed physical positions; do not show their mouths or add any other dialogue. Only a small eye/head/expression change required by the per-line performance direction. No walking, pouring, gesturing with extra hands or moving the door. CAMERA/BLOCKING OVERRIDE: camera is on the seated guests side looking toward Nazli and the kitchen. Behind Nazli show the same sage-green kitchen doorway/fridge and warm wall only. No sofa, coffee table or served glass behind Nazli. The coffee table is between Nazli and seated guests, in FRONT of her on camera side, outside the portrait crop; the third glass is in front of Mother. Preserve this reverse angle in every Nazli shot.
+One speaking turn only. Only نازلی owns the voice and the visible lip movements; never assign these words to another character. Start after the preceding turn, no overlap or extra voice. Use the user-approved per-line emotion, intent and delivery below; directions and IDs are not spoken.
+Read Persian vowel marks as pronunciation cues, not pauses. Natural colloquial Persian; رو and تو have short /o/, final و in استکانو and حرفامونو is /o/, نازلی is nāzli with no extra vowel between z and l. Do not rewrite the wording or speed up speech. Quiet apartment ambience, no music, narration or subtitles.
+PERFORMANCE DIRECTIONS FOR EP01-D16 / نازلی — NOT SPOKEN; do not read these instructions aloud:
+شناسهٔ گوینده: CH-NAZ
+مخاطب و نما: مادر؛ EP01-SH09
+جای گوینده و شنونده‌ها: ایستاده کنار ضلع نزدیک و راست میز در نقشهٔ ثابت اتاق؛ برای مخاطبِ هر جمله فقط نگاه را تغییر می‌دهد. گوینده داخل قاب و تنها چهرهٔ خوانا است؛ مادر و فرهاد در جای ثابت خود خارج قاب‌اند.
+نوبت و بازهٔ گفتار: نوبت 23 از ۲۳؛ بازهٔ تخمینی 60.2–63.2 ثانیه؛ بدون هم‌پوشانی.
+مالک صدا و لب‌خوانی: نازلی / CH-NAZ؛ فقط همین شخصیت و همین جمله. مرجع صدای فعال هنوز انتخاب و تأیید نشده؛ لب‌های تنها چهرهٔ قابل‌دیدن باید با صدای او هماهنگ شود.
+رفتار شنونده‌ها: مادر و فرهاد ساکت می‌مانند؛ واکنش کوچک و طبیعی مجاز است ولی کلمات گوینده را لب نمی‌زنند و صدای دیگری نمی‌آید. در قاب این نوبت دهان آن‌ها دیده نمی‌شود.
+حالت و شدت: هراس لحظه‌ای از لو رفتن، سپس اطمینانِ ساختگی؛ ابتدا شدت ۴ و سپس ۳ از۵.
+قصد گوینده: جلوگیری فوری از اقدام مادر و پذیرفتن مهلتی که راه‌حلش را ندارد.
+نوع جمله و شیوهٔ بیان: «نَه!» قطع فوری حرف، با همخوان «ن» کاملاً روشن؛ خوانش محاوره‌ای na، نه haa، آه یا نفس صدادار؛ بدون کشیدن مصوت یا فریاد. مکث بسیار کوتاه پس از «نَه!» برای جداکردن نفی از جملهٔ مثبت «میاد.»؛ هرگز به صورت «نِمیاد» به هم نچسبند. سپس «خُودَم میارَمِش.» سریع اما شمرده و کاملاً قابل‌فهم، با پایان به‌زور مطمئن. هیچ آوا یا کلمهٔ اضافه قبل از جمله نباشد. اصلاح اجرا بر اساس رد برداشت قبلی توسط کاربر؛ متن جمله ثابت بماند.
+رفتار قابل‌دیدن: نازلی نگاهش را فوری به مادر می‌دوزد و سپس صورت را جمع می‌کند؛ پس از وعده فقط واکنش کوتاه لازم برای فهم گرفتاری، نه مکث طولانی.
+وضعیت جهت بازی: تأییدشده توسط کاربر در ۲۰۲۶/۱۰/۱۳؛ پذیرش برداشت واقعی هنوز انجام نشده.
+وضعیت نوبت و چیدمان: تأییدشده در طرح مطالعهٔ قسمت اول در ۲۰۲۶/۱۰/۱۳؛ قاب‌های اجرایی هنوز جداگانه بازبینی می‌شوند.
+SPOKEN DIALOGUE ONLY — نازلی: «نَه! میاد. خُودَم میارَمِش.»
+Target usable shot duration about 3.0s, subject to natural spoken delivery. If the selected tool length cannot fit the line, revise the shot timing before generating.

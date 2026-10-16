@@ -1,0 +1,72 @@
+{
+  "text": " چون هنوز چیزی قطعی نشده.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.16,
+      "text": " چون هنوز چیزی قطعی نشده.",
+      "tokens": [
+        50392,
+        34766,
+        11536,
+        8032,
+        1863,
+        2407,
+        11622,
+        34766,
+        4135,
+        11622,
+        4135,
+        12174,
+        9566,
+        3615,
+        4135,
+        8717,
+        8592,
+        3215,
+        3224,
+        13,
+        50523
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.22706673362038352,
+      "compression_ratio": 0.86,
+      "no_speech_prob": 1.2521436665302588e-10,
+      "words": [
+        {
+          "word": " چون",
+          "start": 0.0,
+          "end": 1.42,
+          "probability": 0.99609375
+        },
+        {
+          "word": " هنوز",
+          "start": 1.42,
+          "end": 1.82,
+          "probability": 0.998046875
+        },
+        {
+          "word": " چیزی",
+          "start": 1.82,
+          "end": 2.12,
+          "probability": 0.9404296875
+        },
+        {
+          "word": " قطعی",
+          "start": 2.12,
+          "end": 2.56,
+          "probability": 0.99609375
+        },
+        {
+          "word": " نشده.",
+          "start": 2.56,
+          "end": 3.16,
+          "probability": 0.99853515625
+        }
+      ]
+    }
+  ],
+  "limitation": "machine transcription only, not auditory or voice identity verification"
+}

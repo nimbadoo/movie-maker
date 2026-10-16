@@ -1,0 +1,161 @@
+{
+  "file": "14.m4a",
+  "shot": "EP03-SH14",
+  "source_sha256": "da56796bd876df44f370cdea86b1263cbf4bd467b0a2f7c4e778ce351c66411a",
+  "duration_seconds": 4.9053125,
+  "speaker_from_card": "مادر",
+  "approved_text_from_card": "پَس باهاشون حَرْف بِزَنین. دوسْت دارَم یِه روز با هَم بیاین اینجا.",
+  "machine_transcript": "پس با هاشون حرف بزنیم دوست دارم یه روز با هم بیاین اینجا",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.16,
+      "text": " پس با هاشون حرف بزنیم",
+      "tokens": [
+        50365,
+        21453,
+        3794,
+        4724,
+        995,
+        8032,
+        33599,
+        11536,
+        11331,
+        28480,
+        4724,
+        11622,
+        1863,
+        4135,
+        2304,
+        50475
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1413633183735173,
+      "compression_ratio": 1.2048192771084338,
+      "no_speech_prob": 1.1036273978026756e-10,
+      "words": [
+        {
+          "word": " پس",
+          "start": 0.0,
+          "end": 0.84,
+          "probability": 0.998046875
+        },
+        {
+          "word": " با",
+          "start": 0.84,
+          "end": 1.02,
+          "probability": 0.7177734375
+        },
+        {
+          "word": " هاشون",
+          "start": 1.02,
+          "end": 1.26,
+          "probability": 0.91845703125
+        },
+        {
+          "word": " حرف",
+          "start": 1.26,
+          "end": 1.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " بزنیم",
+          "start": 1.56,
+          "end": 2.16,
+          "probability": 0.79736328125
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.16,
+      "end": 4.18,
+      "text": " دوست دارم یه روز با هم بیاین اینجا",
+      "tokens": [
+        50475,
+        11778,
+        2407,
+        14851,
+        11778,
+        9640,
+        2304,
+        25429,
+        3224,
+        12602,
+        2407,
+        11622,
+        4724,
+        995,
+        8032,
+        2304,
+        4724,
+        38849,
+        32151,
+        1975,
+        32151,
+        7435,
+        995,
+        50574
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1413633183735173,
+      "compression_ratio": 1.2048192771084338,
+      "no_speech_prob": 1.1036273978026756e-10,
+      "words": [
+        {
+          "word": " دوست",
+          "start": 2.16,
+          "end": 2.5,
+          "probability": 0.94580078125
+        },
+        {
+          "word": " دارم",
+          "start": 2.5,
+          "end": 2.76,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " یه",
+          "start": 2.76,
+          "end": 2.94,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " روز",
+          "start": 2.94,
+          "end": 3.06,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " با",
+          "start": 3.06,
+          "end": 3.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " هم",
+          "start": 3.26,
+          "end": 3.4,
+          "probability": 0.99609375
+        },
+        {
+          "word": " بیاین",
+          "start": 3.4,
+          "end": 3.74,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " اینجا",
+          "start": 3.74,
+          "end": 4.18,
+          "probability": 0.98193359375
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

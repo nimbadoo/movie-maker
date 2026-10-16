@@ -1,0 +1,14 @@
+{
+  "source": "video.mp4",
+  "source_sha256": "114a58d28f8fe5cc487a92efc920797879b2118031cd5cb187e6910e403683fe",
+  "preview": "edits/review-silent-0.95s.mp4",
+  "preview_sha256": "5c31db1a08ac2dcbf8e83a5921004466d30a7ed405cb0f3d23a0c016c7470b67",
+  "source_range_seconds": [
+    0,
+    0.95
+  ],
+  "audio": "Entire track intentionally removed for silent reaction; source retained",
+  "speed": 1,
+  "freeze_frames": false,
+  "credit_cost": 0
+}

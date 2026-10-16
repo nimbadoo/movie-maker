@@ -1,0 +1,72 @@
+{
+  "skill": "execute-media-generation",
+  "request_id": "EP03-SH02-take-01",
+  "idempotency_key": "EP03-SH02-take-01-8375e6deaee26f11",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH02-take-01-attempt-1",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "state": "succeeded",
+        "submitted_at": "2026-10-15T13:48:59.180236+00:00",
+        "submission_count": 1,
+        "provider_job_id": "1fd45b03-7db8-4f9b-a9a3-09896857defe",
+        "evidence": "Flow completed asset downloaded through IAB; complete file decode passed"
+      },
+      {
+        "id": "EP03-SH02-take-01-local-seed-vc",
+        "provider": "local",
+        "model": "Seed-VC",
+        "state": "succeeded",
+        "reference_character": "CH-SAM",
+        "external_credits": 0,
+        "parent_job": "EP03-SH02-take-01-attempt-1"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/video.mp4",
+        "sha256": "6ef1dcb00f0d4b0d8719d6a72e92c1ae7e51685028a3990a3c0a5938116e7082",
+        "bytes": 547530
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/source-audio.wav",
+        "sha256": "a95d382351a73727226008ee01f5a1c5a6bd019e83e32948360d70d052fde94b",
+        "bytes": 1155150
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/speech-source.wav",
+        "sha256": "2555f835f6338cfa0cd75ba47949aea84d27702592e67861f056473b4d7fe6e5",
+        "bytes": 499278
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/saman-seed-vc.wav",
+        "sha256": "20b955b3453840d42d4cb2ff690f7d1461da3e28575aae1baf28a28e4ac19611",
+        "bytes": 457808
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/converted-full-audio.wav",
+        "sha256": "05f89160b446dfe582e89c908f6d0fc8edc4b97cc2ce7f59c11ad29f1513ef96",
+        "bytes": 1732652
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/EP03-SH02-review-v1.mp4",
+        "sha256": "9e59d4160793a0f2c9fee7f1535984e4723a123cf4fd8e2ed6026c1ab921b44b",
+        "bytes": 532191
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "approved_ceiling": 5,
+      "quoted_submission_cost": 5,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_voice_conversion_credits": 0
+    },
+    "execution_gate": {
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  }
+}

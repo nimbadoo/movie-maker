@@ -1,0 +1,197 @@
+{
+  "skill": "review-and-assemble",
+  "status": "full_assembly_for_review_not_final_delivery",
+  "items": [
+    {
+      "shot": "EP03-SH01",
+      "order": 1,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-review-v1.mp4",
+      "sha256": "57d35050a9fc813e24896c410df3c55f3ee54075fd1dc5b2eb215100a2881f0c",
+      "decision": "accepted_previous_version_final",
+      "source_in": 0,
+      "source_out": 6.29,
+      "timeline_in": 0,
+      "timeline_out": 6.29
+    },
+    {
+      "shot": "EP03-SH02",
+      "order": 2,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/video.mp4",
+      "sha256": "6ef1dcb00f0d4b0d8719d6a72e92c1ae7e51685028a3990a3c0a5938116e7082",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 6.02,
+      "timeline_in": 6.29,
+      "timeline_out": 12.31
+    },
+    {
+      "shot": "EP03-SH15",
+      "order": 3,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/EP03-SH15-introduction-review-v1.mp4",
+      "sha256": "2f8fc550122b870094e1f44c44f9e1acd478162eec88e99f11db0a37b8614350",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 5.25,
+      "timeline_in": 12.31,
+      "timeline_out": 17.56
+    },
+    {
+      "shot": "EP03-SH19",
+      "order": 4,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/edits/EP03-SH19-assembled-review-v1.mp4",
+      "sha256": "778eb51433013e1b51b5c2df01fccd463a46fca3ad1205c84f87b631a8bfa3f4",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 7.52,
+      "timeline_in": 17.56,
+      "timeline_out": 25.08
+    },
+    {
+      "shot": "EP03-SH03",
+      "order": 5,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/takes/take-01/edits/EP03-SH03-invitation-review-v1.mp4",
+      "sha256": "a8c00edff117d8bbb3ca729ed15dd41d95d5db7c0e32eb693dddfe22c52f3d85",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 7.33,
+      "timeline_in": 25.08,
+      "timeline_out": 32.41
+    },
+    {
+      "shot": "EP03-SH04",
+      "order": 6,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/edits/EP03-SH04-reply-review-v1.mp4",
+      "sha256": "f3d96af149748ac3dee04a44c47184c652741af606d7f22989d4e459baf4ba8f",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 3.0,
+      "timeline_in": 32.41,
+      "timeline_out": 35.41
+    },
+    {
+      "shot": "EP03-SH20",
+      "order": 7,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/takes/take-02/video.mp4",
+      "sha256": "094c233b418f2ab1f5b69f8d7298ab86c55d93ff33a5a3e4ca12603b1d6ecdaa",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 6.02,
+      "timeline_in": 35.41,
+      "timeline_out": 41.43
+    },
+    {
+      "shot": "EP03-SH05",
+      "order": 9,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH05/takes/take-01/video.mp4",
+      "sha256": "b832c055d0ef235aac8a83806d75e02ae84d82d253b37a17b88d5171f6c1e725",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 6.02,
+      "timeline_in": 41.43,
+      "timeline_out": 47.45
+    },
+    {
+      "shot": "EP03-SH06",
+      "order": 10,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH06/takes/take-01/video.mp4",
+      "sha256": "37850c38273b7d7bc4ed219da53933605fab4de36b6aaaf72c447c88d4114cb1",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 6.02,
+      "timeline_in": 47.45,
+      "timeline_out": 53.47
+    },
+    {
+      "shot": "EP03-SH16",
+      "order": 11,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/takes/take-01/edits/EP03-SH16-review-v1.mp4",
+      "sha256": "1d0401f8117bf8981cb5a94890196e63128f9fb66887d5c6560c0d9759c88e22",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 1.96,
+      "timeline_in": 53.47,
+      "timeline_out": 55.43
+    },
+    {
+      "shot": "EP03-SH17",
+      "order": 12,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/edits/EP03-SH17-review-v1.mp4",
+      "sha256": "128d3929a046bf5559e342b44717463333ca2dcd954d66447197bb6d9b94c7ca",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 3.42,
+      "timeline_in": 55.43,
+      "timeline_out": 58.85
+    },
+    {
+      "shot": "EP03-SH07",
+      "order": 13,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/takes/take-01/video.mp4",
+      "sha256": "9bafa79bbaa9fb2cf7d1ca134ed4c8b78a13a920e04ca55ec1d396dec12e7da6",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 4.01,
+      "timeline_in": 58.85,
+      "timeline_out": 62.86
+    },
+    {
+      "shot": "EP03-SH08",
+      "order": 14,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH08/takes/take-01/video.mp4",
+      "sha256": "e8caac725d73ac08476f98bacf39534e9c8a6fba85e889f58247343c268c8493",
+      "decision": "user_approved_with_known_eyeline_variation",
+      "source_in": 0,
+      "source_out": 4.01,
+      "timeline_in": 62.86,
+      "timeline_out": 66.87
+    },
+    {
+      "shot": "EP03-SH09",
+      "order": 15,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH09/takes/take-01/video.mp4",
+      "sha256": "55eabc2da476b65462c367dd0f9fe2cf29e7fce09c0d09facd3b3be0f11dd806",
+      "decision": "user_approved_with_known_eyeline_variation",
+      "source_in": 0,
+      "source_out": 6.02,
+      "timeline_in": 66.87,
+      "timeline_out": 72.89
+    },
+    {
+      "shot": "EP03-SH10",
+      "order": 16,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH10/takes/take-01/video.mp4",
+      "sha256": "3fae7ff9f54a6940888b00aa23f9ee02ad4736eb91e469d177cf58133f58f29b",
+      "decision": "accepted_standalone_edit",
+      "source_in": 0,
+      "source_out": 4.01,
+      "timeline_in": 72.89,
+      "timeline_out": 76.9
+    },
+    {
+      "shot": "EP03-SH11-SH14-SH18",
+      "order": 17,
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/edit/section-11-18-v1/EP03-SH11-14-SH18-review-v1.mp4",
+      "sha256": "75eb381dae968e3f16fe1655e7ad4de2239f965549ca61c7430393615e20cba1",
+      "decision": "Previously user-approved section edit reused unchanged",
+      "source_in": 0,
+      "source_out": 15.46,
+      "timeline_in": 76.9,
+      "timeline_out": 92.36
+    }
+  ],
+  "estimated_duration_seconds": 92.35999999999999,
+  "output": "projects/damad-e-yek-shabe/episodes/episode-03/edit/full-review-v1/EP03-full-review-v1.mp4",
+  "output_sha256": "b0036c3f73d6c4e75baa52b334f02f1ae44cae224b6801583fc270cdabe12f79",
+  "additional_generation_credits": 0,
+  "quality_control": {
+    "source_hashes": "verified",
+    "full_decode": "pass",
+    "continuous_visual_review": "not_performed",
+    "independent_listening": "not_performed",
+    "cross_shot_continuity": "32 boundary samples actually viewed; known kitchen background jump in SH09 remains; final section internal cuts retain previous review",
+    "rhythm": "Selected edits and accepted final section reused; untrimmed source margins may remain",
+    "actual_container_duration_seconds": 92.43
+  },
+  "export_manifest": null,
+  "normalization": "Each source timestamps reset and normalized before concat to prevent source timebase gaps"
+}

@@ -1,0 +1,66 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH20",
+  "take": "take-02",
+  "status": "accepted_standalone_edit",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/images/EP03-SH20-three-standing-two-chairs-v4.png",
+    "sha256": "fbad40999d799a1bbc05374f8deebfe6f770c21f313999b5832f378735ba17ec",
+    "role": "exactly_two_chairs_three_standing_before_shared_sit"
+  },
+  "prompt_sha256": "baf47ef8ca01fa2b68d0ce9fb9f766973cf2f52859f4dde09fbb8da43ade7df4",
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 6,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "source": "Live IAB6sec360p x1 price",
+      "verified_at": "2026-10-15T19:22:27.666302+00:00"
+    }
+  },
+  "dialogue": null,
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 5,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "b8a16eed5cfef2220694e64bde8b813dab35f24189e51dc39ee11efc2e5a9345"
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "b8a16eed5cfef2220694e64bde8b813dab35f24189e51dc39ee11efc2e5a9345"
+  },
+  "open_issues": [
+    "Assistant auditory/continuous-frame review not performed; user approved visible original"
+  ],
+  "blocking": "simultaneous sitting of Saman mother Farhad",
+  "furniture_lock": {
+    "armchairs": 2,
+    "two_seat_sofa": 1
+  },
+  "image_lineage": {
+    "source": "images/EP03-SH20-before-sitting-house-v3.png",
+    "house": "house/apartment-cutaway-v2.png",
+    "generated": "exec-c925f5a3-0456-4bdd-a035-1fed347cdfa3.png"
+  },
+  "output_acceptance": {
+    "user_reply": "اینو من می‌بینم، خیلی خوب شده. همینو زیاد گیر نده و آماده کن، تأیید کن",
+    "video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/takes/take-02/video.mp4",
+    "sha256": "094c233b418f2ab1f5b69f8d7298ab86c55d93ff33a5a3e4ca12603b1d6ecdaa"
+  }
+}

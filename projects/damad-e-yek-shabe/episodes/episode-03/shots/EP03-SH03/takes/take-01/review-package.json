@@ -1,0 +1,67 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH03",
+  "take": "take-01",
+  "status": "generated_for_review_with_gesture_concern",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/images/EP03-SH03-chair-invite-house-v5.png",
+    "sha256": "632136b9e5ce6d5120342ee4386dc268e2e37803aed3633cf18c2addc25c428b",
+    "role": "house_aligned_invitation_to_visible_right_guest_chair"
+  },
+  "prompt_sha256": "8b85c00f7b39f4421ce97dc203b9a9fad229bde70c95ff7b1233c171e113d187",
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 8,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 6,
+      "attempts": 1,
+      "ceiling": 6,
+      "source": "Live IAB8sec360p x1 settings",
+      "verified_at": "2026-10-15T16:46:09.237044+00:00"
+    }
+  },
+  "timing": {
+    "method": "local espeak-ng fa165 synthetic rehearsal",
+    "seconds": 6.30485260770975,
+    "not_final_acting": true
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "برو عزیزم برو خیلی داری کند میری جلو برو برو.",
+    "bundle_sha256": "3ef935bb54efdce000c5a399a53fb86c3ba0db81d1eda64dc2227b66eaf41767"
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 6,
+    "attempts": 1,
+    "user_reply": "برو عزیزم برو خیلی داری کند میری جلو برو برو.",
+    "bundle_sha256": "3ef935bb54efdce000c5a399a53fb86c3ba0db81d1eda64dc2227b66eaf41767"
+  },
+  "open_issues": [
+    "Hand invitation remains broad, target-seat specificity not conclusively resolved",
+    "Auditory quality and precise lipsync not verified"
+  ],
+  "image_lineage": {
+    "inputs": [
+      "images/EP03-SH03-standing-invite-v3.png",
+      "../EP03-SH15/images/EP03-SH15-guided-entry-house-v1.png"
+    ],
+    "outputs": [
+      "exec-12d675c3-f8b6-43c7-9da3-3fe7961e5c63.png",
+      "exec-e233593d-56ac-45c1-8d61-30ad78a1d52e.png"
+    ],
+    "flow_credits": 0
+  }
+}

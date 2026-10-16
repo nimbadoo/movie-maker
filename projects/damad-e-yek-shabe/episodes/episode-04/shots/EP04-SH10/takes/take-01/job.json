@@ -1,0 +1,41 @@
+{
+  "skill": "execute-media-generation",
+  "job_id": "EP04-SH10-take-01-attempt-1",
+  "request_id": "EP04-SH10-take-01-v1",
+  "bundle_sha256": "5598811bf4bb3c6dfee94ed4f0041fa70bf713c17ace6e25b665290e37fe77f5",
+  "idempotency_key": "5598811bf4bb3c6dfee94ed4f0041fa70bf713c17ace6e25b665290e37fe77f5-attempt-1",
+  "status": "succeeded",
+  "submission_started": true,
+  "provider": "Google Flow UI",
+  "model": "Omni 1.1 Flash",
+  "project_url": "https://flow.google.com/project/21998463-d51a-4d5b-a767-035108973a0a",
+  "cost": {
+    "submitted_price": 6,
+    "ceiling": 6,
+    "unit": "Flow credits",
+    "actual": null,
+    "actual_evidence": "one successful submission at displayed6; separate account ledger not inspected"
+  },
+  "user_authorization": "تأیید — current user approval of displayed exact shot10 six-credit package",
+  "attempt": 1,
+  "retry_authorized": false,
+  "created_at": "2026-10-15T18:54:51.231762+00:00",
+  "live_check": "ui-before-submit.jpg exact prompt/frame10 model Frames360p8s9:16x1 price6",
+  "submitted_at": "2026-10-15T18:56:36.575033+00:00",
+  "attempts_submitted": 1,
+  "provider_asset_id": "37234cd7-f9a8-4ad7-ba7f-19be0c84b27c",
+  "provider_asset_url": "https://flow.google.com/project/21998463-d51a-4d5b-a767-035108973a0a/edit/37234cd7-f9a8-4ad7-ba7f-19be0c84b27c",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH10/takes/take-01/video.mp4",
+      "sha256": "f15f47c79b4e07e025306f41ee1fcc7694cdd91d3bae17e6236a28fbbe398ebf",
+      "frames": 192
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH10/takes/take-01/edits/EP04-SH10-review-cut-v1.mp4",
+      "sha256": "7c2bd06eea0b8ea12086e49fbd6accf041c88a43bfa4bcf94a32b059a00ad1fe",
+      "frames": 122
+    }
+  ],
+  "completed_at": "2026-10-15T19:03:17.527021+00:00"
+}

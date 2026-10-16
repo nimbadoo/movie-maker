@@ -1,0 +1,14 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "25e55d3dc1c651eee70bd2c6cf5c9c8d8a04c95befdb23743b2b56d4577137bc",
+  "output": "EP03-SH04-reply-review-v1.mp4",
+  "sha256": "593b98b139a4264df6e44d159bf69ae725398ce3f129614ae9d03382693548ca",
+  "source_range_seconds": [
+    0,
+    3
+  ],
+  "frames": 72,
+  "audio": "Native Flow audio retained and AAC reencoded only",
+  "reason": "End after last word ASR2.48sec, avoid idle tail and leftward gaze after3.125sec",
+  "selection": "not_selected"
+}

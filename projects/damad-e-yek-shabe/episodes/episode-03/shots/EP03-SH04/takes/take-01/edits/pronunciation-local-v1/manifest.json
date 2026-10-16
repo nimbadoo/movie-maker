@@ -1,0 +1,43 @@
+{
+  "skill": "review-and-assemble",
+  "status": "rejected_by_user",
+  "source": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-01/video.mp4",
+  "source_sha256": "25e55d3dc1c651eee70bd2c6cf5c9c8d8a04c95befdb23743b2b56d4577137bc",
+  "candidate": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-01/edits/pronunciation-local-v1/EP03-SH04-local-pronunciation-candidate-v1.mp4",
+  "sha256": "28830b7c8e0cf7f7deb4ee70d8e211619ecc6574fc55362b32df254e25a643c5",
+  "timeline": {
+    "source_ranges": [
+      [
+        0,
+        0.9166666666666666
+      ],
+      [
+        1.0,
+        3
+      ]
+    ],
+    "removed_seconds": 0.08333333333333337,
+    "removed_frames": 2,
+    "result_frames": 70,
+    "result_seconds": 2.9166666666666665,
+    "audio_video_same_cut": true,
+    "splice_edge_fades_ms": 3
+  },
+  "rationale": "Experimental splice at first-word/address transition inferred from spectrum, not verified phoneme segmentation",
+  "quality_control": {
+    "complete_decode": "pass",
+    "auditory_review": "not_performed",
+    "removal_of_extra_vowel": "unverified",
+    "word_integrity": "unverified",
+    "visible_cut_continuity": "requires_user_review",
+    "source_unchanged": true,
+    "voice_conversion": false,
+    "external_generation": false
+  },
+  "cost": {
+    "external_credits": 0
+  },
+  "selected_takes": [],
+  "export_manifest": null,
+  "rejection_evidence": "درست نشده، دوباره بساز. یعنی اصلاً خوب نیست."
+}

@@ -1,0 +1,59 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH01",
+  "decision": "selected",
+  "selected_takes": [
+    {
+      "shot": "EP04-SH01",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH01/takes/take-01/edits/EP04-SH01-review-cut-v1.mp4",
+      "sha256": "071ca594503a93a4597ae1c2be48407933cde8736229f7f75d9ae558c6fc5c19",
+      "trim": {
+        "in": 0,
+        "out": 2.625
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH01/takes/take-01/video.mp4",
+      "sha256": "0b88f9a5aa1df86acc39821a1825049489b6f210db5e4181078d6d454b2ae7cc",
+      "frames": 192,
+      "job_id": "EP04-SH01-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH01/takes/take-01/edits/EP04-SH01-review-cut-v1.mp4",
+      "sha256": "071ca594503a93a4597ae1c2be48407933cde8736229f7f75d9ae558c6fc5c19",
+      "frames": 63,
+      "job_id": "EP04-SH01-take-01-attempt-1"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0.875,
+      "out": 3.5,
+      "output": "edits/EP04-SH01-review-cut-v1.mp4",
+      "seconds": 2.625,
+      "frames": 63,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 and candidate63 fully decoded without error",
+    "source_asr": " چشم، با مادرم حرف میزنم.",
+    "visual": "16 half-second source samples seen; stable visible face curls stubble blue shirt mother burgundy shoulder and background; seated posture small head changes; exact eye target voice match and phoneme sync not certified",
+    "listening_claimed": false
+  },
+  "blocking_items": [],
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "تأیید"
+}

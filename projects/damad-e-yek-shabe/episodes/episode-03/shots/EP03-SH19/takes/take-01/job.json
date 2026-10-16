@@ -1,0 +1,89 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH19",
+  "take": "take-01",
+  "request_id": "EP03-SH19-take-01",
+  "idempotency_key": "EP03-SH19-take-01-4e5753040106c6728f43a99af3bb521a31541e576a3c960ce06051947a34acd8",
+  "bundle_sha256": "4e5753040106c6728f43a99af3bb521a31541e576a3c960ce06051947a34acd8",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T16:04:11.350013+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 6,
+    "ceiling": 6,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "creative_review": "rejected_duplicate_character",
+  "provider_job_id": "fcb75bb4-2b2b-4f78-babf-693abd6bb13d",
+  "completed_at": "2026-10-15T16:09:07.946214+00:00",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH19-take-01-attempt-1",
+        "compiled_request": "review-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH19-take-01-4e5753040106c6728f43a99af3bb521a31541e576a3c960ce06051947a34acd8",
+        "state": "succeeded",
+        "provider_job_id": "fcb75bb4-2b2b-4f78-babf-693abd6bb13d"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-01/video.mp4",
+        "sha256": "6972f5da375ca5a1e558d14b6bca22230bf21c79125004cb2cdac0c21ddcaf34",
+        "bytes": 2245213,
+        "producing_job": "EP03-SH19-take-01-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-01/edits/source-audio.wav",
+        "sha256": "90c09076d0a3c1fa460289b3af42ca60f2b552cb273760048175f3dee9e6fdf9",
+        "bytes": 1544270,
+        "producing_job": "EP03-SH19-take-01-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 6,
+      "approved_ceiling": 6,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_review_credits": 0
+    },
+    "execution_gate": {
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  },
+  "request": {
+    "take": "take-01",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH19-start-from-approved-introduction-v1.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 8,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 6,
+      "attempts": 1,
+      "ceiling": 6,
+      "price_source": "Live IAB settings8s360p x1 shows6credits",
+      "verified_at": "2026-10-15T16:02:32.442327+00:00"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sample_rate": 48000,
+  "duration": 6.016,
+  "channels": 2,
+  "peak": 0.207672119140625,
+  "rms": 0.024465905835097626,
+  "auditory_review": "not_performed",
+  "native_audio_unmodified": true
+}

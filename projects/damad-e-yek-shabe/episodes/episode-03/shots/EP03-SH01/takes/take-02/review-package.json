@@ -1,0 +1,125 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH01",
+  "beat": "EP03-D01",
+  "take": "take-02",
+  "status": "accepted_standalone_edit",
+  "ready": false,
+  "prompt_sha256": "cb30f6bd9dd65f809fda7d7f353853fa38401dabf0bd263320a7db3a3a137669",
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/images/EP03-SH01-door-welcome-house-v1.png",
+    "sha256": "ff98812a3536bcc8fdcecf1afef2d47167ab4c5d6c7191e2a084af71bcbf954c",
+    "role": "accepted_first_frame"
+  },
+  "voice_reference": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+    "sha256": "85086db738c84b1076d369831306c916b37f0d66084a93cf9f58124d450142a4",
+    "role": "approved_identity_reference_not_confirmed_provider_input"
+  },
+  "provider": {
+    "name": "Google Flow",
+    "project_url": "https://flow.google.com/project/0290053e-8dcd-4881-91ca-09cde9a42b7c",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 8,
+      "resolution": "360p",
+      "outputs": 1
+    },
+    "cost": {
+      "unit": "credits",
+      "per_attempt": 6,
+      "attempts": 1,
+      "ceiling": 6,
+      "source": "live generation settings panel",
+      "verified_date": "2026-10-15"
+    },
+    "compatibility": "Frames supports accepted start image; direct voice reference unsupported in Frames per official help; Ingredients offers presets, prior mother voice not in observed list"
+  },
+  "submitted": true,
+  "content_approval": {
+    "date": "2026-10-15",
+    "evidence": "نمای اول اوکی هست، می‌تونیم بریم شروع کنیم",
+    "scope": "dialogue and performance; prior frame now needs house alignment"
+  },
+  "cost_approval": {
+    "ceiling": 6,
+    "unit": "Flow credits",
+    "attempts": 1,
+    "user_reply": "تأیید، همین یک برداشت نمای اول رو با سقف ۶ اعتبار بساز، بعد صداش رو با Seed-VC تبدیل کن و نمونهٔ کامل رو نشونم بده.",
+    "bundle_sha256": "7654f8a482313cd3f589a92613b523933b4de811ac4a892da60bb5ca18bec3fb"
+  },
+  "house_reference": {
+    "path": "projects/damad-e-yek-shabe/house/apartment-cutaway-v2.png",
+    "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+  },
+  "open_issues": [],
+  "frame_approval": {
+    "date": "2026-10-15",
+    "evidence": "الان خیلی اصولی شد ... این راه رو قشنگ مشخصه ... ادامه بدیم"
+  },
+  "cost_comparison": [
+    {
+      "model": "Veo 3.1 - Fast",
+      "seconds": 8,
+      "resolution": "720p",
+      "credits": 20
+    },
+    {
+      "model": "Veo 3.1 - Lite",
+      "seconds": 8,
+      "resolution": "720p",
+      "credits": 10
+    },
+    {
+      "model": "Omni 1.1 Flash",
+      "seconds": 8,
+      "resolution": "720p",
+      "credits": 12
+    },
+    {
+      "model": "Omni 1.1 Flash",
+      "seconds": 8,
+      "resolution": "360p",
+      "credits": 6
+    },
+    {
+      "model": "Omni 1.1 Flash",
+      "seconds": 6,
+      "resolution": "360p",
+      "credits": 5
+    },
+    {
+      "model": "Omni 1.1 Flash",
+      "seconds": 4,
+      "resolution": "360p",
+      "credits": 4
+    }
+  ],
+  "selection_evidence": "User requested cheapest; selected lowest observed configuration without submitting",
+  "source_audio_analysis": "voice-route-review.md",
+  "workflow": "../../../../working-protocol.md",
+  "voice_postprocess": {
+    "route": "local_seed_vc_experiment",
+    "status": "applied_to_new_take_pending_listening",
+    "report": "../../audio/voice-lock-test/seed-vc/README.md",
+    "external_credits": 0,
+    "lip_sync_verified": false,
+    "final_audio_approved": true,
+    "previous_route_review": "OpenVoiceV2 rejected by user due to voice identity mismatch",
+    "approval_evidence": "این یکی به صدای مادر نزدیک‌تره. با همین روش ادامه بده، پایان جمله رو هم درست کن و نمونهٔ کامل نمای اول رو نشونم بده."
+  },
+  "timing_guide": {
+    "report": "timing-guide/scratch-only.json",
+    "duration_seconds": 4.53265306122449,
+    "role": "synthetic_timing_only_not_final_audio",
+    "flow_delivery_unverified": true
+  },
+  "user_acceptance": {
+    "evidence": "خوبه، نمای اول تأییده",
+    "scope": "displayed complete review-v1 clip including converted voice",
+    "independent_assistant_listening_claimed": false
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "indexed_machine_transcribed_not_auditioned",
+  "files": [
+    {
+      "file": "5.m4a",
+      "shot": "EP03-SH05",
+      "source_sha256": "b80447e1b37d78a8fcce9a73d74683fb3c6227a3b6f416777a481817014428e0",
+      "duration_seconds": 5.3106875,
+      "speaker_from_card": "مادر",
+      "approved_text_from_card": "نازْلی می‌گِه بِه هَم عَلاقِه دارین. می‌خواسْتَم اَز زَبونِ خودِتون هَم بِشْنَوَم.",
+      "machine_transcript": "نازلی میگه به هم علاقه دارین میخواستم از زبون خویتونم بشنبم",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    },
+    {
+      "file": "06.m4a",
+      "shot": "EP03-SH06",
+      "source_sha256": "cb5b15872fbf151940a5439105427d87fee0b466dc8573ed9566a6397f0519fc",
+      "duration_seconds": 4.7986875,
+      "speaker_from_card": "سامان",
+      "approved_text_from_card": "مَن بِه نازْلی عَلاقِه دارَم. بَرایِ هَمین هَم اومَدَم با شُما حَرْف بِزَنَم.",
+      "machine_transcript": "من به نازلی علاقه دارم. برای همینم اومدم با شما حرف بزنم.",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    },
+    {
+      "file": "07.m4a",
+      "shot": "EP03-SH07",
+      "source_sha256": "be7bb1b19e8f7e93e5887807e01112f6fa96b4906dfc7284376a5ef0cd961902",
+      "duration_seconds": 3.1133125,
+      "speaker_from_card": "فرهاد",
+      "approved_text_from_card": "پَس چِرا تا حالا چیزی نَشْنیدِه بودیم؟",
+      "machine_transcript": "پس چرا تا حالا چیزی نشنده بودیم؟",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    },
+    {
+      "file": "08.m4a",
+      "shot": "EP03-SH08",
+      "source_sha256": "e1cd53552002b26b833ca3b3bddcd524212de2dc0c4631959e1fb8571cdbc603",
+      "duration_seconds": 3.0493125,
+      "speaker_from_card": "نازلی",
+      "approved_text_from_card": "چون هَنوز چیزی قَطْعی نَشُدِه.",
+      "machine_transcript": "چونانوز چیز قطعی نشده",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    },
+    {
+      "file": "09.m4a",
+      "shot": "EP03-SH09",
+      "source_sha256": "3edb1f8df9fcdb4d896c3007610e47bf8b09e1ae79b37280a39c0c771826345d",
+      "duration_seconds": 4.5853125,
+      "speaker_from_card": "مادر",
+      "approved_text_from_card": "قَطْعی نَشُدِه، قَبول. وَلی می‌خواین این آشْنایی بِه کُجا بِرِسِه؟",
+      "machine_transcript": "قطعی نشده؟ قبول. بلی میخواین این آشنایی به کجا برسه؟",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    },
+    {
+      "file": "10.m4a",
+      "shot": "EP03-SH10",
+      "source_sha256": "5e981df9f67abf461b5484b795899b7430f5e89bfffa5ee4fddbcf1772da3517",
+      "duration_seconds": 3.284,
+      "speaker_from_card": "سامان",
+      "approved_text_from_card": "اَگِه نازْلی هَم بِخواد، مَن قَصْدَم اِزْدِواجِه.",
+      "machine_transcript": "اگه نازلی هم بخواد من قصدم ازدواجه",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    },
+    {
+      "file": "11.m4a",
+      "shot": "EP03-SH11",
+      "source_sha256": "9ce055d35162030b5fea9f0965f2baad8a78a8535747245fd657d02c6916b13e",
+      "duration_seconds": 3.412,
+      "speaker_from_card": "نازلی",
+      "approved_text_from_card": "مامان، فِعْلاً داریم هَمْدیگِه رُو می‌شْناسیم.",
+      "machine_transcript": "مامان فیلندرم هم دیگر ممشنسیم",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    },
+    {
+      "file": "14.m4a",
+      "shot": "EP03-SH14",
+      "source_sha256": "da56796bd876df44f370cdea86b1263cbf4bd467b0a2f7c4e778ce351c66411a",
+      "duration_seconds": 4.9053125,
+      "speaker_from_card": "مادر",
+      "approved_text_from_card": "پَس باهاشون حَرْف بِزَنین. دوسْت دارَم یِه روز با هَم بیاین اینجا.",
+      "machine_transcript": "پس با هاشون حرف بزنیم دوست دارم یه روز با هم بیاین اینجا",
+      "auditory_review": "not_performed",
+      "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+    }
+  ],
+  "missing_in_dialogue_shot_range": [
+    "12",
+    "13"
+  ],
+  "source_files_unchanged": true,
+  "external_generation_credits": 0,
+  "scope_note": "SH11 onward handled by parallel chat; central input inventory only, their shot files untouched"
+}

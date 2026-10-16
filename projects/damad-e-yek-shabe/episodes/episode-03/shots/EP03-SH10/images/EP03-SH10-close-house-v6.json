@@ -1,0 +1,19 @@
+{
+  "tool": "built_in_image_gen",
+  "edit_target": "images/EP03-SH10-intent-v5.png",
+  "references": [
+    {
+      "path": "../../../../house/apartment-cutaway-v2.png",
+      "role": "spatial_reference"
+    },
+    {
+      "path": "../../../../episodes/episode-02/references/01-saman-portrait-v1.png",
+      "role": "identity_only_not_tshirt_or_background"
+    }
+  ],
+  "output": "images/EP03-SH10-close-house-v6.png",
+  "sha256": "32a24c5b4f9daf3c71b38e3279dc0f5ad8a1716179f75addb7a6390f5b2a209b",
+  "review": "appearance-and-space-v6.md",
+  "flow_submissions": 0,
+  "selected": false
+}

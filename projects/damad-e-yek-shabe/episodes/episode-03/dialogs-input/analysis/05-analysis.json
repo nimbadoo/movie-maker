@@ -1,0 +1,151 @@
+{
+  "file": "5.m4a",
+  "shot": "EP03-SH05",
+  "source_sha256": "b80447e1b37d78a8fcce9a73d74683fb3c6227a3b6f416777a481817014428e0",
+  "duration_seconds": 5.3106875,
+  "speaker_from_card": "مادر",
+  "approved_text_from_card": "نازْلی می‌گِه بِه هَم عَلاقِه دارین. می‌خواسْتَم اَز زَبونِ خودِتون هَم بِشْنَوَم.",
+  "machine_transcript": "نازلی میگه به هم علاقه دارین میخواستم از زبون خویتونم بشنبم",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.28,
+      "text": " نازلی میگه به هم علاقه دارین",
+      "tokens": [
+        50365,
+        8717,
+        31377,
+        1211,
+        4135,
+        48478,
+        16761,
+        3224,
+        39627,
+        8032,
+        2304,
+        11203,
+        995,
+        4587,
+        3224,
+        11778,
+        9640,
+        32151,
+        50479
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16421563126320063,
+      "compression_ratio": 1.2413793103448276,
+      "no_speech_prob": 1.1567134056145179e-10,
+      "words": [
+        {
+          "word": " نازلی",
+          "start": 0.0,
+          "end": 0.92,
+          "probability": 0.9482421875
+        },
+        {
+          "word": " میگه",
+          "start": 0.92,
+          "end": 1.2,
+          "probability": 0.73876953125
+        },
+        {
+          "word": " به",
+          "start": 1.2,
+          "end": 1.3,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " هم",
+          "start": 1.3,
+          "end": 1.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " علاقه",
+          "start": 1.52,
+          "end": 1.88,
+          "probability": 0.97314453125
+        },
+        {
+          "word": " دارین",
+          "start": 1.88,
+          "end": 2.28,
+          "probability": 0.95703125
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.28,
+      "end": 4.68,
+      "text": " میخواستم از زبون خویتونم بشنبم",
+      "tokens": [
+        50479,
+        48478,
+        9778,
+        14407,
+        14851,
+        2304,
+        1975,
+        11622,
+        30767,
+        3555,
+        11536,
+        16490,
+        2407,
+        4135,
+        2655,
+        11536,
+        2304,
+        4724,
+        8592,
+        1863,
+        3555,
+        2304,
+        50599
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16421563126320063,
+      "compression_ratio": 1.2413793103448276,
+      "no_speech_prob": 1.1567134056145179e-10,
+      "words": [
+        {
+          "word": " میخواستم",
+          "start": 2.28,
+          "end": 2.9,
+          "probability": 0.73193359375
+        },
+        {
+          "word": " از",
+          "start": 2.9,
+          "end": 3.06,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " زبون",
+          "start": 3.06,
+          "end": 3.36,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " خویتونم",
+          "start": 3.36,
+          "end": 4.0,
+          "probability": 0.857421875
+        },
+        {
+          "word": " بشنبم",
+          "start": 4.0,
+          "end": 4.68,
+          "probability": 0.798828125
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

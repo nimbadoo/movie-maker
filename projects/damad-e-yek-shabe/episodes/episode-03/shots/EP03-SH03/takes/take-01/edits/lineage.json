@@ -1,0 +1,13 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "5d2cebd52d8f742d8b8eaf9ac5d0b66077d808ad3b90ab60d0c1e9a0484889b4",
+  "output": "EP03-SH03-invitation-review-v1.mp4",
+  "sha256": "a8c00edff117d8bbb3ca729ed15dd41d95d5db7c0e32eb693dddfe22c52f3d85",
+  "source_range_seconds": [
+    0,
+    7.3
+  ],
+  "audio": "Native Flow audio within range, AAC reencoded only; no voice conversion, ambience removal, inserted silence or freeze",
+  "selection": "accepted_standalone_edit",
+  "selection_evidence": "User این خوبه، اینا رو دوست دارم"
+}

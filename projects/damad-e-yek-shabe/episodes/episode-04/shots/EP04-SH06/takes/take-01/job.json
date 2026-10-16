@@ -1,0 +1,69 @@
+{
+  "skill": "execute-media-generation",
+  "request_id": "EP04-SH06-take-01-v2-low-resolution",
+  "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1",
+  "idempotency_key": "8eb8d990782e1cf3e3a9c31f5f49523b2c1a43c42cbc93caad5df11a043a47e2-attempt-1",
+  "status": "succeeded",
+  "submission_started": true,
+  "attempt": 1,
+  "provider": "Google Flow UI",
+  "model": "Omni 1.1 Flash",
+  "project_url": "https://flow.google.com/project/21998463-d51a-4d5b-a767-035108973a0a",
+  "cost": {
+    "estimated": 6,
+    "actual": null,
+    "submitted_price": 6,
+    "unit": "Flow credits",
+    "ceiling": 6,
+    "basis": "One completed submission at live displayed six-credit price; no separate transaction ledger inspected."
+  },
+  "live_verification": {
+    "quality": "360p",
+    "seconds": 8,
+    "outputs": 1,
+    "aspect_ratio": "9:16",
+    "first_frame": "EP04-SH06-start-v1.png",
+    "prompt": "exact approved prompt pasted and inspected",
+    "ui_evidence": "ui-before-submit.jpg"
+  },
+  "user_authorization": "تأیید — explicit approval of low-resolution six-credit package",
+  "created_at": "2026-10-15T15:52:38.102606+00:00",
+  "retry_authorized": false,
+  "submitted_at": "2026-10-15T15:53:43.296520+00:00",
+  "attempts_submitted": 1,
+  "completed_at": "2026-10-15T16:04:36.607137+00:00",
+  "provider_asset_id": "d9b35cb1-d6f0-41e3-8ec9-d932f5752c11",
+  "asset_url": "https://flow.google.com/project/21998463-d51a-4d5b-a767-035108973a0a/edit/d9b35cb1-d6f0-41e3-8ec9-d932f5752c11",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/video.mp4",
+      "sha256": "da9074f9b08fb34ea5d5d3a010ac9f3ca32a72f3abf7b404c81a367ea3863f09",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/qc/source-speech.wav",
+      "sha256": "971c14978586b9b3811448e77700ad4aa4c19ec11d771fa647057bc66deb12ba",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/edits/seed-vc/vc_source-speech_EP02-SH05-voice-candidate-v1_1.0_30_0.7.wav",
+      "sha256": "51d0a78f0178038cba4b180d3479a14e1feea8ab437264af570bc8e564e5baac",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/edits/EP04-SH06-voice-test-v1.mp4",
+      "sha256": "013440853ea375a8fb38ca60ec2aa2d014fec4ab17ad079d9dcade28e7b1e381",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    }
+  ],
+  "metadata": {
+    "seconds": 8,
+    "width": 360,
+    "height": 640,
+    "fps": 24,
+    "frames": 192,
+    "audio_rate": 48000,
+    "audio_channels": 2
+  },
+  "review_status": "revision_needed_or_user_review_no_final_selection"
+}

@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-16",
+  "scope": "episode-04 only",
+  "files_audited": 544,
+  "removed": [
+    {
+      "path": ".DS_Store",
+      "bytes": 8196,
+      "sha256": "da4d4af585903b6a6017c300a9027d2f0c860ed07fbe34860141786cb3f506da",
+      "reason": "system_metadata"
+    },
+    {
+      "path": "recap/EP04-previously-v2.mp4",
+      "bytes": 980601,
+      "sha256": "add333c7a0c4a96b5cc5d101ee4d4387ac6ef6d1d29e69e409c4e370b316d80f",
+      "reason": "superseded_recap"
+    },
+    {
+      "path": "recap/EP04-previously-v1.mp4",
+      "bytes": 747971,
+      "sha256": "cc6a1dd19b6e81add4e2f8d086d3303837020e06405836b5cf26e691f8bb3bfe",
+      "reason": "superseded_recap"
+    },
+    {
+      "path": "edit/EP04-assembly-v1.mp4",
+      "bytes": 6623455,
+      "sha256": "ac058725bcbca699c1a3900a7d53c4b918ff6b767e1e12556d3f6435a45d2e82",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-with-hook-v1.mp4",
+      "bytes": 7084511,
+      "sha256": "f2eeb14b8ff814b6f00db5be316484a49d6b5002a048c3a9d423541374316792",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-with-recap-v4.mp4",
+      "bytes": 7149799,
+      "sha256": "d786e5d380c88ad4dbc8d19ceec61c317d4fba1e65f91d242796738d79e6d00c",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-with-hook-v2.mp4",
+      "bytes": 7155829,
+      "sha256": "5511a8904ac389d1f1a4e4c666b5fbc8ab5d66de0d46870580e6ab244b7fc1fc",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-with-hook-v3.mp4",
+      "bytes": 6994036,
+      "sha256": "13f0ae95509b10f4067863635cf4b3301707086b5e8ae618f113334182b61148",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-with-recap-v1.mp4",
+      "bytes": 7210674,
+      "sha256": "c33e7c05075d9671a01489e0488ec18c211cd3fd8bcf5f6002f435b70b164d08",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-with-recap-v2.mp4",
+      "bytes": 7431302,
+      "sha256": "307664f3b7d0107d41916af1fcc5a9c6f5f319687770b7cdc48af7074711add6",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-with-recap-v3.mp4",
+      "bytes": 7331912,
+      "sha256": "ad6cb900d78d7020529623cc4c9da3e4760260ac56435f1d50afa293c5ebed8b",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/EP04-still-animatic-v1.mp4",
+      "bytes": 1952858,
+      "sha256": "161237dcc830fee4e4e1351d79a6e285fe1f66b0fa0efd4bd2656e58b4492a67",
+      "reason": "superseded_full_export_or_animatic"
+    },
+    {
+      "path": "edit/ending-hook/ending-preview-v1.mp4",
+      "bytes": 768511,
+      "sha256": "5874f5e54d9e787423658939925579076e8590d95f9b87098c94ab37ee84ff0d",
+      "reason": "duplicate_excerpt_of_final_or_rejected_export"
+    },
+    {
+      "path": "edit/ending-hook/ending-preview-v2.mp4",
+      "bytes": 835975,
+      "sha256": "3aa30a49773d92fcb17a51b9609ee6eb4c03848eabd90cf0ba8538ee06e3746e",
+      "reason": "duplicate_excerpt_of_final_or_rejected_export"
+    },
+    {
+      "path": "edit/ending-hook/performance-v1.wav",
+      "bytes": 254478,
+      "sha256": "678e1c3828aadc140e6335e96215643b7fff797ee3115114c121b4776bc6b4f8",
+      "reason": "rejected_conversion_or_reproducible_input_trim"
+    },
+    {
+      "path": "edit/ending-hook/ending-preview-v3.mp4",
+      "bytes": 821397,
+      "sha256": "d6d93ce28414895042cf3cee9918ce04b0ac1c959175aa352b3f5b69923f46b3",
+      "reason": "duplicate_excerpt_of_final_or_rejected_export"
+    },
+    {
+      "path": "edit/ending-hook/ending-preview-v4.mp4",
+      "bytes": 822510,
+      "sha256": "adfe4982584142b1df298cbf02ed9c1acadb1c79483de53008f9276628130a93",
+      "reason": "duplicate_excerpt_of_final_or_rejected_export"
+    },
+    {
+      "path": "edit/ending-hook/voice-v1/vc_performance-v1_EP02-SH10-voice-candidate-v1_1.0_30_0.7.wav",
+      "bytes": 233552,
+      "sha256": "be21f04841b1189da72f34f5e137af784231ad593beceb3ef34d34da51f4f93f",
+      "reason": "rejected_conversion_or_reproducible_input_trim"
+    },
+    {
+      "path": "shots/EP04-SH03/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "d42bf780af2f474962cef0db29d2d5c8d7bf5a54eb21af5a8a79777ce6152619",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH04/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "eb0f96812d22dc1dc6fecf0638ebe539b1022a622fd7e8e6372e4d61da527366",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH05/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "d50290d5398756c0b005f5b764fa4915a1b3e90205033ad58df6cd5a8c969180",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH02/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "8df0e6d48ff3467745b0ed6e0062940168409c3b9d8faa444f6c3a7a4177962d",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH11/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "85e478dc37d31d040fff0d82eb9f0bff2f7df01f263282a662530666178f4711",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH10/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "967f0314527c518ddd06308098b99d0675f1a8aac602835516120c4d75bf2d62",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH07/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "9ea076e715d474afd4c74bca681949a9eddff2735a5d500dd2a2a566940b2705",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH09/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "a5a891df8dab4c3710002d85104e04dae68efa05068d9be7beee034b13901d1d",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH08/takes/take-01/qc/source-speech.wav",
+      "bytes": 772174,
+      "sha256": "4e502919271702f0c5ba5291be8cc7f2de4a5d037219a222f048964c2127d1d1",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH01/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "db9b2ca01ee1b385fc2b6e5c1feea8fbb0ee262934efbdc77a043bde3adca06e",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH06/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "971c14978586b9b3811448e77700ad4aa4c19ec11d771fa647057bc66deb12ba",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH15/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "2cf3218d11d2ce2a9731da29932fadcfb040c7b2dd74836b34cfb51cf85f7550",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH12/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "b62f38aa1144bae7628072f3b0c30b16a8117c138ddf452e447d034130d7c086",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH13/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "1992ff05cf9c4374f271e508014d63c6b41855352ddc5e8c299c10651bcd0655",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    },
+    {
+      "path": "shots/EP04-SH14/takes/take-01/qc/source-speech.wav",
+      "bytes": 768078,
+      "sha256": "83d8076e73ccd64391caece9a0bc8924d9652e995e82256d512adfc3e8af157b",
+      "reason": "reproducible_audio_extraction_from_retained_source"
+    }
+  ],
+  "protected_existing_external_references": [],
+  "before_bytes": 178863206,
+  "after_bytes": 102930971,
+  "removed_bytes": 75932833,
+  "retained": "Published final, body master v2, selected recap v3, all production originals, selected shot edits, submitted frame evidence, user recordings, approvals/cost/diagnostic records",
+  "historical_paths_note": "Paths in old JSON reports are provenance, not active media; removed paths and hashes are enumerated here.",
+  "validation": {
+    "selected_shot_cards_verified": 15,
+    "cards_without_selection": [],
+    "assembly_sources_verified": 16,
+    "publication_video_cover_caption_hashes": "unchanged and verified",
+    "originals_deleted": false,
+    "archive_created": false,
+    "markdown_links": "all local file targets exist",
+    "sh11_status_reconciled_to_published_selection": true
+  }
+}

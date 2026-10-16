@@ -1,0 +1,19 @@
+{
+  "source": "video.mp4",
+  "ranges": [
+    [
+      0.875,
+      3.625
+    ],
+    [
+      6.125,
+      7.25
+    ]
+  ],
+  "output": "edits/EP04-SH11-review-cut-v1.mp4",
+  "seconds": 3.875,
+  "frames": 93,
+  "internal_cut": true,
+  "speed_change": false,
+  "voice_conversion": false
+}

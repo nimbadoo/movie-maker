@@ -1,0 +1,59 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH16",
+  "segment": "EP03-SH16",
+  "beat": "tea_return",
+  "assets": [
+    "CH-NAZ",
+    "CH-MNZ",
+    "CH-FAR",
+    "CH-SAM",
+    "house/apartment-cutaway-v2"
+  ],
+  "status": "generated_local_edit_awaiting_user_review",
+  "submitted": true,
+  "ready": false,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/images/EP03-SH16-tea-return-house-v6.png",
+    "sha256": "baa0030fc93b6f1f5eacd7ee738b53666e60ae8578607b31b8d56d044137a123",
+    "role": "first_frame"
+  },
+  "prompt_sha256": "f99b963eacde6d575bafcd5a81b72015304983b3a9dacda7ba621505ae89932d",
+  "settings": {
+    "model": "Omni 1.1 Flash",
+    "mode": "Frames",
+    "seconds": 4,
+    "quality": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "audio": true
+  },
+  "cost": {
+    "unit": "Flow credits",
+    "per_attempt": 4,
+    "attempts": 1,
+    "ceiling": 4,
+    "batch_ceiling": 8,
+    "live_price_evidence": "next-silent-batch-price.png"
+  },
+  "image_lineage": "exec-1d82bb83-fa2c-431f-84af-14e96575f98d.png",
+  "content_approval": {
+    "approved": true,
+    "bundle_sha256": "7a5f8d81524fbd5244f5f25411b25ec023341d1fb0b4f978e3b5b6e75462312e",
+    "user_reply": "تأیید",
+    "evidence_ref": "User approval immediately following displayed SH16+SH17 v1 package total8credits,4each one attempt"
+  },
+  "cost_approval": {
+    "approved": true,
+    "bundle_sha256": "7a5f8d81524fbd5244f5f25411b25ec023341d1fb0b4f978e3b5b6e75462312e",
+    "user_reply": "تأیید",
+    "evidence_ref": "User approval immediately following displayed SH16+SH17 v1 package total8credits,4each one attempt"
+  },
+  "retry_allowed": false,
+  "output_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/takes/take-01/video.mp4",
+  "review_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/takes/take-01/edits/EP03-SH16-review-v1.mp4",
+  "trim_source_seconds": [
+    0.65,
+    2.6
+  ]
+}

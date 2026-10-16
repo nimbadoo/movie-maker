@@ -1,0 +1,52 @@
+{
+  "skill": "execute-media-generation",
+  "job_id": "EP04-SH08-take-01-attempt-1",
+  "request_id": "EP04-SH08-take-01-v1",
+  "bundle_sha256": "010fdf9a8336f8f1cd7d2c389d6742683780e7efc2888440462335a63e653630",
+  "idempotency_key": "010fdf9a8336f8f1cd7d2c389d6742683780e7efc2888440462335a63e653630-attempt-1",
+  "status": "succeeded",
+  "submission_started": true,
+  "provider": "Google Flow UI",
+  "model": "Omni 1.1 Flash",
+  "project_url": "https://flow.google.com/project/21998463-d51a-4d5b-a767-035108973a0a",
+  "cost": {
+    "submitted_price": 6,
+    "ceiling": 6,
+    "unit": "Flow credits",
+    "actual": null,
+    "basis": "One completed submission at displayed6credits; separate ledger not inspected."
+  },
+  "user_authorization": "تأیید — current user approval of displayed EP04-SH08 six-credit package",
+  "attempt": 1,
+  "retry_authorized": false,
+  "created_at": "2026-10-15T17:10:40.404249+00:00",
+  "live_check": "ui-before-submit.jpg; exact prompt and input08;Omni1.1Flash360p8s9:16x1 price6",
+  "submitted_at": "2026-10-15T17:12:02.830564+00:00",
+  "attempts_submitted": 1,
+  "completed_at": "2026-10-15T17:22:19.789392+00:00",
+  "provider_asset_id": "06076fc4-f4e4-4d44-b834-6230ddbe3905",
+  "asset_url": "https://flow.google.com/project/21998463-d51a-4d5b-a767-035108973a0a/edit/06076fc4-f4e4-4d44-b834-6230ddbe3905",
+  "metadata": {
+    "container_seconds": 8.042667,
+    "video_seconds": 8,
+    "width": 360,
+    "height": 640,
+    "fps": 24,
+    "frames": 192,
+    "audio_rate": 48000,
+    "audio_channels": 2
+  },
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH08/takes/take-01/video.mp4",
+      "sha256": "7d5d05fa5319c2788b11cb663ae6584ed0cc5091ac833adb9c5e1c432371840b",
+      "job_id": "EP04-SH08-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH08/takes/take-01/edits/EP04-SH08-original-tight-v1.mp4",
+      "sha256": "0d4c96eca0bd55ddb3a0ee28b44c4640c1baab074a4a34448646410f11675b9b",
+      "job_id": "EP04-SH08-take-01-attempt-1"
+    }
+  ],
+  "review_status": "local_revision_candidate_pending_user_acceptance"
+}

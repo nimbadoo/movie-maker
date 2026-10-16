@@ -1,0 +1,72 @@
+{
+  "skill": "compile-generation-prompts",
+  "request_id": "EP04-SH11-take-01-v1",
+  "bundle_sha256": "9d7d8dad6817ca2ef76ea29d329c89428a83bc20e68910f9f93d9be4c3f1756d",
+  "status": "succeeded_pending_user_review",
+  "submitted": true,
+  "timing_source_sha256": "90bd3bb4b48ed9492ecfeb7bebd92320f38e78ed708233aaef2fe9617376430b",
+  "data": {
+    "shot_ir": {
+      "shot": "EP04-SH11",
+      "dialogue_id": "EP04-D11",
+      "speaker": "CH-NAZ",
+      "listener": "CH-SAM",
+      "assets": [
+        "CH-NAZ",
+        "CH-SAM"
+      ],
+      "edit_target_seconds": 3
+    },
+    "storyboard_frames": [
+      {
+        "path": "images/EP04-SH11-start-v1.png",
+        "sha256": "02e084e6c1f2fa38bb278dd34580602aa308fe4397ff02bedbb7c151e15258d5"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "id": "EP04-SH11-take-01-v1",
+        "segment": "EP04-SH11",
+        "beat": "EP04-D11",
+        "assets": [
+          "CH-NAZ",
+          "CH-SAM"
+        ],
+        "prompt_file": "prompt.txt",
+        "prompt_sha256": "313e2afb5d715fc65c6c3138124aabe0360bd79e31f511e9a45ce983a2e0b4c0"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow UI",
+        "settings": {
+          "model": "Omni 1.1 Flash",
+          "seconds": 8,
+          "quality": "360p",
+          "aspect_ratio": "9:16",
+          "audio": true,
+          "outputs": 1,
+          "mode": "Frames",
+          "first_frame_only": true
+        },
+        "cost": {
+          "unit": "Flow credits",
+          "per_attempt": 6,
+          "attempts": 1,
+          "ceiling": 6,
+          "price_source": "Live UI; flow-cost-check-v1.jpg",
+          "verified_at": "2026-10-15T19:19:01.908009+00:00"
+        },
+        "input_roles": {
+          "images/EP04-SH11-start-v1.png": "first_frame"
+        },
+        "compatibility": "live supported settings; reference audio upload not used"
+      }
+    ],
+    "quality_gate": {
+      "preparation_passed": true,
+      "submission_authorized": true
+    }
+  }
+}

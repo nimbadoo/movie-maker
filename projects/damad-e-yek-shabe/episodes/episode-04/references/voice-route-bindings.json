@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-15",
+  "route": "native_performance_then_local_seed_vc_then_review_then_non_destructive_mix",
+  "method_evidence": "episodes/episode-03/shots/EP03-SH01/audio/voice-lock-test/seed-vc/README.md: user accepted method for continuation, not faulty ending or final shot",
+  "mother_method_accepted": true,
+  "other_character_identity_proven": false,
+  "reference_voice_selection_changed": false,
+  "references": {
+    "CH-NAZ": {
+      "path": "episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+      "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 4.724
+    },
+    "CH-SAM": {
+      "path": "episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+      "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 3.06
+    },
+    "CH-MNZ": {
+      "path": "episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+      "sha256": "85086db738c84b1076d369831306c916b37f0d66084a93cf9f58124d450142a4",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 3.536
+    },
+    "CH-FAR": {
+      "path": "episodes/episode-01/shots/EP01-SH01/audio/EP01-SH01-voice-candidate-v1.wav",
+      "sha256": "346881e59f37ed24acaff584540ed2354e500ec08a370e6c9e4d7a9433562a06",
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 3.472
+    }
+  },
+  "dialogue_jobs": [
+    {
+      "shot": "EP04-SH01",
+      "order": 1,
+      "speaker": "CH-SAM",
+      "dialogue": "چَشم، با مادَرَم حَرْف می‌زَنَم.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+        "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 3.06
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH02",
+      "order": 2,
+      "speaker": "CH-NAZ",
+      "dialogue": "نَه، فِعلاً چیزی بِه مادَرِت نَگو.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+        "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 4.724
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH03",
+      "order": 3,
+      "speaker": "CH-MNZ",
+      "dialogue": "مَن فَقَط گُفتَم آشنا بِشیم، نازْلی.",
+      "voice_reference": {
+        "path": "episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+        "sha256": "85086db738c84b1076d369831306c916b37f0d66084a93cf9f58124d450142a4",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 3.536
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH04",
+      "order": 4,
+      "speaker": "CH-NAZ",
+      "dialogue": "می‌دونَم، مامان. سامان، یِه لَحظه میای؟",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+        "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 4.724
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH05",
+      "order": 6,
+      "speaker": "CH-NAZ",
+      "dialogue": "قَرارِمون یِه شام بود. چرا داری اِدامه‌ش می‌دی؟",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+        "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 4.724
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH06",
+      "order": 7,
+      "speaker": "CH-SAM",
+      "dialogue": "گُفتَم باهاش حَرْف می‌زَنَم. نَگُفتَم میارَمِش.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+        "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 3.06
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH07",
+      "order": 8,
+      "speaker": "CH-NAZ",
+      "dialogue": "پَس قَبلِ رَفتَن بِگو بِه تَوافُق نَرسیدیم.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+        "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 4.724
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH08",
+      "order": 9,
+      "speaker": "CH-SAM",
+      "dialogue": "سَرِ چی؟ هَنوز که با هَم حَرْف نَزَدیم.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+        "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 3.06
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH09",
+      "order": 10,
+      "speaker": "CH-NAZ",
+      "dialogue": "نِمی‌خوام مادَرِتو هَم دَرگیر کُنیم.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+        "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 4.724
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH10",
+      "order": 11,
+      "speaker": "CH-SAM",
+      "dialogue": "باشه، نِمی‌گَم. وَلی باید با هَم جَمعِش کُنیم.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+        "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 3.06
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH11",
+      "order": 12,
+      "speaker": "CH-NAZ",
+      "dialogue": "باشه. با هَم می‌گیم.",
+      "voice_reference": {
+        "path": "episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+        "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 4.724
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    },
+    {
+      "shot": "EP04-SH12",
+      "order": 14,
+      "speaker": "CH-FAR",
+      "dialogue": "سامان، اوّلین قَرارتون کُجا بود؟",
+      "voice_reference": {
+        "path": "episodes/episode-01/shots/EP01-SH01/audio/EP01-SH01-voice-candidate-v1.wav",
+        "sha256": "346881e59f37ed24acaff584540ed2354e500ec08a370e6c9e4d7a9433562a06",
+        "sample_rate": 48000,
+        "channels": 2,
+        "duration_seconds": 3.472
+      },
+      "source_audio": null,
+      "conversion_output": null,
+      "status": "awaiting_new_complete_performance_no_conversion_executed"
+    }
+  ],
+  "execution": {
+    "new_video": false,
+    "new_audio": false,
+    "conversion_run": false,
+    "external_credits_consumed": 0
+  },
+  "gates": [
+    "real_performance_timing",
+    "exact_final_video_package_review",
+    "explicit_external_cost_approval",
+    "complete_intelligible_source_audio",
+    "identity_and_pronunciation_review_after_conversion",
+    "phoneme_lip_sync_review_not_just_duration"
+  ],
+  "automatic_retry": false
+}

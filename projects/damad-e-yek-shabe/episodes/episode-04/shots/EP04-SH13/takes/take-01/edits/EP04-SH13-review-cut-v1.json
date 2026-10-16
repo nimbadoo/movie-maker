@@ -1,0 +1,11 @@
+{
+  "source": "video.mp4",
+  "in": 0.0,
+  "out": 2.5,
+  "output": "edits/EP04-SH13-review-cut-v1.mp4",
+  "seconds": 2.5,
+  "frames": 60,
+  "internal_cut": false,
+  "speed_change": false,
+  "voice_conversion": false
+}

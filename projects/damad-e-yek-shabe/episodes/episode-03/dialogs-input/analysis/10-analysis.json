@@ -1,0 +1,95 @@
+{
+  "file": "10.m4a",
+  "shot": "EP03-SH10",
+  "source_sha256": "5e981df9f67abf461b5484b795899b7430f5e89bfffa5ee4fddbcf1772da3517",
+  "duration_seconds": 3.284,
+  "speaker_from_card": "سامان",
+  "approved_text_from_card": "اَگِه نازْلی هَم بِخواد، مَن قَصْدَم اِزْدِواجِه.",
+  "machine_transcript": "اگه نازلی هم بخواد من قصدم ازدواجه",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.98,
+      "text": " اگه نازلی هم بخواد من قصدم ازدواجه",
+      "tokens": [
+        50365,
+        1975,
+        16761,
+        3224,
+        8717,
+        31377,
+        1211,
+        4135,
+        8032,
+        2304,
+        4724,
+        9778,
+        14407,
+        3215,
+        9154,
+        12174,
+        9381,
+        40448,
+        1975,
+        11622,
+        3215,
+        2407,
+        26108,
+        3224,
+        50523
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16372394561767578,
+      "compression_ratio": 0.9841269841269841,
+      "no_speech_prob": 9.442357312705596e-11,
+      "words": [
+        {
+          "word": " اگه",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.95849609375
+        },
+        {
+          "word": " نازلی",
+          "start": 0.48,
+          "end": 0.88,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " هم",
+          "start": 0.88,
+          "end": 1.06,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " بخواد",
+          "start": 1.06,
+          "end": 1.58,
+          "probability": 0.978515625
+        },
+        {
+          "word": " من",
+          "start": 1.58,
+          "end": 1.74,
+          "probability": 0.86572265625
+        },
+        {
+          "word": " قصدم",
+          "start": 1.74,
+          "end": 2.22,
+          "probability": 0.82373046875
+        },
+        {
+          "word": " ازدواجه",
+          "start": 2.22,
+          "end": 2.98,
+          "probability": 0.94921875
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

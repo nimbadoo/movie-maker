@@ -1,0 +1,32 @@
+{
+  "shot": "EP03-SH13",
+  "status": "accepted_for_continuation",
+  "tool": "image_gen",
+  "source": "/Users/hrmohseni/.codex/generated_images/01a13b59-b333-7783-b775-93d5492f7c81/exec-6b146257-0e44-4e1f-b9ea-b65eb9f0fe91.png",
+  "image_sha256": "97aa8557ffc8fba4ed1747910742d98e6bc4d2b1136c6395a3b4b4f47dc690f6",
+  "prompt_file": "EP03-SH13-mother-unaware-reply-v3-prompt.txt",
+  "references": [
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH13/images/EP03-SH13-mother-unaware-reply-v2.png",
+      "sha256": "e09d1ff064026c6373e3b564bea6a70079e2beee380e01071992b6316c82547f"
+    },
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/images/EP03-SH17-serving-close-v4.png",
+      "sha256": "e5e237c9fb88dc266727bc87eae7ebbba5144a832071c873eb036b8351cde9af"
+    },
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-02/references/01-saman-portrait-v1.png",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    }
+  ],
+  "scope": "saucer pattern",
+  "user_approval": {
+    "date": "2026-10-15",
+    "evidence": "مرحله بعد رو بریم",
+    "scope": "still frame continuation only"
+  }
+}

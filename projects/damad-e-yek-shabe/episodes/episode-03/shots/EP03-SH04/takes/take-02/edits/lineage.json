@@ -1,0 +1,15 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "918f687ce9d0e2840c37d0cf73376eb17b9d7de9315d832a22c4396db0ab0e53",
+  "output": "EP03-SH04-reply-review-v1.mp4",
+  "sha256": "f3d96af149748ac3dee04a44c47184c652741af606d7f22989d4e459baf4ba8f",
+  "source_range_seconds": [
+    0,
+    3
+  ],
+  "frames": 72,
+  "audio": "Native Flow audio retained and AAC reencoded only",
+  "reason": "Trim at3sec after ASR last word2.36sec; native audio retained",
+  "selection": "accepted_standalone_edit",
+  "selection_evidence": "User خب اینم خیلی خوب شده"
+}

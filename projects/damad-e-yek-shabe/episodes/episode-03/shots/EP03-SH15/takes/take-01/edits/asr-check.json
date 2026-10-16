@@ -1,0 +1,34 @@
+{
+  "text": " موسیقی",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.98,
+      "end": 3.38,
+      "text": " موسیقی",
+      "tokens": [
+        50365,
+        3714,
+        41779,
+        4135,
+        4587,
+        4135,
+        50565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35491570830345154,
+      "compression_ratio": 0.5714285714285714,
+      "no_speech_prob": 1.4341901277692415e-10,
+      "words": [
+        {
+          "word": " موسیقی",
+          "start": 1.98,
+          "end": 3.38,
+          "probability": 0.7998046875
+        }
+      ]
+    }
+  ],
+  "limitation": "ASR may hallucinate on silent clips; no auditory review; not proof of absence of speech or music"
+}

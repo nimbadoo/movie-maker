@@ -1,0 +1,143 @@
+{
+  "file": "09.m4a",
+  "shot": "EP03-SH09",
+  "source_sha256": "3edb1f8df9fcdb4d896c3007610e47bf8b09e1ae79b37280a39c0c771826345d",
+  "duration_seconds": 4.5853125,
+  "speaker_from_card": "مادر",
+  "approved_text_from_card": "قَطْعی نَشُدِه، قَبول. وَلی می‌خواین این آشْنایی بِه کُجا بِرِسِه؟",
+  "machine_transcript": "قطعی نشده؟ قبول. بلی میخواین این آشنایی به کجا برسه؟",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.06,
+      "text": " قطعی نشده؟ قبول.",
+      "tokens": [
+        50365,
+        12174,
+        9566,
+        3615,
+        4135,
+        8717,
+        8592,
+        3215,
+        3224,
+        22807,
+        12174,
+        3555,
+        12610,
+        13,
+        50468
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17371055556506645,
+      "compression_ratio": 1.0930232558139534,
+      "no_speech_prob": 9.004144652102752e-11,
+      "words": [
+        {
+          "word": " قطعی",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " نشده؟",
+          "start": 0.76,
+          "end": 1.48,
+          "probability": 0.93408203125
+        },
+        {
+          "word": " قبول.",
+          "start": 1.48,
+          "end": 2.06,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 2.14,
+      "end": 4.36,
+      "text": " بلی میخواین این آشنایی به کجا برسه؟",
+      "tokens": [
+        50475,
+        4724,
+        1211,
+        4135,
+        48478,
+        9778,
+        14407,
+        32151,
+        1975,
+        32151,
+        19753,
+        8592,
+        8315,
+        4135,
+        4135,
+        39627,
+        7565,
+        7435,
+        995,
+        4724,
+        2288,
+        3794,
+        3224,
+        22807,
+        50593
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.17371055556506645,
+      "compression_ratio": 1.0930232558139534,
+      "no_speech_prob": 9.004144652102752e-11,
+      "words": [
+        {
+          "word": " بلی",
+          "start": 2.14,
+          "end": 2.4,
+          "probability": 0.84423828125
+        },
+        {
+          "word": " میخواین",
+          "start": 2.4,
+          "end": 2.74,
+          "probability": 0.830078125
+        },
+        {
+          "word": " این",
+          "start": 2.74,
+          "end": 2.9,
+          "probability": 0.8603515625
+        },
+        {
+          "word": " آشنایی",
+          "start": 2.9,
+          "end": 3.3,
+          "probability": 0.85595703125
+        },
+        {
+          "word": " به",
+          "start": 3.3,
+          "end": 3.36,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " کجا",
+          "start": 3.36,
+          "end": 3.72,
+          "probability": 0.998046875
+        },
+        {
+          "word": " برسه؟",
+          "start": 3.72,
+          "end": 4.36,
+          "probability": 0.9462890625
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

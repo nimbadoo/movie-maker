@@ -1,0 +1,68 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH06",
+  "take": "take-01",
+  "status": "generated_awaiting_user_review",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH06/images/EP03-SH06-interest-reply-house-v6.png",
+    "sha256": "fc47ecfc08ae52412748a511c9b1d0d71c0238df31a884c9bdeb257125fcf904",
+    "role": "house_corrected_first_frame"
+  },
+  "prompt_sha256": "8ae62844a231ea4c7ab7bda74f4972d25d97351ad1fd5fac7c37ea9a3872f58e",
+  "user_performance_reference": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/dialogs-input/06.m4a",
+    "sha256": "cb5b15872fbf151940a5439105427d87fee0b466dc8573ed9566a6397f0519fc",
+    "duration_seconds": 4.7986875,
+    "role": "local_timing_pronunciation_reference_not_provider_audio_conditioning"
+  },
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 6,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "source": "Live IAB6sec360p x1 settings shows5credits",
+      "verified_at": "2026-10-15T20:24:39.022127+00:00"
+    }
+  },
+  "batch": {
+    "id": "EP03-SH05-SH06-batch-v1",
+    "total_ceiling": 10,
+    "shots": [
+      "EP03-SH05",
+      "EP03-SH06"
+    ],
+    "attempts_per_shot": 1
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "این تأییده. تاییدهای بعدی تو به من آپشن بده",
+    "bundle_sha256": "5c0531aeeca8568748dc8743b1726b47b67e26e790ebb8ab160bd34d89fdb90a"
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 5,
+    "attempts": 1,
+    "user_reply": "این تأییده. تاییدهای بعدی تو به من آپشن بده",
+    "bundle_sha256": "5c0531aeeca8568748dc8743b1726b47b67e26e790ebb8ab160bd34d89fdb90a"
+  },
+  "open_issues": [],
+  "image_lineage": {
+    "generated": "exec-bc38cf7d-5ed3-4b00-8428-6202a7e81ee1.png"
+  },
+  "metadata_correction": "Stored digest was stale; current prompt is unchanged from approved commit ef3effa and linked preflight prompt, SHA matches original preflight inventory.",
+  "output_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH06/takes/take-01/video.mp4"
+}

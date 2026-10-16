@@ -1,0 +1,38 @@
+{
+  "skill": "review-and-assemble",
+  "status": "user_rejected",
+  "source_recording": "../../dialogs-input/hook.m4a",
+  "source_sha256": "12e6b37e8fe83209131133a13c2d3d1e25887e6a8c042c06a37e9fcc84a3f592",
+  "container_seconds": 3.48,
+  "asr_phrase_range": [
+    0.68,
+    2.88
+  ],
+  "performance_trim": [
+    0.48,
+    3.13
+  ],
+  "performance_seconds": 2.65,
+  "converted_voice": "edit/ending-hook/voice-v1/vc_performance-v1_EP02-SH10-voice-candidate-v1_1.0_30_0.7.wav",
+  "reference": "EP02-SH10-voice-candidate-v1.wav",
+  "model": "local Seed-VC",
+  "diffusion_steps": 30,
+  "length_adjust": 1.0,
+  "cfg": 0.7,
+  "f0_condition": false,
+  "external_credits": 0,
+  "reaction_source_range": [
+    1,
+    3.666666667
+  ],
+  "full_seconds": 67.875,
+  "full_sha256": "f2eeb14b8ff814b6f00db5be316484a49d6b5002a048c3a9d423541374316792",
+  "complete_decode": true,
+  "voice_identity_listening_verified": false,
+  "source_tone_not_guaranteed": true,
+  "no_speed_change": true,
+  "converted_asr": " اگی جای سامان بودید شی می گفتی",
+  "open_review": "ASR has ambiguous اگی/بودید/شی; listening to pronunciation and Nazli identity required, output is candidate only",
+  "visual_review": "Existing source inspected at half-second samples; continuous reaction 1..3.667 with Nazli turning toward Saman, no new geometry or speed change",
+  "rejection_reason": "User rejected pronunciation, delivery and Nazli voice identity"
+}

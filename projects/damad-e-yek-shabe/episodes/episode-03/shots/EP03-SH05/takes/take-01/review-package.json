@@ -1,0 +1,67 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH05",
+  "take": "take-01",
+  "status": "generated_awaiting_user_review",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH05/images/EP03-SH05-interest-question-house-v4.png",
+    "sha256": "94bcc371aa15e71c9b79e7a3595dc16f0435c6ad8936affa0f6d249c6a6bfac5",
+    "role": "house_corrected_first_frame"
+  },
+  "prompt_sha256": "a3d90469093e81006b02469a54873b68905131a78ef7a015b6a72dbfe3a151fe",
+  "user_performance_reference": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/dialogs-input/5.m4a",
+    "sha256": "b80447e1b37d78a8fcce9a73d74683fb3c6227a3b6f416777a481817014428e0",
+    "duration_seconds": 5.3106875,
+    "role": "local_timing_pronunciation_reference_not_provider_audio_conditioning"
+  },
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 6,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "source": "Live IAB6sec360p x1 settings shows5credits",
+      "verified_at": "2026-10-15T20:24:39.008104+00:00"
+    }
+  },
+  "batch": {
+    "id": "EP03-SH05-SH06-batch-v1",
+    "total_ceiling": 10,
+    "shots": [
+      "EP03-SH05",
+      "EP03-SH06"
+    ],
+    "attempts_per_shot": 1
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "1f2b0d90e7189138fab8835723045ee35161e3593ca0fa0fc9fb5a17a9c9a614"
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 5,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "1f2b0d90e7189138fab8835723045ee35161e3593ca0fa0fc9fb5a17a9c9a614"
+  },
+  "open_issues": [],
+  "image_lineage": {
+    "generated": "exec-0cab42b4-64ae-42e2-9a1a-cbbde09ac767.png"
+  },
+  "output_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH05/takes/take-01/video.mp4"
+}

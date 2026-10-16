@@ -1,0 +1,19 @@
+{
+  "source": "episodes/episode-04/dialogs-input/12.m4a",
+  "sha256": "d03283e71c3e4352fa200460032f260cf229e71c0e30706af50e1dcaf576d9c6",
+  "container_seconds": 5.973333,
+  "decoded_seconds": 5.929333,
+  "sample_rate": 48000,
+  "channels": 1,
+  "method": "silencedetect -45dB d0.15; offline whisper turbo fa temperature0 no initial prompt",
+  "activity_start": 0.650271,
+  "activity_end": 3.668687,
+  "asr_end": 3.96,
+  "internal_pause_seconds": 0.78475,
+  "conservative_span": 3.309729,
+  "margins": 0.4,
+  "required_seconds": 3.709729,
+  "edit_target": 4,
+  "asr_diagnostic": "اولی instead of اولین is uncertain recognition; canonical dialogue unchanged",
+  "listening_claimed": false
+}

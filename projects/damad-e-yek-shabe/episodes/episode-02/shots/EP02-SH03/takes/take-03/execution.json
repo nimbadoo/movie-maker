@@ -1,0 +1,37 @@
+{
+  "skill": "execute-media-generation",
+  "request_id": "EP02-SH03-take-03",
+  "bundle_sha256": "9cb44237373570b9666e890b1e39a1c947e47c4f3439a94c4f4a75a1e5e1721f",
+  "idempotency_key": "bdfed045b7708659782658b7912c038a42045cfb8e45ffd841a97f10474282cb",
+  "date": "2026-10-14",
+  "data": {
+    "jobs": [],
+    "media_assets": [],
+    "cost_summary": {
+      "unit": "credits",
+      "approved_ceiling": 7,
+      "approved_attempts": 1,
+      "attempts_submitted": 0,
+      "spent": 0,
+      "retry_authorized": false
+    },
+    "execution_gate": {
+      "state": "blocked",
+      "reason": "measured natural reading11s exceeds approved10s; required approx11.5s with margins",
+      "preflight": "preflight.md"
+    }
+  },
+  "provider_route": {
+    "provider": "Google Flow",
+    "model": "Omni 1.1 Flash",
+    "mode": "Frames",
+    "seconds": 10,
+    "quality": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1
+  },
+  "conditional_user_approval": "خوبه، همین پرامپت و سقف ۷ کریدیت برای یک برداشت ۱۰ثانیه‌ای رو تأیید می‌کنم. بررسی‌های باقی‌مونده رو کامل کن؛ اگر متن با ریتم طبیعی جا می‌شه، فقط یک برداشت بساز و قبل از جایگزینی نشونم بده. تلاش مجدد نکن.",
+  "browser_staged": true,
+  "generation_clicked": false,
+  "episode_modified": false
+}

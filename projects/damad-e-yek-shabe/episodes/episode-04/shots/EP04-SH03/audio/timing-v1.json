@@ -1,0 +1,14 @@
+{
+  "source": "episodes/episode-04/dialogs-input/03.m4a",
+  "sha256": "76556d38c5afffc04f8846a861bdb246af89217783a8cbc15395048bde312319",
+  "method": "ffmpeg silencedetect -45dB d0.15 plus offline whisper turbo fa word timestamps; no listening claim",
+  "activity_start": 0.485042,
+  "conservative_asr_end": 2.82,
+  "speech_span_with_pauses": 2.334958,
+  "margins": 0.4,
+  "action_allowance": 0,
+  "required_seconds": 2.734958,
+  "edit_target": 3.5,
+  "asr": " من فقط گفتم آشنا بشیم نازلی",
+  "asr_is_not_canonical_dialogue": true
+}

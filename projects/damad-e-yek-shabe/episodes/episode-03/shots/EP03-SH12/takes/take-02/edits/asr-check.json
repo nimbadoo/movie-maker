@@ -1,0 +1,93 @@
+{
+  "text": " مادر شما هم از این آشنایی خبر دارن؟",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.1399999999999997,
+      "end": 4.34,
+      "text": " مادر شما هم از این آشنایی خبر دارن؟",
+      "tokens": [
+        50415,
+        3714,
+        18513,
+        2288,
+        13412,
+        15042,
+        8032,
+        2304,
+        1975,
+        11622,
+        1975,
+        32151,
+        19753,
+        8592,
+        8315,
+        4135,
+        4135,
+        16490,
+        26890,
+        11778,
+        9640,
+        1863,
+        22807,
+        50565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11105306625366211,
+      "compression_ratio": 1.0327868852459017,
+      "no_speech_prob": 1.0667795119490009e-10,
+      "words": [
+        {
+          "word": " مادر",
+          "start": 1.1399999999999997,
+          "end": 1.88,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " شما",
+          "start": 1.88,
+          "end": 2.22,
+          "probability": 0.994140625
+        },
+        {
+          "word": " هم",
+          "start": 2.22,
+          "end": 2.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " از",
+          "start": 2.44,
+          "end": 2.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " این",
+          "start": 2.62,
+          "end": 2.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " آشنایی",
+          "start": 2.72,
+          "end": 3.2,
+          "probability": 0.96533203125
+        },
+        {
+          "word": " خبر",
+          "start": 3.2,
+          "end": 3.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " دارن؟",
+          "start": 3.6,
+          "end": 4.34,
+          "probability": 0.96240234375
+        }
+      ]
+    }
+  ],
+  "limitation": "ASR may hallucinate on silent clips; no auditory review; not proof of absence of speech or music"
+}

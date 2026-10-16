@@ -1,0 +1,12 @@
+{
+  "method": "local espeak-ng Persian synthetic timing guide; not final performance or voice identity sample",
+  "text": "اِ، آقا سامان! شُما کِه هَمْسایِهٔ طَبَقِهٔ بالایِ مایین.",
+  "timing_only_phonetic_override": "standalone opening اِ rendered as [[e]] because espeak reads standalone alef as a letter name",
+  "words_per_minute_setting": 165,
+  "duration_seconds": 4.53265306122449,
+  "sha256": "471878dd253ad35cb6583b2100f689d68741e2b1f77a84de58f00839d68454c2",
+  "production_audio": false,
+  "natural_acting_verified": false,
+  "future_flow_timing_guaranteed": false,
+  "external_credits": 0
+}

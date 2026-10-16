@@ -1,0 +1,27 @@
+{
+  "shot": "EP02-SH11",
+  "take": "take-02",
+  "source": "episodes/episode-02/shots/EP02-SH11/takes/take-02/video.mp4",
+  "sha256": "0bc2e4e3de70db715df306c2d646ae14ab57a515f9915bf2a3a9b0a23e664504",
+  "original_in": 0.48,
+  "original_out": 2.376,
+  "in": 0.54,
+  "out": 2.3160000000000003,
+  "pause_cuts": [],
+  "segments": [
+    {
+      "kind": "original_synced_speech",
+      "source": "episodes/episode-02/shots/EP02-SH11/takes/take-02/video.mp4",
+      "in": 0.54,
+      "out": 2.3160000000000003,
+      "file": "episodes/episode-02/shots/EP02-SH11/takes/take-02/edits/v2/part-01.mp4",
+      "output_seconds": 1.776,
+      "listener": null,
+      "timeline_in": 34.778079,
+      "timeline_out": 36.554079
+    }
+  ],
+  "review_video": "episodes/episode-02/shots/EP02-SH11/takes/take-02/edits/v2/EP02-SH11-pause-review.mp4",
+  "speed": 1.0,
+  "status": "local review only; user acceptance pending"
+}

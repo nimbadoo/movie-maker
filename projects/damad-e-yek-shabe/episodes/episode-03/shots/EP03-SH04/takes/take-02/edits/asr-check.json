@@ -1,0 +1,64 @@
+{
+  "text": " با شما من، الان میارم",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.36,
+      "text": " با شما من، الان میارم",
+      "tokens": [
+        50365,
+        4724,
+        995,
+        13412,
+        15042,
+        9154,
+        12399,
+        2423,
+        7649,
+        48478,
+        9640,
+        2304,
+        50484
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34429727281842915,
+      "compression_ratio": 0.8636363636363636,
+      "no_speech_prob": 1.5465430325267704e-10,
+      "words": [
+        {
+          "word": " با",
+          "start": 0.0,
+          "end": 0.82,
+          "probability": 0.71923828125
+        },
+        {
+          "word": " شما",
+          "start": 0.82,
+          "end": 1.06,
+          "probability": 0.99609375
+        },
+        {
+          "word": " من،",
+          "start": 1.06,
+          "end": 1.62,
+          "probability": 0.59375
+        },
+        {
+          "word": " الان",
+          "start": 1.62,
+          "end": 1.92,
+          "probability": 0.7421875
+        },
+        {
+          "word": " میارم",
+          "start": 1.92,
+          "end": 2.36,
+          "probability": 0.9873046875
+        }
+      ]
+    }
+  ],
+  "limitation": "Machine text and timestamps only; no auditory pronunciation/voice identity/ambience or continuous lipsync verification"
+}

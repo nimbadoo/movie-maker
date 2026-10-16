@@ -1,0 +1,64 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH19",
+  "take": "take-01",
+  "status": "generated_rejected_duplicate_character",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/images/EP03-SH19-start-from-approved-introduction-v1.png",
+    "sha256": "e14db7043b001f817eb221b18a0b3890bf87cc91135198ffda5a3b926cda2b8b",
+    "role": "first_frame_extracted_from_accepted_previous_shot",
+    "source": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/EP03-SH15-introduction-review-v1.mp4",
+    "source_sha256": "2f8fc550122b870094e1f44c44f9e1acd478162eec88e99f11db0a37b8614350",
+    "source_frame_time_seconds": 5.2083333333
+  },
+  "prompt_sha256": "da51d8dd0b52d8945d0ab2b912b4152a925ef8cd0f4fcf33f8a72cc13972fd4e",
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 8,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 6,
+      "attempts": 1,
+      "ceiling": 6,
+      "source": "Live IAB8s360p x1 model Omni1.1Flash shows6credits",
+      "verified_at": "2026-10-15T15:59:43.460505+00:00"
+    }
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "4e5753040106c6728f43a99af3bb521a31541e576a3c960ce06051947a34acd8"
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 6,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "4e5753040106c6728f43a99af3bb521a31541e576a3c960ce06051947a34acd8"
+  },
+  "open_issues": [
+    "Extra cream-shirt man enters left around2.1sec while original Farhad stands behind",
+    "Handshake performed by duplicate, physically invalid identity continuity",
+    "Auditory performance and voice ownership not verified"
+  ],
+  "audio_policy": "Native voices and ambience retained; no reference-audio conditioning or guaranteed identity; review against canonical voices after output",
+  "post_generation_checks": [
+    "rise before contact",
+    "two right hands plausible path and release",
+    "sequential correct speaker lips and voice",
+    "no lens gaze",
+    "face clothes house continuity",
+    "complete words and natural environmental sound"
+  ]
+}

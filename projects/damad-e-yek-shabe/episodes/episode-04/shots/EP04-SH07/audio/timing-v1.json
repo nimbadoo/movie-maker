@@ -1,0 +1,20 @@
+{
+  "source_original": "/Users/hrmohseni/dev/movie-maker/توافق.m4a",
+  "source_copy": "audio/EP04-D07-user-timing-v1.m4a",
+  "source_sha256": "d07927b445455e69e21cdc6093383db0bbb893f137e1c8a55a42979f07b0f600",
+  "container_duration": 6.21,
+  "decoded_duration": 6.164,
+  "sample_rate": 48000,
+  "channels": 1,
+  "method": "ffmpeg silencedetect -50dB minimum0.15s; sensitivity comparison -45dB",
+  "main_activity_start": 1.567667,
+  "main_activity_end": 4.807792,
+  "span_including_internal_pauses": 3.240125,
+  "long_internal_pause": 0.638979,
+  "asr_text": " پس قبل رفتن بگو به توافق نرسیدیم",
+  "asr_endpoint": 4.98,
+  "conservative_required_with_margins": 3.9,
+  "allocated_edit_seconds": 4.5,
+  "listening_review_claimed": false,
+  "tail_activity_note": "Small isolated activity near6.06 after over1.25s silence; no extra words in ASR, excluded from main-speech span. No audio is used as production source."
+}

@@ -1,0 +1,94 @@
+{
+  "file": "07.m4a",
+  "shot": "EP03-SH07",
+  "source_sha256": "be7bb1b19e8f7e93e5887807e01112f6fa96b4906dfc7284376a5ef0cd961902",
+  "duration_seconds": 3.1133125,
+  "speaker_from_card": "فرهاد",
+  "approved_text_from_card": "پَس چِرا تا حالا چیزی نَشْنیدِه بودیم؟",
+  "machine_transcript": "پس چرا تا حالا چیزی نشنده بودیم؟",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.72,
+      "text": " پس چرا تا حالا چیزی نشنده بودیم؟",
+      "tokens": [
+        50365,
+        21453,
+        3794,
+        34766,
+        23557,
+        6055,
+        995,
+        11331,
+        6027,
+        995,
+        34766,
+        4135,
+        11622,
+        4135,
+        8717,
+        8592,
+        41260,
+        3224,
+        4724,
+        23328,
+        4135,
+        2304,
+        22807,
+        50521
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15455289840698241,
+      "compression_ratio": 0.8923076923076924,
+      "no_speech_prob": 9.72924588116264e-11,
+      "words": [
+        {
+          "word": " پس",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " چرا",
+          "start": 0.72,
+          "end": 0.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " تا",
+          "start": 0.98,
+          "end": 1.18,
+          "probability": 0.84716796875
+        },
+        {
+          "word": " حالا",
+          "start": 1.18,
+          "end": 1.4,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " چیزی",
+          "start": 1.4,
+          "end": 1.7,
+          "probability": 0.98828125
+        },
+        {
+          "word": " نشنده",
+          "start": 1.7,
+          "end": 2.2,
+          "probability": 0.83544921875
+        },
+        {
+          "word": " بودیم؟",
+          "start": 2.2,
+          "end": 2.72,
+          "probability": 0.96875
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

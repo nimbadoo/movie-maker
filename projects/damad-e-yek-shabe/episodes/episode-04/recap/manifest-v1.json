@@ -1,0 +1,46 @@
+{
+  "skill": "review-and-assemble",
+  "status": "revision-needed",
+  "recap_seconds": 6.75,
+  "full_video_seconds": 64.54166666666667,
+  "inputs": [
+    {
+      "shot": "EP02-SH08",
+      "path": "episodes/episode-02/shots/EP02-SH08/takes/take-01/video.mp4",
+      "sha256": "a3aad4514228b63468dc27c5f8aa47288fd39b840aad16bc343c18bfd1b4372e",
+      "in": 1.25,
+      "out": 5.583333333,
+      "role": "Nazli actor and one-night role premise"
+    },
+    {
+      "shot": "EP03-SH14",
+      "path": "episodes/episode-03/shots/EP03-SH14/takes/take-01/edits/EP03-SH14-review-v1.mp4",
+      "sha256": "2e18f4002f3d8349051583e5b118abb9aa4c36e72e4f6a539981fde74eebaf10",
+      "in": 0,
+      "out": 2.4166666666666665,
+      "role": "Complete first request to speak with his mother; context label resolves pronoun"
+    }
+  ],
+  "body": "episodes/episode-04/edit/EP04-assembly-v2.mp4",
+  "outputs": [
+    {
+      "file": "episodes/episode-04/recap/EP04-previously-v1.mp4",
+      "frames": 162,
+      "sha256": "cc6a1dd19b6e81add4e2f8d086d3303837020e06405836b5cf26e691f8bb3bfe",
+      "complete_decode": true
+    },
+    {
+      "file": "episodes/episode-04/edit/EP04-with-recap-v1.mp4",
+      "frames": 1549,
+      "sha256": "c33e7c05075d9671a01489e0488ec18c211cd3fd8bcf5f6002f435b70b164d08",
+      "complete_decode": true
+    }
+  ],
+  "no_speed_change": true,
+  "external_cost": 0,
+  "listening_claimed": false,
+  "full_episode_final": false,
+  "visual_review": "14 half-second samples viewed: recap label readable, faces unobscured, actual archived EP02 doorway and EP03 couch footage retained; not new location reconstruction",
+  "asr_review": "Both chosen full utterances recognized in recap; ASR نخش and بزنیم not definitive pronunciation evidence; no independent listening claim",
+  "revision_reason": "User requested adding EP01 confession at beginning"
+}

@@ -1,0 +1,140 @@
+{
+  "type": "local_static_storyboard_preview_not_generated_takes",
+  "date": "2026-10-15",
+  "output": "EP04-still-animatic-v1.mp4",
+  "sha256": "161237dcc830fee4e4e1351d79a6e285fe1f66b0fa0efd4bd2656e58b4492a67",
+  "duration_seconds": 49.5,
+  "fps": 24,
+  "frame_count": 1188,
+  "resolution": [
+    720,
+    1280
+  ],
+  "audio": false,
+  "timing_measured_speech": false,
+  "timeline": [
+    {
+      "shot": "EP04-SH01",
+      "frame": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-start-v3.png",
+      "sha256": "591f8afd0c3007829762ce069383950510c31c9b08374a492c96003653494a70",
+      "start": 0,
+      "duration": 2.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH02",
+      "frame": "episodes/episode-04/shots/EP04-SH02/images/EP04-SH02-start-v5.png",
+      "sha256": "f65cd2eb5dfe552f67809fa23bf2cd85e54644f3930b6069cd29c2570a1eb54a",
+      "start": 2.5,
+      "duration": 3.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH03",
+      "frame": "episodes/episode-04/shots/EP04-SH03/images/EP04-SH03-start-v2.png",
+      "sha256": "0869906e46160fc8e66fbb2e367dc52f40e4a57f4b212c0943bb3ec27946e4af",
+      "start": 6.0,
+      "duration": 3.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH04",
+      "frame": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v5.png",
+      "sha256": "4529aa29a857aad2e923d7db224222a72dc72fb9262c40109d48c134e5b132ca",
+      "start": 9.5,
+      "duration": 3.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH13",
+      "frame": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-start-v3.png",
+      "sha256": "9a2bcb0af8848ee346d297d0618404d20fdec74b5ad70e80cf1514076af992ea",
+      "start": 13.0,
+      "duration": 2,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH05",
+      "frame": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-start-v2.png",
+      "sha256": "80bdbd89384cece4b3e68d8ec64e3dbd05b84e0b5a5e7c1291180cf46af17610",
+      "start": 15.0,
+      "duration": 4.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH06",
+      "frame": "episodes/episode-04/shots/EP04-SH06/images/EP04-SH06-start-v1.png",
+      "sha256": "9c521130e5c7b40a3150cabe044be03f4c729c6b31d0b005736c2779ef7eac26",
+      "start": 19.5,
+      "duration": 4.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH07",
+      "frame": "episodes/episode-04/shots/EP04-SH07/images/EP04-SH07-start-v1.png",
+      "sha256": "5ee36d1bb9d0be1a44e045b389369da8eac81551470d03fb3a0b442dbbd370ab",
+      "start": 24.0,
+      "duration": 4.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH08",
+      "frame": "episodes/episode-04/shots/EP04-SH08/images/EP04-SH08-start-v1.png",
+      "sha256": "6b19cbec44f99f3ce8829c284825e7d8ae80cd0dd6f114e179fd9991604f52a7",
+      "start": 28.5,
+      "duration": 4,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH09",
+      "frame": "episodes/episode-04/shots/EP04-SH09/images/EP04-SH09-start-v1.png",
+      "sha256": "5d881a5af08d87b6205ed90adbf2b1eea2c1e7948fd41fbcc05a7d3721399b0b",
+      "start": 32.5,
+      "duration": 3.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH10",
+      "frame": "episodes/episode-04/shots/EP04-SH10/images/EP04-SH10-start-v1.png",
+      "sha256": "557f28dea22ee74222802eea7ba60a5a981aa7f69699dbd1a186f7c02841e8cd",
+      "start": 36.0,
+      "duration": 4.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH11",
+      "frame": "episodes/episode-04/shots/EP04-SH11/images/EP04-SH11-start-v1.png",
+      "sha256": "02e084e6c1f2fa38bb278dd34580602aa308fe4397ff02bedbb7c151e15258d5",
+      "start": 40.5,
+      "duration": 2.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH14",
+      "frame": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-start-v2.png",
+      "sha256": "d92979471024b05256b55e039f8f9d767d399371a9ac67bc1d7b6b1cf5ba932e",
+      "start": 43.0,
+      "duration": 1.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH12",
+      "frame": "episodes/episode-04/shots/EP04-SH12/images/EP04-SH12-start-v3.png",
+      "sha256": "ecd68abb6ff73285997215c3b956813f49c0228b0a2a7e06add8868f09d85a6c",
+      "start": 44.5,
+      "duration": 3.5,
+      "timing_status": "estimate_not_spoken_performance"
+    },
+    {
+      "shot": "EP04-SH15",
+      "frame": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-start-v2.png",
+      "sha256": "d92979471024b05256b55e039f8f9d767d399371a9ac67bc1d7b6b1cf5ba932e",
+      "start": 48.0,
+      "duration": 1.5,
+      "timing_status": "estimate_not_spoken_performance"
+    }
+  ],
+  "decode_check": "all_frames_decoded_successfully",
+  "external_generation_submitted": false,
+  "external_credits_consumed": 0
+}

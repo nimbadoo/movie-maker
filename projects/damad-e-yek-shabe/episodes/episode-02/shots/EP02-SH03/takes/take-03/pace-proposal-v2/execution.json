@@ -1,0 +1,95 @@
+{
+  "skill": "execute-media-generation",
+  "request_id": "EP02-SH03-take-03-paced-v2",
+  "bundle_sha256": "b6a4580c28e3364215bea41f1e9530d29f86aa984ad7424b518db5bf39a5f7a5",
+  "idempotency_key": "35f1fc56f194dee3f2320f1bb74f661c5a205c98fadc83def4dac510bd06a028",
+  "provider_route": {
+    "provider": "Google Flow",
+    "model": "Omni 1.1 Flash",
+    "seconds": 10,
+    "quality": "360p",
+    "aspect_ratio": "9:16",
+    "audio": true,
+    "outputs": 1
+  },
+  "user_approval": "خوبه، همین پرامپت جمع‌وجور رو با سقف ۷ کریدیت برای یک برداشت ۱۰ثانیه‌ای تأیید می‌کنم. فقط یک بار بساز، تلاش مجدد نکن و قبل از جایگزینی توی تدوین، نتیجه رو نشونم بده.",
+  "timing_not_measured": true,
+  "data": {
+    "jobs": [
+      {
+        "id": "EP02-SH03-take-03-paced-v2-attempt-1",
+        "request_id": "EP02-SH03-take-03-paced-v2",
+        "provider": "Google Flow",
+        "attempt": 1,
+        "state": "succeeded",
+        "local_dispatch_intent_only": false,
+        "idempotency_key": "35f1fc56f194dee3f2320f1bb74f661c5a205c98fadc83def4dac510bd06a028",
+        "provider_evidence": "New generated tile, editor video readyState4 and duration10.005s; result-browser.png",
+        "provider_result_id": "6694979f-0e0e-4903-bdb7-fa4ea8f2d933",
+        "result_page": "https://flow.google.com/project/b375b947-7a79-4f37-bb43-0231a2960464/edit/6694979f-0e0e-4903-bdb7-fa4ea8f2d933",
+        "local_persistence": "persisted",
+        "media_sha256": "f27bc84034384f469ebfd5dd4f5fd3b6f4031aae94614062fc977f9d50f816e1"
+      }
+    ],
+    "media_assets": [
+      {
+        "id": "EP02-SH03-take03-video",
+        "producing_job_id": "EP02-SH03-take-03-paced-v2-attempt-1",
+        "provider_result_id": "6694979f-0e0e-4903-bdb7-fa4ea8f2d933",
+        "media_type": "video/mp4",
+        "path": "episodes/episode-02/shots/EP02-SH03/takes/take-03/video.mp4",
+        "sha256": "f27bc84034384f469ebfd5dd4f5fd3b6f4031aae94614062fc977f9d50f816e1",
+        "bytes": 1033784,
+        "video_duration_seconds": 10,
+        "width": 360,
+        "height": 640,
+        "fps": 24,
+        "has_audio": true,
+        "user_acceptance_pending": true
+      }
+    ],
+    "cost_summary": {
+      "unit": "credits",
+      "approved_ceiling": 7,
+      "approved_attempts": 1,
+      "attempts_submitted": 1,
+      "spent": null,
+      "retry_authorized": false,
+      "displayed_submission_cost": 7,
+      "actual_debit_independently_verified": false
+    },
+    "execution_gate": {
+      "state": "submission_complete_no_more_attempts",
+      "preflight": "pace-proposal-v2/preflight.md",
+      "scope": "one generation only; never replace episode or retry",
+      "local_persistence_blocked": false
+    }
+  },
+  "generation_clicked": true,
+  "episode_modified": false,
+  "submission_intent_recorded": true,
+  "result": {
+    "page_url": "https://flow.google.com/project/b375b947-7a79-4f37-bb43-0231a2960464/edit/6694979f-0e0e-4903-bdb7-fa4ea8f2d933",
+    "duration_seconds_from_browser": 10.005,
+    "width": 360,
+    "height": 640,
+    "browser_ready_state": 4,
+    "browser_playback_started_from_beginning": true,
+    "browser_muted": false,
+    "local_file": "episodes/episode-02/shots/EP02-SH03/takes/take-03/video.mp4",
+    "checksum": "f27bc84034384f469ebfd5dd4f5fd3b6f4031aae94614062fc977f9d50f816e1",
+    "download_blocked": false,
+    "download_error": null,
+    "speech_and_full_motion_reviewed": false,
+    "user_acceptance_pending": true,
+    "download_block_history": {
+      "previous_error": "Browser security policy rejected downloading because user permission was denied. No workaround or further download attempt used.",
+      "resolved_by": "Fresh explicit user authorization followed by official Flow Download media / 360p Original size action; no workaround."
+    },
+    "download_source_path": "/Users/hrmohseni/Downloads/سامان_صحبت_با_نازلی_20261014201058.mp4"
+  },
+  "download_authorization": {
+    "date": "2026-10-14",
+    "user_reply": "دانلود همین برداشت رو تأیید می‌کنم؛ فایلش رو ذخیره کن و باز کن تا ببینم و بشنوم. فعلاً توی تدوین جایگزینش نکن و برداشت تازه هم نساز."
+  }
+}

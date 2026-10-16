@@ -1,0 +1,67 @@
+{
+  "skill": "execute-media-generation",
+  "state": "succeeded",
+  "idempotency_key": "ec06a98caca6833e8a0e487f8618459c2f8b32c712fdb50f893107978a5326e1",
+  "request": {
+    "take": "take-01",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH18-close-house-v4.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 4,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "price_source": "ui-ready-for-approval.png and live UI recheck in current user turn",
+      "verified_at": "2026-10-15T20:35:06.103586+00:00"
+    }
+  },
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH18-take-01-attempt-1",
+        "compiled_request": "generation-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "ec06a98caca6833e8a0e487f8618459c2f8b32c712fdb50f893107978a5326e1",
+        "state": "succeeded",
+        "provider_job_id": "b0995885-8f18-44bf-8d0e-3eb076917895"
+      }
+    ],
+    "media_assets": [
+      {
+        "id": "EP03-SH18-take-01-source",
+        "path": "video.mp4",
+        "sha256": "114a58d28f8fe5cc487a92efc920797879b2118031cd5cb187e6910e403683fe",
+        "bytes": 412157
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted": 4,
+      "ceiling": 4,
+      "submissions": 1,
+      "actual_debit": null,
+      "actual_ledger_independently_verified": false,
+      "local_edit_credits": 0
+    },
+    "execution_gate": {
+      "bundle_sha256": "0af7712ff4b910b47acf09ef1b6d874ca926748b41e63c7514cf564be1c674aa",
+      "explicit_cost_approval": true,
+      "automatic_retry": false,
+      "remaining_paid_attempts": 0
+    }
+  },
+  "provider_job_id": "b0995885-8f18-44bf-8d0e-3eb076917895"
+}

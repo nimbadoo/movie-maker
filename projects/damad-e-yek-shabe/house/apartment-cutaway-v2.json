@@ -1,0 +1,37 @@
+{
+  "status": "user_adopted_layout_for_episode04_rebuild",
+  "date": "2026-10-15",
+  "tool": "builtin_image_gen",
+  "calls": 2,
+  "output": "apartment-cutaway-v2.png",
+  "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0",
+  "original": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-d59a4ba0-69a4-4cca-a85c-7ee419e78c39.png",
+  "inputs": [
+    {
+      "path": "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    {
+      "path": "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png",
+      "sha256": "e4e2966041a190137156725eb02a7e465c4d9633dcee7ec89a0fe2a0c096dc4d"
+    }
+  ],
+  "initial_prompt": "apartment-cutaway-initial-prompt.txt",
+  "edit_prompt": "apartment-cutaway-edit-prompt.txt",
+  "flow_credits_consumed": 0,
+  "builtin_price": "not_exposed",
+  "limitations": [
+    "high_oblique_not_exact_orthographic",
+    "unseen_dimensions_and_corridor_proposed",
+    "chair_angle_approximately_right_angle_not_measured",
+    "kitchen_details_proposed_not_as_built"
+  ],
+  "approval": {
+    "date": "2026-10-15",
+    "evidence": "الان با توجه به این نقشهٔ خانه ... همه‌شون رو باید چک کنی و دوباره بسازی و جایگزین کنی.",
+    "scope": "layout_reference_for_rebuilding_episode04_stills; no claim of measured dimensions"
+  },
+  "scope": "all_episodes_home_interior",
+  "canonical_directory": "house/",
+  "shared_reference_authorization": "User: روت این سریال ... مرجعی برای همه اپیزودها ... داخل خونه"
+}

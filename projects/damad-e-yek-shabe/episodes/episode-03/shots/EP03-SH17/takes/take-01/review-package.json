@@ -1,0 +1,59 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH17",
+  "segment": "EP03-SH17",
+  "beat": "tea_serve",
+  "assets": [
+    "CH-NAZ",
+    "CH-MNZ",
+    "CH-FAR",
+    "CH-SAM",
+    "house/apartment-cutaway-v2"
+  ],
+  "status": "generated_local_edit_awaiting_user_review",
+  "submitted": true,
+  "ready": false,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/images/EP03-SH17-serving-start-v5.png",
+    "sha256": "984188a3ce9183811478147bcec4ae0cf7931c0caf8ae489441b9a88ffccf84d",
+    "role": "first_frame"
+  },
+  "prompt_sha256": "fb24f29d2a4bfc5eb4345e88e10f7a751504ed84cede629fb04d1c417edf58d0",
+  "settings": {
+    "model": "Omni 1.1 Flash",
+    "mode": "Frames",
+    "seconds": 4,
+    "quality": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "audio": true
+  },
+  "cost": {
+    "unit": "Flow credits",
+    "per_attempt": 4,
+    "attempts": 1,
+    "ceiling": 4,
+    "batch_ceiling": 8,
+    "live_price_evidence": "next-silent-batch-price.png"
+  },
+  "image_lineage": "exec-d5c4a6ad-a1ce-44dc-9a4d-25a5bc3006c7.png",
+  "content_approval": {
+    "approved": true,
+    "bundle_sha256": "940ccf60ca1ac3fb7d5c88d03d6cc6a16fe804aa9a956c1083ad175170b40ef6",
+    "user_reply": "تأیید",
+    "evidence_ref": "User approval immediately following displayed SH16+SH17 v1 package total8credits,4each one attempt"
+  },
+  "cost_approval": {
+    "approved": true,
+    "bundle_sha256": "940ccf60ca1ac3fb7d5c88d03d6cc6a16fe804aa9a956c1083ad175170b40ef6",
+    "user_reply": "تأیید",
+    "evidence_ref": "User approval immediately following displayed SH16+SH17 v1 package total8credits,4each one attempt"
+  },
+  "retry_allowed": false,
+  "output_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/video.mp4",
+  "review_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/edits/EP03-SH17-review-v1.mp4",
+  "trim_source_seconds": [
+    0.45,
+    3.85
+  ]
+}

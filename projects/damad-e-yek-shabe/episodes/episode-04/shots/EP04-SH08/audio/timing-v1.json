@@ -1,0 +1,27 @@
+{
+  "source_original": "/Users/hrmohseni/dev/movie-maker/sare chi.m4a",
+  "source_copy": "audio/EP04-D08-user-timing-v1.m4a",
+  "sha256": "643476fdc6b3adf68eaad407a4c4a7a1afab0f2ec8c6843bd6ca398c2d972a52",
+  "container_duration": 5.35,
+  "decoded_duration": 5.310667,
+  "rate": 48000,
+  "channels": 1,
+  "main_energy_span": [
+    1.071104,
+    4.537729
+  ],
+  "asr_span": [
+    0.84,
+    4.6
+  ],
+  "conservative_speech_span_seconds": 3.76,
+  "head_tail_margin_each": 0.2,
+  "conservative_required": 4.16,
+  "proposed_edit_target": 4.25,
+  "generation_seconds": 8,
+  "method": "ffmpeg silence -45/-50dB plus offline Whisper timing; ASR starts earlier than strongest activity so wider span used",
+  "asr_text": " سر چی؟ آخه هنوز که با ایم حرف نزدیم",
+  "text_match": "not exact: آخه and با ایم in ASR; not adopted in canonical dialogue, no listening review claimed",
+  "listening_review_claimed": false,
+  "external_cost": 0
+}

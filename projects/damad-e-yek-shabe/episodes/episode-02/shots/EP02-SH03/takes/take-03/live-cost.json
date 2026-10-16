@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-10-14T17:33:18Z",
+  "project_url": "https://flow.google.com/project/b375b947-7a79-4f37-bb43-0231a2960464",
+  "model": "Omni 1.1 Flash",
+  "mode": "Video",
+  "video_type": "Frames",
+  "seconds": 10,
+  "duration_options_seconds": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "quality": "360p",
+  "aspect_ratio": "9:16",
+  "outputs": 1,
+  "displayed_credits": 7,
+  "proposed_ceiling_credits": 7,
+  "attempts_in_proposal": 1,
+  "sound_requested_in_prompt": true,
+  "price_screenshot": "live-price-10s-360p.png",
+  "prompt_or_frame_uploaded": true,
+  "generation_submitted": false,
+  "cost_approved": true,
+  "duration_timed_by_reading": false,
+  "note": "Price quote from live settings; production remains blocked by incomplete preflight and lack of explicit package/cost approval.",
+  "approval_conditional_on_natural_fit": true
+}

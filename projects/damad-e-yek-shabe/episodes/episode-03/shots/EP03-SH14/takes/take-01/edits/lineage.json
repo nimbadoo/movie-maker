@@ -1,0 +1,14 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "cb761d855d13b9e3e529e4170c214815d0c1202b3335b9cb72409822787d24fa",
+  "output": "EP03-SH14-review-v1.mp4",
+  "output_sha256": "2e18f4002f3d8349051583e5b118abb9aa4c36e72e4f6a539981fde74eebaf10",
+  "source_range_seconds": [
+    0.35,
+    5.35
+  ],
+  "native_audio_preserved": true,
+  "audio_processing": "Ordinary AAC reencoding for boundary trim only; no voice conversion, pitch/speed/gain changes, isolation, silence insertion or freeze",
+  "user_rehearsal_uploaded": false,
+  "selection": "not_selected"
+}

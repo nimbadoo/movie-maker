@@ -1,0 +1,22 @@
+--- a/inference.py
++++ b/inference.py
+@@ -7,6 +7,8 @@
+ import warnings
+ import argparse
+ import torch
++torch.set_num_threads(4)
++torch.manual_seed(42)
+ import yaml
+ 
+ warnings.simplefilter('ignore')
+@@ -101,8 +103,8 @@
+         bigvgan_model = bigvgan.BigVGAN.from_pretrained(bigvgan_name, use_cuda_kernel=False)
+         # remove weight norm in the model and set to eval mode
+         bigvgan_model.remove_weight_norm()
+-        bigvgan_model = bigvgan_model.eval().to(device)
+-        vocoder_fn = bigvgan_model
++        bigvgan_model = bigvgan_model.eval().to("cpu")
++        vocoder_fn = lambda x: bigvgan_model(x.to("cpu"))
+     elif vocoder_type == 'hifigan':
+         from modules.hifigan.generator import HiFTGenerator
+         from modules.hifigan.f0_predictor import ConvRNNF0Predictor

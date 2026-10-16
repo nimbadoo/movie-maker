@@ -1,0 +1,61 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH04",
+  "take": "take-01",
+  "status": "pronunciation_revision_requested",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/images/EP03-SH04-tea-reply-house-v5.png",
+    "sha256": "4dfbfa24d074f6046f9de7880e82a3196ebfcae0f9d0749279ad16200f02cf27",
+    "role": "house_corrected_start_frame"
+  },
+  "prompt_sha256": "b4d84a7167140862c3b964926428c50e8a108713e0a1d58c22f4a38f20fa55d8",
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 4,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "source": "Live IAB4sec360p x1 quote",
+      "verified_at": "2026-10-15T17:15:03.132242+00:00"
+    }
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 4,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "d36ad9b3076527cc7308216991334f87c2b2b5c90645737fa5458e3505e3edb4"
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "d36ad9b3076527cc7308216991334f87c2b2b5c90645737fa5458e3505e3edb4"
+  },
+  "open_issues": [
+    "Auditory performance/voice identity and continuous lipsync unverified",
+    "Kitchenward eye shift not achieved in selected cut; movement deferred to next shot",
+    "User correction: چَشْمْ sukun on both sheen and meem; assistant pause interpretation withdrawn; existing audio not corrected"
+  ],
+  "timing": {
+    "method": "local espeak-ng fa165 synthetic",
+    "seconds": 2.3303401360544216
+  },
+  "image_lineage": {
+    "source": "images/EP03-SH04-tea-agreement-v4.png",
+    "house_reference": "../EP03-SH03/images/EP03-SH03-chair-invite-house-v5.png",
+    "generated": "exec-fe92ddf1-4797-45af-ad93-76b510410184.png"
+  }
+}

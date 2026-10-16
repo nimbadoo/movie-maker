@@ -1,0 +1,93 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH12",
+  "decision": "selected",
+  "selected_takes": [
+    {
+      "shot": "EP04-SH12",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH12/takes/take-01/edits/EP04-SH12-clean-v1.mp4",
+      "sha256": "15e312e952068ec8bd05d54727450a2ccce7c6bcdc9339ae60c5659bf02e14d3",
+      "trim": {
+        "in": 0,
+        "out": 4.583333333333333
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH12/takes/take-01/video.mp4",
+      "sha256": "9b62b2cd2a0d622aeb88ba53eb30fe9caa72f8fc0b4c1e08e7bcde4a8bffbc5c",
+      "frames": 192,
+      "job_id": "EP04-SH12-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH12/takes/take-01/edits/EP04-SH12-review-cut-v1.mp4",
+      "sha256": "d6f3337560bc36d74833a793994d13a46f96dd146896fccb7a2adc3c89e856a2",
+      "frames": 110,
+      "job_id": "EP04-SH12-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH12/takes/take-01/edits/EP04-SH12-clean-v1.mp4",
+      "sha256": "15e312e952068ec8bd05d54727450a2ccce7c6bcdc9339ae60c5659bf02e14d3",
+      "frames": 110,
+      "job_id": "EP04-SH12-take-01-attempt-1"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0.3333333333333333,
+      "out": 4.916666666666667,
+      "output": "edits/EP04-SH12-review-cut-v1.mp4",
+      "seconds": 4.583333333333333,
+      "frames": 110,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 and candidate110 full decode without error",
+    "asr": " سامان، اولین قرارتون کجا بود؟",
+    "visual": "16 half-second source samples viewed; visible face hair beard creamshirt couch kitchen plant wall stable; no new shoulder/person/contact apparent; small head motion, exact continuous lip sync and voice identity not certified",
+    "listening_claimed": false,
+    "lip_sync_accepted": false,
+    "voice_identity_accepted": false
+  },
+  "blocking_items": [],
+  "provisional_episode_seconds": {
+    "with_original11": 55.666667,
+    "with_short11": 51.541667
+  },
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "correction": {
+    "source": "video.mp4",
+    "review_source": "edits/EP04-SH12-review-cut-v1.mp4",
+    "output": "edits/EP04-SH12-clean-v1.mp4",
+    "source_audio_replaced_seconds": [
+      1.85,
+      2.4
+    ],
+    "candidate_audio_replaced_seconds": [
+      1.5166666666666668,
+      2.0666666666666664
+    ],
+    "replacement": "same source room ambience0.02..0.57,15ms boundary blends",
+    "reason": "User identified female confirmation after Saman; isolated activity1.9335..2.2792 has pitch225..232Hz, flanked by low-energy gap; next male phrase starts2.7014",
+    "seconds": 4.583333333333333,
+    "frames": 110,
+    "video_bitstream_identical": true,
+    "no_speed_change": true,
+    "no_external_generation": true,
+    "sha256": "15e312e952068ec8bd05d54727450a2ccce7c6bcdc9339ae60c5659bf02e14d3",
+    "listening_claimed": false
+  },
+  "user_acceptance": "تأیید — corrected local clean-v1 version accepted"
+}

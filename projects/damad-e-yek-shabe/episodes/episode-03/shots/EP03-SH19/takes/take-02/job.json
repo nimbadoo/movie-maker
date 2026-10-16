@@ -1,0 +1,94 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH19",
+  "take": "take-02",
+  "request_id": "EP03-SH19-take-02",
+  "idempotency_key": "EP03-SH19-take-02-ae45c45fc63cef47593e4eb7d377a1d3e035a870a16a7f563374ff0f462a6b6a",
+  "bundle_sha256": "ae45c45fc63cef47593e4eb7d377a1d3e035a870a16a7f563374ff0f462a6b6a",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T16:26:43.280459+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 5,
+    "ceiling": 5,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "provider_job_id": "9acd8511-4748-4876-a179-0cc75f66c165",
+  "completed_at": "2026-10-15T16:33:57.648546+00:00",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH19-take-02-attempt-1",
+        "compiled_request": "review-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH19-take-02-ae45c45fc63cef47593e4eb7d377a1d3e035a870a16a7f563374ff0f462a6b6a",
+        "state": "succeeded",
+        "provider_job_id": "9acd8511-4748-4876-a179-0cc75f66c165"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/video.mp4",
+        "sha256": "99c7b4b3d896afa39af7f5e4cc9dd5b900c6e55ab19d7de2d19753ea73db6b2c",
+        "bytes": 782766,
+        "producing_job": "EP03-SH19-take-02-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/edits/EP03-SH19-assembled-review-v1.mp4",
+        "sha256": "778eb51433013e1b51b5c2df01fccd463a46fca3ad1205c84f87b631a8bfa3f4",
+        "bytes": 923149,
+        "producing_job": "local_concat_rise_take01_and_take02"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/edits/source-audio.wav",
+        "sha256": "729e1f3815cd339ff28d6de4728473e0c16f633b1746cb61444817705f24567d",
+        "bytes": 1155150,
+        "producing_job": "EP03-SH19-take-02-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 5,
+      "approved_ceiling": 5,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_edit_credits": 0
+    },
+    "execution_gate": {
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  },
+  "request": {
+    "take": "take-02",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH19-two-men-before-contact-v2.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 6,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "price_source": "Live IAB settings6s360p x1 shows5credits",
+      "verified_at": "2026-10-15T16:25:11.934991+00:00"
+    }
+  }
+}

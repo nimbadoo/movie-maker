@@ -1,0 +1,51 @@
+{
+  "skill": "review-and-assemble",
+  "data": {
+    "reviews": [
+      {
+        "media_asset": "EP03-SH13-take01-source",
+        "shot_segment": "EP03-SH13",
+        "decision": "selected",
+        "partially_reviewed": true,
+        "reason_codes": [
+          "SMALL_HAND_ENTERS_FRAME_AGAINST_DIRECTION",
+          "AUDITORY_REVIEW_PENDING",
+          "VOICE_IDENTITY_UNVERIFIED",
+          "CONTINUOUS_MOTION_REVIEW_PENDING"
+        ],
+        "visual_sampling": {
+          "fps": 8,
+          "frames_seen": 32,
+          "range_seconds": [
+            0,
+            4
+          ]
+        },
+        "preview_range_seconds": [
+          0,
+          3.5
+        ],
+        "user_evidence": "تأیید؛ برو نمای۱۴"
+      }
+    ],
+    "selected_takes": [
+      {
+        "shot": "EP03-SH13",
+        "take": "take-01",
+        "media": "edits/EP03-SH13-review-v1.mp4",
+        "sha256": "a557979802bab9dada4c781c4e7d5c44c558c325ea801e23c0dadd61506fb8e2",
+        "range_seconds": [
+          0,
+          3.5
+        ]
+      }
+    ],
+    "timeline": [],
+    "quality_control": {
+      "ready": false,
+      "decode_passed": true,
+      "assembly_continuity_verified": false
+    },
+    "export_manifest": null
+  }
+}

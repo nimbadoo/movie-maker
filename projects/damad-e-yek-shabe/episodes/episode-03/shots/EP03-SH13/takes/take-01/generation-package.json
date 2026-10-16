@@ -1,0 +1,94 @@
+{
+  "skill": "compile-generation-prompts",
+  "status": "generated_for_review_not_selected",
+  "data": {
+    "shot_ir": {
+      "segment": "EP03-SH13",
+      "beat": "EP03-D13",
+      "asset_ids": [
+        "CH-SAM",
+        "CH-MNZ",
+        "house-v2"
+      ],
+      "dialogue": "هَنوز باهاشون حَرْف نَزَدَم.",
+      "performance": "honesty2/5, declarative, no promise",
+      "camera": "static OTS mother to seated Saman",
+      "synthetic_rehearsal_seconds": 2.2580498866213152
+    },
+    "storyboard_frames": [
+      {
+        "id": "EP03-SH13-v4",
+        "path": "images/EP03-SH13-close-house-v4.png",
+        "sha256": "d83b58e3b949ae04a8fa8584d5dd466cb07b4e5fd3ccc4d541e7430fd89fbca7"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "segment": "EP03-SH13",
+        "beat": "EP03-D13",
+        "asset_ids": [
+          "CH-SAM",
+          "CH-MNZ",
+          "house-v2"
+        ],
+        "prompt": "takes/take-01/prompt.txt",
+        "mode": "image-to-video",
+        "first_frame": "images/EP03-SH13-close-house-v4.png"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 4,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "price": 4,
+        "submit": false,
+        "voice_identity_guaranteed": false,
+        "reference_roles": {
+          "images/EP03-SH13-close-house-v4.png": "first_frame"
+        },
+        "cost_ceiling": 4,
+        "attempts": 1,
+        "price_source": "takes/take-01/ui-ready-for-approval.png",
+        "verified_at": "2026-10-15T19:19:12.069189+00:00",
+        "compatibility": "Live selected visual route confirmed; native voice identity and moving lipsync remain output checks"
+      }
+    ],
+    "quality_gate": {
+      "ready": true,
+      "open_issues": []
+    }
+  },
+  "authorization": {
+    "content": true,
+    "cost": true,
+    "submissions": 1,
+    "evidence": "User تأیید after full SH12 prompt, v4 frame, live four-second 4-credit single-output package; no automatic retry.",
+    "bundle_sha256": "c2bbad6649ecd700a44fd033ebec7631e8fe72786cc9b5c74e43516611640fa5",
+    "attempts_consumed": 1
+  },
+  "assets": [
+    {
+      "path": "images/EP03-SH13-close-house-v4.png",
+      "sha256": "d83b58e3b949ae04a8fa8584d5dd466cb07b4e5fd3ccc4d541e7430fd89fbca7"
+    },
+    {
+      "path": "takes/take-01/prompt.txt",
+      "sha256": "d191d93b190d3db88351f0e37381e2f533d3d7fb8853630082bb586ce1e7351c"
+    }
+  ],
+  "image_lineage": {
+    "method": "built_in_image_gen",
+    "target": "images/EP03-SH13-mother-unaware-reply-v3.png",
+    "house": "../../../../house/apartment-cutaway-v2.png",
+    "identity": "../../../../episodes/episode-02/references/01-saman-portrait-v1.png",
+    "prompt": "images/EP03-SH13-close-house-v4-prompt.txt"
+  },
+  "output_review": "review.md"
+}

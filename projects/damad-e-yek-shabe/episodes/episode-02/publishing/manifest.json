@@ -1,0 +1,70 @@
+{
+  "episode": "EP02",
+  "version": "publishing-v5",
+  "status": "published",
+  "source": "../edit/v5/EP02-full-with-approved-SH03.mp4",
+  "source_sha256": "a96019cc931aa33b8010fbf131e60085f838b5584caca0558ae5caa306a3d042",
+  "output": "EP02-instagram-v5.mp4",
+  "output_sha256": "d43256194fbf036e156337f269c92b05896c8548c55c4dc029bc8599c726ba96",
+  "bytes": 32844651,
+  "duration_seconds": 51.766666666666666,
+  "source_nominal_duration_seconds": 51.8,
+  "frame_count": 1553,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "source_resolution": [
+    360,
+    640
+  ],
+  "fps": 30,
+  "aspect_ratio": "9:16",
+  "video_codec": "H264 Main level4.0 yuv420p",
+  "audio_codec": "AAC LC stereo 48kHz 192kbps",
+  "audio_source": "same accepted v5 dialogue; resampled clock and re-encoded AAC; no synthetic voice",
+  "audio_pcm_correlation_to_clocked_source": 0.9997692305079254,
+  "audio_pcm_seconds": 51.690666666666665,
+  "checks": {
+    "full_software_decode": "passed",
+    "video_pts_monotonic": true,
+    "sampled_images": "inspected",
+    "source_hash": "unchanged",
+    "audio_content_comparison": "passed",
+    "native_AVFoundation_check": "unavailable_here: same -12911 failure for existing known-playable source and output",
+    "human_final_playback": "pending"
+  },
+  "source_choice_approval": {
+    "date": "2026-10-14",
+    "reply": "باشه، موافقم. بریم.",
+    "scope": "choose existing v5 and prepare local publication file and caption"
+  },
+  "excluded_shots": [
+    "EP02-SH16",
+    "EP02-SH17"
+  ],
+  "cover": "../cover/EP02-cover-v1.png",
+  "caption": "caption.txt",
+  "external_credits_spent": 0,
+  "posted_to_instagram": true,
+  "limitations": [
+    "1080x1920 is deterministic enlargement of360x640 source; no genuine new image detail",
+    "Human listening and exact-platform upload have not been verified in this turn"
+  ],
+  "cover_status": "approved_by_user",
+  "cover_approval": {
+    "date": "2026-10-14",
+    "evidence": "خوبه، همین کاور قسمت دو رو تأیید می‌کنم.",
+    "scope": "EP02-cover-v1.png for episode two publication"
+  },
+  "instagram": {
+    "account": "hamina.tv",
+    "url": "https://www.instagram.com/p/DefOSABtWCV/",
+    "date": "2026-10-14",
+    "caption_verified": true,
+    "cover_verified_on_profile": true,
+    "ai_label_verified": true,
+    "proof": "instagram-published.png",
+    "browser": "Brave"
+  }
+}

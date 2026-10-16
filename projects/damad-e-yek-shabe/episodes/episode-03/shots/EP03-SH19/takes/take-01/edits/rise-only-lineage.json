@@ -1,0 +1,12 @@
+{
+  "source": "../video.mp4",
+  "source_range_seconds": [
+    0,
+    1.916666667
+  ],
+  "frames": 46,
+  "output": "EP03-SH19-rise-only-v1.mp4",
+  "sha256": "74906ef31b955b7cbb0f96a9b8b79d5cce2eea598d253f473178beff03e6a924",
+  "status": "local_salvage_candidate_not_full_shot_acceptance",
+  "reason": "Exclude all frames from1.9167 onward before duplicate enters; original room sound retained, AAC reencoded"
+}

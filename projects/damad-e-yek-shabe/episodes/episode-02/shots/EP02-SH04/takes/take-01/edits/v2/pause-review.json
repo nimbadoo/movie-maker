@@ -1,0 +1,73 @@
+{
+  "shot": "EP02-SH04",
+  "take": "take-01",
+  "source": "episodes/episode-02/shots/EP02-SH04/takes/take-01/video.mp4",
+  "sha256": "d8900dfb7091ca49e3d23358e8bebbe0033a957deebd290cc915afb5fd6ba854",
+  "original_in": 0.608,
+  "original_out": 3.08,
+  "in": 0.668,
+  "out": 3.02,
+  "pause_cuts": [
+    {
+      "remove_in": 1.496,
+      "remove_out": 1.992,
+      "original_gap": 0.7360000000000002,
+      "replacement_seconds": 0.25,
+      "listener_shot": "EP02-SH05",
+      "listener_source": "episodes/episode-02/shots/EP02-SH05/takes/take-02/video.mp4",
+      "listener_in": 0.2,
+      "listener_out": 0.45,
+      "silence_peak_db": -48.18161816129937,
+      "saved_seconds": 0.246
+    }
+  ],
+  "segments": [
+    {
+      "kind": "original_synced_speech",
+      "source": "episodes/episode-02/shots/EP02-SH04/takes/take-01/video.mp4",
+      "in": 0.668,
+      "out": 1.496,
+      "file": "episodes/episode-02/shots/EP02-SH04/takes/take-01/edits/v2/part-01.mp4",
+      "output_seconds": 0.833008,
+      "listener": null,
+      "timeline_in": 11.279706,
+      "timeline_out": 12.112713999999999
+    },
+    {
+      "kind": "silent_listener_cutaway",
+      "source": "episodes/episode-02/shots/EP02-SH04/takes/take-01/video.mp4",
+      "in": 1.496,
+      "out": 1.746,
+      "file": "episodes/episode-02/shots/EP02-SH04/takes/take-01/edits/v2/part-02.mp4",
+      "output_seconds": 0.266667,
+      "listener": {
+        "remove_in": 1.496,
+        "remove_out": 1.992,
+        "original_gap": 0.7360000000000002,
+        "replacement_seconds": 0.25,
+        "listener_shot": "EP02-SH05",
+        "listener_source": "episodes/episode-02/shots/EP02-SH05/takes/take-02/video.mp4",
+        "listener_in": 0.2,
+        "listener_out": 0.45,
+        "silence_peak_db": -48.18161816129937,
+        "saved_seconds": 0.246
+      },
+      "timeline_in": 12.112713999999999,
+      "timeline_out": 12.379380999999999
+    },
+    {
+      "kind": "original_synced_speech",
+      "source": "episodes/episode-02/shots/EP02-SH04/takes/take-01/video.mp4",
+      "in": 1.992,
+      "out": 3.02,
+      "file": "episodes/episode-02/shots/EP02-SH04/takes/take-01/edits/v2/part-03.mp4",
+      "output_seconds": 1.033333,
+      "listener": null,
+      "timeline_in": 12.379380999999999,
+      "timeline_out": 13.412714
+    }
+  ],
+  "review_video": "episodes/episode-02/shots/EP02-SH04/takes/take-01/edits/v2/EP02-SH04-pause-review.mp4",
+  "speed": 1.0,
+  "status": "local review only; user acceptance pending"
+}

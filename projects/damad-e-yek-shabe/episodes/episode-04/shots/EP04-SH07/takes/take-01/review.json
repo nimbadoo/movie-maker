@@ -1,0 +1,68 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH07",
+  "take": "take-01",
+  "decision": "selected",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH07/takes/take-01/video.mp4",
+      "sha256": "81a93a7ffce9d3e996dc0eced2737af8ade3d278f4fea26e35839068ca38a24a",
+      "job_id": "EP04-SH07-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH07/takes/take-01/edits/EP04-SH07-review-cut-v1.mp4",
+      "sha256": "42fedbc238085d3b5910d07a14ab429e4bf416730288026f799e182b71b972c7",
+      "job_id": "EP04-SH07-take-01-attempt-1"
+    }
+  ],
+  "selected_takes": [
+    {
+      "shot": "EP04-SH07",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH07/takes/take-01/edits/EP04-SH07-review-cut-v1.mp4",
+      "sha256": "42fedbc238085d3b5910d07a14ab429e4bf416730288026f799e182b71b972c7",
+      "trim": {
+        "in": 0,
+        "out": 4.5
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0.6666666666666666,
+      "out": 5.166666666666667,
+      "output": "edits/EP04-SH07-review-cut-v1.mp4",
+      "duration": 4.5,
+      "frames": 108,
+      "voice_conversion": false,
+      "speed_change": false,
+      "status": "review_candidate"
+    }
+  ],
+  "checks": {
+    "decode": "both media completely decoded,192/108frames",
+    "visual": "16 frames every0.5s inspected against accepted input and house; no obvious identity/costume/layout jump; small face/head motion. Not continuous review or phoneme-lip proof.",
+    "speech_activity_main_seconds": [
+      1.329646,
+      4.582646
+    ],
+    "asr_source": " پس قبل رفتم بگو به توافق نرسیدیم.",
+    "asr_cut": " پس قبل رفتم بگو به توافق نرسیدیم",
+    "pronunciation_open": "Closed by explicit user acceptance; ASR discrepancy retained as historical diagnostic, not an open blocker.",
+    "listening_review_claimed": false,
+    "voice_identity_accepted": false,
+    "lip_sync_accepted": false,
+    "user_media_acceptance": true
+  },
+  "blocking_items": [],
+  "export_manifest": null,
+  "external_credit_action": {
+    "submissions": 1,
+    "price_per_submission": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "این اصلاً مشخص نیست رفتن رو رفتن می‌گه. اصلاً مهم نیست. اوکیه، من دوست دارم، برو بعدی."
+}

@@ -1,0 +1,89 @@
+{
+  "text": " پس چرا تا حالا چیزی نشنیده بودیم؟",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.1399999999999995,
+      "end": 3.6,
+      "text": " پس چرا تا حالا چیزی نشنیده بودیم؟",
+      "tokens": [
+        50415,
+        21453,
+        3794,
+        34766,
+        23557,
+        6055,
+        995,
+        11331,
+        6027,
+        995,
+        34766,
+        4135,
+        11622,
+        4135,
+        8717,
+        8592,
+        1863,
+        4135,
+        3215,
+        3224,
+        4724,
+        23328,
+        4135,
+        2304,
+        22807,
+        50565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11490987848352503,
+      "compression_ratio": 0.9230769230769231,
+      "no_speech_prob": 8.002487561498128e-11,
+      "words": [
+        {
+          "word": " پس",
+          "start": 1.1399999999999995,
+          "end": 1.7,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " چرا",
+          "start": 1.7,
+          "end": 1.98,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " تا",
+          "start": 1.98,
+          "end": 2.18,
+          "probability": 0.99609375
+        },
+        {
+          "word": " حالا",
+          "start": 2.18,
+          "end": 2.34,
+          "probability": 0.998046875
+        },
+        {
+          "word": " چیزی",
+          "start": 2.34,
+          "end": 2.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " نشنیده",
+          "start": 2.62,
+          "end": 3.1,
+          "probability": 0.990234375
+        },
+        {
+          "word": " بودیم؟",
+          "start": 3.1,
+          "end": 3.6,
+          "probability": 0.9990234375
+        }
+      ]
+    }
+  ],
+  "limitation": "ASR may hallucinate on silent clips; no auditory review; not proof of absence of speech or music"
+}

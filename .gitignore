@@ -1,0 +1,6 @@
+.tmp*
+.mcp_data/
+# macOS Finder custom-folder icon metadata (the filename ends with a carriage return)
+Icon?
+# Windows Explorer folder metadata, at any directory depth
+[Dd]esktop.ini

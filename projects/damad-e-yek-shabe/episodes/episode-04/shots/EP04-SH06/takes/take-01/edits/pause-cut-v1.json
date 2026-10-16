@@ -1,0 +1,52 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "da9074f9b08fb34ea5d5d3a010ac9f3ca32a72f3abf7b404c81a367ea3863f09",
+  "output": "EP04-SH06-original-pause-cut-v1.mp4",
+  "output_sha256": "855cb421ef4513fab342c5fb5190acb1761354701bbe9fec85d3ed6d7ae0518a",
+  "operation": "remove matching audio and video interval; original voice; no speed/pitch/conversion",
+  "removed_source_seconds": [
+    3.5,
+    3.8333333333333335
+  ],
+  "removed_source_frames": [
+    84,
+    92
+  ],
+  "removed_seconds": 0.3333333333333333,
+  "removed_audio_samples": [
+    168000,
+    184000
+  ],
+  "retained_source_ranges": [
+    [
+      0,
+      3.5
+    ],
+    [
+      3.8333333333333335,
+      8
+    ]
+  ],
+  "new_duration_seconds": 7.666666666666667,
+  "frames": 184,
+  "fps": 24,
+  "width": 360,
+  "height": 640,
+  "source_pause_seconds": [
+    3.477417,
+    3.875083
+  ],
+  "residual_pause_seconds": 0.064333,
+  "speech_activity_end_seconds": 4.360521,
+  "decode_verified": true,
+  "boundary_frames_review": "qc/pause-cut-boundaries-v1.jpg and qc/pause-cut-join-v1.jpg; slight head/shoulder change remains at jump cut, no inserted transition or fabricated frame",
+  "asr_result": " گفتم باش حرف میزنم نگفتم میارمش",
+  "listening_claimed": false,
+  "external_credit_cost": 0,
+  "user_decision": {
+    "converted_voice": "rejected_for_tone",
+    "original_voice": "preferred; requested shortening pause between نگفتم and میارمش",
+    "edited_output": "not_yet_reviewed_by_user"
+  },
+  "timing_note": "Original full clip retained except requested internal pause; end silence not shortened in this targeted edit. In episode, suggested 0.125..4.625 of edited clip gives 4.5 seconds including end margin; not yet adopted."
+}

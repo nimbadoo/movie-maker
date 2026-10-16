@@ -1,0 +1,51 @@
+{
+  "skill": "review-and-assemble",
+  "data": {
+    "reviews": [
+      {
+        "media_asset": "EP03-SH14-take01-source",
+        "shot_segment": "EP03-SH14",
+        "decision": "selected",
+        "partially_reviewed": true,
+        "reason_codes": [
+          "AUDITORY_REVIEW_PENDING",
+          "BEZANIN_VS_BEZANID_ASR_AMBIGUITY",
+          "VOICE_IDENTITY_UNVERIFIED",
+          "CONTINUOUS_MOTION_REVIEW_PENDING"
+        ],
+        "visual_sampling": {
+          "fps": 8,
+          "frames_seen": 48,
+          "range_seconds": [
+            0,
+            6
+          ]
+        },
+        "preview_range_seconds": [
+          0.35,
+          5.35
+        ],
+        "user_evidence": "تأیید نمای۱۴؛ برو آماده‌سازی واکنش پایانی"
+      }
+    ],
+    "selected_takes": [
+      {
+        "shot": "EP03-SH14",
+        "take": "take-01",
+        "media": "edits/EP03-SH14-review-v1.mp4",
+        "sha256": "2e18f4002f3d8349051583e5b118abb9aa4c36e72e4f6a539981fde74eebaf10",
+        "range_seconds": [
+          0,
+          5.0
+        ]
+      }
+    ],
+    "timeline": [],
+    "quality_control": {
+      "ready": false,
+      "decode_passed": true,
+      "assembly_continuity_verified": false
+    },
+    "export_manifest": null
+  }
+}

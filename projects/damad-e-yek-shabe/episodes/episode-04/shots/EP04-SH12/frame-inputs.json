@@ -1,0 +1,51 @@
+{
+  "shot": "EP04-SH12",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH02/images/EP04-SH02-start-v3.png",
+      "sha256": "dbd5637164e92395a438095e239ef8f00e9c2ef9a399d62fabeae780abcb7714"
+    }
+  ],
+  "requests": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH12/frame-request.txt",
+      "sha256": "4e000658bd1f6ab7225eed351556a802a3137afa49c9620ffa81c9bfae4a6cd5"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH12/images/EP04-SH12-final-correction-prompt.txt",
+      "sha256": "240c98a85891248a17a35a00aa76d3699dc2dcee66aa60c57a4ec3ce86140d85"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH12/images/EP04-SH12-tight-frame-prompt.txt",
+      "sha256": "520de835eaf55295ebb5918b6a8b20fafb2ea0951e11499bd0b37fdf42cfe928"
+    }
+  ],
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH12/images/EP04-SH12-start-v3.png",
+    "sha256": "ecd68abb6ff73285997215c3b956813f49c0228b0a2a7e06add8868f09d85a6c",
+    "width": 941,
+    "height": 1672
+  },
+  "superseded_output": null,
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "authorization": "User accepted autonomous stage completion; stop only for new creative decision, unsolved contradiction or external credit cost",
+  "flow_credits_consumed": 0,
+  "video_or_audio_generated": false,
+  "camera": "کنار بیرونی سامان در جنوب‌شرق محور، در ارتفاع چشم فرهاد نشسته رو به شمال‌غرب.",
+  "blocking": "فرهاد مرکز/راست روی نشیمن راست کاناپه، نگاه به بالای چپ به سامان ایستاده خارج قاب.",
+  "technical_note": "بدن آبی سامان که ابزار برخلاف طرح به قاب آورده بود حذف شد. کادر به سینه تا سر بسته شد تا جای مادر به‌اشتباه خالی نمایش داده نشود. آشپزخانه در چپ عمق و دیوار آویزدار شمال‌شرقی پشت فرهاد با خانه سازگارند.",
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-93e7ad88-9311-4124-9caf-ee9fc4403870.png",
+  "new_generation_calls": 3
+}

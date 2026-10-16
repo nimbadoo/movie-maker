@@ -1,0 +1,33 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH17",
+  "take": "take-01",
+  "request_id": "EP03-SH17-take-01",
+  "idempotency_key": "EP03-SH17-take-01-940ccf60ca1ac3fb7d5c88d03d6cc6a16fe804aa9a956c1083ad175170b40ef6",
+  "bundle_sha256": "940ccf60ca1ac3fb7d5c88d03d6cc6a16fe804aa9a956c1083ad175170b40ef6",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T21:07:32.255860+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 4,
+    "ceiling": 4,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0,
+    "actual_ledger_verified": false
+  },
+  "retry_allowed": false,
+  "provider_asset_id": "2f953a83-17ef-46d7-9611-292ada24157b",
+  "provider_url": "https://flow.google.com/project/0290053e-8dcd-4881-91ca-09cde9a42b7c/edit/2f953a83-17ef-46d7-9611-292ada24157b",
+  "completed_at": "2026-10-15T21:13:14.596111+00:00",
+  "media_assets": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/video.mp4",
+      "sha256": "abbace8eebcd569184df232efcc9b2f658c10c26591e842b50fc6d8ccc891a58",
+      "producing_job": "EP03-SH17-take-01",
+      "audio": "native_source_preserved"
+    }
+  ]
+}

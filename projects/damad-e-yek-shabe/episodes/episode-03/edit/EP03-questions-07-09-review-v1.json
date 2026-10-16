@@ -1,0 +1,13 @@
+{
+  "status": "assembly_for_review",
+  "sources": [
+    "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/takes/take-01/video.mp4",
+    "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH08/takes/take-01/video.mp4",
+    "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH09/takes/take-01/video.mp4"
+  ],
+  "output": "projects/damad-e-yek-shabe/episodes/episode-03/edit/EP03-questions-07-09-review-v1.mp4",
+  "sha256": "cae9b8c888cac61de234eae1e55284994ae2938840c84ea9d451a6f4e2b8123d",
+  "additional_credits": 0,
+  "audio": "native_no_conversion",
+  "limitation": "Assembly decode verified; continuous playback/audio and final rhythm review pending. Existing source approvals retained; this is not final episode assembly."
+}

@@ -1,0 +1,52 @@
+{
+  "shot": "EP04-SH04",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-start-v3.png",
+      "sha256": "9a2bcb0af8848ee346d297d0618404d20fdec74b5ad70e80cf1514076af992ea"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v4.png",
+      "sha256": "5e4993897e47a6385c3bd1cf39b29850a01f2ea1f225facac367e3fe52956fbd"
+    }
+  ],
+  "requests": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-final-correction-prompt.txt",
+      "sha256": "70bf0e99b3ba0dd9a6c046273dec7962d3e4a0e0bfc104bd61e2a659d4625049"
+    }
+  ],
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v5.png",
+    "sha256": "4529aa29a857aad2e923d7db224222a72dc72fb9262c40109d48c134e5b132ca",
+    "width": 941,
+    "height": 1672
+  },
+  "superseded_output": {
+    "path": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v4.png",
+    "sha256": "5e4993897e47a6385c3bd1cf39b29850a01f2ea1f225facac367e3fe52956fbd",
+    "width": 941,
+    "height": 1672
+  },
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "authorization": "User accepted autonomous stage completion; stop only for new creative decision, unsolved contradiction or external credit cost",
+  "flow_credits_consumed": 0,
+  "video_or_audio_generated": false,
+  "camera": "جنوب جمع رو به شمال، دقیقاً قاب مشترک با خروج۱۳؛ چهارنفری باز به‌جای دونفرهٔ مقابل.",
+  "blocking": "نازلی جلو چپ نشسته با پای روی پا و دست روی پای خود؛ سامان جلو راست نشسته، مادر و فرهاد روی کاناپه.",
+  "technical_note": "برای بستن اختلاف جهت مبلمان، تصویر خروج۱۳ ورودی مستقیم شد؛ فقط بدن‌ها به نشسته برگشتند. پس‌زمینه و سمت صندلی‌ها و میز با۱۳ مستقیم مقایسه شد. اندازهٔ قاب بازتر و صورت جوان‌ها از پشت/پهلو است؛ این تغییر اجرایی برای حفظ پیوستگی است، نه تغییر دیالوگ.",
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-9c2e498b-63a2-4a22-b9c2-1e5caf368d7b.png",
+  "new_generation_calls": 1
+}

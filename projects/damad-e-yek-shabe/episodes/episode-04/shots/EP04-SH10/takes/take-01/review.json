@@ -1,0 +1,61 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH10",
+  "take": "take-01",
+  "decision": "selected",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH10/takes/take-01/video.mp4",
+      "sha256": "f15f47c79b4e07e025306f41ee1fcc7694cdd91d3bae17e6236a28fbbe398ebf",
+      "frames": 192
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH10/takes/take-01/edits/EP04-SH10-review-cut-v1.mp4",
+      "sha256": "7c2bd06eea0b8ea12086e49fbd6accf041c88a43bfa4bcf94a32b059a00ad1fe",
+      "frames": 122
+    }
+  ],
+  "selected_takes": [
+    {
+      "shot": "EP04-SH10",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH10/takes/take-01/edits/EP04-SH10-review-cut-v1.mp4",
+      "sha256": "7c2bd06eea0b8ea12086e49fbd6accf041c88a43bfa4bcf94a32b059a00ad1fe",
+      "trim": {
+        "in": 0,
+        "out": 5.083333333333333
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0,
+      "out": 5.083333333333333,
+      "output": "edits/EP04-SH10-review-cut-v1.mp4",
+      "seconds": 5.083333333333333,
+      "frames": 122,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 and candidate122 frames fully decoded without error",
+    "source_asr": " باشه نمیگم ولی باید با هم جمعش کنیم",
+    "visual": "16 samples viewed; stable visible identity costume fridge wall and shoulder; small head movement, brief hand edge at lower frame around1s; no contact evident; continuous motion and precise phoneme sync not certified",
+    "listening_review_claimed": false,
+    "lip_sync_accepted": false,
+    "voice_identity_accepted": false
+  },
+  "blocking_items": [],
+  "provisional_episode_seconds": 49.083333333333336,
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "اینم خوبه، تأیید می‌کنم. بریم نمای یازدهم، سریع برو جلو."
+}

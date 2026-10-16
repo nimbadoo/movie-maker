@@ -1,0 +1,63 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH13",
+  "decision": "selected",
+  "selected_takes": [
+    {
+      "shot": "EP04-SH13",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH13/takes/take-01/edits/EP04-SH13-review-cut-v1.mp4",
+      "sha256": "6a6a7db63252893cec048b31e68ce0057eceb9ffdc82fe1fabf4d7191cdd2a7c",
+      "trim": {
+        "in": 0,
+        "out": 2.5
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH13/takes/take-01/video.mp4",
+      "sha256": "09e753aba47825523c72fc75213e9e9cff3dace3ae2a2b4b997c9de43779e60a",
+      "frames": 192,
+      "job_id": "EP04-SH13-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH13/takes/take-01/edits/EP04-SH13-review-cut-v1.mp4",
+      "sha256": "6a6a7db63252893cec048b31e68ce0057eceb9ffdc82fe1fabf4d7191cdd2a7c",
+      "frames": 60,
+      "job_id": "EP04-SH13-take-01-attempt-1"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0.0,
+      "out": 2.5,
+      "output": "edits/EP04-SH13-review-cut-v1.mp4",
+      "seconds": 2.5,
+      "frames": 60,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 and all candidate frames decoded without error",
+    "visual": "16 half-second source samples viewed; فقط بخش آغاز بلندشدن حفظ شد؛ ادامهٔ منبع چرخش/راه‌رفتن بیشتری دارد و در نامزد نیست. ترتیب دقیق بلندشدن و تماس دست‌ها با دسته‌ها و اتصال به۴باید پیوسته کنترل شوند؛ از نمونه‌ها سلامت کامل حرکت نتیجه نمی‌شود.",
+    "asr": " موسیقی",
+    "listening_claimed": false,
+    "continuous_motion_review_complete": false,
+    "precise_lip_sync_accepted": false
+  },
+  "blocking_items": [
+    "Continuous technical review04/13 remains"
+  ],
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "همه اینایی که فرستادی خوبن. میتونیم بریم به بعدیا"
+}

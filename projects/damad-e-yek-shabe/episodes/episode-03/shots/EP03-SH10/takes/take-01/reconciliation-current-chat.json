@@ -1,0 +1,13 @@
+{
+  "shot": "EP03-SH10",
+  "take": "take-01",
+  "state": "existing_submission_downloaded_reviewed",
+  "submissions_this_turn": 0,
+  "additional_credits": 0,
+  "original_quoted_credits": 4,
+  "original_ledger_verified": false,
+  "provider_asset_id": "35f4b4d6-4b27-432f-a060-bec8e004fb8c",
+  "video_sha256": "3fae7ff9f54a6940888b00aa23f9ee02ad4736eb91e469d177cf58133f58f29b",
+  "review": "review-current-chat.md",
+  "selection": "awaiting_user_review"
+}

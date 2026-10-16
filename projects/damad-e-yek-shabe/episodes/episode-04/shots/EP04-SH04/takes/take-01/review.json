@@ -1,0 +1,63 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH04",
+  "decision": "selected",
+  "selected_takes": [
+    {
+      "shot": "EP04-SH04",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH04/takes/take-01/edits/EP04-SH04-review-cut-v1.mp4",
+      "sha256": "46b89fa0e14b45bf37e77b1d3ac5251bee519d0f492bb4d66edbf69a24896f90",
+      "trim": {
+        "in": 0,
+        "out": 5.25
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH04/takes/take-01/video.mp4",
+      "sha256": "968606e132c28180c73f5b93d92acd15a8e58a0cf65b9a3191fb1877abe793b8",
+      "frames": 192,
+      "job_id": "EP04-SH04-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH04/takes/take-01/edits/EP04-SH04-review-cut-v1.mp4",
+      "sha256": "46b89fa0e14b45bf37e77b1d3ac5251bee519d0f492bb4d66edbf69a24896f90",
+      "frames": 126,
+      "job_id": "EP04-SH04-take-01-attempt-1"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0.625,
+      "out": 5.875,
+      "output": "edits/EP04-SH04-review-cut-v1.mp4",
+      "seconds": 5.25,
+      "frames": 126,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 and all candidate frames decoded without error",
+    "visual": "16 half-second source samples viewed; مکث بین دو خطاب طولانی‌تر از تمرین است و فعلاً حفظ شد. سامان در ادامه زودتر بلند می‌شود؛ نامزد پیش از بلندشدن کامل او قطع شد. آغاز حرکت نازلی در این خروجی کم‌رنگ است؛ اتصال به۱۳نیازمند مرور واقعی و اصلاح تدوین است.",
+    "asr": " می دونم مامان سامان یه لحظه می آی؟",
+    "listening_claimed": false,
+    "continuous_motion_review_complete": false,
+    "precise_lip_sync_accepted": false
+  },
+  "blocking_items": [
+    "Continuous technical review04/13 remains"
+  ],
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "همه اینایی که فرستادی خوبن. میتونیم بریم به بعدیا"
+}

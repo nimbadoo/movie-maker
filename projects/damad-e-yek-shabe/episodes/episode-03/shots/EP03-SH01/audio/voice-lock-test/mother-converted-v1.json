@@ -1,0 +1,44 @@
+{
+  "status": "rejected_by_user_voice_identity_mismatch",
+  "model": "OpenVoiceV2 ToneColorConverter",
+  "source": {
+    "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/existing-line-review.wav",
+    "sha256": "64726fc32be899ea38bc746d910250acdda8923d0483714eb553377aa155654b",
+    "samples": 192512,
+    "sample_rate": 48000,
+    "duration_seconds": 4.010666666666666
+  },
+  "reference": {
+    "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+    "sha256": "85086db738c84b1076d369831306c916b37f0d66084a93cf9f58124d450142a4",
+    "samples": 169728,
+    "sample_rate": 48000,
+    "duration_seconds": 3.536
+  },
+  "output": {
+    "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/audio/voice-lock-test/mother-converted-v1.wav",
+    "sha256": "e6d0e55691623997ec71979587cde8f1c403bbe7d199bc826e8c00accf76c30c",
+    "samples": 88320,
+    "sample_rate": 22050,
+    "duration_seconds": 4.005442176870749
+  },
+  "seed": 42,
+  "tau": 0.3,
+  "checkpoint_sha256": "9652c27e92b6b2a91632590ac9962ef7ae2b712e5c5b7f4c34ec55ee2b37ab9e",
+  "elapsed_seconds": 7.405956209055148,
+  "external_generation_credits": 0,
+  "duration_delta_seconds": -0.0052244897959177194,
+  "human_listening_verified": false,
+  "speaker_identity_verified": false,
+  "phoneme_alignment_verified": false,
+  "clipped_word_repair": false,
+  "notes": [
+    "No text synthesis, pitch shift, time stretch, or missing-word repair.",
+    "Optional watermark encoder not loaded; no existing watermark removal.",
+    "Duration alone does not prove lip synchronization."
+  ],
+  "user_review": {
+    "evidence": "صدای دوم یه مقداری متفاوته ... من صدای اول رو ترجیح می‌دم",
+    "accepted_reference_unchanged": true
+  }
+}

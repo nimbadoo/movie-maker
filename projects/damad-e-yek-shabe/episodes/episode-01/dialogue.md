@@ -1,0 +1,28 @@
+# فهرست ضبط — episode-01
+
+متن و بازی فقط در کارت نماست. این صفحه خودکار تولید می‌شود.
+
+- [EP01-D01 — EP01-SH01](shots/EP01-SH01/shot.md)
+- [EP01-D02 — EP01-SH10](shots/EP01-SH10/shot.md)
+- [EP01-D03 — EP01-SH11](shots/EP01-SH11/shot.md)
+- [EP01-D04 — EP01-SH12](shots/EP01-SH12/shot.md)
+- [EP01-D05 — EP01-SH02](shots/EP01-SH02/shot.md)
+- [EP01-D06 — EP01-SH13](shots/EP01-SH13/shot.md)
+- [EP01-D07 — EP01-SH03](shots/EP01-SH03/shot.md)
+- [EP01-D08 — EP01-SH14](shots/EP01-SH14/shot.md)
+- [EP01-D09 — EP01-SH04](shots/EP01-SH04/shot.md)
+- [EP01-D10 — EP01-SH05](shots/EP01-SH05/shot.md)
+- [EP01-D11 — EP01-SH06](shots/EP01-SH06/shot.md)
+- [EP01-D12 — EP01-SH15](shots/EP01-SH15/shot.md)
+- [EP01-D17 — EP01-SH17](shots/EP01-SH17/shot.md)
+- [EP01-D18 — EP01-SH17](shots/EP01-SH17/shot.md)
+- [EP01-D19 — EP01-SH19](shots/EP01-SH19/shot.md)
+- [EP01-D20 — EP01-SH20](shots/EP01-SH20/shot.md)
+- [EP01-D21 — EP01-SH21](shots/EP01-SH21/shot.md)
+- [EP01-D22 — EP01-SH22](shots/EP01-SH22/shot.md)
+- [EP01-D23 — EP01-SH23](shots/EP01-SH23/shot.md)
+- [EP01-D24 — EP01-SH24](shots/EP01-SH24/shot.md)
+- [EP01-D25 — EP01-SH25](shots/EP01-SH25/shot.md)
+- [EP01-D27 — EP01-SH27](shots/EP01-SH27/shot.md)
+- [EP01-D26 — EP01-SH26](shots/EP01-SH26/shot.md)
+- [EP01-D16 — EP01-SH09](shots/EP01-SH09/shot.md)

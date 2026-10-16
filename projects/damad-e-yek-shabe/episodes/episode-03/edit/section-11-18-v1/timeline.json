@@ -1,0 +1,211 @@
+{
+  "skill": "review-and-assemble",
+  "data": {
+    "reviews": [
+      {
+        "shot_segment": "EP03-SH11",
+        "media_asset": "shots/EP03-SH11/takes/take-01/edits/EP03-SH11-review-v1.mp4",
+        "decision": "selected",
+        "basis": "Explicit existing shot-card selection; assembly not yet accepted"
+      },
+      {
+        "shot_segment": "EP03-SH12",
+        "media_asset": "shots/EP03-SH12/takes/take-02/edits/EP03-SH12-question-review-v2.mp4",
+        "decision": "selected",
+        "basis": "Explicit existing shot-card selection; assembly not yet accepted"
+      },
+      {
+        "shot_segment": "EP03-SH13",
+        "media_asset": "shots/EP03-SH13/takes/take-01/edits/EP03-SH13-review-v1.mp4",
+        "decision": "selected",
+        "basis": "Explicit existing shot-card selection; assembly not yet accepted"
+      },
+      {
+        "shot_segment": "EP03-SH14",
+        "media_asset": "shots/EP03-SH14/takes/take-01/edits/EP03-SH14-review-v1.mp4",
+        "decision": "selected",
+        "basis": "Explicit existing shot-card selection; assembly not yet accepted"
+      },
+      {
+        "shot_segment": "EP03-SH18",
+        "media_asset": "shots/EP03-SH18/takes/take-01/edits/review-silent-0.95s.mp4",
+        "decision": "selected",
+        "basis": "Explicit existing shot-card selection; assembly not yet accepted"
+      }
+    ],
+    "selected_takes": [
+      {
+        "shot": "EP03-SH11",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH11/takes/take-01/edits/EP03-SH11-review-v1.mp4",
+        "sha256": "d89c686d2dfd138a99709ab8cd548e30295c0ac77f8a230aaa6d6cb718a53986"
+      },
+      {
+        "shot": "EP03-SH12",
+        "take": "take-02",
+        "media_asset": "shots/EP03-SH12/takes/take-02/edits/EP03-SH12-question-review-v2.mp4",
+        "sha256": "e34db493a407e70b68193714bba4d76051cfaa63b1acdbffea5cf2ba783f0f9d"
+      },
+      {
+        "shot": "EP03-SH13",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH13/takes/take-01/edits/EP03-SH13-review-v1.mp4",
+        "sha256": "a557979802bab9dada4c781c4e7d5c44c558c325ea801e23c0dadd61506fb8e2"
+      },
+      {
+        "shot": "EP03-SH14",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH14/takes/take-01/edits/EP03-SH14-review-v1.mp4",
+        "sha256": "2e18f4002f3d8349051583e5b118abb9aa4c36e72e4f6a539981fde74eebaf10"
+      },
+      {
+        "shot": "EP03-SH18",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH18/takes/take-01/edits/review-silent-0.95s.mp4",
+        "sha256": "5c31db1a08ac2dcbf8e83a5921004466d30a7ed405cb0f3d23a0c016c7470b67"
+      }
+    ],
+    "timeline": [
+      {
+        "shot": "EP03-SH11",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH11/takes/take-01/edits/EP03-SH11-review-v1.mp4",
+        "sha256": "d89c686d2dfd138a99709ab8cd548e30295c0ac77f8a230aaa6d6cb718a53986",
+        "source_in": 1.0833333333333333,
+        "source_out": 5.083333333333333,
+        "original_take_range": [
+          1.0833333333333333,
+          5.083333333333333
+        ],
+        "timeline_in": 0,
+        "timeline_out": 4.0,
+        "audio": "Native selected audio; boundary fades only",
+        "piece": "EP03-SH11-piece.mp4"
+      },
+      {
+        "shot": "EP03-SH12",
+        "take": "take-02",
+        "media_asset": "shots/EP03-SH12/takes/take-02/edits/EP03-SH12-question-review-v2.mp4",
+        "sha256": "e34db493a407e70b68193714bba4d76051cfaa63b1acdbffea5cf2ba783f0f9d",
+        "source_in": 1.0833333333333333,
+        "source_out": 4.541666666666667,
+        "original_take_range": [
+          1.3333333333333333,
+          4.791666666666667
+        ],
+        "timeline_in": 4.0,
+        "timeline_out": 7.458333333333334,
+        "audio": "Native selected audio; boundary fades only",
+        "piece": "EP03-SH12-piece.mp4"
+      },
+      {
+        "shot": "EP03-SH13",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH13/takes/take-01/edits/EP03-SH13-review-v1.mp4",
+        "sha256": "a557979802bab9dada4c781c4e7d5c44c558c325ea801e23c0dadd61506fb8e2",
+        "source_in": 0.875,
+        "source_out": 3.5,
+        "original_take_range": [
+          0.875,
+          3.5
+        ],
+        "timeline_in": 7.458333333333334,
+        "timeline_out": 10.083333333333334,
+        "audio": "Native selected audio; boundary fades only",
+        "piece": "EP03-SH13-piece.mp4"
+      },
+      {
+        "shot": "EP03-SH14",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH14/takes/take-01/edits/EP03-SH14-review-v1.mp4",
+        "sha256": "2e18f4002f3d8349051583e5b118abb9aa4c36e72e4f6a539981fde74eebaf10",
+        "source_in": 0.5833333333333334,
+        "source_out": 5.0,
+        "original_take_range": [
+          0.9333333333333333,
+          5.35
+        ],
+        "timeline_in": 10.083333333333334,
+        "timeline_out": 14.5,
+        "audio": "Native selected audio; boundary fades only",
+        "piece": "EP03-SH14-piece.mp4"
+      },
+      {
+        "shot": "EP03-SH18",
+        "take": "take-01",
+        "media_asset": "shots/EP03-SH18/takes/take-01/edits/review-silent-0.95s.mp4",
+        "sha256": "5c31db1a08ac2dcbf8e83a5921004466d30a7ed405cb0f3d23a0c016c7470b67",
+        "source_in": 0,
+        "source_out": 0.9583333333333334,
+        "original_take_range": [
+          0,
+          0.9583333333333334
+        ],
+        "timeline_in": 14.5,
+        "timeline_out": 15.458333333333334,
+        "audio": {
+          "source": "shots/EP03-SH11/takes/take-01/edits/EP03-SH11-review-v1.mp4",
+          "source_range": [
+            0.15,
+            1.1083333333333334
+          ],
+          "role": "existing low-level pre-dialogue ambience; no new sound generation"
+        },
+        "piece": "EP03-SH18-piece.mp4"
+      }
+    ],
+    "quality_control": {
+      "ready": false,
+      "decode_passed": true,
+      "selection_hashes_verified": true,
+      "duration_seconds": 15.458333333333334,
+      "width": 360,
+      "height": 640,
+      "fps": 24,
+      "audio_sample_rate": 48000,
+      "external_credits": 0,
+      "auditory_review": "not_performed",
+      "continuous_visual_playback": "not_performed",
+      "open_issues": [
+        "Known SH12 intonation limitation retained",
+        "Known SH18 eye-shift limitation retained",
+        "Voice consistency and sound transitions need listening"
+      ],
+      "output_metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'projects/damad-e-yek-shabe/episodes/episode-03/edit/section-11-18-v1/EP03-SH11-14-SH18-review-v1.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:15.46, start: 0.000000, bitrate: 715 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 360x640 [SAR 1:1 DAR 9:16], 517 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 194 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
+      "cut_visual_samples": [
+        3.875,
+        3.958,
+        4.042,
+        4.125,
+        7.333333333333334,
+        7.416333333333334,
+        7.500333333333334,
+        7.583333333333334,
+        9.958333333333334,
+        10.041333333333334,
+        10.125333333333334,
+        10.208333333333334,
+        14.375,
+        14.458,
+        14.542,
+        14.625
+      ],
+      "asr_dialogue_coverage": "All four expected lines represented in machine transcript; no listening performed",
+      "visual_cut_review": "16 frames seen across four cuts; identity/clothing/background alternate consistently within approved close views; exact gaze geometry unresolved as in original takes",
+      "user_section_acceptance": true,
+      "assistant_auditory_review": "not_performed",
+      "full_episode_ready": false
+    },
+    "export_manifest": null
+  },
+  "review_output": {
+    "path": "EP03-SH11-14-SH18-review-v1.mp4",
+    "sha256": "75eb381dae968e3f16fe1655e7ad4de2239f965549ca61c7430393615e20cba1"
+  },
+  "status": "user_accepted_section_edit",
+  "user_acceptance": {
+    "reply": "تأیید تدوین همین بخش",
+    "scope": "Only this 15.46-second section edit; no new generation or publication authorization",
+    "sha256": "75eb381dae968e3f16fe1655e7ad4de2239f965549ca61c7430393615e20cba1"
+  }
+}

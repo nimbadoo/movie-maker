@@ -1,0 +1,69 @@
+{
+  "episode": "EP02",
+  "version": 4,
+  "status": "accepted standalone SH13 applied; full episode and joins pending user review",
+  "output": "EP02-review-with-repaired-SH13.mp4",
+  "actual_video_seconds": 45.63333333333333,
+  "composition_seconds": 45.61964583333334,
+  "width": 360,
+  "height": 640,
+  "fps": 30,
+  "decoded_video_frames": 1369,
+  "decoded_audio_samples": 2185581,
+  "audio_peak": 0.8135319352149963,
+  "samples_at_or_above_0_999": 0,
+  "paid_actions": 0,
+  "speed": 1.0,
+  "source_timeline": "../v3/timeline.json",
+  "sources": [
+    {
+      "id": "previous-v3",
+      "path": "episodes/episode-02/edit/v3/EP02-review-with-short-SH01.mp4",
+      "sha256": "a3030fa62d32ad3a4e17184abf47bf6123878f4da895ddbfe706899bac4ea1a1"
+    },
+    {
+      "id": "accepted-SH13-local-repair",
+      "path": "episodes/episode-02/shots/EP02-SH13/takes/take-07/edits/local-repair-v1/EP02-SH13-local-repair-review.mp4",
+      "sha256": "d6613329c8ad68b73566c904b103442ee690cb4475f1d1607e94240896b81da1"
+    }
+  ],
+  "timeline": [
+    {
+      "source_id": "previous-v3",
+      "in": 0,
+      "out": 35.566,
+      "timeline_in": 0,
+      "timeline_out": 35.566,
+      "shots": "EP02-SH01 through EP02-SH12"
+    },
+    {
+      "source_id": "accepted-SH13-local-repair",
+      "in": 0,
+      "out": 3.92,
+      "timeline_in": 35.566,
+      "timeline_out": 39.486,
+      "shot": "EP02-SH13"
+    },
+    {
+      "source_id": "previous-v3",
+      "in": 37.699333333333335,
+      "out": 43.833,
+      "timeline_in": 39.486,
+      "timeline_out": 45.61964583333334,
+      "shots": "EP02-SH14 and EP02-SH15"
+    }
+  ],
+  "replacement_boundary_evidence": "AVAssetImageGenerator actual frame times and extracted join-review.jpg; v3 shot table was about 52ms earlier than visible boundaries",
+  "approval": {
+    "scope": "standalone local-repair-v1 SH13 and insertion into new full episode review",
+    "date": "2026-10-14",
+    "user_reply": "خوبه، همین نسخهٔ اصلاح‌شدهٔ نمای ۱۳ رو توی تدوین کامل قسمت دو جایگزین کن و خروجی تازه رو باز کن تا اتصالش به نماهای قبل و بعد رو ببینم.",
+    "full_episode_acceptance": false
+  },
+  "output_sha256": "87a113c0240c333e8dc74ed08f99bf78c65ca8725268254ab475d2cc1f7d16e0",
+  "limitations": [
+    "Direct audio listening unsupported; user approved standalone repair.",
+    "Join samples visually inspected; smoothness and sound transitions require user playback.",
+    "Review resolution remains 360x640."
+  ]
+}

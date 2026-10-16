@@ -1,0 +1,98 @@
+{
+  "skill": "compile-generation-prompts",
+  "request_id": "EP04-SH06-take-01-v2-low-resolution",
+  "bundle_sha256": "8eb8d990782e1cf3e3a9c31f5f49523b2c1a43c42cbc93caad5df11a043a47e2",
+  "status": "succeeded_pending_media_review",
+  "submitted": true,
+  "data": {
+    "shot_ir": {
+      "shot": "EP04-SH06",
+      "dialogue_id": "EP04-D06",
+      "speaker": "CH-SAM",
+      "listener": "CH-NAZ",
+      "edit_target_seconds": 4.5
+    },
+    "storyboard_frames": [
+      {
+        "path": "images/EP04-SH06-start-v1.png",
+        "sha256": "9c521130e5c7b40a3150cabe044be03f4c729c6b31d0b005736c2779ef7eac26"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "id": "EP04-SH06-take-01-v2-low-resolution",
+        "prompt_file": "prompt.txt",
+        "prompt_sha256": "28508af27b160cf9fb25eb41d8178cca103a3cd4ed026306e24e3a92e887ea26"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow UI",
+        "settings": {
+          "model": "Omni 1.1 Flash",
+          "seconds": 8,
+          "quality": "360p",
+          "aspect_ratio": "9:16",
+          "audio": true,
+          "outputs": 1,
+          "mode": "Frames",
+          "first_frame_only": true
+        },
+        "cost": {
+          "unit": "Flow credits",
+          "per_attempt": 6,
+          "attempts": 1,
+          "ceiling": 6,
+          "price_source": "live Flow account UI; flow-cost-check-v1.jpg",
+          "verified_at": "2026-10-15T15:42:39Z"
+        },
+        "input_roles": {
+          "images/EP04-SH06-start-v1.png": "first_frame"
+        },
+        "compatibility": "reviewed; live file binding recheck at submission",
+        "capability_source": "https://support.google.com/flow/answer/16352836?hl=en"
+      }
+    ],
+    "quality_gate": {
+      "preparation_passed": true,
+      "submission_authorized": true
+    }
+  },
+  "local_voice_reference": {
+    "path": "episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+    "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+    "sample_rate": 48000,
+    "channels": 2,
+    "duration_seconds": 3.06,
+    "uploaded_to_flow": false
+  },
+  "timing_source_sha256": "8dca953a586ff17d30b4356fbc6fa21b5fb77ae1e061b4a68c6ec4c1b67cfe8e",
+  "review_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    {
+      "path": "episodes/episode-02/references/01-saman-portrait-v1.png",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    },
+    {
+      "path": "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    {
+      "path": "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png",
+      "sha256": "e4e2966041a190137156725eb02a7e465c4d9633dcee7ec89a0fe2a0c096dc4d"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-start-v2.png",
+      "sha256": "80bdbd89384cece4b3e68d8ec64e3dbd05b84e0b5a5e7c1291180cf46af17610"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH07/images/EP04-SH07-start-v1.png",
+      "sha256": "5ee36d1bb9d0be1a44e045b389369da8eac81551470d03fb3a0b442dbbd370ab"
+    }
+  ],
+  "revision_reason": "User explicitly rejected Veo 3.1 Fast and 720p; retain 8s duration; use observed 360p Omni route for 6 credits."
+}

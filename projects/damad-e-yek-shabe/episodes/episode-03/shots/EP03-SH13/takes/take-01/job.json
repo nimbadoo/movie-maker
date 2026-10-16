@@ -1,0 +1,85 @@
+{
+  "skill": "execute-media-generation",
+  "state": "succeeded",
+  "idempotency_key": "55df003964b495df14eeb1ca78935091554c61d8815e2b61befeeedeb0d89f26",
+  "request": {
+    "take": "take-01",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH13-close-house-v4.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 4,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "price_source": "ui-ready-for-approval.png and live UI recheck in current user turn",
+      "verified_at": "2026-10-15T19:26:28.682313+00:00"
+    }
+  },
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH13-take-01-attempt-1",
+        "compiled_request": "generation-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "55df003964b495df14eeb1ca78935091554c61d8815e2b61befeeedeb0d89f26",
+        "state": "succeeded",
+        "provider_job_id": "31414201-aee0-45c1-b45f-7a87c1afd65e"
+      }
+    ],
+    "media_assets": [
+      {
+        "id": "EP03-SH13-take01-source",
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH13/takes/take-01/video.mp4",
+        "sha256": "36fa57dd2f104de003961e6cd66fe5e3ca5e9479ace9b38a3daa8674a29a13ca",
+        "bytes": 400433,
+        "producing_job": "EP03-SH13-take-01-attempt-1"
+      },
+      {
+        "id": "EP03-SH13-take01-preview",
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH13/takes/take-01/edits/EP03-SH13-review-v1.mp4",
+        "sha256": "a557979802bab9dada4c781c4e7d5c44c558c325ea801e23c0dadd61506fb8e2",
+        "bytes": 291930,
+        "producing_job": "EP03-SH13-take-01-attempt-1"
+      },
+      {
+        "id": "EP03-SH13-take01-audio",
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH13/takes/take-01/edits/source-audio.wav",
+        "sha256": "a7daccd181570ea558167c43c689c092a29a4148d68eae00543ccff6a2165470",
+        "bytes": 770126,
+        "producing_job": "EP03-SH13-take-01-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted": 4,
+      "ceiling": 4,
+      "submissions": 1,
+      "actual_debit": null,
+      "quoted_submission_cost": 4,
+      "actual_ledger_independently_verified": false,
+      "local_edit_credits": 0
+    },
+    "execution_gate": {
+      "bundle_sha256": "c2bbad6649ecd700a44fd033ebec7631e8fe72786cc9b5c74e43516611640fa5",
+      "explicit_cost_approval": true,
+      "automatic_retry": false,
+      "remaining_paid_attempts": 0
+    }
+  },
+  "submitted_at": "2026-10-15T19:28:20.197293+00:00",
+  "provider_job_id": "31414201-aee0-45c1-b45f-7a87c1afd65e",
+  "completed_at": "2026-10-15T19:35:35.849958+00:00"
+}

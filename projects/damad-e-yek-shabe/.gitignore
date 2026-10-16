@@ -1,0 +1,7 @@
+*.mp4
+*.m4a
+*.wav
+*.mp3
+[Dd]esktop.ini
+__pycache__/
+*.pyc

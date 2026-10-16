@@ -1,0 +1,13 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "36fa57dd2f104de003961e6cd66fe5e3ca5e9479ace9b38a3daa8674a29a13ca",
+  "output": "EP03-SH13-review-v1.mp4",
+  "output_sha256": "a557979802bab9dada4c781c4e7d5c44c558c325ea801e23c0dadd61506fb8e2",
+  "source_range_seconds": [
+    0,
+    3.5
+  ],
+  "native_audio_preserved": true,
+  "audio_processing": "Ordinary AAC reencoding for tail trim only; no voice conversion, pitch/speed/gain changes, isolation, inserted silence or freeze",
+  "selection": "not_selected"
+}

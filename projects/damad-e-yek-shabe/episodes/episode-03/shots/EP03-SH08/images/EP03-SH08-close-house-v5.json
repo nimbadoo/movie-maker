@@ -1,0 +1,20 @@
+{
+  "tool": "built_in_image_gen",
+  "edit_target": "images/EP03-SH08-reply-v4.png",
+  "references": [
+    {
+      "path": "../../../../house/apartment-cutaway-v2.png",
+      "role": "spatial_reference"
+    },
+    {
+      "path": "../../../../episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "role": "top_left_Nazli_identity_only"
+    }
+  ],
+  "output": "images/EP03-SH08-close-house-v5.png",
+  "output_sha256": "b66b7d87b48365bf077df51deab8c217001899871e0280ef36e9882fc02eb0cb",
+  "intent": "Preserve Nazli identity, teal blouse, dark trousers, hands on lap, eyeline to Farhad and cream shoulder; change only to closer frame and plain blurred cream background to remove misplaced bookcase; closed lips at start. No visible table/props, no new person/object/text.",
+  "technical_review": "appearance-and-space-v5.md",
+  "selected": false,
+  "flow_generation_submissions": 0
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "shot": "EP03-SH11",
+    "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH11/takes/take-01/edits/EP03-SH11-review-v1.mp4",
+    "selection": {
+      "shot": "EP03-SH11",
+      "active": true,
+      "order": 17,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/edits/EP03-SH11-review-v1.mp4",
+      "selected_sha256": "d89c686d2dfd138a99709ab8cd548e30295c0ac77f8a230aaa6d6cb718a53986",
+      "selection_status": "user_approved",
+      "selection_evidence": "User این عالی شده. برو بعدی. بعدی رو هم اینجوری درست کنی خیلی عالی میشه. after 5.1-second preview and disclosed hand gesture",
+      "trim": {
+        "in": 0,
+        "out": 5.1
+      },
+      "active_frame": "images/EP03-SH11-house-close-v5.png",
+      "send_request": null
+    },
+    "audio_head_dbfs": [
+      -47.1,
+      -45.7,
+      -44.9,
+      -45.9,
+      -45.1,
+      -45.4,
+      -44.7,
+      -44.9,
+      -44.2,
+      -45.3,
+      -44.8,
+      -44.8,
+      -45.1,
+      -22.3,
+      -19.3
+    ],
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH11/takes/take-01/edits/EP03-SH11-review-v1.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:05.13, start: 0.000000, bitrate: 753 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 360x640, 618 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
+    "peak_dbfs": -8.255731582641602
+  },
+  {
+    "shot": "EP03-SH12",
+    "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH12/takes/take-02/edits/EP03-SH12-question-review-v2.mp4",
+    "selection": {
+      "shot": "EP03-SH12",
+      "active": true,
+      "order": 18,
+      "selected_take": "take-02",
+      "selected_video": "takes/take-02/edits/EP03-SH12-question-review-v2.mp4",
+      "selected_sha256": "e34db493a407e70b68193714bba4d76051cfaa63b1acdbffea5cf2ba783f0f9d",
+      "selection_status": "user_accepted_with_known_prosody_limitation",
+      "selection_evidence": "User accepts take02 to proceed despite unresolved question intonation: این رو تأیید می‌کنیم، دیگه چاره‌ای نیست ولی برو بعدی.",
+      "trim": {
+        "in": 0,
+        "out": 4.55
+      },
+      "active_frame": "images/EP03-SH12-open-kitchen-v4.png",
+      "send_request": null
+    },
+    "audio_head_dbfs": [
+      -59.7,
+      -58.7,
+      -59.3,
+      -59.0,
+      -56.3,
+      -55.7,
+      -56.6,
+      -58.6,
+      -58.5,
+      -57.4,
+      -57.9,
+      -58.0,
+      -57.2,
+      -21.9,
+      -23.8
+    ],
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH12/takes/take-02/edits/EP03-SH12-question-review-v2.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:04.58, start: 0.000000, bitrate: 672 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 360x640, 536 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
+    "peak_dbfs": -10.620293617248535
+  },
+  {
+    "shot": "EP03-SH13",
+    "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH13/takes/take-01/edits/EP03-SH13-review-v1.mp4",
+    "selection": {
+      "shot": "EP03-SH13",
+      "active": true,
+      "order": 19,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/edits/EP03-SH13-review-v1.mp4",
+      "selected_sha256": "a557979802bab9dada4c781c4e7d5c44c558c325ea801e23c0dadd61506fb8e2",
+      "selection_status": "user_approved",
+      "selection_evidence": "User تأیید؛ برو نمای۱۴ after3.5second native-audio preview and disclosed hand entry.",
+      "trim": {
+        "in": 0,
+        "out": 3.5
+      },
+      "active_frame": "images/EP03-SH13-close-house-v4.png",
+      "send_request": null
+    },
+    "audio_head_dbfs": [
+      -47.0,
+      -45.4,
+      -45.7,
+      -45.2,
+      -44.2,
+      -45.5,
+      -44.6,
+      -43.0,
+      -45.5,
+      -44.2,
+      -43.3,
+      -27.9,
+      -22.4,
+      -23.1,
+      -30.1
+    ],
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH13/takes/take-01/edits/EP03-SH13-review-v1.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:03.50, start: 0.000000, bitrate: 667 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 360x640, 530 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 127 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
+    "peak_dbfs": -7.786107063293457
+  },
+  {
+    "shot": "EP03-SH14",
+    "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH14/takes/take-01/edits/EP03-SH14-review-v1.mp4",
+    "selection": {
+      "shot": "EP03-SH14",
+      "active": true,
+      "order": 20,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/edits/EP03-SH14-review-v1.mp4",
+      "selected_sha256": "2e18f4002f3d8349051583e5b118abb9aa4c36e72e4f6a539981fde74eebaf10",
+      "selection_status": "user_approved",
+      "selection_evidence": "User clicked تأیید نمای۱۴؛ برو آماده‌سازی واکنش پایانی after5s native-audio preview.",
+      "trim": {
+        "in": 0,
+        "out": 5.0
+      },
+      "active_frame": "images/EP03-SH14-from-selected-SH12-v1.png",
+      "send_request": null
+    },
+    "audio_head_dbfs": [
+      -40.4,
+      -40.1,
+      -40.8,
+      -41.4,
+      -40.3,
+      -42.2,
+      -41.9,
+      -42.2,
+      -22.7,
+      -21.2,
+      -22.1,
+      -22.4,
+      -23.2,
+      -19.5,
+      -24.8
+    ],
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH14/takes/take-01/edits/EP03-SH14-review-v1.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:05.00, start: 0.000000, bitrate: 600 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 360x640, 467 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 128 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
+    "peak_dbfs": -7.358236789703369
+  },
+  {
+    "shot": "EP03-SH18",
+    "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH18/takes/take-01/edits/review-silent-0.95s.mp4",
+    "selection": {
+      "shot": "EP03-SH18",
+      "active": true,
+      "order": 21,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/edits/review-silent-0.95s.mp4",
+      "selected_sha256": "5c31db1a08ac2dcbf8e83a5921004466d30a7ed405cb0f3d23a0c016c7470b67",
+      "selection_status": "user_accepted_with_known_eye_shift_limitation",
+      "selection_evidence": "تأیید همین مکث کوتاه برای تدوین",
+      "trim": {
+        "start": 0,
+        "end": 0.95
+      },
+      "active_frame": "images/EP03-SH18-close-house-v4.png",
+      "send_request": null
+    },
+    "audio_head_dbfs": [],
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH18/takes/take-01/edits/review-silent-0.95s.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:00:00.96, start: 0.000000, bitrate: 589 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 360x640, 580 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\nAt least one output file must be specified\n"
+  }
+]

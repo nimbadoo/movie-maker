@@ -1,0 +1,19 @@
+Animate the approved starting frame at natural speed, vertical 9:16. Maintain exact identity, wardrobe, room geometry, eyelines and prop state. A single-speaker close-up or medium close-up of نازلی (CH-NAZ), standing with both hands empty near her body; the same tray and its two glasses stay on the near-right side of the coffee table. The other two characters remain silent and offscreen in their fixed physical positions; do not show their mouths or add any other dialogue. Only a small eye/head/expression change required by the per-line performance direction. No walking, pouring, gesturing with extra hands or moving the door. CAMERA/BLOCKING OVERRIDE: camera is on the seated guests side looking toward Nazli and the kitchen. Behind Nazli show the same sage-green kitchen doorway/fridge and warm wall only. No sofa, coffee table or served glass behind Nazli. The coffee table is between Nazli and seated guests, in FRONT of her on camera side, outside the portrait crop; the third glass is in front of Mother. Preserve this reverse angle in every Nazli shot.
+One speaking turn only. Only نازلی owns the voice and the visible lip movements; never assign these words to another character. Start after the preceding turn, no overlap or extra voice. Use the user-approved per-line emotion, intent and delivery below; directions and IDs are not spoken.
+Read Persian vowel marks as pronunciation cues, not pauses. Natural colloquial Persian; رو and تو have short /o/, final و in استکانو and حرفامونو is /o/, نازلی is nāzli with no extra vowel between z and l. Do not rewrite the wording or speed up speech. Quiet apartment ambience, no music, narration or subtitles.
+PERFORMANCE DIRECTIONS FOR EP01-D27 / نازلی — NOT SPOKEN; do not read these instructions aloud:
+شناسهٔ گوینده: CH-NAZ
+مخاطب و نما: مادر؛ EP01-SH27
+جای گوینده و شنونده‌ها: ایستاده در سمت آشپزخانه روبه‌روی مادر؛ دست‌ها خالی، سینی روی میز. فقط گوینده داخل قاب؛ دو شخصیت دیگر در جای ثابت خارج قاب‌اند.
+نوبت و بازهٔ گفتار: نوبت 21 از ۲۳؛ بازهٔ تخمینی 55.7–57.6 ثانیه؛ بدون هم‌پوشانی.
+مالک صدا و لب‌خوانی: نازلی / CH-NAZ؛ فقط همین گوینده، با هویت صوتی برداشت‌های قبلی؛ ثبات صدا باید شنیده و سنجیده شود.
+رفتار شنونده‌ها: ساکت و خارج قاب؛ هیچ لب‌خوانی یا صدای اضافی ندارند.
+حالت و شدت: اضطراب پنهان ۳/۵
+قصد گوینده: بستن راه دیدار امشب و خریدن فرصت
+نوع جمله و شیوهٔ بیان: خبری و کوتاه، مردد اما بدون مکث طولانی
+رفتار قابل‌دیدن: نگاه به مادر، سفت‌شدن جزئی لب پس از پایان جمله
+وضعیت جهت بازی: تأییدشده توسط کاربر با تأیید پاسخ و درخواست تولید همین نسخه؛ پذیرش برداشت واقعی جداست.
+وضعیت نوبت و چیدمان: تأییدشده؛ چیدمان و قاب‌های مصوب قبلی حفظ شوند.
+SPOKEN DIALOGUE ONLY — نازلی: «اِمْشَب نِمی‌تونِه.»
+Target usable shot duration about 1.9s, subject to natural spoken delivery. If the selected tool length cannot fit the line, revise the shot timing before generating.
+Match Nazli voice identity to the existing approved takes; do not invent a new voice.

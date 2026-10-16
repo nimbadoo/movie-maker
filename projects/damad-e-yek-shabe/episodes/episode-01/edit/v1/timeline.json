@@ -1,0 +1,378 @@
+{
+  "status": "first cut for review, not final master",
+  "output": "episodes/episode-01/edit/v1/EP01-SC01-first-cut-v1.mp4",
+  "source_count": 16,
+  "source_total_seconds": 64.204,
+  "edited_seconds": 37.852,
+  "settings": "360x640 native review resolution; 30fps; AAC48kHz; original playback speed",
+  "pilot_transcript_automatic": " من یکی دیگره دوستارم",
+  "timeline": [
+    {
+      "turn": 1,
+      "shot": "EP01-SH01",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH01/takes/take-01/video.mp4",
+      "sha256": "bce88b02c6f820b428d87708c77077295dbc2506af6ffea685873589d5a2a713",
+      "source_duration": 4.01,
+      "in": 0.62,
+      "out": 3.792,
+      "timeline_in": 0,
+      "duration": 3.172,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 12800,
+          "end": 56832
+        }
+      ],
+      "timeline_out": 3.172
+    },
+    {
+      "turn": 2,
+      "shot": "EP01-SH10",
+      "take": 2,
+      "source": "episodes/episode-01/shots/EP01-SH10/takes/take-02/video.mp4",
+      "sha256": "38ed844a2cb87393893ccc16ff3d3009d1630abc8e6c55d217b99f1f417cdeda",
+      "source_duration": 4.01,
+      "in": 0.236,
+      "out": 2.96,
+      "timeline_in": 3.172,
+      "duration": 2.724,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 6656,
+          "end": 43520
+        }
+      ],
+      "timeline_out": 5.896
+    },
+    {
+      "turn": 3,
+      "shot": "EP01-SH11",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH11/takes/take-01/video.mp4",
+      "sha256": "a1f5eb8657b2c74366df5f3bc7c4e7359ffcd021a3a65dc5fa3aaa1a4cc053f3",
+      "source_duration": 4.01,
+      "in": 0.46,
+      "out": 3.28,
+      "timeline_in": 5.896,
+      "duration": 2.82,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 10240,
+          "end": 30208
+        },
+        {
+          "start": 34816,
+          "end": 48640
+        }
+      ],
+      "timeline_out": 8.716
+    },
+    {
+      "turn": 4,
+      "shot": "EP01-SH12",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH12/takes/take-01/video.mp4",
+      "sha256": "e9a1bf5eaeee82973a26ed833485889c7dd6a77149353c7aee4baa2b4227e778",
+      "source_duration": 4.032,
+      "in": 0.396,
+      "out": 2.896,
+      "timeline_in": 8.716,
+      "duration": 2.5,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 9216,
+          "end": 42496
+        }
+      ],
+      "timeline_out": 11.216
+    },
+    {
+      "turn": 5,
+      "shot": "EP01-SH02",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH02/takes/take-01/video.mp4",
+      "sha256": "d7ba4ab454fac8b4a0e24883d9b891881c5d5991d5e5d8ecbecbf32f442922b9",
+      "source_duration": 4.01,
+      "in": 0.492,
+      "out": 3.728,
+      "timeline_in": 11.216,
+      "duration": 3.236,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 10752,
+          "end": 28160
+        },
+        {
+          "start": 35328,
+          "end": 55808
+        }
+      ],
+      "timeline_out": 14.452
+    },
+    {
+      "turn": 6,
+      "shot": "EP01-SH13",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH13/takes/take-01/video.mp4",
+      "sha256": "a90b7c9b75bef390f6f5799d825f5b1a1a66029f177ad2896f5b9344b086f869",
+      "source_duration": 4.01,
+      "in": 0.492,
+      "out": 3.472,
+      "timeline_in": 14.452,
+      "duration": 2.98,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 10752,
+          "end": 27136
+        },
+        {
+          "start": 33792,
+          "end": 51712
+        }
+      ],
+      "timeline_out": 17.432
+    },
+    {
+      "turn": 7,
+      "shot": "EP01-SH03",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH03/takes/take-01/video.mp4",
+      "sha256": "c9cb5f1e72fbbb8912583f436e45efb20ab98b0d0beb0ece8e0762e667c0b50c",
+      "source_duration": 4.01,
+      "in": 1.324,
+      "out": 3.28,
+      "timeline_in": 17.432,
+      "duration": 1.956,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 24064,
+          "end": 48640
+        }
+      ],
+      "timeline_out": 19.388
+    },
+    {
+      "turn": 8,
+      "shot": "EP01-SH14",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH14/takes/take-01/video.mp4",
+      "sha256": "34b8a536930fa161c0171a750f825e364aceb543b7d8b1b18df440c2391c2f37",
+      "source_duration": 4.01,
+      "in": 1.356,
+      "out": 2.356,
+      "timeline_in": 19.388,
+      "duration": 1.0,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 24576,
+          "end": 32768
+        }
+      ],
+      "timeline_out": 20.388
+    },
+    {
+      "turn": 9,
+      "shot": "EP01-SH04",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH04/takes/take-01/video.mp4",
+      "sha256": "113f6a69bfd528ce64edd2a6096f53fd4ce4a43e5db7baeb4f140d03e514b2e3",
+      "source_duration": 4.01,
+      "in": 0.364,
+      "out": 2.608,
+      "timeline_in": 20.388,
+      "duration": 2.244,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 8704,
+          "end": 37888
+        }
+      ],
+      "timeline_out": 22.632
+    },
+    {
+      "turn": 10,
+      "shot": "EP01-SH05",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH05/takes/take-01/video.mp4",
+      "sha256": "a048c3097b7884f2c7372a353f488a448f65ca9bcd68045bc204aaecbc87ce7f",
+      "source_duration": 4.01,
+      "in": 0.94,
+      "out": 2.832,
+      "timeline_in": 22.632,
+      "duration": 1.892,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 17920,
+          "end": 41472
+        }
+      ],
+      "timeline_out": 24.524
+    },
+    {
+      "turn": 11,
+      "shot": "EP01-SH06",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH06/takes/take-01/video.mp4",
+      "sha256": "d7aa2205726552833b41b07701157e2e6f1c5ed9716180ed261e9b93df2428f8",
+      "source_duration": 4.01,
+      "in": 1.036,
+      "out": 2.288,
+      "timeline_in": 24.524,
+      "duration": 1.252,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 19456,
+          "end": 32768
+        }
+      ],
+      "timeline_out": 25.776
+    },
+    {
+      "turn": 12,
+      "shot": "EP01-SH15",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH15/takes/take-01/video.mp4",
+      "sha256": "20223cc270c58b38284882ce392262eff7ab9ab1b363d7a6469c5ffe5aeb447e",
+      "source_duration": 4.032,
+      "in": 0.812,
+      "out": 2.768,
+      "timeline_in": 25.776,
+      "duration": 1.956,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 15872,
+          "end": 40448
+        }
+      ],
+      "timeline_out": 27.732
+    },
+    {
+      "turn": 13,
+      "shot": "EP01-SH07",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH07/takes/take-01/video.mp4",
+      "sha256": "948fd033475292135db3f51cef8bc6640c7ae7c48c07d0598c2261bd63a048ff",
+      "source_duration": 4.01,
+      "in": 0.524,
+      "out": 3.6,
+      "timeline_in": 27.732,
+      "duration": 3.076,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 11264,
+          "end": 29184
+        },
+        {
+          "start": 39424,
+          "end": 53760
+        }
+      ],
+      "timeline_out": 30.808
+    },
+    {
+      "turn": 14,
+      "shot": "EP01-SH16",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH16/takes/take-01/video.mp4",
+      "sha256": "f9a12fd449542661c7ce604eabf978f39fdd355fa33a56b27e5067841f9b7b00",
+      "source_duration": 4.01,
+      "in": 1.132,
+      "out": 2.736,
+      "timeline_in": 30.808,
+      "duration": 1.604,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 20992,
+          "end": 39936
+        }
+      ],
+      "timeline_out": 32.412
+    },
+    {
+      "turn": 15,
+      "shot": "EP01-SH08",
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH08/takes/take-01/video.mp4",
+      "sha256": "0c70c11471cd2bc5542f5cb6a851ee80354c01646cc590f1d0f63d26d16e2c85",
+      "source_duration": 4.01,
+      "in": 1.068,
+      "out": 3.28,
+      "timeline_in": 32.412,
+      "duration": 2.212,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 19968,
+          "end": 48640
+        }
+      ],
+      "timeline_out": 34.624
+    },
+    {
+      "turn": 16,
+      "shot": "EP01-SH09",
+      "take": 2,
+      "source": "episodes/episode-01/shots/EP01-SH09/takes/take-02/video.mp4",
+      "sha256": "bc48c7be0decef11b908fa36901f659b121751aa9e7ff59cba92d588b7e03abf",
+      "source_duration": 4.01,
+      "in": 0.428,
+      "out": 3.656,
+      "timeline_in": 34.624,
+      "duration": 3.228,
+      "reason": "Trim only outer non-speech; 180ms lead and 240ms tail, preserve internal pauses and original speed",
+      "status": "applied; full audio/lip-sync human review pending",
+      "speech_ranges": [
+        {
+          "start": 9728,
+          "end": 28672
+        },
+        {
+          "start": 35328,
+          "end": 52736
+        }
+      ],
+      "timeline_out": 37.852
+    }
+  ],
+  "limitations": [
+    "VAD-assisted outer trims checked by decode; actual prosody and lip sync need playback review.",
+    "No invented replacement speech or music.",
+    "Tray placement still offscreen between turns9/10; sound continuity may require later Foley."
+  ],
+  "decoded_output_video_frames": 1130,
+  "decoded_output_audio_frames": 1798,
+  "actual_container_seconds": 37.99642,
+  "output_sha256": "671436e7e8b409115bd0853a285c9ee2a11dc1f6d8380dc8aff03c9350d25417",
+  "visual_review": "Five sampled frames per shot inspected for identity, prop state and continuity; full-speed audiovisual acceptance pending.",
+  "file_path_base": "film project root; external original download paths are provenance"
+}

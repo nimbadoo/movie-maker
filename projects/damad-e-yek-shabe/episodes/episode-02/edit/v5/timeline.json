@@ -1,0 +1,65 @@
+{
+  "episode": "EP02",
+  "version": 5,
+  "status": "user accepted full SH03 take; insertion complete; full episode joins for playback",
+  "output": "EP02-full-with-approved-SH03.mp4",
+  "actual_video_seconds": 51.8,
+  "width": 360,
+  "height": 640,
+  "fps": 30,
+  "speed": 1,
+  "paid_actions": 0,
+  "output_sha256": "a96019cc931aa33b8010fbf131e60085f838b5584caca0558ae5caa306a3d042",
+  "decoded_audio_seconds": 51.690666666666665,
+  "audio_peak": 0.8135318756103516,
+  "samples_ge_0_999": 0,
+  "selected_plan": "selected-plan.json",
+  "sources": [
+    {
+      "id": "previous-v4",
+      "path": "../v4/EP02-review-with-repaired-SH13.mp4",
+      "sha256": "87a113c0240c333e8dc74ed08f99bf78c65ca8725268254ab475d2cc1f7d16e0"
+    },
+    {
+      "id": "accepted-SH03-take03",
+      "path": "../../shots/EP02-SH03/takes/take-03/video.mp4",
+      "sha256": "f27bc84034384f469ebfd5dd4f5fd3b6f4031aae94614062fc977f9d50f816e1"
+    }
+  ],
+  "timeline": [
+    {
+      "source_id": "previous-v4",
+      "in": 0,
+      "out": 5.7,
+      "timeline_in": 0,
+      "timeline_out": 5.7
+    },
+    {
+      "source_id": "accepted-SH03-take03",
+      "in": 0,
+      "out": 10,
+      "timeline_in": 5.7,
+      "timeline_out": 15.7,
+      "shot": "EP02-SH03"
+    },
+    {
+      "source_id": "previous-v4",
+      "in": 9.533333333333333,
+      "out": 45.63333333333333,
+      "timeline_in": 15.7,
+      "timeline_out": 51.8
+    }
+  ],
+  "approval": {
+    "date": "2026-10-14",
+    "basis": "User says everything was good and explicitly requests the 10-second take replace the previous shot in a full edit",
+    "scope": "full original SH03 take03 accepted and inserted; short review excerpt excluded",
+    "full_episode_acceptance": false
+  },
+  "checks": {
+    "full_decode": "passed",
+    "join_samples": "visually inspected",
+    "subjective_join_sound": "pending user playback"
+  },
+  "preserved": "repaired SH13 and all other v4 content; original files unchanged"
+}

@@ -1,0 +1,52 @@
+{
+  "status": "published",
+  "video": {
+    "path": "../edit/final-v2/EP03-final-v2.mp4",
+    "sha256": "d34f7c5a46ef5004974154ad11569cdbba12bb6b6c73a3c19eacdb64f61085ed",
+    "duration_seconds": 79.20833333333334,
+    "approval": "آره، این بهتر شد. همین نسخه رو تأیید می‌کنم، برای خروجی نهایی قسمت سه از همین استفاده کن.",
+    "native_resolution": [
+      360,
+      640
+    ],
+    "upscaled": false
+  },
+  "cover": {
+    "path": "../cover/EP03-cover-v1.png",
+    "sha256": "19f4f839e0b7171431e892a087e9f2a2a87ef4396e89a94d3d4bef311555e298",
+    "status": "user_accepted"
+  },
+  "caption": {
+    "path": "caption.txt",
+    "sha256": "136fe36d597bb7700592cf50f5e61e42c01c7aa90f00579ee76e8bfc01e70953",
+    "status": "user_accepted"
+  },
+  "publication": {
+    "authorized": true,
+    "performed": true,
+    "destination": "Instagram hamina.tv",
+    "explicit_user_instruction": "خوبه، ویدیو و کاور و کپشن تأییده. قسمت سه رو با همین‌ها منتشر کن.",
+    "blocker": null,
+    "share_clicked_once": true,
+    "ai_label_enabled": true,
+    "url": "https://www.instagram.com/hamina.tv/reel/DeiC3csNbhs/",
+    "account": "hamina.tv",
+    "verified_at": "2026-10-16T00:39:23.303533+02:00",
+    "success_ui": "Your reel has been shared.",
+    "evidence": [
+      "profile-published.png",
+      "post-published.png"
+    ]
+  },
+  "review": {
+    "video_decode": "passed in final master preparation",
+    "cover": "../cover/review.md",
+    "actual_platform_crop": "Profile cover inspected; selected title and characters visible",
+    "platform_upload_compatibility": "Upload accepted; full 79-second range and sound-on observed before share",
+    "published_caption": "Exact approved caption and all three hashtags observed",
+    "published_ai_label": "AI content observed",
+    "published_playback": "not verified; video region remained dark in browser"
+  },
+  "additional_flow_credits": 0,
+  "user_acceptance": "تأیید کاور و کپشن؛ منتشر نکن"
+}

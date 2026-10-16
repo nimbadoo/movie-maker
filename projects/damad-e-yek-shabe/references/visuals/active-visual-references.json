@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-13",
+  "approval": "User: همین ظاهر و خانه مناسب است؛ ادامه بده",
+  "active_version": "v1",
+  "asset": "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+  "identities": {
+    "CH-NAZ": {
+      "region": "upper-left",
+      "status": "approved"
+    },
+    "CH-MNZ": {
+      "region": "upper-middle",
+      "status": "approved",
+      "head_covering": "One burgundy scarf, no undercap or inner scarf; some real frontal and temple hair visible. Requested direction; corrected previews pending acceptance."
+    },
+    "CH-FAR": {
+      "region": "upper-right",
+      "status": "approved"
+    },
+    "CH-SAM": {
+      "status": "approved",
+      "asset": "episodes/episode-02/references/01-saman-portrait-v1.png",
+      "role": "face_identity; charcoal T-shirt belongs to episode 2 only",
+      "approval_evidence": "film.md character introduction and episodes/episode-02/visual-review.md opening acceptance record",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    }
+  },
+  "location": {
+    "id": "LOC-LIVING",
+    "region": "lower-wide-panel",
+    "status": "approved"
+  },
+  "not_yet_designed": [
+    "CH-MSM"
+  ],
+  "usage": "Use actual image input. This board is approved identity/wardrobe/location reference but not a video start frame. Separate derived references must preserve these identities.",
+  "ep01_derived_frames": {
+    "gallery": "episodes/episode-01/frames.md",
+    "manifest": "episodes/episode-01/history/structure-v1/records/google-flow/manifest.json",
+    "count": 16,
+    "status": "reviewed candidates; user frame approval pending; approved identity board remains v1",
+    "spatial_correction": "All 7 Nazli frames now v2, kitchen background; old Nazli v1 frames rejected for production.",
+    "spatial_master": "episodes/episode-01/references/EP01-spatial-master-v1.png"
+  },
+  "file_path_base": "film project root; external original download paths are provenance",
+  "appearance_bible": "references/visuals/character-bible.md",
+  "appearance_version": "appearance-v1",
+  "identity_source_roles": "Approved images identify faces; costume and head-covering variants follow character-bible.md. New generated previews never automatically replace identity anchors.",
+  "identity_board_sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4",
+  "layout_reference": {
+    "asset": "house/apartment-cutaway-v2.png",
+    "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0",
+    "scope": "all_episodes_home_interior",
+    "approval_evidence": "الان با توجه به این نقشهٔ خانه ... همه‌شون رو باید چک کنی و دوباره بسازی و جایگزین کنی.",
+    "identity_reference_unchanged": true
+  }
+}

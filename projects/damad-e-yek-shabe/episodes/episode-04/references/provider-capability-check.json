@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-15",
+  "inspection": "live_in_app_browser_no_generation_no_upload",
+  "source_project": "episode03_existing_project_read_only_inspection",
+  "observed_original_settings": {
+    "model": "Omni 1.1 Flash",
+    "video_type": "Frames",
+    "aspect": "9:16",
+    "resolution": "360p",
+    "duration_seconds": 8,
+    "output_count": 1,
+    "ui_cost_credits": 6,
+    "duration_choices": [
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "observed_alternative_settings": {
+    "model": "Veo 3.1 - Fast",
+    "resolution": "720p",
+    "duration_seconds": 8,
+    "output_count": 1,
+    "ui_cost_credits": 20
+  },
+  "restored_original_settings": true,
+  "voice_ui": {
+    "category": "Voices",
+    "observed_options": "preset_library",
+    "uploaded_approved_wav_reuse": "not_confirmed",
+    "voice_created": false,
+    "voice_selected": false
+  },
+  "official_help": {
+    "create_videos": "https://support.google.com/flow/answer/16353334?co=GENIE.Platform%3DDesktop&hl=en",
+    "models": "https://support.google.com/flow/answer/16352836?hl=en",
+    "documented_voice_references": "Omni Flash Ingredients; presets and custom voices based on presets, not evidence of importing approved character WAVs"
+  },
+  "cost_quote_status": "observed_settings_only_not_a_final_approved_episode_package",
+  "remaining_blocker": "preserving_existing_four_approved_voice_identities_not_demonstrated",
+  "cost_approval": null,
+  "submissions": 0,
+  "local_voice_route_update": {
+    "mother_method_status": "accepted_for_continuation_not_final_take",
+    "engine": "Seed-VC",
+    "other_character_identity": "unproven",
+    "timing_status": "awaiting_real_rehearsal",
+    "bindings": "episodes/episode-04/references/voice-route-bindings.json"
+  }
+}

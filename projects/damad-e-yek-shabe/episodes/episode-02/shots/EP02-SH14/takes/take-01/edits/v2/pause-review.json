@@ -1,0 +1,27 @@
+{
+  "shot": "EP02-SH14",
+  "take": "take-01",
+  "source": "episodes/episode-02/shots/EP02-SH14/takes/take-01/video.mp4",
+  "sha256": "2b08def90fe0f1f20aa198238f3ac7a949c06bb7cc2a5668990d8dcb86dee8c5",
+  "original_in": 0.416,
+  "original_out": 3.784,
+  "in": 0.476,
+  "out": 3.724,
+  "pause_cuts": [],
+  "segments": [
+    {
+      "kind": "original_synced_speech",
+      "source": "episodes/episode-02/shots/EP02-SH14/takes/take-01/video.mp4",
+      "in": 0.476,
+      "out": 3.724,
+      "file": "episodes/episode-02/shots/EP02-SH14/takes/take-01/edits/v2/part-01.mp4",
+      "output_seconds": 3.266341,
+      "listener": null,
+      "timeline_in": 39.453753999999996,
+      "timeline_out": 42.72009499999999
+    }
+  ],
+  "review_video": "episodes/episode-02/shots/EP02-SH14/takes/take-01/edits/v2/EP02-SH14-pause-review.mp4",
+  "speed": 1.0,
+  "status": "local review only; user acceptance pending"
+}

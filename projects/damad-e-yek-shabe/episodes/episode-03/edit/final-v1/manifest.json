@@ -1,0 +1,44 @@
+{
+  "skill": "review-and-assemble",
+  "status": "final_edit_prepared_not_published",
+  "episode": "EP03",
+  "video": "EP03-final-v1.mp4",
+  "sha256": "d7202ac012c5d50f1e790d7aae4b6b402d719a9a0b1ccfbe3630cfd67b6ca597",
+  "bytes": 9211987,
+  "source": "../tight-review-v1/EP03-tight-review-v1.mp4",
+  "source_sha256": "d7202ac012c5d50f1e790d7aae4b6b402d719a9a0b1ccfbe3630cfd67b6ca597",
+  "identical_to_accepted_edit": true,
+  "user_approval": "خب پس همین نسخهٔ یک دقیقه و نوزده ثانیه‌ای رو تأیید می‌کنم. خروجی نهایی قسمت سوم رو آماده کن، فعلاً منتشر نکن.",
+  "duration_seconds": 79.20833333333334,
+  "video_settings": {
+    "width": 360,
+    "height": 640,
+    "aspect_ratio": "9:16",
+    "fps": 24,
+    "codec": "H264",
+    "pixel_format": "yuv420p",
+    "upscaled": false
+  },
+  "audio_settings": {
+    "codec": "AAC",
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "timeline": "../tight-review-v1/timeline.json",
+  "quality_control": {
+    "complete_decode": "passed",
+    "output_hash_matches_approved_edit": true,
+    "prior_visual_cut_sampling": 30,
+    "machine_dialogue_coverage": "all spoken turns present; not proof of pronunciation or tone",
+    "independent_listening": false,
+    "known_source_limitations_accepted": true
+  },
+  "publication": {
+    "authorized": false,
+    "performed": false,
+    "cover": "../../cover/EP03-cover-v1.png; user accepted",
+    "caption": "../../publishing/caption.txt; user accepted",
+    "platform_upload_package": "../../publishing/manifest.json; review bundle prepared, platform validation pending"
+  },
+  "generation_credits": 0
+}

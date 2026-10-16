@@ -1,0 +1,94 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH04",
+  "take": "take-02",
+  "request_id": "EP03-SH04-take-02",
+  "idempotency_key": "EP03-SH04-take-02-dc592fb7e1515229d050fff1f2148601304142cb682070406a795b8b47cd6ab8",
+  "bundle_sha256": "dc592fb7e1515229d050fff1f2148601304142cb682070406a795b8b47cd6ab8",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T18:28:21.626309+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 4,
+    "ceiling": 4,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "provider_job_id": "2c85cbad-0584-442d-a5e1-04bd4763b15b",
+  "completed_at": "2026-10-15T18:38:00.125881+00:00",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH04-take-02-attempt-1",
+        "compiled_request": "review-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH04-take-02-dc592fb7e1515229d050fff1f2148601304142cb682070406a795b8b47cd6ab8",
+        "state": "succeeded",
+        "provider_job_id": "2c85cbad-0584-442d-a5e1-04bd4763b15b"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/video.mp4",
+        "sha256": "918f687ce9d0e2840c37d0cf73376eb17b9d7de9315d832a22c4396db0ab0e53",
+        "bytes": 495494,
+        "producing_job": "EP03-SH04-take-02-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/edits/EP03-SH04-reply-review-v1.mp4",
+        "sha256": "f3d96af149748ac3dee04a44c47184c652741af606d7f22989d4e459baf4ba8f",
+        "bytes": 321784,
+        "producing_job": "EP03-SH04-take-02-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/edits/source-audio.wav",
+        "sha256": "851bc8d3ba661b7af9f40781b05b38565b24cccbd43d93df09a96214f2e72961",
+        "bytes": 770126,
+        "producing_job": "EP03-SH04-take-02-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 4,
+      "approved_ceiling": 4,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_edit_credits": 0
+    },
+    "execution_gate": {
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  },
+  "request": {
+    "take": "take-02",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH04-tea-reply-house-v5.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 4,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "price_source": "Live IAB settings4s360p x1 shows4credits",
+      "verified_at": "2026-10-15T18:25:18.307526+00:00"
+    }
+  }
+}

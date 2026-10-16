@@ -1,0 +1,16 @@
+{
+  "status": "text_overlay_awaiting_review",
+  "approved_audio_source": "EP04-with-hook-v2.mp4",
+  "user_approved_ending": true,
+  "output": "EP04-with-hook-v3.mp4",
+  "sha256": "13f0ae95509b10f4067863635cf4b3301707086b5e8ae618f113334182b61148",
+  "duration_seconds": 68.54166666666667,
+  "text": "اگه جای سامان بودی، چی می‌گفتی؟",
+  "start_seconds": 65.4,
+  "end_seconds": 68.54,
+  "fade_in_ms": 160,
+  "audio_stream_copied": true,
+  "complete_decode": true,
+  "visual_review": "Actual frame at66.5 viewed: two readable lines near bottom, faces unobscured, no opaque box",
+  "external_cost": 0
+}

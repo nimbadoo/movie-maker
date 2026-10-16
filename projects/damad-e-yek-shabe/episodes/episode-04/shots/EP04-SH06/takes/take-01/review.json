@@ -1,0 +1,101 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH06",
+  "take": "take-01",
+  "decision": "selected",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/video.mp4",
+      "sha256": "da9074f9b08fb34ea5d5d3a010ac9f3ca32a72f3abf7b404c81a367ea3863f09",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/qc/source-speech.wav",
+      "sha256": "971c14978586b9b3811448e77700ad4aa4c19ec11d771fa647057bc66deb12ba",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/edits/seed-vc/vc_source-speech_EP02-SH05-voice-candidate-v1_1.0_30_0.7.wav",
+      "sha256": "51d0a78f0178038cba4b180d3479a14e1feea8ab437264af570bc8e564e5baac",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/edits/EP04-SH06-voice-test-v1.mp4",
+      "sha256": "013440853ea375a8fb38ca60ec2aa2d014fec4ab17ad079d9dcade28e7b1e381",
+      "job_id": "EP04-SH06-take-01-v2-low-resolution-attempt-1"
+    }
+  ],
+  "selected_takes": [
+    {
+      "shot": "EP04-SH06",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH06/takes/take-01/edits/EP04-SH06-original-pause-cut-v1.mp4",
+      "sha256": "855cb421ef4513fab342c5fb5190acb1761354701bbe9fec85d3ed6d7ae0518a",
+      "trim": {
+        "in": 0.125,
+        "out": 4.625
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "export_manifest": null,
+  "checks": {
+    "decode": "pass both files completely decoded",
+    "video_stream_unchanged_after_audio_mix": "SHA256=4e7ae38295fbd25c98623a76dbfd7907d8c087e2d551715ba09543370a6b8162",
+    "frame_sampling": "16 samples at 0.5-second intervals visually inspected; no obvious position/face/architecture jump; no full continuous visual review claimed",
+    "asr_source": " گفتم باش حرف میزنم نگفتم میارمش",
+    "asr_converted": " گفتم باش حرف میزنم نگفتم میارمش",
+    "asr_limit": "باهاش transcribed باش in both, phonetic ambiguity remains; ASR does not establish hearing quality or lip sync",
+    "audio_activity_seconds": [
+      0.354667,
+      4.693854
+    ],
+    "conservative_proposed_edit_range": [
+      0.125,
+      4.925
+    ],
+    "conservative_proposed_edit_duration": 4.8,
+    "episode_estimate_if_other_shots_unchanged": 49.8,
+    "listening_review": false,
+    "phoneme_lip_sync_verified": false,
+    "voice_identity_accepted": false
+  },
+  "conversion": {
+    "method": "Seed-VC",
+    "source_sha256": "971c14978586b9b3811448e77700ad4aa4c19ec11d771fa647057bc66deb12ba",
+    "target_sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+    "output_sha256": "51d0a78f0178038cba4b180d3479a14e1feea8ab437264af570bc8e564e5baac",
+    "diffusion_steps": 30,
+    "length_adjust": 1.0,
+    "cfg": 0.7,
+    "f0_condition": false,
+    "fp16": false,
+    "seed": 42,
+    "torch_threads": 4,
+    "device": "MPS with CPU BigVGAN",
+    "sample_rate": 22050,
+    "samples": 176384,
+    "duration": 7.999274376417233,
+    "peak": 0.5977795124053955,
+    "finite": true,
+    "external_credits": 0,
+    "warnings": [
+      "sampling_rate argument not passed in feature-extractor call; input is resampled to 16kHz in existing code",
+      "input_pos and f0_embedder.weight shape mismatch skipped, as in accepted prior method"
+    ],
+    "software": "/Users/hrmohseni/.cache/movie-maker/seed-vc/inference.py",
+    "software_sha256": "defc8123ea10038acbf3822e3bd24ee7ed41f4104598a67c818d7ae399041f15"
+  },
+  "timeline": [],
+  "blocking_items": [],
+  "retry_authorized": false,
+  "user_feedback": {
+    "converted_voice": "rejected: لحن خوبی نداره",
+    "original": "preferred: نسخه اصلیش بهتره",
+    "requested_edit": "shorten pause between نگفتم and میارمش"
+  },
+  "latest_edit": "edits/EP04-SH06-original-pause-cut-v1.mp4",
+  "latest_edit_manifest": "edits/pause-cut-v1.json",
+  "user_acceptance": "به نظر من اوکیه. یعنی همون قابل قبوله برای من. برو جلو، برو بعدی.",
+  "notes": "User accepted the known small head movement at synchronized cut; full episode cross-shot delivery remains pending."
+}

@@ -1,0 +1,61 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH05",
+  "decision": "selected",
+  "selected_takes": [
+    {
+      "shot": "EP04-SH05",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH05/takes/take-01/edits/EP04-SH05-review-cut-v1.mp4",
+      "sha256": "b3937d61654586e1f08c9adc033232db32a46c8e99c0a7c364ab85a590cb3860",
+      "trim": {
+        "in": 0,
+        "out": 3.625
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH05/takes/take-01/video.mp4",
+      "sha256": "373c84d0c3591fb4d697bcd0e005f832a8f835c06a91fd29b180da863332847f",
+      "frames": 192,
+      "job_id": "EP04-SH05-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH05/takes/take-01/edits/EP04-SH05-review-cut-v1.mp4",
+      "sha256": "b3937d61654586e1f08c9adc033232db32a46c8e99c0a7c364ab85a590cb3860",
+      "frames": 87,
+      "job_id": "EP04-SH05-take-01-attempt-1"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0.75,
+      "out": 4.375,
+      "output": "edits/EP04-SH05-review-cut-v1.mp4",
+      "seconds": 3.625,
+      "frames": 87,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 and all candidate frames decoded without error",
+    "visual": "16 half-second source samples viewed; گفتار یک‌بار؛ دست نازلی اندکی حرکت می‌کند اما تماس آشکار در نمونه‌ها دیده نشد. چهره/لباس و کابینت/اجاق/یخچال ثابت‌اند.",
+    "asr": " قرارمون یه شام بود. چرا داری ادامش میدی؟",
+    "listening_claimed": false,
+    "continuous_motion_review_complete": false,
+    "precise_lip_sync_accepted": false
+  },
+  "blocking_items": [],
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "همه اینایی که فرستادی خوبن. میتونیم بریم به بعدیا"
+}

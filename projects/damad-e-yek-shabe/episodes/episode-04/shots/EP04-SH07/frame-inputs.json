@@ -1,0 +1,38 @@
+{
+  "shot": "EP04-SH07",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "tool_calls": 1,
+  "request": "episodes/episode-04/shots/EP04-SH07/frame-request.txt",
+  "request_sha256": "6eca019ea0e9cf1d57c8c74f807507f8eb568f64e6c229feb49cd76b81c75c6d",
+  "input_references": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-start-v2.png",
+      "sha256": "80bdbd89384cece4b3e68d8ec64e3dbd05b84e0b5a5e7c1291180cf46af17610",
+      "role": "blocking_identity_costume_and_camera"
+    },
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0",
+      "role": "shared_house_geometry"
+    }
+  ],
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH07/images/EP04-SH07-start-v1.png",
+    "sha256": "5ee36d1bb9d0be1a44e045b389369da8eac81551470d03fb3a0b442dbbd370ab",
+    "width": 941,
+    "height": 1672
+  },
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-2a64236a-34f9-407c-9a16-0f0ace6bda19.png",
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "scope_authorization": "User: ادامه بده. سرعت کارمون خیلی کمه",
+  "video_or_audio_generated": false,
+  "flow_credits_consumed": 0,
+  "builtin_price": "not_exposed"
+}

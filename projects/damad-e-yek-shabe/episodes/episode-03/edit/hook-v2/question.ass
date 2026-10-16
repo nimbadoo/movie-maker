@@ -1,0 +1,14 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 360
+PlayResY: 640
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Lead,Tahoma,23,&H00BBDDEE,&H00FFFFFF,&H650D1015,&H80000000,-1,0,0,0,100,100,0,0,1,0.8,1,5,15,15,0,1
+Style: Question,Tahoma,25,&H00FFFFFF,&H00FFFFFF,&H650D1015,&H90000000,-1,0,0,0,100,100,0,0,1,0.8,1.2,5,15,15,0,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:15.71,0:01:19.21,Lead,,0,0,0,,{\pos(180,443)\fad(160,0)}به نظرتون
+Dialogue: 0,0:01:15.71,0:01:19.21,Question,,0,0,0,,{\pos(180,479)\fad(160,0)}نازلی چطور می‌خواد
+Dialogue: 0,0:01:15.71,0:01:19.21,Question,,0,0,0,,{\pos(180,511)\fad(160,0)}این ماجرا رو جمع‌وجور کنه؟

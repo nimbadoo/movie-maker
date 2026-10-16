@@ -1,0 +1,22 @@
+{
+  "source_original": "/Users/hrmohseni/dev/movie-maker/jamesh.m4a",
+  "copy": "audio/EP04-D10-user-timing-v1.m4a",
+  "sha256": "e4c25c5cd5d7b89c9f0e116953abfdadb12a9f2606283c3a3a187efe12e7639e",
+  "container_seconds": 6.1,
+  "decoded_seconds": 6.057333,
+  "sample_rate": 48000,
+  "channels": 1,
+  "method": "ffmpeg silencedetect -45dB,min0.15s; ASR endpoint used conservatively",
+  "speech_energy_start": 0.982271,
+  "speech_energy_end": 4.530708,
+  "span_with_pauses": 3.548437,
+  "between_sentence_pause": 0.86125,
+  "asr_end": 4.74,
+  "conservative_span": 3.757729,
+  "margin_each": 0.2,
+  "required_capacity": 4.157729,
+  "allocated_edit": 4.5,
+  "generation_seconds": 8,
+  "asr_text": " باشه نمیگم ولی باید با هم جمعش کنیم",
+  "listening_review_claimed": false
+}

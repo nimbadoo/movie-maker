@@ -1,0 +1,113 @@
+{
+  "skill": "compile-generation-prompts",
+  "status": "generated_for_review_not_selected",
+  "data": {
+    "shot_ir": {
+      "segment": "EP03-SH14",
+      "beat": "EP03-D14",
+      "asset_ids": [
+        "CH-MNZ",
+        "CH-FAR",
+        "CH-SAM",
+        "house-v2"
+      ],
+      "dialogue": "پَس باهاشون حَرْف بِزَنین. دوسْت دارَم یِه روز با هَم بیاین اینجا.",
+      "performance": "soft request2/5 then cautious hospitality2/5, tiny final nod",
+      "camera": "OTS Saman toward mother with very small forward move during invitation",
+      "synthetic_rehearsal_seconds": 5.161496598639456,
+      "user_rehearsal": {
+        "analysis": "audio/user-dialogue-14-analysis.json",
+        "duration_seconds": 4.905333333333333,
+        "activity_range_seconds": [
+          0.66,
+          4.12
+        ],
+        "conservative_end_seconds": 4.18,
+        "proposed_generation_seconds": 6,
+        "auditory_review": false
+      }
+    },
+    "storyboard_frames": [
+      {
+        "id": "EP03-SH14-start-from-SH12-v1",
+        "path": "images/EP03-SH14-from-selected-SH12-v1.png",
+        "sha256": "a915294c0c8bf856c767a9fb08d55fc8081343a22736d25400ba4870bb93ee6b"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "segment": "EP03-SH14",
+        "beat": "EP03-D14",
+        "asset_ids": [
+          "CH-MNZ",
+          "CH-FAR",
+          "CH-SAM",
+          "house-v2"
+        ],
+        "prompt": "takes/take-01/prompt.txt",
+        "mode": "image-to-video",
+        "first_frame": "images/EP03-SH14-from-selected-SH12-v1.png"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 6,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "audio": true,
+        "outputs": 1,
+        "price": 5,
+        "submit": false,
+        "voice_identity_guaranteed": false,
+        "reference_roles": {
+          "images/EP03-SH14-from-selected-SH12-v1.png": "first_frame"
+        },
+        "cost_ceiling": 5,
+        "attempts": 1,
+        "compatibility": "Live visual route and exact input confirmed, native voice/lipsync and small camera move remain output checks",
+        "price_source": "takes/take-01/ui-user-rehearsal-6s.png",
+        "verified_at": "2026-10-15T19:54:45.829519+00:00"
+      }
+    ],
+    "quality_gate": {
+      "ready": true,
+      "open_issues": []
+    }
+  },
+  "authorization": {
+    "content": true,
+    "cost": true,
+    "submissions": 1,
+    "evidence": "User تأیید after full SH12 prompt, v4 frame, live six-second 5-credit single-output package; no automatic retry.",
+    "bundle_sha256": "701f8410e35ad0c35776a63829e81f86713d23d9ad45de6a572db9e8b6a55de6",
+    "attempts_consumed": 1
+  },
+  "assets": [
+    {
+      "path": "images/EP03-SH14-from-selected-SH12-v1.png",
+      "sha256": "a915294c0c8bf856c767a9fb08d55fc8081343a22736d25400ba4870bb93ee6b"
+    },
+    {
+      "path": "takes/take-01/prompt.txt",
+      "sha256": "e176161148e888ee06f9768e3799fcf7cb904e04ec96e5df3e054bb6d67a1ad2"
+    }
+  ],
+  "frame_lineage": {
+    "method": "local_video_frame_extraction",
+    "source": "../EP03-SH12/takes/take-02/edits/EP03-SH12-question-review-v2.mp4",
+    "source_time_seconds": 4.5,
+    "source_sha256": "e34db493a407e70b68193714bba4d76051cfaa63b1acdbffea5cf2ba783f0f9d",
+    "new_paid_generation": false
+  },
+  "local_rehearsal": {
+    "raw": "audio/sources/user-dialogue-14.m4a",
+    "sha256": "da56796bd876df44f370cdea86b1263cbf4bd467b0a2f7c4e778ce351c66411a",
+    "role": "timing_only_not_voice_identity",
+    "flow_upload": false
+  },
+  "output_review": "review.md"
+}

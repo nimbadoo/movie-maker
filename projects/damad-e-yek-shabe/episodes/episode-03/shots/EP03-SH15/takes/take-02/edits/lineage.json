@@ -1,0 +1,16 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "7a4b3b8d53c6e23399320ab3a0b2de0d1020f0af04c4db1fdc2b887ef691aece",
+  "output": "EP03-SH15-introduction-review-v1.mp4",
+  "output_sha256": "2f8fc550122b870094e1f44c44f9e1acd478162eec88e99f11db0a37b8614350",
+  "source_range_seconds": [
+    0,
+    5.25
+  ],
+  "video_frames": 126,
+  "fps": 24,
+  "audio": "Native Flow audio preserved within selected interval; AAC reencode only, no voice conversion, ambience removal, music insertion or padding",
+  "reason": "Remove idle tail after ASR last word4.8sec, retain0.45sec margin; actual auditory ending requires review",
+  "selection": "accepted_standalone_edit",
+  "selection_evidence": "User خوبه after review preview"
+}

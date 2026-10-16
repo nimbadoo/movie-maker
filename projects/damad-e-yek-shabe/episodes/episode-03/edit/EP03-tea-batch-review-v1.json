@@ -1,0 +1,13 @@
+{
+  "status": "accepted_by_user",
+  "sources": [
+    "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/takes/take-01/edits/EP03-SH16-review-v1.mp4",
+    "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/edits/EP03-SH17-review-v1.mp4"
+  ],
+  "output": "projects/damad-e-yek-shabe/episodes/episode-03/edit/EP03-tea-batch-review-v1.mp4",
+  "sha256": "7bf012ead16cc726f19e2d1cda5e220598a9a2f2c680ced3e0ecd81245d81440",
+  "audio": "native_content_preserved_reencoded_in_trim",
+  "additional_credits": 0,
+  "limitation": "contact-sheet review performed; continuous playback and independent auditory review not performed",
+  "approval_evidence": "User: 1. تأیید دو نما و ادامه"
+}

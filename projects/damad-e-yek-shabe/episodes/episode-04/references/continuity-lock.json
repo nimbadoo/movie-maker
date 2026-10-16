@@ -1,0 +1,709 @@
+{
+  "skill": "design-production-assets",
+  "status": "partial",
+  "project": "damad-e-yek-shabe",
+  "episode": "EP-04",
+  "appearance_version": "appearance-v1",
+  "layout_approval": {
+    "status": "approved_design",
+    "evidence": "User: همه‌چی عالیه… چهره‌ها، لباس‌ها و صدا عوض نشه… بریم به مرحله بعدی",
+    "date": "2026-10-14"
+  },
+  "path_base": "project_root",
+  "data": {
+    "characters": [
+      {
+        "id": "CH-NAZ",
+        "identity_reference": "identity_board",
+        "identity_region": "upper-left",
+        "costume_reference": "nazli_wardrobe",
+        "voice_bible": "references/voice/voice-bible.md",
+        "voice_selection": "user_approved_reference",
+        "evidence": [
+          "references/visuals/character-bible.md",
+          "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+          "episodes/episode-03/shots/EP03-SH11/images/EP03-SH11-brake-v3.png"
+        ],
+        "voice_reference_version": "voice-reference-v1",
+        "voice_reference_shot": "EP02-SH10"
+      },
+      {
+        "id": "CH-SAM",
+        "identity_reference": "saman_identity",
+        "identity_region": "full",
+        "costume_reference": "saman_wardrobe",
+        "voice_bible": "references/voice/voice-bible.md",
+        "voice_selection": "user_approved_reference",
+        "evidence": [
+          "references/visuals/character-bible.md",
+          "episodes/episode-02/references/01-saman-portrait-v1.png",
+          "episodes/episode-03/shots/EP03-SH10/images/EP03-SH10-intent-v4.png"
+        ],
+        "voice_reference_version": "voice-reference-v1",
+        "voice_reference_shot": "EP02-SH05"
+      },
+      {
+        "id": "CH-MNZ",
+        "identity_reference": "identity_board",
+        "identity_region": "upper-middle",
+        "costume_reference": "family_wardrobe_and_layout",
+        "voice_bible": "references/voice/voice-bible.md",
+        "voice_selection": "user_approved_reference",
+        "evidence": [
+          "references/visuals/character-bible.md",
+          "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+          "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png"
+        ],
+        "voice_reference_version": "voice-reference-v1",
+        "voice_reference_shot": "EP01-SH02"
+      },
+      {
+        "id": "CH-FAR",
+        "identity_reference": "identity_board",
+        "identity_region": "upper-right",
+        "costume_reference": "family_wardrobe_and_layout",
+        "voice_bible": "references/voice/voice-bible.md",
+        "voice_selection": "user_approved_reference",
+        "evidence": [
+          "references/visuals/character-bible.md",
+          "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+          "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png"
+        ],
+        "voice_reference_version": "voice-reference-v1",
+        "voice_reference_shot": "EP01-SH01"
+      }
+    ],
+    "locations": [
+      {
+        "id": "LOC-LIVING",
+        "reference": "family_wardrobe_and_layout",
+        "evidence": [
+          "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png",
+          "episodes/episode-04/continuity.md"
+        ],
+        "geometry_review": "static_reference_only"
+      },
+      {
+        "id": "LOC-KITCHEN",
+        "reference": "family_wardrobe_and_layout",
+        "evidence": [
+          "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png",
+          "episodes/episode-04/continuity-review.md"
+        ],
+        "geometry_review": "partial_open_entry_visible; depth_and_body_path_need_frame_review",
+        "private_dialogue_decision": "user_approved_2026-10-15_low_natural_conversational_volume_both_speakers"
+      }
+    ],
+    "props": [
+      {
+        "id": "PRP-TRAY",
+        "reference": "family_wardrobe_and_layout",
+        "state": "empty_by_Nazli; untouched",
+        "evidence": [
+          "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png"
+        ]
+      },
+      {
+        "id": "PRP-TEA-SAM",
+        "reference": "family_wardrobe_and_layout",
+        "state": "one_visible_cup_on_saucer_by_Saman; untouched",
+        "evidence": [
+          "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png"
+        ]
+      },
+      {
+        "id": "PRP-BOWL",
+        "reference": "family_wardrobe_and_layout",
+        "state": "table_center; untouched",
+        "evidence": [
+          "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png"
+        ]
+      }
+    ],
+    "coverage": {
+      "referenced_characters": [
+        "CH-NAZ",
+        "CH-SAM",
+        "CH-MNZ",
+        "CH-FAR"
+      ],
+      "covered_identity_characters": [
+        "CH-NAZ",
+        "CH-SAM",
+        "CH-MNZ",
+        "CH-FAR"
+      ],
+      "missing_approved_voice_references": [],
+      "missing_start_frames": [],
+      "ambiguous_identity_matches": [],
+      "unused_characters": [
+        "CH-MSM"
+      ],
+      "open_constraints": [
+        "walkway_width",
+        "real_dialogue_timing",
+        "final_episode03_media",
+        "provider_audio_reference_capability_and_output_voice_review",
+        "kitchen_depth_and_body_path_frame_review"
+      ],
+      "unapproved_start_frames": [
+        "EP04-SH02"
+      ]
+    }
+  },
+  "sources": {
+    "identity_board": {
+      "path": "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "role": "face_identity_only; upper-left CH-NAZ, upper-middle CH-MNZ, upper-right CH-FAR",
+      "status": "approved_identity",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    "saman_identity": {
+      "path": "episodes/episode-02/references/01-saman-portrait-v1.png",
+      "role": "CH-SAM_face_identity_only; T-shirt not episode04 wardrobe",
+      "status": "approved_identity",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    },
+    "nazli_wardrobe": {
+      "path": "episodes/episode-03/shots/EP03-SH11/images/EP03-SH11-brake-v3.png",
+      "role": "CH-NAZ_day01_costume; not a replacement face anchor",
+      "status": "accepted_source_frame",
+      "sha256": "2c1c920ef1ec103e6102a1ca27f8ae4ff9f6e1321be1747c2bc387bea2c98ad6"
+    },
+    "saman_wardrobe": {
+      "path": "episodes/episode-03/shots/EP03-SH10/images/EP03-SH10-intent-v4.png",
+      "role": "CH-SAM_blue_buttoned_shirt_day01; not location geometry",
+      "status": "accepted_source_frame",
+      "sha256": "ff6a87acc6e5644facf68c8def755286f7a962ce4ce540a9f30e52d956ac66f1"
+    },
+    "family_wardrobe_and_layout": {
+      "path": "episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png",
+      "role": "CH-MNZ_and_CH-FAR_day01_costume; living_layout; tray_cup_bowl",
+      "status": "accepted_source_frame",
+      "sha256": "e4e2966041a190137156725eb02a7e465c4d9633dcee7ec89a0fe2a0c096dc4d"
+    },
+    "nazli_start_reaction": {
+      "path": "episodes/episode-03/shots/EP03-SH18/images/EP03-SH18-reaction-v3.png",
+      "role": "ending_episode03_pose_and_look; do_not_edit_accepted_lips",
+      "status": "accepted_source_frame",
+      "sha256": "d74741e458410a0e841cc2eeaf24e04cb742c823caa3a0f87bc4289f36831378"
+    }
+  },
+  "shots": [
+    {
+      "shot": "EP04-SH01",
+      "order": 1,
+      "dialogue_id": "EP04-D01",
+      "speaker": "CH-SAM",
+      "required_in_frame": [
+        "CH-SAM",
+        "CH-MNZ"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-MNZ": {
+          "identity": "identity_board",
+          "region": "upper-middle",
+          "costume": "family_wardrobe_and_layout"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed_partial_occlusion",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "active_frame": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-start-v3.png",
+      "active_frame_sha256": "0756466aa6e01aeaabfd14ed1b7085e370d27d9d1639b805af6b7e984ab2145f",
+      "frame_review_status": "user_accepted_still",
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "camera_revision_status": "rebuilt_house_reference"
+    },
+    {
+      "shot": "EP04-SH02",
+      "order": 2,
+      "dialogue_id": "EP04-D02",
+      "speaker": "CH-NAZ",
+      "required_in_frame": [
+        "CH-NAZ",
+        "CH-SAM",
+        "CH-FAR"
+      ],
+      "optional_in_frame": [
+        "CH-MNZ"
+      ],
+      "character_bindings": {
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-FAR": {
+          "identity": "identity_board",
+          "region": "upper-right",
+          "costume": "family_wardrobe_and_layout"
+        },
+        "CH-MNZ": {
+          "identity": "identity_board",
+          "region": "upper-middle",
+          "costume": "family_wardrobe_and_layout"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed_partial_occlusion",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "frame_review_status": "corrected_under_user_authorization",
+      "active_frame": "episodes/episode-04/shots/EP04-SH02/images/EP04-SH02-start-v5.png",
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "camera_revision_status": "rebuilt_house_reference",
+      "spatial_review_status": "visible_static_relationships_reviewed"
+    },
+    {
+      "shot": "EP04-SH03",
+      "order": 3,
+      "dialogue_id": "EP04-D03",
+      "speaker": "CH-MNZ",
+      "required_in_frame": [
+        "CH-MNZ",
+        "CH-NAZ"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-MNZ": {
+          "identity": "identity_board",
+          "region": "upper-middle",
+          "costume": "family_wardrobe_and_layout"
+        },
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed_partial_occlusion",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "active_frame": "episodes/episode-04/shots/EP04-SH03/images/EP04-SH03-start-v2.png",
+      "frame_review_status": "user_accepted_still",
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "camera_revision_status": "rebuilt_house_reference"
+    },
+    {
+      "shot": "EP04-SH04",
+      "order": 4,
+      "dialogue_id": "EP04-D04",
+      "speaker": "CH-NAZ",
+      "required_in_frame": [
+        "CH-NAZ",
+        "CH-SAM"
+      ],
+      "optional_in_frame": [
+        "CH-MNZ",
+        "CH-FAR"
+      ],
+      "character_bindings": {
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-MNZ": {
+          "identity": "identity_board",
+          "region": "upper-middle",
+          "costume": "family_wardrobe_and_layout"
+        },
+        "CH-FAR": {
+          "identity": "identity_board",
+          "region": "upper-right",
+          "costume": "family_wardrobe_and_layout"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed_partial_occlusion",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "active_frame": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v5.png",
+      "frame_review_status": "user_accepted_still",
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "camera_revision_status": "rebuilt_house_reference",
+      "spatial_review_status": "visible_static_relationships_reviewed"
+    },
+    {
+      "shot": "EP04-SH13",
+      "order": 5,
+      "dialogue_id": null,
+      "speaker": null,
+      "required_in_frame": [
+        "CH-NAZ",
+        "CH-SAM",
+        "CH-MNZ",
+        "CH-FAR"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-MNZ": {
+          "identity": "identity_board",
+          "region": "upper-middle",
+          "costume": "family_wardrobe_and_layout"
+        },
+        "CH-FAR": {
+          "identity": "identity_board",
+          "region": "upper-right",
+          "costume": "family_wardrobe_and_layout"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed_partial_occlusion",
+      "output_voice_review": "not_applicable_silent_shot",
+      "submission_authorized": false,
+      "active_frame": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-start-v3.png",
+      "frame_review_status": "user_accepted_still",
+      "camera_revision_status": "rebuilt_house_reference",
+      "layout_reference": "house/apartment-cutaway-v2.png"
+    },
+    {
+      "shot": "EP04-SH05",
+      "order": 6,
+      "dialogue_id": "EP04-D05",
+      "speaker": "CH-NAZ",
+      "required_in_frame": [
+        "CH-NAZ",
+        "CH-SAM"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-start-v2.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_layout_reviewed_video_connection_pending"
+    },
+    {
+      "shot": "EP04-SH06",
+      "order": 7,
+      "dialogue_id": "EP04-D06",
+      "speaker": "CH-SAM",
+      "required_in_frame": [
+        "CH-SAM",
+        "CH-NAZ"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH06/images/EP04-SH06-start-v1.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_layout_reviewed_video_connection_pending"
+    },
+    {
+      "shot": "EP04-SH07",
+      "order": 8,
+      "dialogue_id": "EP04-D07",
+      "speaker": "CH-NAZ",
+      "required_in_frame": [
+        "CH-NAZ"
+      ],
+      "optional_in_frame": [
+        "CH-SAM"
+      ],
+      "character_bindings": {
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH07/images/EP04-SH07-start-v1.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_layout_reviewed_video_connection_pending"
+    },
+    {
+      "shot": "EP04-SH08",
+      "order": 9,
+      "dialogue_id": "EP04-D08",
+      "speaker": "CH-SAM",
+      "required_in_frame": [
+        "CH-SAM",
+        "CH-NAZ"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH08/images/EP04-SH08-start-v1.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_layout_reviewed_video_connection_pending"
+    },
+    {
+      "shot": "EP04-SH09",
+      "order": 10,
+      "dialogue_id": "EP04-D09",
+      "speaker": "CH-NAZ",
+      "required_in_frame": [
+        "CH-NAZ"
+      ],
+      "optional_in_frame": [
+        "CH-SAM"
+      ],
+      "character_bindings": {
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH09/images/EP04-SH09-start-v1.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_layout_reviewed_video_connection_pending"
+    },
+    {
+      "shot": "EP04-SH10",
+      "order": 11,
+      "dialogue_id": "EP04-D10",
+      "speaker": "CH-SAM",
+      "required_in_frame": [
+        "CH-SAM",
+        "CH-NAZ"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH10/images/EP04-SH10-start-v1.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_layout_reviewed_video_connection_pending"
+    },
+    {
+      "shot": "EP04-SH11",
+      "order": 12,
+      "dialogue_id": "EP04-D11",
+      "speaker": "CH-NAZ",
+      "required_in_frame": [
+        "CH-NAZ",
+        "CH-SAM"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        }
+      },
+      "output_identity_review": "visible_regions_reviewed",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH11/images/EP04-SH11-start-v1.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_layout_reviewed_video_connection_pending"
+    },
+    {
+      "shot": "EP04-SH14",
+      "order": 13,
+      "dialogue_id": null,
+      "speaker": null,
+      "required_in_frame": [
+        "CH-SAM",
+        "CH-NAZ",
+        "CH-FAR"
+      ],
+      "optional_in_frame": [
+        "CH-MNZ"
+      ],
+      "character_bindings": {
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        },
+        "CH-FAR": {
+          "identity": "identity_board",
+          "region": "upper-right",
+          "costume": "family_wardrobe_and_layout"
+        },
+        "CH-MNZ": {
+          "identity": "identity_board",
+          "region": "upper-middle",
+          "costume": "family_wardrobe_and_layout"
+        }
+      },
+      "output_identity_review": "not_reviewed_no_frame",
+      "output_voice_review": "not_applicable_silent_shot",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-start-v2.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_relationships_reviewed"
+    },
+    {
+      "shot": "EP04-SH12",
+      "order": 14,
+      "dialogue_id": "EP04-D12",
+      "speaker": "CH-FAR",
+      "required_in_frame": [
+        "CH-FAR"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-FAR": {
+          "identity": "identity_board",
+          "region": "upper-right",
+          "costume": "family_wardrobe_and_layout"
+        }
+      },
+      "output_identity_review": "not_reviewed_no_frame",
+      "output_voice_review": "not_reviewed_no_media",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH12/images/EP04-SH12-start-v3.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_relationships_reviewed"
+    },
+    {
+      "shot": "EP04-SH15",
+      "order": 15,
+      "dialogue_id": null,
+      "speaker": null,
+      "required_in_frame": [
+        "CH-SAM",
+        "CH-NAZ"
+      ],
+      "optional_in_frame": [],
+      "character_bindings": {
+        "CH-SAM": {
+          "identity": "saman_identity",
+          "region": "full",
+          "costume": "saman_wardrobe"
+        },
+        "CH-NAZ": {
+          "identity": "identity_board",
+          "region": "upper-left",
+          "costume": "nazli_wardrobe"
+        }
+      },
+      "output_identity_review": "not_reviewed_no_frame",
+      "output_voice_review": "not_applicable_silent_shot",
+      "submission_authorized": false,
+      "layout_reference": "house/apartment-cutaway-v2.png",
+      "active_frame": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-start-v2.png",
+      "frame_review_status": "user_accepted_still",
+      "spatial_review_status": "visible_static_relationships_reviewed"
+    }
+  ],
+  "generated_media": true,
+  "cost_approval": null,
+  "submission_authorized": false,
+  "location_preference": {
+    "current_approved_location": "LOC-KITCHEN",
+    "approval_date": "2026-10-15",
+    "approval_evidence": "User 2026-10-15: آشپزخونه… یواش صحبت کنن… هر دوتا… با این فرض بریم جلو",
+    "landing_proposal_approved": false,
+    "private_dialogue_audibility": "user_approved_narrative_assumption_low_natural_conversational_volume",
+    "output_audio_review": "not_performed_no_new_media"
+  },
+  "generated_media_kind": "15_shot_cards_14_unique_selected_still_assets_no_video",
+  "spatial_baseline_status": "user_adopted_cutaway_rebuild_review_pending",
+  "spatial_baseline_reference": "house/apartment-cutaway-v2.png",
+  "static_package_status": "coverage_complete_video_preflight_incomplete"
+}

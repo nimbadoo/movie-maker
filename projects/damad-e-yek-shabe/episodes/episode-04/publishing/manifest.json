@@ -1,0 +1,56 @@
+{
+  "status": "published",
+  "video": {
+    "path": "../edit/EP04-with-hook-v4.mp4",
+    "sha256": "36c74e2a7859afbf50a02616d9d765b959514a32bcb520f4dbcff20c5b22e1fe",
+    "duration_seconds": 68.54166666666667,
+    "frames": 1645,
+    "native_resolution": [
+      360,
+      640
+    ],
+    "fps": 24,
+    "audio_sample_rate": 48000,
+    "upscaled": false,
+    "approval": "User requested cover next after accepting recap, title, ending voice and final overlay; no new edit in this package"
+  },
+  "cover": {
+    "path": "../cover/EP04-cover-v1.png",
+    "sha256": "eeaf4922c6365fd05d0cd6a07860bfe740f739330b837fb46362683461db30eb",
+    "status": "user_accepted"
+  },
+  "caption": {
+    "path": "caption.txt",
+    "sha256": "1d7c01422e7a968a8d2276f44edc8233fd4f8ab02e50332dfe14e7901b25ca01",
+    "status": "user_accepted"
+  },
+  "publication": {
+    "authorized": true,
+    "performed": true,
+    "explicit_user_instruction": "همه‌چی عالیه منتشرش کن. اگه چیزی نمونده.",
+    "account": "hamina.tv",
+    "browser": "Brave",
+    "url": "https://www.instagram.com/hamina.tv/reel/DekDf_lNNXI/",
+    "share_clicked_once": true,
+    "ai_label_enabled": true,
+    "success_ui": "Your reel has been shared.",
+    "verified_at": "2026-10-16T19:22:35.363201+02:00",
+    "evidence": [
+      "pre-share.png",
+      "shared.png",
+      "profile-published.png",
+      "post-published.png",
+      "profile-cover-published.png"
+    ]
+  },
+  "review_limits": [
+    "published playback not independently certified; browser media player had Unable to play media before share"
+  ],
+  "cost": {
+    "flow_credits": 0,
+    "local_assembly": 0
+  },
+  "published_caption_verified": true,
+  "published_ai_label_verified": true,
+  "actual_profile_cover_review": "Viewed published profile grid: episode4 cover, faces and title/badge visible; top of Saman hair cropped slightly, as preview limitation"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "user_accepted",
+  "tool": "built_in_image_gen",
+  "output": "EP03-cover-v1.png",
+  "sha256": "19f4f839e0b7171431e892a087e9f2a2a87ef4396e89a94d3d4bef311555e298",
+  "dimensions": [
+    941,
+    1672
+  ],
+  "prompt": "cover-v1-prompt.txt",
+  "references": [
+    {
+      "path": "../../episode-02/cover/EP02-cover-v1.png",
+      "role": "approved graphic style only"
+    },
+    {
+      "path": "../shots/EP03-SH11/images/EP03-SH11-house-close-v5.png",
+      "role": "Nazli identity wardrobe"
+    },
+    {
+      "path": "../shots/EP03-SH14/images/EP03-SH14-from-selected-SH12-v1.png",
+      "role": "mother identity wardrobe"
+    },
+    {
+      "path": "../shots/EP03-SH13/images/EP03-SH13-close-house-v4.png",
+      "role": "Saman identity wardrobe"
+    }
+  ],
+  "review": "review.md",
+  "flow_credits": 0,
+  "publication_authorized": false,
+  "user_acceptance": "تأیید کاور و کپشن؛ منتشر نکن"
+}

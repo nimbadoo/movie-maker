@@ -1,0 +1,57 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH15",
+  "decision": "selected",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH15/takes/take-01/video.mp4",
+      "sha256": "c66f184f39c308bb929ee4ae2f9a1f899bab6534714e93a01c0c26e6f976cc48",
+      "frames": 192,
+      "job_id": "EP04-SH15-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH15/takes/take-01/edits/EP04-SH15-review-cut-v1.mp4",
+      "sha256": "5c23033da94ab19dd13b41d324e8047f38580116917303d38cb42e3c1c0daebe",
+      "frames": 36,
+      "job_id": "EP04-SH15-take-01-attempt-1"
+    }
+  ],
+  "selected_takes": [
+    {
+      "shot": "EP04-SH15",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH15/takes/take-01/edits/EP04-SH15-review-cut-v1.mp4",
+      "sha256": "5c23033da94ab19dd13b41d324e8047f38580116917303d38cb42e3c1c0daebe",
+      "trim": {
+        "in": 0,
+        "out": 1.5
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 1,
+      "out": 2.5,
+      "output": "edits/EP04-SH15-review-cut-v1.mp4",
+      "seconds": 1.5,
+      "frames": 36,
+      "internal_cut": false,
+      "speed_change": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 candidate36 fully decoded without error",
+    "visual": "16 source samples every0.5s seen; Nazli turns toward Saman near1.5s; Saman small facial response, stable standing/costume/furniture; exact eye target, realtime natural motion and mouth non-speech need review",
+    "audio": "ASR returned موسیقی2.04..3.44; unreliable silent-audio diagnostic, not proof of speech or music; listening not claimed"
+  },
+  "blocking_items": [],
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "خب باشه، برو جلو دیگه، برو."
+}

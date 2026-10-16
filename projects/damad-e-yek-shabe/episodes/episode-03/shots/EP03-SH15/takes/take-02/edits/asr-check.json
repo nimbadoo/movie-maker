@@ -1,0 +1,84 @@
+{
+  "text": " خوش اومدین. ایشون فرهاد پسر خوهرم.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.8,
+      "text": " خوش اومدین. ایشون فرهاد پسر خوهرم.",
+      "tokens": [
+        50365,
+        16490,
+        2407,
+        8592,
+        1975,
+        20498,
+        3215,
+        32151,
+        13,
+        1975,
+        4135,
+        8592,
+        11536,
+        6156,
+        2288,
+        11296,
+        3215,
+        21453,
+        3794,
+        2288,
+        16490,
+        2407,
+        3224,
+        2288,
+        2304,
+        13,
+        50606
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.10599197660173688,
+      "compression_ratio": 0.9384615384615385,
+      "no_speech_prob": 1.0144413781221218e-10,
+      "words": [
+        {
+          "word": " خوش",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " اومدین.",
+          "start": 0.36,
+          "end": 0.88,
+          "probability": 0.982421875
+        },
+        {
+          "word": " ایشون",
+          "start": 1.6,
+          "end": 2.72,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " فرهاد",
+          "start": 2.72,
+          "end": 3.54,
+          "probability": 0.994140625
+        },
+        {
+          "word": " پسر",
+          "start": 3.54,
+          "end": 4.2,
+          "probability": 0.8916015625
+        },
+        {
+          "word": " خوهرم.",
+          "start": 4.2,
+          "end": 4.8,
+          "probability": 0.97119140625
+        }
+      ]
+    }
+  ],
+  "limitation": "Machine transcription and timestamps only; no auditory audition or verification of voice identity, pronunciation, ambience, music absence or continuous lipsync"
+}

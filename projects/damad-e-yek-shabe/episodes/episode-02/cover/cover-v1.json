@@ -1,0 +1,33 @@
+{
+  "episode": "EP02",
+  "status": "approved_by_user",
+  "image": "EP02-cover-v1.png",
+  "sha256": "27dfdd08f80c69bd55a0be59feaade6110754b8c69af9fa89af2b60e323ee440",
+  "resolution": [
+    941,
+    1672
+  ],
+  "prompt": "cover-v1-prompt.txt",
+  "references": [
+    {
+      "path": "episodes/episode-01/cover/EP01-cover-approved.jpg",
+      "role": "user-selected series graphic style",
+      "sha256": "334789ef85215f710b851b413a766e88e62aea636440365c5103ef75c4206cc1"
+    },
+    {
+      "path": "episodes/episode-02/references/03-nazli-saman-doorway-master-v3.png",
+      "role": "accepted EP02 faces, costume and doorway",
+      "sha256": "ddbd18a7ef35359896571b06c01dbfc03f99a86469156be44edb1009669dbb05"
+    }
+  ],
+  "tool": "built-in imagegen",
+  "flow_credits_spent": 0,
+  "replaces_video": false,
+  "review": "review.md",
+  "identity_reference_replacement": false,
+  "approval": {
+    "date": "2026-10-14",
+    "evidence": "خوبه، همین کاور قسمت دو رو تأیید می‌کنم.",
+    "scope": "EP02-cover-v1.png for episode two publication"
+  }
+}

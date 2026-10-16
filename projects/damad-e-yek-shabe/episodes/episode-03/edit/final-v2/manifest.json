@@ -1,0 +1,47 @@
+{
+  "skill": "review-and-assemble",
+  "status": "final_edit_published",
+  "episode": "EP03",
+  "video": "EP03-final-v2.mp4",
+  "sha256": "d34f7c5a46ef5004974154ad11569cdbba12bb6b6c73a3c19eacdb64f61085ed",
+  "bytes": 8876607,
+  "source": "../hook-v2/EP03-hook-v2.mp4",
+  "source_sha256": "d34f7c5a46ef5004974154ad11569cdbba12bb6b6c73a3c19eacdb64f61085ed",
+  "identical_to_accepted_edit": true,
+  "user_approval": "آره، این بهتر شد. همین نسخه رو تأیید می‌کنم، برای خروجی نهایی قسمت سه از همین استفاده کن.",
+  "duration_seconds": 79.20833333333334,
+  "video_settings": {
+    "width": 360,
+    "height": 640,
+    "aspect_ratio": "9:16",
+    "fps": 24,
+    "codec": "H264",
+    "pixel_format": "yuv420p",
+    "upscaled": false
+  },
+  "audio_settings": {
+    "codec": "AAC",
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "timeline": "../tight-review-v1/timeline.json",
+  "quality_control": {
+    "complete_decode": "passed",
+    "output_hash_matches_approved_edit": true,
+    "prior_visual_cut_sampling": 30,
+    "machine_dialogue_coverage": "all spoken turns present; not proof of pronunciation or tone",
+    "independent_listening": false,
+    "known_source_limitations_accepted": true,
+    "audio_AAC_payload_identical_to_original": true
+  },
+  "publication": {
+    "authorized": true,
+    "performed": true,
+    "cover": "../../cover/EP03-cover-v1.png; user accepted",
+    "caption": "../../publishing/caption.txt; user accepted",
+    "platform_upload_package": "../../publishing/manifest.json; review bundle prepared, platform validation pending",
+    "url": "https://www.instagram.com/hamina.tv/reel/DeiC3csNbhs/"
+  },
+  "generation_credits": 0,
+  "overlay_manifest": "../hook-v2/manifest.json"
+}

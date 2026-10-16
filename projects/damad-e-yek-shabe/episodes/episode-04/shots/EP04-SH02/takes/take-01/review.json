@@ -1,0 +1,61 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH02",
+  "decision": "selected",
+  "selected_takes": [
+    {
+      "shot": "EP04-SH02",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH02/takes/take-01/edits/EP04-SH02-review-cut-v1.mp4",
+      "sha256": "3ae0c4b51e0cfb1ffdaa12a469f5d9671fbddaef62f0f62aaca0a5b8aa30265c",
+      "trim": {
+        "in": 0,
+        "out": 3.0
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH02/takes/take-01/video.mp4",
+      "sha256": "857c01ad68bd0c0fb2abeaf13f95f5a10564d8806a27f81f24f34bd85b4ca7f7",
+      "frames": 192,
+      "job_id": "EP04-SH02-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH02/takes/take-01/edits/EP04-SH02-review-cut-v1.mp4",
+      "sha256": "3ae0c4b51e0cfb1ffdaa12a469f5d9671fbddaef62f0f62aaca0a5b8aa30265c",
+      "frames": 72,
+      "job_id": "EP04-SH02-take-01-attempt-1"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 1.0,
+      "out": 4.0,
+      "output": "edits/EP04-SH02-review-cut-v1.mp4",
+      "seconds": 3.0,
+      "frames": 72,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 and all candidate frames decoded without error",
+    "visual": "16 half-second source samples viewed; نازلی به سامان می‌چرخد؛ صندلی‌ها و وسایل در نمونه‌ها ثابت‌اند. مالک دقیق صدا و لبِ افراد عمق نیازمند مرور است.",
+    "asr": " نه، فعلا چیزی به مادرت نگو",
+    "listening_claimed": false,
+    "continuous_motion_review_complete": false,
+    "precise_lip_sync_accepted": false
+  },
+  "blocking_items": [],
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "همه اینایی که فرستادی خوبن. میتونیم بریم به بعدیا"
+}

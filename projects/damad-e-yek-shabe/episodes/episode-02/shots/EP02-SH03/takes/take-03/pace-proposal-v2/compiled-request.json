@@ -1,0 +1,32 @@
+{
+  "request_id": "EP02-SH03-take-03-paced-v2",
+  "provider": "Google Flow",
+  "shot_segment": "EP02-SH03",
+  "prompt_path": "prompt.txt",
+  "prompt_sha256": "fdae2f54906b48e7186ea8d66d5284d9ed4191b277c0e71c0f1a339ec26a53ba",
+  "inputs": [
+    {
+      "path": "images/EP02-SH03-start-v3.png",
+      "sha256": "4ff73f7bf99a65314a79d4eb3451bbf6edadc3ccf6b7968eab8954bfd468113a"
+    }
+  ],
+  "settings": {
+    "model": "Omni 1.1 Flash",
+    "seconds": 10,
+    "quality": "360p",
+    "aspect_ratio": "9:16",
+    "audio": true,
+    "outputs": 1
+  },
+  "cost": {
+    "unit": "credits",
+    "per_attempt": 7,
+    "attempts": 1,
+    "ceiling": 7,
+    "price_source": "Flow live settings; live-price-10s-360p.png and live-cost.json",
+    "verified_at": "2026-10-14; live price rechecked immediately before single submission"
+  },
+  "bundle_sha256": "b6a4580c28e3364215bea41f1e9530d29f86aa984ad7424b518db5bf39a5f7a5",
+  "attempt_limit": 1,
+  "retry": false
+}

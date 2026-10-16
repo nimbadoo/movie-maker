@@ -1,0 +1,72 @@
+{
+  "shot": "EP03-SH01",
+  "take": "take-02",
+  "source_flow_asset_id": "c97ed2c4-cb4e-4683-ad20-42672c3b6b65",
+  "assets": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/video.mp4",
+      "sha256": "dafa81e028033c2213909f965970f5572b11b3b46ce4f0269e5f0b93fa7e0af6",
+      "bytes": 871313
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/source-audio.wav",
+      "sha256": "95caa9790e6b360bf1d48fa1c829d33c21c8113f785884886f1d7aa95dd3fa5b",
+      "bytes": 1536078
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/speech-source.wav",
+      "sha256": "5e1e1ad40544f629e323bb075b1c34a6de6ef135070b7ccf4645e5ec438b68e8",
+      "bytes": 585678
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/mother-seed-vc.wav",
+      "sha256": "5b1e890e2d663469a96beff4fccc9f2b1bc6f56999a612722e6ff62c8dcc0917",
+      "bytes": 537680
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/converted-full-audio.wav",
+      "sha256": "fc232976b4fea25f25d8af07b81a4578d6d152c012189681a5d06746f575a754",
+      "bytes": 2304044
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-seed-vc-full-v1.mp4",
+      "sha256": "0570089960bba654e533b686addf9ee719adc9ebba46fa5b550084280f051b5b",
+      "bytes": 863641
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-review-v1.mp4",
+      "sha256": "57d35050a9fc813e24896c410df3c55f3ee54075fd1dc5b2eb215100a2881f0c",
+      "bytes": 726221
+    }
+  ],
+  "voice_conversion": {
+    "method": "Seed-VC",
+    "reference": "projects/damad-e-yek-shabe/episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+    "reference_sha256": "85086db738c84b1076d369831306c916b37f0d66084a93cf9f58124d450142a4",
+    "seed": 42,
+    "steps": 30,
+    "length_adjust": 1.0,
+    "cfg": 0.7,
+    "source_range": [
+      0,
+      6.1
+    ],
+    "converted_duration": 6.095238095238095,
+    "time_stretch": false,
+    "pitch_shift": false,
+    "boundary_crossfade_seconds": 0.05,
+    "boundary_is_after_speech": true,
+    "original_ambience_after_conversion_window": true
+  },
+  "review_cut": {
+    "source": "EP03-SH01-seed-vc-full-v1.mp4",
+    "in": 0,
+    "out_target": 6.208333,
+    "reason": "Remove idle tail, keep entire line and >0.5s after final ASR word",
+    "video_stream_copy": true,
+    "container_duration_seconds": 6.291667,
+    "video_stream_copy_duration_note": "B-frame stream-copy cut retained extra frames beyond target; speech still has >0.5s margin"
+  },
+  "final_adoption": true,
+  "adoption_evidence": "خوبه، نمای اول تأییده. برو سراغ نمای دوم؛ صدای سامان رو هم با مرجع خودش ثابت نگه دار و قبل از تولید، بسته و هزینه‌ش رو نشونم بده."
+}

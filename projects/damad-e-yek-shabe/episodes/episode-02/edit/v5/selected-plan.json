@@ -1,0 +1,195 @@
+{
+  "episode": "EP02",
+  "selected_plan": [
+    {
+      "shot": "EP02-SH01",
+      "order": 1,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/edits/come-in-only/EP02-SH01-come-in-only.mp4",
+      "selected_sha256": "e2b18413beca87a939955301e47886799a38bdf986d0940dc8cbf2987d5728d9",
+      "trim": {
+        "in": 0.0,
+        "out": 0.766341
+      },
+      "selection_status": "accepted_standalone_edit"
+    },
+    {
+      "shot": "EP02-SH02",
+      "order": 2,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "5665cb285a977b9327b40999ef65aeac5f47138741309183d349690d961ac376",
+      "trim": {
+        "in": 0.352,
+        "out": 5.8
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH03",
+      "order": 3,
+      "selected_take": "take-03",
+      "selected_video": "takes/take-03/video.mp4",
+      "selected_sha256": "f27bc84034384f469ebfd5dd4f5fd3b6f4031aae94614062fc977f9d50f816e1",
+      "trim": {
+        "in": 0,
+        "out": 10
+      },
+      "selection_status": "accepted_standalone_edit"
+    },
+    {
+      "shot": "EP02-SH04",
+      "order": 4,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "d8900dfb7091ca49e3d23358e8bebbe0033a957deebd290cc915afb5fd6ba854",
+      "trim": {
+        "in": 0.608,
+        "out": 3.08
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH05",
+      "order": 5,
+      "selected_take": "take-02",
+      "selected_video": "takes/take-02/video.mp4",
+      "selected_sha256": "6a21550c5d6e7850d7f579ca0233b7dd31b1a993774a2a13cb13f31ff3eb550a",
+      "trim": {
+        "in": 0.448,
+        "out": 3.208
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH06",
+      "order": 6,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "9036024848672d8c9a99af8ee15ea09657d794090ebc0f1ef11ff0c1ace24281",
+      "trim": {
+        "in": 0.992,
+        "out": 2.728
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH07",
+      "order": 7,
+      "selected_take": "take-02",
+      "selected_video": "takes/take-02/video.mp4",
+      "selected_sha256": "a525b58363b333b6bbb1f75b1cc0e60a32b4b1ea353b1f6f18e6f0048c2d2813",
+      "trim": {
+        "in": 0.384,
+        "out": 5.256
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH08",
+      "order": 8,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "a3aad4514228b63468dc27c5f8aa47288fd39b840aad16bc343c18bfd1b4372e",
+      "trim": {
+        "in": 1.472,
+        "out": 5.672
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH09",
+      "order": 9,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "c18f6c9bac34ef13a5d5e2251240d909a89b8bdfd62eed74b72a50a9fcfe692f",
+      "trim": {
+        "in": 0.384,
+        "out": 5.064
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH10",
+      "order": 10,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "511bc897bc9eeee9512787aa8fd927f72e767b703bfed14a1cd79a0e2ddede13",
+      "trim": {
+        "in": 0.448,
+        "out": 4.872
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH11",
+      "order": 11,
+      "selected_take": "take-02",
+      "selected_video": "takes/take-02/video.mp4",
+      "selected_sha256": "0bc2e4e3de70db715df306c2d646ae14ab57a515f9915bf2a3a9b0a23e664504",
+      "trim": {
+        "in": 0.48,
+        "out": 2.376
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH12",
+      "order": 12,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "06415fbd5107fb26d0b15b867e8009c6d651e29daa34e284e41e1ed007adf634",
+      "trim": {
+        "in": 1.216,
+        "out": 2.088
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH13",
+      "order": 13,
+      "selected_take": "take-07",
+      "selected_video": "takes/take-07/edits/local-repair-v1/EP02-SH13-local-repair-review.mp4",
+      "selected_sha256": "d6613329c8ad68b73566c904b103442ee690cb4475f1d1607e94240896b81da1",
+      "trim": {
+        "in": 0,
+        "out": 3.92
+      },
+      "selection_status": "accepted_standalone_edit"
+    },
+    {
+      "shot": "EP02-SH14",
+      "order": 14,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "2b08def90fe0f1f20aa198238f3ac7a949c06bb7cc2a5668990d8dcb86dee8c5",
+      "trim": {
+        "in": 0.416,
+        "out": 3.784
+      },
+      "selection_status": "existing_review_cut_not_final"
+    },
+    {
+      "shot": "EP02-SH15",
+      "order": 15,
+      "selected_take": "take-01",
+      "selected_video": "takes/take-01/video.mp4",
+      "selected_sha256": "22e936a61b3aedfc41bd658f16381829310d25c8231984674f3e4c8176484a35",
+      "trim": {
+        "in": 0.608,
+        "out": 3.724
+      },
+      "selection_status": "existing_review_cut_not_final"
+    }
+  ],
+  "replacement": {
+    "shot": "EP02-SH03",
+    "source": "episodes/episode-02/shots/EP02-SH03/takes/take-03/video.mp4",
+    "source_in": 0,
+    "source_out": 10,
+    "replaces_v4_in": 5.7,
+    "replaces_v4_out": 9.533333333333333
+  },
+  "preserved_base": "../v4/EP02-review-with-repaired-SH13.mp4",
+  "boundary_evidence": "Scene cut detection: source v4 frames171 and286, 30fps"
+}

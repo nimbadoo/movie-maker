@@ -1,0 +1,58 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH14",
+  "decision": "selected",
+  "selected_takes": [
+    {
+      "shot": "EP04-SH14",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH14/takes/take-01/edits/EP04-SH14-review-cut-v1.mp4",
+      "sha256": "994d5a3e5c715a735cbd3d93838864b282d66311bb73e5cb88c9bbf62f07b44e",
+      "trim": {
+        "in": 0,
+        "out": 1.5
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH14/takes/take-01/video.mp4",
+      "sha256": "700858f98cc14ecbde0db525dafdb2ce71aedc968e1078a07f651688df22e1c5",
+      "frames": 192,
+      "job_id": "EP04-SH14-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH14/takes/take-01/edits/EP04-SH14-review-cut-v1.mp4",
+      "sha256": "994d5a3e5c715a735cbd3d93838864b282d66311bb73e5cb88c9bbf62f07b44e",
+      "frames": 36,
+      "job_id": "EP04-SH14-take-01-attempt-1"
+    }
+  ],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0,
+      "out": 1.5,
+      "output": "edits/EP04-SH14-review-cut-v1.mp4",
+      "seconds": 1.5,
+      "frames": 36,
+      "internal_cut": false,
+      "speed_change": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 candidate36 complete without error",
+    "visual": "16 source samples and all36 sequential candidate frames viewed; stable visible costumes furniture props, subtle head/body settling, no sit step/contact apparent; full real-time playback not claimed",
+    "audio": "ASR returned موسیقی at3.18-4.58 outside candidate; not reliable evidence of actual spoken word or music, listening not claimed; candidate audio still original pending review",
+    "listening_claimed": false
+  },
+  "blocking_items": [],
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "اینم خوبه، تأیید می‌کنم. برو نمای بعدی رو آماده کن"
+}

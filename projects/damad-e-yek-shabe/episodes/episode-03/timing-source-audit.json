@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-15",
+  "voice_references": [
+    {
+      "character": "CH-NAZ",
+      "path": "projects/damad-e-yek-shabe/episodes/episode-02/shots/EP02-SH10/audio/EP02-SH10-voice-candidate-v1.wav",
+      "sha256": "346d63af7da65f3f8dcb7529f4f4e3f0b37f807680f65ebc45bbf0d262e5620b",
+      "reference_verified": true,
+      "episode_3_dialogue_execution": false
+    },
+    {
+      "character": "CH-SAM",
+      "path": "projects/damad-e-yek-shabe/episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+      "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+      "reference_verified": true,
+      "episode_3_dialogue_execution": false
+    },
+    {
+      "character": "CH-MNZ",
+      "path": "projects/damad-e-yek-shabe/episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+      "sha256": "85086db738c84b1076d369831306c916b37f0d66084a93cf9f58124d450142a4",
+      "reference_verified": true,
+      "episode_3_dialogue_execution": false
+    },
+    {
+      "character": "CH-FAR",
+      "path": "projects/damad-e-yek-shabe/episodes/episode-01/shots/EP01-SH01/audio/EP01-SH01-voice-candidate-v1.wav",
+      "sha256": "346881e59f37ed24acaff584540ed2354e500ec08a370e6c9e4d7a9433562a06",
+      "reference_verified": true,
+      "episode_3_dialogue_execution": false
+    }
+  ],
+  "episode_media": [
+    "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-01/video.mp4"
+  ],
+  "full_rehearsal_found": false,
+  "real_dialogue_timing": "not_measured",
+  "external_generation_submitted": false
+}

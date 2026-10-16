@@ -1,0 +1,77 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH08",
+  "take": "take-01",
+  "decision": "selected",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH08/takes/take-01/video.mp4",
+      "sha256": "7d5d05fa5319c2788b11cb663ae6584ed0cc5091ac833adb9c5e1c432371840b",
+      "job_id": "EP04-SH08-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH08/takes/take-01/edits/EP04-SH08-original-tight-v1.mp4",
+      "sha256": "0d4c96eca0bd55ddb3a0ee28b44c4640c1baab074a4a34448646410f11675b9b",
+      "job_id": "EP04-SH08-take-01-attempt-1"
+    }
+  ],
+  "selected_takes": [
+    {
+      "shot": "EP04-SH08",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH08/takes/take-01/edits/EP04-SH08-original-tight-v1.mp4",
+      "sha256": "0d4c96eca0bd55ddb3a0ee28b44c4640c1baab074a4a34448646410f11675b9b",
+      "trim": {
+        "in": 0,
+        "out": 3
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "export_manifest": null,
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "ranges": [
+        [
+          0.875,
+          1.875
+        ],
+        [
+          2.875,
+          4.875
+        ]
+      ],
+      "output": "edits/EP04-SH08-original-tight-v1.mp4",
+      "duration": 3.0,
+      "frames": 72,
+      "status": "candidate_not_selected"
+    }
+  ],
+  "source_issues": [
+    "Second sentence repeated at approx5.398..6.893",
+    "Pause after question approx1.369s"
+  ],
+  "local_fixes": [
+    "Retain only original first question and first complete statement",
+    "Remove matching AV1.875..2.875 interval; clip source tail after4.875 excludes duplicate",
+    "No voice conversion, no speed/pitch changes, no freeze/generated frame"
+  ],
+  "checks": {
+    "decode": "Full source192frames and candidate72frames decoded without error",
+    "visual": "16 samples every0.5s plus6joinframes inspected against approved frame and house; no obvious face/costume/architecture change; slight head/mouth pose jump at internal cut remains, not claimed invisible",
+    "asr_source": " سر چی؟ هنوز که با هم حرف نزدیم هنوز که با هم حرف نزدیم",
+    "asr_edited": " سر چی؟ هنوز که با هم حرف نزدیم",
+    "edited_asr_sentence_count": 1,
+    "phoneme_lip_sync_verified": false,
+    "listening_review_claimed": false,
+    "source_voice_preserved": true,
+    "source_sha256": "7d5d05fa5319c2788b11cb663ae6584ed0cc5091ac833adb9c5e1c432371840b"
+  },
+  "blocking_items": [],
+  "provisional_episode_seconds": 48.5,
+  "timing_note": "49.5 baseline minus original4sec shot08 plus actual3sec candidate; not final entire-episode timing; earlier4.25 target superseded only if candidate adopted",
+  "retry_authorized": false,
+  "user_acceptance": "خیلی خوبه، برو بعدی. یه ذره شوخ طبعی کم داشت.",
+  "humor_note": "User accepts this take; dry humor underplayed. Preserve accepted media, attend to approved subtle humor in future appropriate beats; do not force humor into Nazli serious concern or rewrite dialogue."
+}

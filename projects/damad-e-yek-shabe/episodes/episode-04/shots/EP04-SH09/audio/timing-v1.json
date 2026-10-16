@@ -1,0 +1,26 @@
+{
+  "source_original": "/Users/hrmohseni/dev/movie-maker/madar.m4a",
+  "copy": "audio/EP04-D09-user-timing-v1.m4a",
+  "sha256": "1922438b5e6729c06eab2a547dc28ee3639ec8305282a4b8a7b26f295203d0a8",
+  "container_seconds": 5.03,
+  "decoded_seconds": 4.946667,
+  "rate": 24000,
+  "channels": 1,
+  "main_energy_span": [
+    0.745458,
+    3.92275
+  ],
+  "asr_span": [
+    0,
+    3.9
+  ],
+  "asr_text": " نمیخوام مادرتا هم درگیری این ماجر را بکنیم",
+  "exact_canonical_performance": false,
+  "usage": "conservative upper-bound capacity rehearsal, not exact canonical sentence timing or production input",
+  "conservative_span_seconds": 3.923,
+  "margin_each": 0.2,
+  "capacity_required": 4.323,
+  "proposed_edit_capacity": 4.5,
+  "generation_seconds": 8,
+  "listening_review_claimed": false
+}

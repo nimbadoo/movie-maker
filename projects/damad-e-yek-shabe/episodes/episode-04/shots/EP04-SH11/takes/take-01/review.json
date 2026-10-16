@@ -1,0 +1,75 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH11",
+  "decision": "unreviewed",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH11/takes/take-01/video.mp4",
+      "sha256": "359970c5bf5b037f59be75ae2f5509b7870f6fb5539ad5242c201453e7c6d219",
+      "frames": 192,
+      "job_id": "EP04-SH11-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH11/takes/take-01/edits/EP04-SH11-review-cut-v1.mp4",
+      "sha256": "65ef9221f13374319a901cd92b0ad4c123ca707c5ead078a294f875b8ae700d0",
+      "frames": 93,
+      "job_id": "EP04-SH11-take-01-attempt-1"
+    }
+  ],
+  "selected_takes": [],
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "ranges": [
+        [
+          0.875,
+          3.625
+        ],
+        [
+          6.125,
+          7.25
+        ]
+      ],
+      "output": "edits/EP04-SH11-review-cut-v1.mp4",
+      "seconds": 3.875,
+      "frames": 93,
+      "internal_cut": true,
+      "speed_change": false,
+      "voice_conversion": false
+    }
+  ],
+  "checks": {
+    "decode": "source192 candidate93 full decode without error",
+    "asr": " باشه با هم میگیم",
+    "visual": "16 half-second source samples and9 consecutive join frames viewed; stable visible costume/identity/layout, turn after line; small head/pose jump at cut, no object jump obvious in samples",
+    "listening_claimed": false,
+    "precise_lip_sync_accepted": false,
+    "continuous_motion_review_complete": false
+  },
+  "blocking_items": [
+    "User performance review pending; internal join has small pose jump"
+  ],
+  "provisional_episode_seconds": {
+    "short_candidate": 50.458333,
+    "full_original": 54.583333
+  },
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "editorial_selection": "deferred",
+  "user_feedback": "Both versions good; original longer pauses provisionally preferred; final choice deferred until full episode timing.",
+  "preferred_candidate": "video.mp4",
+  "retained_alternatives": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH11/takes/take-01/video.mp4",
+      "seconds": 8
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH11/takes/take-01/edits/EP04-SH11-review-cut-v1.mp4",
+      "seconds": 3.875
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH04",
+  "take": "take-02",
+  "status": "accepted_standalone_edit",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/images/EP03-SH04-tea-reply-house-v5.png",
+    "sha256": "4dfbfa24d074f6046f9de7880e82a3196ebfcae0f9d0749279ad16200f02cf27",
+    "role": "house_corrected_start_frame"
+  },
+  "prompt_sha256": "95e9c59ba8b01062cf01dd5cd31ea5b521330d1f0431b514fc373cd213824ad5",
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 4,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "source": "Live IAB4sec360p x1 quote",
+      "verified_at": "2026-10-15T18:20:48.322020+00:00"
+    }
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 4,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "dc592fb7e1515229d050fff1f2148601304142cb682070406a795b8b47cd6ab8"
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "dc592fb7e1515229d050fff1f2148601304142cb682070406a795b8b47cd6ab8"
+  },
+  "open_issues": [
+    "Assistant auditory and continuous-frame verification not performed; user approved the actual preview"
+  ],
+  "image_lineage": {
+    "source": "images/EP03-SH04-tea-agreement-v4.png",
+    "house_reference": "../EP03-SH03/images/EP03-SH03-chair-invite-house-v5.png",
+    "generated": "exec-fe92ddf1-4797-45af-ad93-76b510410184.png"
+  },
+  "dialogue": "باشِه مامان، الان میارَم.",
+  "timing": {
+    "method": "local espeak-ng fa165 synthetic, not actor timing",
+    "seconds": 2.328526077097506,
+    "dialogue": "باشِه مامان، الان میارَم."
+  },
+  "output_acceptance": {
+    "user_reply": "خب اینم خیلی خوب شده. اول کامیت کن",
+    "sha256": "f3d96af149748ac3dee04a44c47184c652741af606d7f22989d4e459baf4ba8f",
+    "video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/edits/EP03-SH04-reply-review-v1.mp4"
+  }
+}

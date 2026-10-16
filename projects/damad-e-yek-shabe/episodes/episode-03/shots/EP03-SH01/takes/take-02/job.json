@@ -1,0 +1,77 @@
+{
+  "skill": "execute-media-generation",
+  "request_id": "EP03-SH01-take-02",
+  "idempotency_key": "EP03-SH01-take-02-7654f8a482313cd3",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH01-take-02-attempt-1",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "state": "succeeded",
+        "submitted_at": "2026-10-15T11:58:18.557047+00:00",
+        "submission_count": 1,
+        "provider_job_id": "c97ed2c4-cb4e-4683-ad20-42672c3b6b65",
+        "evidence": "Flow completed tile; original360p downloaded via IAB; full local decode passed"
+      },
+      {
+        "id": "EP03-SH01-take-02-local-seed-vc",
+        "provider": "local",
+        "state": "succeeded",
+        "model": "Seed-VC",
+        "parent_job": "EP03-SH01-take-02-attempt-1",
+        "external_credits": 0
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/video.mp4",
+        "sha256": "dafa81e028033c2213909f965970f5572b11b3b46ce4f0269e5f0b93fa7e0af6",
+        "bytes": 871313
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/source-audio.wav",
+        "sha256": "95caa9790e6b360bf1d48fa1c829d33c21c8113f785884886f1d7aa95dd3fa5b",
+        "bytes": 1536078
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/speech-source.wav",
+        "sha256": "5e1e1ad40544f629e323bb075b1c34a6de6ef135070b7ccf4645e5ec438b68e8",
+        "bytes": 585678
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/mother-seed-vc.wav",
+        "sha256": "5b1e890e2d663469a96beff4fccc9f2b1bc6f56999a612722e6ff62c8dcc0917",
+        "bytes": 537680
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/converted-full-audio.wav",
+        "sha256": "fc232976b4fea25f25d8af07b81a4578d6d152c012189681a5d06746f575a754",
+        "bytes": 2304044
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-seed-vc-full-v1.mp4",
+        "sha256": "0570089960bba654e533b686addf9ee719adc9ebba46fa5b550084280f051b5b",
+        "bytes": 863641
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-review-v1.mp4",
+        "sha256": "57d35050a9fc813e24896c410df3c55f3ee54075fd1dc5b2eb215100a2881f0c",
+        "bytes": 726221
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "approved_ceiling": 6,
+      "quoted_submission_cost": 6,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_voice_conversion_credits": 0
+    },
+    "execution_gate": {
+      "preflight_passed": true,
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  }
+}

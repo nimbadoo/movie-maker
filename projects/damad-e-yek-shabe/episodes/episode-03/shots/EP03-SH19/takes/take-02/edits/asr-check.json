@@ -1,0 +1,101 @@
+{
+  "text": " خیلی خوشبختم از آشنایتون منم همینطور",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1.4799999999999995,
+      "end": 3.98,
+      "text": " خیلی خوشبختم از آشنایتون",
+      "tokens": [
+        50365,
+        16490,
+        4135,
+        1211,
+        4135,
+        16490,
+        2407,
+        8592,
+        3555,
+        46456,
+        2304,
+        1975,
+        11622,
+        19753,
+        8592,
+        8315,
+        4135,
+        2655,
+        11536,
+        50565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12304495175679525,
+      "compression_ratio": 0.9852941176470589,
+      "no_speech_prob": 1.1116789433440744e-10,
+      "words": [
+        {
+          "word": " خیلی",
+          "start": 1.4799999999999995,
+          "end": 2.64,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " خوشبختم",
+          "start": 2.64,
+          "end": 3.2,
+          "probability": 0.85546875
+        },
+        {
+          "word": " از",
+          "start": 3.2,
+          "end": 3.38,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " آشنایتون",
+          "start": 3.38,
+          "end": 3.98,
+          "probability": 0.92236328125
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.98,
+      "end": 5.16,
+      "text": " منم همینطور",
+      "tokens": [
+        50565,
+        9154,
+        2304,
+        8032,
+        2304,
+        32151,
+        9566,
+        13063,
+        50624
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.12304495175679525,
+      "compression_ratio": 0.9852941176470589,
+      "no_speech_prob": 1.1116789433440744e-10,
+      "words": [
+        {
+          "word": " منم",
+          "start": 3.98,
+          "end": 4.6,
+          "probability": 0.76171875
+        },
+        {
+          "word": " همینطور",
+          "start": 4.6,
+          "end": 5.16,
+          "probability": 0.9921875
+        }
+      ]
+    }
+  ],
+  "limitation": "Machine transcription/timestamps only; no auditory review, pronunciation or voice ownership guarantee"
+}

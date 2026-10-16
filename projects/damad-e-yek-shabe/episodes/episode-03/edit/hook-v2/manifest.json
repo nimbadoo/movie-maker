@@ -1,0 +1,55 @@
+{
+  "skill": "review-and-assemble",
+  "status": "user_accepted_for_final_output",
+  "source": "../final-v1/EP03-final-v1.mp4",
+  "source_sha256": "d7202ac012c5d50f1e790d7aae4b6b402d719a9a0b1ccfbe3630cfd67b6ca597",
+  "video": "EP03-hook-v2.mp4",
+  "sha256": "d34f7c5a46ef5004974154ad11569cdbba12bb6b6c73a3c19eacdb64f61085ed",
+  "data": {
+    "reviews": [
+      {
+        "decision": "user_accepted",
+        "visual_sampling": "Mother and Nazli ending frames checked for text shaping, readability and face clearance",
+        "independent_listening": false
+      }
+    ],
+    "selected_takes": "inherited unchanged from accepted final-v1",
+    "timeline": {
+      "source_range_seconds": [
+        0,
+        79.20833333333334
+      ],
+      "overlay_seconds": [
+        75.71,
+        79.20833333333334
+      ],
+      "text": "به نظرتون نازلی چطور می‌خواد این ماجرا رو جمع‌وجور کنه؟",
+      "diacritics": false
+    },
+    "quality_control": {
+      "complete_decode": "passed",
+      "audio_AAC_payload_identical": true,
+      "audio_sha256": "a820fd17d12ec9cbc78077d0a45f2732c147bd9baaa11f158f23ec2cc9dc3c1f",
+      "resolution": "360x640",
+      "fps": 24,
+      "no_added_freeze_or_silence": true
+    },
+    "export_manifest": {
+      "video": "EP03-hook-v2.mp4",
+      "preview": "ending-preview.mp4",
+      "published": false,
+      "generation_credits": 0
+    }
+  },
+  "design": {
+    "font": "Tahoma Bold",
+    "lead_size": 23,
+    "question_size": 25,
+    "lead_color": "warm ivory gold",
+    "lines": 3,
+    "background_box": false,
+    "fade_in_ms": 160,
+    "user_acceptance": "accepted"
+  },
+  "user_approval": "آره، این بهتر شد. همین نسخه رو تأیید می‌کنم، برای خروجی نهایی قسمت سه از همین استفاده کن."
+}

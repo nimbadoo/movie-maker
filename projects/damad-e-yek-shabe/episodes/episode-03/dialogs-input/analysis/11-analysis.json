@@ -1,0 +1,82 @@
+{
+  "file": "11.m4a",
+  "shot": "EP03-SH11",
+  "source_sha256": "9ce055d35162030b5fea9f0965f2baad8a78a8535747245fd657d02c6916b13e",
+  "duration_seconds": 3.412,
+  "speaker_from_card": "نازلی",
+  "approved_text_from_card": "مامان، فِعْلاً داریم هَمْدیگِه رُو می‌شْناسیم.",
+  "machine_transcript": "مامان فیلندرم هم دیگر ممشنسیم",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.9,
+      "text": " مامان فیلندرم هم دیگر ممشنسیم",
+      "tokens": [
+        50365,
+        3714,
+        10943,
+        7649,
+        6156,
+        4135,
+        1211,
+        41260,
+        2288,
+        2304,
+        8032,
+        2304,
+        11778,
+        4135,
+        16761,
+        2288,
+        3714,
+        2304,
+        8592,
+        1863,
+        3794,
+        4135,
+        2304,
+        50511
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.4165777587890625,
+      "compression_ratio": 0.9642857142857143,
+      "no_speech_prob": 8.765410619560043e-09,
+      "words": [
+        {
+          "word": " مامان",
+          "start": 0.0,
+          "end": 0.9,
+          "probability": 0.70361328125
+        },
+        {
+          "word": " فیلندرم",
+          "start": 0.9,
+          "end": 1.62,
+          "probability": 0.6669921875
+        },
+        {
+          "word": " هم",
+          "start": 1.62,
+          "end": 1.82,
+          "probability": 0.978515625
+        },
+        {
+          "word": " دیگر",
+          "start": 1.82,
+          "end": 2.1,
+          "probability": 0.912109375
+        },
+        {
+          "word": " ممشنسیم",
+          "start": 2.1,
+          "end": 2.9,
+          "probability": 0.61376953125
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

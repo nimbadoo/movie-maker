@@ -1,0 +1,613 @@
+{
+  "revision": 3,
+  "status": "accepted by user 2026-10-13; independent review limitations retained",
+  "output": "episodes/episode-01/edit/v3/EP01-SC01-revision-v3-review.mp4",
+  "retained_count": 13,
+  "replacement_count": 10,
+  "edited_seconds": 59.056,
+  "settings": "360x640, 30fps, AAC48kHz, original speech speed",
+  "timeline": [
+    {
+      "turn": 1,
+      "shot": "EP01-SH01",
+      "dialogue_ids": [
+        "EP01-D01"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH01/takes/take-01/video.mp4",
+      "sha256": "bce88b02c6f820b428d87708c77077295dbc2506af6ffea685873589d5a2a713",
+      "source_duration": 4.01,
+      "in": 0.62,
+      "out": 3.792,
+      "timeline_in": 0,
+      "duration": 3.172,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 12800,
+          "end": 56832
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 3.172
+    },
+    {
+      "turn": 2,
+      "shot": "EP01-SH10",
+      "dialogue_ids": [
+        "EP01-D02"
+      ],
+      "take": 2,
+      "source": "episodes/episode-01/shots/EP01-SH10/takes/take-02/video.mp4",
+      "sha256": "38ed844a2cb87393893ccc16ff3d3009d1630abc8e6c55d217b99f1f417cdeda",
+      "source_duration": 4.01,
+      "in": 0.236,
+      "out": 2.96,
+      "timeline_in": 3.172,
+      "duration": 2.724,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 6656,
+          "end": 43520
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 5.896
+    },
+    {
+      "turn": 3,
+      "shot": "EP01-SH11",
+      "dialogue_ids": [
+        "EP01-D03"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH11/takes/take-01/video.mp4",
+      "sha256": "a1f5eb8657b2c74366df5f3bc7c4e7359ffcd021a3a65dc5fa3aaa1a4cc053f3",
+      "source_duration": 4.01,
+      "in": 0.46,
+      "out": 3.28,
+      "timeline_in": 5.896,
+      "duration": 2.82,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 10240,
+          "end": 30208
+        },
+        {
+          "start": 34816,
+          "end": 48640
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 8.716
+    },
+    {
+      "turn": 4,
+      "shot": "EP01-SH12",
+      "dialogue_ids": [
+        "EP01-D04"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH12/takes/take-01/video.mp4",
+      "sha256": "e9a1bf5eaeee82973a26ed833485889c7dd6a77149353c7aee4baa2b4227e778",
+      "source_duration": 4.032,
+      "in": 0.396,
+      "out": 2.896,
+      "timeline_in": 8.716,
+      "duration": 2.5,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 9216,
+          "end": 42496
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 11.216
+    },
+    {
+      "turn": 5,
+      "shot": "EP01-SH02",
+      "dialogue_ids": [
+        "EP01-D05"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH02/takes/take-01/video.mp4",
+      "sha256": "d7ba4ab454fac8b4a0e24883d9b891881c5d5991d5e5d8ecbecbf32f442922b9",
+      "source_duration": 4.01,
+      "in": 0.492,
+      "out": 3.728,
+      "timeline_in": 11.216,
+      "duration": 3.236,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 10752,
+          "end": 28160
+        },
+        {
+          "start": 35328,
+          "end": 55808
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 14.452
+    },
+    {
+      "turn": 6,
+      "shot": "EP01-SH13",
+      "dialogue_ids": [
+        "EP01-D06"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH13/takes/take-01/video.mp4",
+      "sha256": "a90b7c9b75bef390f6f5799d825f5b1a1a66029f177ad2896f5b9344b086f869",
+      "source_duration": 4.01,
+      "in": 0.492,
+      "out": 3.472,
+      "timeline_in": 14.452,
+      "duration": 2.98,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 10752,
+          "end": 27136
+        },
+        {
+          "start": 33792,
+          "end": 51712
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 17.432
+    },
+    {
+      "turn": 7,
+      "shot": "EP01-SH03",
+      "dialogue_ids": [
+        "EP01-D07"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH03/takes/take-01/video.mp4",
+      "sha256": "c9cb5f1e72fbbb8912583f436e45efb20ab98b0d0beb0ece8e0762e667c0b50c",
+      "source_duration": 4.01,
+      "in": 1.324,
+      "out": 3.28,
+      "timeline_in": 17.432,
+      "duration": 1.956,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 24064,
+          "end": 48640
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 19.388
+    },
+    {
+      "turn": 8,
+      "shot": "EP01-SH14",
+      "dialogue_ids": [
+        "EP01-D08"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH14/takes/take-01/video.mp4",
+      "sha256": "34b8a536930fa161c0171a750f825e364aceb543b7d8b1b18df440c2391c2f37",
+      "source_duration": 4.01,
+      "in": 1.356,
+      "out": 2.356,
+      "timeline_in": 19.388,
+      "duration": 1.0,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 24576,
+          "end": 32768
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 20.388
+    },
+    {
+      "turn": 9,
+      "shot": "EP01-SH04",
+      "dialogue_ids": [
+        "EP01-D09"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH04/takes/take-01/video.mp4",
+      "sha256": "113f6a69bfd528ce64edd2a6096f53fd4ce4a43e5db7baeb4f140d03e514b2e3",
+      "source_duration": 4.01,
+      "in": 0.364,
+      "out": 2.608,
+      "timeline_in": 20.388,
+      "duration": 2.244,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 8704,
+          "end": 37888
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 22.632
+    },
+    {
+      "turn": 10,
+      "shot": "EP01-SH05",
+      "dialogue_ids": [
+        "EP01-D10"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH05/takes/take-01/video.mp4",
+      "sha256": "a048c3097b7884f2c7372a353f488a448f65ca9bcd68045bc204aaecbc87ce7f",
+      "source_duration": 4.01,
+      "in": 0.94,
+      "out": 2.832,
+      "timeline_in": 22.632,
+      "duration": 1.892,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 17920,
+          "end": 41472
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 24.524
+    },
+    {
+      "turn": 11,
+      "shot": "EP01-SH06",
+      "dialogue_ids": [
+        "EP01-D11"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH06/takes/take-01/video.mp4",
+      "sha256": "d7aa2205726552833b41b07701157e2e6f1c5ed9716180ed261e9b93df2428f8",
+      "source_duration": 4.01,
+      "in": 1.036,
+      "out": 2.288,
+      "timeline_in": 24.524,
+      "duration": 1.252,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 19456,
+          "end": 32768
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 25.776
+    },
+    {
+      "turn": 12,
+      "shot": "EP01-SH15",
+      "dialogue_ids": [
+        "EP01-D12"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH15/takes/take-01/video.mp4",
+      "sha256": "20223cc270c58b38284882ce392262eff7ab9ab1b363d7a6469c5ffe5aeb447e",
+      "source_duration": 4.032,
+      "in": 0.812,
+      "out": 2.768,
+      "timeline_in": 25.776,
+      "duration": 1.956,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 15872,
+          "end": 40448
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 27.732
+    },
+    {
+      "turn": 13,
+      "shot": "EP01-SH17",
+      "dialogue_ids": [
+        "EP01-D17",
+        "EP01-D18"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH17/takes/take-01/video.mp4",
+      "sha256": "aabd038f54fc7043b27433deb6634b4d4dd088ddbc808426bbf82f76e82ceddf",
+      "source_duration": 4.01,
+      "in": 0.372,
+      "out": 3.252,
+      "timeline_in": 27.732,
+      "duration": 2.88,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 8192,
+          "end": 25088
+        },
+        {
+          "start": 28160,
+          "end": 49152
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 30.612
+    },
+    {
+      "turn": 14,
+      "shot": "EP01-SH19",
+      "dialogue_ids": [
+        "EP01-D19"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH19/takes/take-01/video.mp4",
+      "sha256": "5e2eda39062e60e7d0c25615245bba7ab3f950e40e52d8628b0e07594496a374",
+      "source_duration": 4.032,
+      "in": 0.404,
+      "out": 3.444,
+      "timeline_in": 30.612,
+      "duration": 3.04,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 8704,
+          "end": 27648
+        },
+        {
+          "start": 40960,
+          "end": 52224
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 33.652
+    },
+    {
+      "turn": 15,
+      "shot": "EP01-SH20",
+      "dialogue_ids": [
+        "EP01-D20"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH20/takes/take-01/video.mp4",
+      "sha256": "b20e9a1e8dc46491df05cdc0294b64ebbea4e7d0cf14e149a0062a7bee877afe",
+      "source_duration": 6.016,
+      "in": 0.788,
+      "out": 5.236,
+      "timeline_in": 33.652,
+      "duration": 4.448,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 14848,
+          "end": 28160
+        },
+        {
+          "start": 36352,
+          "end": 80896
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 38.1
+    },
+    {
+      "turn": 16,
+      "shot": "EP01-SH21",
+      "dialogue_ids": [
+        "EP01-D21"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH21/takes/take-01/video.mp4",
+      "sha256": "514f6f3e27613045bf5ebb15c62b18339009b7c7edf8d5a409efffe0a74915ee",
+      "source_duration": 4.01,
+      "in": 0.532,
+      "out": 3.54,
+      "timeline_in": 38.1,
+      "duration": 3.008,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 10752,
+          "end": 20480
+        },
+        {
+          "start": 25088,
+          "end": 53760
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 41.108
+    },
+    {
+      "turn": 17,
+      "shot": "EP01-SH22",
+      "dialogue_ids": [
+        "EP01-D22"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH22/takes/take-01/video.mp4",
+      "sha256": "38db873b83d07d9dd0452ac267d0694ad4c44a0a32fb0c7518d8227cb5943a4c",
+      "source_duration": 4.01,
+      "in": 0.82,
+      "out": 2.74,
+      "timeline_in": 41.108,
+      "duration": 1.92,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 15360,
+          "end": 40960
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 43.028
+    },
+    {
+      "turn": 18,
+      "shot": "EP01-SH23",
+      "dialogue_ids": [
+        "EP01-D23"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH23/takes/take-01/video.mp4",
+      "sha256": "fa7a2eb4c9a7f1bdc2211cbdd0779d353675f48dad83cdd8e6cec40313d31ccd",
+      "source_duration": 4.01,
+      "in": 0.34,
+      "out": 2.068,
+      "timeline_in": 43.028,
+      "duration": 1.728,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 7680,
+          "end": 30208
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 44.756
+    },
+    {
+      "turn": 19,
+      "shot": "EP01-SH24",
+      "dialogue_ids": [
+        "EP01-D24"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH24/takes/take-01/video.mp4",
+      "sha256": "5858d9c9324cf583b772d35b51e69f98f20ab104e9bd63ad4db3b354362eabd6",
+      "source_duration": 6.016,
+      "in": 1.236,
+      "out": 5.62,
+      "timeline_in": 44.756,
+      "duration": 4.384,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 22016,
+          "end": 43520
+        },
+        {
+          "start": 52736,
+          "end": 87040
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 49.14
+    },
+    {
+      "turn": 20,
+      "shot": "EP01-SH25",
+      "dialogue_ids": [
+        "EP01-D25"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH25/takes/take-01/video.mp4",
+      "sha256": "fb1d0043d482b588399472db6619ec1f52d2c26527f1ebe76c65609d0510a4fb",
+      "source_duration": 4.01,
+      "in": 0.5,
+      "out": 3.476,
+      "timeline_in": 49.14,
+      "duration": 2.976,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 10240,
+          "end": 52736
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 52.116
+    },
+    {
+      "turn": 21,
+      "shot": "EP01-SH27",
+      "dialogue_ids": [
+        "EP01-D27"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH27/takes/take-01/video.mp4",
+      "sha256": "643e8e1da0c7a8d65994a0834ed9162b18bf949220e63cd14ade728715003762",
+      "source_duration": 4.01,
+      "in": 1.076,
+      "out": 2.516,
+      "timeline_in": 52.116,
+      "duration": 1.44,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 19456,
+          "end": 37376
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 53.556
+    },
+    {
+      "turn": 22,
+      "shot": "EP01-SH26",
+      "dialogue_ids": [
+        "EP01-D26"
+      ],
+      "take": 1,
+      "source": "episodes/episode-01/shots/EP01-SH26/takes/take-01/video.mp4",
+      "sha256": "edd06af3a2fa78d1da156f2ea80a29dbd7a92c939a72f1de68483723367b0cfb",
+      "source_duration": 4.01,
+      "in": 0.468,
+      "out": 2.74,
+      "timeline_in": 53.556,
+      "duration": 2.272,
+      "reason": "Remove outer non-speech only; retain 140ms lead/180ms tail; original speed and internal pauses",
+      "speech_ranges": [
+        {
+          "start": 9728,
+          "end": 40960
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 55.828
+    },
+    {
+      "turn": 23,
+      "shot": "EP01-SH09",
+      "dialogue_ids": [
+        "EP01-D16"
+      ],
+      "take": 2,
+      "source": "episodes/episode-01/shots/EP01-SH09/takes/take-02/video.mp4",
+      "sha256": "bc48c7be0decef11b908fa36901f659b121751aa9e7ff59cba92d588b7e03abf",
+      "source_duration": 4.01,
+      "in": 0.428,
+      "out": 3.656,
+      "timeline_in": 55.828,
+      "duration": 3.228,
+      "reason": "Retain exact accepted v1 source take and in/out boundaries",
+      "speech_ranges": [
+        {
+          "start": 9728,
+          "end": 28672
+        },
+        {
+          "start": 35328,
+          "end": 52736
+        }
+      ],
+      "status": "applied in review assembly; final audiovisual acceptance pending",
+      "timeline_out": 59.056
+    }
+  ],
+  "decoded_output_video_frames": 1775,
+  "decoded_output_audio_frames": 2778,
+  "limitations": [
+    "Automatic transcript is evidence of content only, not a pronunciation or voice-identity pass.",
+    "Sampled motion inspection does not prove every-frame lip sync; final playback review pending.",
+    "v1 tray placement between retained turns 9/10 remains an inherited continuity review item."
+  ],
+  "actual_file_seconds": 59.219708,
+  "frame_rate": "30/1",
+  "width": 360,
+  "height": 640,
+  "user_acceptance": "Keili khub shod, commit kon",
+  "file_path_base": "film project root; external original download paths are provenance"
+}

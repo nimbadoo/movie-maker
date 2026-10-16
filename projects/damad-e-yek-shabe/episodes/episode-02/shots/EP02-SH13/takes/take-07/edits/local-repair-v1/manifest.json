@@ -1,0 +1,119 @@
+{
+  "skill": "review-and-assemble",
+  "date": "2026-10-14",
+  "status": "local_edit_accepted_by_user_and_applied_to_episode_review",
+  "paid_actions": 0,
+  "external_generation": false,
+  "sources": [
+    {
+      "media_id": "EP02-SH13-take7",
+      "path": "episodes/episode-02/shots/EP02-SH13/takes/take-07/edits/EP02-SH13-take7-quick-singing.mp4",
+      "sha256": "467fe08c7ec7ad22a37990c972d7772c84d42154c7da236e4bcd4a76e8d204df"
+    },
+    {
+      "media_id": "EP02-SH13-take8",
+      "path": "episodes/episode-02/shots/EP02-SH13/takes/take-08/edits/EP02-SH13-take8-complete-ending.mp4",
+      "sha256": "98499390bb3d1665e68569d4141f4627c6e6480e17695800af9c2c30c81c5f60"
+    }
+  ],
+  "data": {
+    "reviews": [
+      {
+        "shot_segment": "EP02-SH13",
+        "media_asset": "EP02-SH13-take7",
+        "decision": "revision-needed",
+        "reasons": [
+          "reported_incomplete_final_word",
+          "camera_gaze_before_speech"
+        ]
+      },
+      {
+        "shot_segment": "EP02-SH13",
+        "media_asset": "EP02-SH13-take8",
+        "decision": "revision-needed",
+        "reasons": [
+          "camera_gaze_before_speech",
+          "long_internal_silence",
+          "final_pronunciation_unreviewed"
+        ]
+      },
+      {
+        "shot_segment": "EP02-SH13",
+        "media_asset": "local-repair-v1",
+        "decision": "selected",
+        "reasons": [
+          "explicit_user_acceptance",
+          "direct_audio_listening_unsupported"
+        ]
+      }
+    ],
+    "selected_takes": {
+      "selected_take": "take-07",
+      "selected_video": "takes/take-07/edits/local-repair-v1/EP02-SH13-local-repair-review.mp4",
+      "episode_review_version": "v4"
+    },
+    "timeline": [
+      {
+        "source_media_id": "EP02-SH13-take7",
+        "in": 1.0,
+        "out": 2.43,
+        "timeline_in": 0,
+        "timeline_out": 1.43,
+        "audio_gain": 1.0
+      },
+      {
+        "source_media_id": "EP02-SH13-take8",
+        "in": 2.43,
+        "out": 3.16,
+        "timeline_in": 1.43,
+        "timeline_out": 2.16,
+        "audio_gain": 1.2
+      },
+      {
+        "source_media_id": "EP02-SH13-take8",
+        "in": 3.99,
+        "out": 5.75,
+        "timeline_in": 2.16,
+        "timeline_out": 3.92,
+        "audio_gain": 1.2
+      }
+    ],
+    "quality_control": {
+      "source_hashes_match_previous_records": true,
+      "video_sample_frames_decoded": 21,
+      "camera_gaze_in_sampled_candidate_frames": "not_observed",
+      "source8_removed_silence_rms_dbfs": -85.75,
+      "source_transition_silence_dbfs": {
+        "take7": -46.69,
+        "take8": -48.56
+      },
+      "candidate_audio_samples": 188157,
+      "audio_rate_hz": 48000,
+      "audio_peak": 0.5558063983917236,
+      "samples_at_or_above_0_999": 0,
+      "measured_asset_duration_seconds": 3.9200032552083335,
+      "dimensions": [
+        360,
+        640
+      ],
+      "nominal_fps_reported": 23.861584,
+      "speed_changes": false,
+      "direct_audio_listening": false,
+      "pronunciation_approved": false,
+      "question_intonation_approved": false,
+      "continuous_lipsync_review": false,
+      "full_episode_updated": true
+    },
+    "export_manifest": null
+  },
+  "candidate_output": {
+    "path": "episodes/episode-02/shots/EP02-SH13/takes/take-07/edits/local-repair-v1/EP02-SH13-local-repair-review.mp4",
+    "sha256": "d6613329c8ad68b73566c904b103442ee690cb4475f1d1607e94240896b81da1",
+    "is_final_delivery": false
+  },
+  "user_acceptance": {
+    "date": "2026-10-14",
+    "reply": "خوبه، همین نسخهٔ اصلاح‌شدهٔ نمای ۱۳ رو توی تدوین کامل قسمت دو جایگزین کن و خروجی تازه رو باز کن تا اتصالش به نماهای قبل و بعد رو ببینم.",
+    "scope": "standalone edit and insertion; full episode acceptance pending"
+  }
+}

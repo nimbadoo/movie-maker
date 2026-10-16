@@ -1,0 +1,20 @@
+{
+  "shot": "EP03-SH06",
+  "dialogue": "EP03-D06",
+  "source": "projects/damad-e-yek-shabe/episodes/episode-03/dialogs-input/06.m4a",
+  "source_sha256": "cb5b15872fbf151940a5439105427d87fee0b466dc8573ed9566a6397f0519fc",
+  "copy": "audio/EP03-SH06-dialogue-performance-reference-v1.m4a",
+  "copy_sha256": "cb5b15872fbf151940a5439105427d87fee0b466dc8573ed9566a6397f0519fc",
+  "operation": "byte_identical_copy",
+  "role": "user_dialogue_pronunciation_rhythm_reference_only",
+  "character_voice_identity": false,
+  "auditory_review_performed": false,
+  "container_duration_seconds_afinfo": 4.798667,
+  "machine_word_span_seconds": [
+    0.0,
+    4.34
+  ],
+  "analysis_source": "../../dialogs-input/analysis/06-analysis.json",
+  "text_owner": "shot.md#v3-ep03-d06",
+  "date": "2026-10-15"
+}

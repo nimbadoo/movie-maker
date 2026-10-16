@@ -1,0 +1,94 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH03",
+  "take": "take-01",
+  "request_id": "EP03-SH03-take-01",
+  "idempotency_key": "EP03-SH03-take-01-3ef935bb54efdce000c5a399a53fb86c3ba0db81d1eda64dc2227b66eaf41767",
+  "bundle_sha256": "3ef935bb54efdce000c5a399a53fb86c3ba0db81d1eda64dc2227b66eaf41767",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T16:58:06.754299+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 6,
+    "ceiling": 6,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "provider_job_id": "a592b955-6ab9-4e55-b5af-806f124081cc",
+  "completed_at": "2026-10-15T17:05:57.146138+00:00",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH03-take-01-attempt-1",
+        "compiled_request": "review-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH03-take-01-3ef935bb54efdce000c5a399a53fb86c3ba0db81d1eda64dc2227b66eaf41767",
+        "state": "succeeded",
+        "provider_job_id": "a592b955-6ab9-4e55-b5af-806f124081cc"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/takes/take-01/video.mp4",
+        "sha256": "5d2cebd52d8f742d8b8eaf9ac5d0b66077d808ad3b90ab60d0c1e9a0484889b4",
+        "bytes": 1215041,
+        "producing_job": "EP03-SH03-take-01-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/takes/take-01/edits/EP03-SH03-invitation-review-v1.mp4",
+        "sha256": "a8c00edff117d8bbb3ca729ed15dd41d95d5db7c0e32eb693dddfe22c52f3d85",
+        "bytes": 1023690,
+        "producing_job": "EP03-SH03-take-01-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/takes/take-01/edits/source-audio.wav",
+        "sha256": "68d0f3516335d08c4489ad629227686d3c6260e4d95ca4b96ed92a485eda5c76",
+        "bytes": 1536078,
+        "producing_job": "EP03-SH03-take-01-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 6,
+      "approved_ceiling": 6,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_edit_credits": 0
+    },
+    "execution_gate": {
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  },
+  "request": {
+    "take": "take-01",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH03-chair-invite-house-v5.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 8,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 6,
+      "attempts": 1,
+      "ceiling": 6,
+      "price_source": "Live IAB settings8s360p x1 shows6credits",
+      "verified_at": "2026-10-15T16:55:44.209550+00:00"
+    }
+  }
+}

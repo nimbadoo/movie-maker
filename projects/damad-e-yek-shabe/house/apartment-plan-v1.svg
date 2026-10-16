@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1100" viewBox="0 0 1100 1100"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#087f8c"/></marker><style>text{font-family:Tahoma,Arial,sans-serif;fill:#173047;text-anchor:middle} .label{font-size:22px}.small{font-size:17px}.wall{stroke:#263e50;stroke-width:8;fill:none}.look{stroke:#087f8c;stroke-width:5;marker-end:url(#arrow)}</style></defs>
+<rect width="1100" height="1100" fill="#f7f4eb"/>
+<text x="550" y="44" font-size="30" direction="rtl">پلان پیشنهادی خانه — دید از بالا</text>
+<text x="550" y="76" class="small" direction="rtl">شماتیک، بدون مقیاس؛ برای تثبیت چیدمان و دوربین، در انتظار تأیید</text>
+<path class="wall" d="M100 200V900H820V200H650 M350 200H100"/>
+<path class="wall" d="M350 200V105H650V200"/>
+<rect x="365" y="110" width="270" height="80" rx="9" fill="#dce9d9"/>
+<text x="500" y="146" class="label" direction="rtl">آشپزخانهٔ باز</text>
+<text x="500" y="176" class="small" direction="rtl">پشت کاناپه، ورودی بدون در</text>
+<path d="M820 240H1040V650H820" stroke="#b68538" stroke-width="4" stroke-dasharray="10 7" fill="#fbedd3"/>
+<text x="920" y="300" class="label" direction="rtl">راهرو / ورودی</text><text x="920" y="337" class="small" direction="rtl">محل کلی پیشنهادی</text><text x="920" y="365" class="small" direction="rtl">ابعاد و امتداد نامعلوم</text>
+<path d="M1040 510V590 M1040 590H960 A80 80 0 0 1 1040 510" stroke="#b68538" stroke-width="3" fill="none" stroke-dasharray="6 5"/>
+<text x="930" y="620" class="small" direction="rtl">درِ ورودی؛ جای پیشنهادی</text>
+<path d="M910 550V430L830 400" stroke="#b68538" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="930" y="470" class="small" direction="rtl">مسیر ورود به پذیرایی</text>
+<path d="M100 300V490" stroke="#67a9ce" stroke-width="13"/><text x="152" y="385" class="small" direction="rtl" transform="rotate(-90 152 385)">پنجرهٔ مرجع جمع</text>
+<rect x="330" y="260" width="340" height="110" rx="18" fill="#d5c2a4" stroke="#8d7452" stroke-width="3"/>
+<path d="M330 276H670M500 280V365" stroke="#8d7452" stroke-width="3"/>
+<circle cx="417" cy="315" r="27" fill="#913c55"/><circle cx="582" cy="315" r="27" fill="#c7a670"/>
+<text x="417" y="247" class="label" direction="rtl">مادر</text><text x="582" y="247" class="label" direction="rtl">فرهاد</text>
+<path d="M417 340V402M582 340V402" class="look"/>
+<text x="500" y="221" class="small" direction="rtl">پشت هر دو به آشپزخانه</text>
+<ellipse cx="500" cy="510" rx="285" ry="240" fill="#087f8c" fill-opacity="0.045" stroke="#087f8c" stroke-width="2" stroke-dasharray="8 8"/><rect x="370" y="455" width="260" height="125" rx="8" fill="#b98452" stroke="#785332" stroke-width="3"/>
+<rect x="390" y="483" width="65" height="40" fill="#e4bd88" stroke="#785332"/><circle cx="500" cy="515" r="19" fill="#dfb341"/><circle cx="588" cy="510" r="13" fill="#a3442c"/>
+<text x="500" y="554" class="small" direction="rtl">میز — سینی، کاسه، چای</text>
+<g transform="translate(300 670) rotate(45)"><rect x="-64" y="-60" width="128" height="120" rx="10" fill="#c5d2a9" stroke="#785332" stroke-width="5"/><path d="M-64 45H64" stroke="#785332" stroke-width="13"/><circle r="26" fill="#227b79"/></g>
+<g transform="translate(700 670) rotate(-45)"><rect x="-64" y="-60" width="128" height="120" rx="10" fill="#c5d2a9" stroke="#785332" stroke-width="5"/><path d="M-64 45H64" stroke="#785332" stroke-width="13"/><circle r="26" fill="#426ca5"/></g>
+<path d="M300 670L384 586M700 670L616 586" class="look"/>
+<text x="240" y="620" class="small" direction="rtl">جلو: رو به داخل جمع ↗</text><text x="205" y="735" class="small" direction="rtl">پشت صندلی: سمت بیرون</text><text x="770" y="620" class="small" direction="rtl">↖ جلو: رو به داخل جمع</text><text x="805" y="735" class="small" direction="rtl">پشت صندلی: سمت بیرون</text><text x="235" y="790" class="label" direction="rtl">نازلی — صندلی چپ</text><text x="755" y="790" class="label" direction="rtl">سامان — صندلی راست</text>
+<path d="M385 710H615" stroke="#b68538" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="500" y="741" class="small" direction="rtl">فاصلهٔ لبه‌ها: پیشنهاد حدود ۷۰ سانتی‌متر</text>
+<text x="500" y="770" class="small" direction="rtl">بدون اندازه‌گیری؛ پس از تأیید ثابت می‌ماند</text>
+<path d="M300 670L500 470L700 670" stroke="#087f8c" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+<path d="M479 491L500 512L521 491" stroke="#087f8c" stroke-width="3" fill="none"/>
+<text x="500" y="435" class="label" direction="rtl">زاویهٔ محور دو صندلی: ۹۰ درجه</text>
+<circle cx="500" cy="840" r="24" fill="#283f57"/><text x="500" y="848" fill="white" style="fill:white;font-size:19px">۱</text>
+<path d="M475 810L255 420M525 810L745 420" stroke="#6d8495" stroke-width="2" stroke-dasharray="5 5"/>
+<circle cx="500" cy="410" r="22" fill="#283f57"/><text x="500" y="417" style="fill:white;font-size:19px">۲</text>
+<path d="M490 430L280 730M510 430L720 730" stroke="#6d8495" stroke-width="2" stroke-dasharray="5 5"/>
+<path d="M255 690L200 710L200 420L270 210L380 205" stroke="#b68538" stroke-width="3" stroke-dasharray="8 7" fill="none"/>
+<text x="550" y="940" class="label" direction="rtl">دوربین۱: نمای جمع و خروج؛ آشپزخانه در پس‌زمینه</text>
+<text x="550" y="976" class="label" direction="rtl">دوربین۲: زاویهٔ مقابل برای دو جوان؛ آشپزخانه پشت دوربین</text>
+<text x="550" y="1015" class="small" direction="rtl">خط طلایی: مسیر خروج پیشنهادی؛ نیازمند کنترل فضای عبور</text>
+<text x="550" y="1050" class="small" direction="rtl">فلش سبز: جهت بدن و صندلی، نه نگاه لحظه‌ای شخصیت</text>
+</svg>

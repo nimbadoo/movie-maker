@@ -1,0 +1,62 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH07",
+  "take": "take-01",
+  "beat": "EP03-D07",
+  "assets": [
+    "CH-FAR",
+    "CH-MNZ",
+    "CH-NAZ",
+    "CH-SAM",
+    "house"
+  ],
+  "status": "generated_awaiting_user_review",
+  "submitted": true,
+  "ready": false,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-house-v5.png",
+    "sha256": "85a3e2b8ad23c13514d07747b3cb2a9a0270563197033af8599501b6c44be1c4",
+    "role": "first_frame"
+  },
+  "prompt_sha256": "b847e1fa9f41eda48f36235b67fa1c8d90e859414025e572c2e83cb4211556f6",
+  "settings": {
+    "model": "Omni 1.1 Flash",
+    "mode": "Frames",
+    "seconds": 4,
+    "quality": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "audio": true
+  },
+  "cost": {
+    "unit": "Flow credits",
+    "per_attempt": 4,
+    "attempts": 1,
+    "ceiling": 4,
+    "price_evidence": "ui-price.png"
+  },
+  "content_approval": {
+    "approved": true,
+    "bundle_sha256": "2211a129408c70f2615f43aa4bd36bd75a5245ab2ace1413c53a50b4bd70e3c5",
+    "user_reply": "تأیید",
+    "evidence_ref": "User approval immediately following displayed SH07 take01 seated-house-v5 one4credit attempt"
+  },
+  "cost_approval": {
+    "approved": true,
+    "bundle_sha256": "2211a129408c70f2615f43aa4bd36bd75a5245ab2ace1413c53a50b4bd70e3c5",
+    "user_reply": "تأیید",
+    "evidence_ref": "User approval immediately following displayed SH07 take01 seated-house-v5 one4credit attempt"
+  },
+  "retry_allowed": false,
+  "local_user_audio_reference": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/dialogs-input/07.m4a",
+    "duration_seconds": 3.1133125,
+    "provider_input": false
+  },
+  "existing_next_shot": "EP03-SH08 take01 already accepted; no regeneration",
+  "image_lineage": {
+    "source": "exec-daf32043-e5f7-48f7-9bdb-673f9fd8498b.png",
+    "previous_environment_fix": "exec-012e9b0e-170a-4b63-82c3-dd5e16a1df45.png"
+  },
+  "output_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/takes/take-01/video.mp4"
+}

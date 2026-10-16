@@ -1,0 +1,37 @@
+{
+  "status": "accepted_for_continuation",
+  "source": "/Users/hrmohseni/.codex/generated_images/01a13b59-b333-7783-b775-93d5492f7c81/exec-64ede3f2-2024-402d-9d10-7c648bbe3c80.png",
+  "output_sha256": "ff98812a3536bcc8fdcecf1afef2d47167ab4c5d6c7191e2a084af71bcbf954c",
+  "tool": "image_gen",
+  "calls": 4,
+  "references": [
+    {
+      "path": "projects/damad-e-yek-shabe/house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/house/apartment-plan-v1.svg",
+      "sha256": "adcde1ce4fa4127b60d56ec57c0cdf7cf60a7f62e085804b1bdd168a90c85dd8"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/images/EP03-SH01-door-welcome-v4.png",
+      "sha256": "64b95c2ccf5016a7b182c315331c4e6bf41b09eabf0c4028d6e55ef64e4a177c"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-02/references/01-saman-portrait-v1.png",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    }
+  ],
+  "flow_generation_submitted": false,
+  "flow_credits_consumed": 0,
+  "builtin_price": "not_exposed",
+  "approval": {
+    "date": "2026-10-15",
+    "evidence": "الان خیلی اصولی شد ... این راه رو قشنگ مشخصه ... ادامه بدیم",
+    "scope": "still frame only"
+  }
+}

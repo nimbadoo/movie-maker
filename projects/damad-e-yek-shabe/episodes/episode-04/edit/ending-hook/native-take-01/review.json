@@ -1,0 +1,28 @@
+{
+  "skill": "review-and-assemble",
+  "status": "user_approved_ending",
+  "source": "edit/ending-hook/native-take-01/video.mp4",
+  "source_range": [
+    0.5,
+    3.8333333333333335
+  ],
+  "reaction_source": "shots/EP04-SH15/takes/take-01/video.mp4",
+  "reaction_range": [
+    1,
+    4.333333333333334
+  ],
+  "full_video": "edit/EP04-with-hook-v2.mp4",
+  "sha256": "5511a8904ac389d1f1a4e4c666b5fbc8ab5d66de0d46870580e6ab244b7fc1fc",
+  "frames": 1645,
+  "seconds": 68.54166666666667,
+  "cost_quoted_credits": 4,
+  "submission_count": 1,
+  "no_voice_conversion": true,
+  "no_speed_change": true,
+  "asr": " اگه جای سامان بودی چی میگفتی؟",
+  "complete_decode": true,
+  "visual_samples": "8 generated source frames viewed; voice source only, output video discarded. Existing reaction source reviewed at 0.5sec samples, positions retained.",
+  "listening_verified": false,
+  "voice_identity_user_accepted": false,
+  "approval_evidence": "این خوبه، پایان رو تأیید می‌کنم. همین نسخه رو ثبت کن"
+}

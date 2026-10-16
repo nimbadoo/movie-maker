@@ -1,0 +1,76 @@
+{
+  "skill": "compile-generation-prompts",
+  "status": "draft_blocked",
+  "data": {
+    "shot_ir": {
+      "segment": "EP03-SH05",
+      "beat": "EP03-D05",
+      "asset_ids": [
+        "CH-MNZ",
+        "CH-FAR",
+        "CH-SAM",
+        "house-v2"
+      ],
+      "dialogue": "نازْلی می‌گِه بِه هَم عَلاقِه دارین. می‌خواسْتَم اَز زَبونِ خودِتون هَم بِشْنَوَم.",
+      "camera": "static over Saman shoulder to mother",
+      "start": "three seated, Nazli in kitchen offscreen, no tea",
+      "end": "mother finishes and waits for Saman"
+    },
+    "storyboard_frames": [
+      {
+        "path": "images/EP03-SH05-interest-question-v3.png",
+        "role": "first_frame"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "segment": "EP03-SH05",
+        "beat": "EP03-D05",
+        "asset_ids": [
+          "CH-MNZ",
+          "CH-FAR",
+          "CH-SAM",
+          "house-v2"
+        ],
+        "prompt": "takes/take-01/prompt.txt",
+        "mode": "image-to-video"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 6,
+        "resolution": "360p",
+        "aspect_ratio": "9:16",
+        "outputs": 1,
+        "quoted_credits": 5,
+        "evidence": "takes/take-01/ui-price-6s.png",
+        "reference_roles": {
+          "images/EP03-SH05-interest-question-v3.png": "first_frame",
+          "audio/user-dialogue-05.m4a": "local_performance_reference_not_uploaded"
+        },
+        "compatibility": "image-to-video settings verified; audio-reference route unverified",
+        "submit": false
+      }
+    ],
+    "quality_gate": {
+      "ready": false,
+      "open_issues": [
+        "شنیدن ضبط و بررسی اختلاف تشخیص",
+        "تعیین مسیر صدای مادر",
+        "تطبیق پایان ویدیوی SH20 با قاب شروع",
+        "بارگذاری ورودی و بررسی نهایی بسته",
+        "تأیید صریح بسته نهایی و هزینه"
+      ],
+      "schema_validation": "No full envelope validation claimed; shared input schema not available in skill directory."
+    }
+  },
+  "authorization": {
+    "content": false,
+    "cost": false,
+    "attempts_consumed": 0
+  }
+}

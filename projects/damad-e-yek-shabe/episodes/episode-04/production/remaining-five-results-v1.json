@@ -1,0 +1,65 @@
+{
+  "skill": "execute-media-generation",
+  "submissions": 5,
+  "displayed_credits_total": 30,
+  "credit_ceiling": 30,
+  "retries": 0,
+  "reviews": [
+    {
+      "shot": "EP04-SH02",
+      "seconds": 3.0,
+      "candidate": {
+        "path": "episodes/episode-04/shots/EP04-SH02/takes/take-01/edits/EP04-SH02-review-cut-v1.mp4",
+        "sha256": "3ae0c4b51e0cfb1ffdaa12a469f5d9671fbddaef62f0f62aaca0a5b8aa30265c",
+        "frames": 72,
+        "job_id": "EP04-SH02-take-01-attempt-1"
+      },
+      "notes": "نازلی به سامان می‌چرخد؛ صندلی‌ها و وسایل در نمونه‌ها ثابت‌اند. مالک دقیق صدا و لبِ افراد عمق نیازمند مرور است."
+    },
+    {
+      "shot": "EP04-SH03",
+      "seconds": 4.125,
+      "candidate": {
+        "path": "episodes/episode-04/shots/EP04-SH03/takes/take-01/edits/EP04-SH03-review-cut-v1.mp4",
+        "sha256": "c883cca47fd6d616f0a6ac803d15d5f2d04812a23f47fd0044bd229e0a51dc33",
+        "frames": 99,
+        "job_id": "EP04-SH03-take-01-attempt-1"
+      },
+      "notes": "چهره، روسری و لباس مادر ثابت‌اند؛ پایان تشخیص علامت سؤال دارد که اثبات لحن پرسشی نیست و با شنیدن سنجیده شود."
+    },
+    {
+      "shot": "EP04-SH04",
+      "seconds": 5.25,
+      "candidate": {
+        "path": "episodes/episode-04/shots/EP04-SH04/takes/take-01/edits/EP04-SH04-review-cut-v1.mp4",
+        "sha256": "46b89fa0e14b45bf37e77b1d3ac5251bee519d0f492bb4d66edbf69a24896f90",
+        "frames": 126,
+        "job_id": "EP04-SH04-take-01-attempt-1"
+      },
+      "notes": "مکث بین دو خطاب طولانی‌تر از تمرین است و فعلاً حفظ شد. سامان در ادامه زودتر بلند می‌شود؛ نامزد پیش از بلندشدن کامل او قطع شد. آغاز حرکت نازلی در این خروجی کم‌رنگ است؛ اتصال به۱۳نیازمند مرور واقعی و اصلاح تدوین است."
+    },
+    {
+      "shot": "EP04-SH13",
+      "seconds": 2.5,
+      "candidate": {
+        "path": "episodes/episode-04/shots/EP04-SH13/takes/take-01/edits/EP04-SH13-review-cut-v1.mp4",
+        "sha256": "6a6a7db63252893cec048b31e68ce0057eceb9ffdc82fe1fabf4d7191cdd2a7c",
+        "frames": 60,
+        "job_id": "EP04-SH13-take-01-attempt-1"
+      },
+      "notes": "فقط بخش آغاز بلندشدن حفظ شد؛ ادامهٔ منبع چرخش/راه‌رفتن بیشتری دارد و در نامزد نیست. ترتیب دقیق بلندشدن و تماس دست‌ها با دسته‌ها و اتصال به۴باید پیوسته کنترل شوند؛ از نمونه‌ها سلامت کامل حرکت نتیجه نمی‌شود."
+    },
+    {
+      "shot": "EP04-SH05",
+      "seconds": 3.625,
+      "candidate": {
+        "path": "episodes/episode-04/shots/EP04-SH05/takes/take-01/edits/EP04-SH05-review-cut-v1.mp4",
+        "sha256": "b3937d61654586e1f08c9adc033232db32a46c8e99c0a7c364ab85a590cb3860",
+        "frames": 87,
+        "job_id": "EP04-SH05-take-01-attempt-1"
+      },
+      "notes": "گفتار یک‌بار؛ دست نازلی اندکی حرکت می‌کند اما تماس آشکار در نمونه‌ها دیده نشد. چهره/لباس و کابینت/اجاق/یخچال ثابت‌اند."
+    }
+  ],
+  "selected": false
+}

@@ -1,0 +1,35 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'projects/damad-e-yek-shabe/episodes/episode-04/dialogs-input/03.m4a':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 0
+    compatible_brands: M4A isommp42
+    creation_time   : 2026-10-15T20:46:26.000000Z
+    iTunSMPB        :  00000000 00000840 00000000 0000000000027BC0 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+  Duration: 00:00:03.43, start: 0.044000, bitrate: 245 kb/s
+  Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 241 kb/s (default)
+      Metadata:
+        creation_time   : 2026-10-15T20:46:26.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+Stream mapping:
+  Stream #0:0 -> #0:0 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : M4A 
+    minor_version   : 0
+    compatible_brands: M4A isommp42
+    iTunSMPB        :  00000000 00000840 00000000 0000000000027BC0 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+    encoder         : Lavf61.7.100
+  Stream #0:0(und): Audio: pcm_s16le, 48000 Hz, mono, s16, 768 kb/s (default)
+      Metadata:
+        creation_time   : 2026-10-15T20:46:26.000000Z
+        handler_name    : Core Media Audio
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.100 pcm_s16le
+[silencedetect @ 0x147e0ebb0] silence_start: 0.0627917
+[silencedetect @ 0x147e0ebb0] silence_end: 0.485042 | silence_duration: 0.42225
+[silencedetect @ 0x147e0ebb0] silence_start: 2.806375
+[silencedetect @ 0x147e0ebb0] silence_end: 3.390667 | silence_duration: 0.584292
+[out#0/null @ 0x147e04fb0] video:0KiB audio:318KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:03.39 bitrate=N/A speed=1.28e+03x    

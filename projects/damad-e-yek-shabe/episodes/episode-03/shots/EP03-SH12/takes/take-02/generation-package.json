@@ -1,0 +1,108 @@
+{
+  "skill": "compile-generation-prompts",
+  "status": "generated_for_review_not_selected",
+  "data": {
+    "shot_ir": {
+      "segment": "EP03-SH12",
+      "beat": "EP03-D12",
+      "asset_ids": [
+        "CH-MNZ",
+        "CH-FAR",
+        "CH-SAM",
+        "house-v2"
+      ],
+      "dialogue": "مادَرِ شُما هَم اَز این آشْنایی خَبَر دارَن؟",
+      "timing": {
+        "synthetic_seconds": 3.2299773242630385,
+        "actor_timing_verified": false,
+        "proposed_recording_seconds": 6
+      },
+      "performance": "cautious curiosity2/5, calm question, no accusation",
+      "camera": "static over Saman shoulder, seated eye-level"
+    },
+    "storyboard_frames": [
+      {
+        "id": "EP03-SH12-v4",
+        "path": "images/EP03-SH12-open-kitchen-v4.png",
+        "sha256": "75867f87ca6fbdb393ea336fa1cd4e0951fe23e9a4a7b0f9eb7ac8f8e60e9465"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "segment": "EP03-SH12",
+        "beat": "EP03-D12",
+        "asset_ids": [
+          "CH-MNZ",
+          "CH-FAR",
+          "CH-SAM",
+          "house-v2"
+        ],
+        "prompt": "takes/take-02/prompt.txt",
+        "mode": "image-to-video",
+        "first_frame": "images/EP03-SH12-open-kitchen-v4.png"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "seconds": 6,
+        "quality": "360p",
+        "aspect_ratio": "9:16",
+        "outputs": 1,
+        "audio": true,
+        "reference_roles": {
+          "images/EP03-SH12-open-kitchen-v4.png": "first_frame"
+        },
+        "compatibility": "live UI verified; native audio identity remains output review risk",
+        "voice_identity": "native_audio_experimental_not_guaranteed",
+        "price": 5,
+        "submit": false,
+        "cost_ceiling": 5,
+        "attempts": 1,
+        "price_source": "takes/take-02/ui-ready-for-approval.png",
+        "verified_at": "2026-10-15T18:53:17.557915+00:00"
+      }
+    ],
+    "quality_gate": {
+      "ready": true,
+      "open_issues": []
+    }
+  },
+  "authorization": {
+    "content_direction_approved": true,
+    "cost": true,
+    "submissions": 1,
+    "attempts_consumed": 1,
+    "content": true,
+    "evidence": "User تأیید after SH12 take02 explicit revised question-prosody package and live five-credit single-output quote.",
+    "bundle_sha256": "474f07c20dcff4b3d26d4afa492f1c5420415572289642ad89d93c9935f61285"
+  },
+  "assets": [
+    {
+      "path": "images/EP03-SH12-open-kitchen-v4.png",
+      "sha256": "75867f87ca6fbdb393ea336fa1cd4e0951fe23e9a4a7b0f9eb7ac8f8e60e9465"
+    },
+    {
+      "path": "takes/take-02/prompt.txt",
+      "sha256": "dd7e033ce90a55512b79e0eccbc28f29670aada0f7d205b2ba1ffa37d3254505"
+    }
+  ],
+  "image_lineage": {
+    "method": "built_in_image_gen",
+    "source": "images/EP03-SH12-mother-awareness-v3.png",
+    "environment_reference": "../../../../house/apartment-cutaway-v2.png",
+    "identity_reference": "../../../../episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+    "prompt": "images/EP03-SH12-open-kitchen-v4-prompt.txt"
+  },
+  "output_review": "review.md",
+  "revision": {
+    "previous_take": "take-01",
+    "problem": "User heard declarative ending",
+    "change": "Explicit natural audible rising question ending; original dialogue frame and camera preserved",
+    "native_voice_retention_guaranteed": false,
+    "local_pitch_edit_performed": false
+  }
+}

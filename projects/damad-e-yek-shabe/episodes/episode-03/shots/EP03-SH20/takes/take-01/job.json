@@ -1,0 +1,79 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH20",
+  "take": "take-01",
+  "request_id": "EP03-SH20-take-01",
+  "idempotency_key": "EP03-SH20-take-01-477cdbfa208ccaf3b4e28246e1b902bf1be49046a962a51fd5cd3377621d1098",
+  "bundle_sha256": "477cdbfa208ccaf3b4e28246e1b902bf1be49046a962a51fd5cd3377621d1098",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T19:08:38.412185+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 4,
+    "ceiling": 4,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "creative_review": "rejected_third_armchair_and_superseded_blocking",
+  "provider_job_id": "1fd6e0d3-6f28-4571-a8fe-daaf7c5afa14",
+  "request": {
+    "take": "take-01",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH20-before-sitting-house-v3.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 4,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "price_source": "Live IAB settings4s360p x1 shows4credits",
+      "verified_at": "2026-10-15T19:05:52.196788+00:00"
+    }
+  },
+  "completed_at": "2026-10-15T19:19:38.402631+00:00",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH20-take-01-attempt-1",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "state": "succeeded",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH20-take-01-477cdbfa208ccaf3b4e28246e1b902bf1be49046a962a51fd5cd3377621d1098",
+        "provider_job_id": "1fd6e0d3-6f28-4571-a8fe-daaf7c5afa14"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/takes/take-01/video.mp4",
+        "sha256": "f05dd47a2ac1f7ef3c15e235c931db4f8f8634c634f520db54115d8c5e9b5176",
+        "producing_job": "EP03-SH20-take-01-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 4,
+      "approved_ceiling": 4,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true
+    },
+    "execution_gate": {
+      "remaining_paid_attempts": 0
+    }
+  }
+}

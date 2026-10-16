@@ -1,0 +1,70 @@
+{
+  "file": "08.m4a",
+  "shot": "EP03-SH08",
+  "source_sha256": "e1cd53552002b26b833ca3b3bddcd524212de2dc0c4631959e1fb8571cdbc603",
+  "duration_seconds": 3.0493125,
+  "speaker_from_card": "نازلی",
+  "approved_text_from_card": "چون هَنوز چیزی قَطْعی نَشُدِه.",
+  "machine_transcript": "چونانوز چیز قطعی نشده",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.22,
+      "text": " چونانوز چیز قطعی نشده",
+      "tokens": [
+        50365,
+        34766,
+        11536,
+        7649,
+        2407,
+        11622,
+        34766,
+        4135,
+        11622,
+        12174,
+        9566,
+        3615,
+        4135,
+        8717,
+        8592,
+        3215,
+        3224,
+        50477
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1853247692710475,
+      "compression_ratio": 0.8666666666666667,
+      "no_speech_prob": 1.3552793609594715e-10,
+      "words": [
+        {
+          "word": " چونانوز",
+          "start": 0.0,
+          "end": 0.94,
+          "probability": 0.810546875
+        },
+        {
+          "word": " چیز",
+          "start": 0.94,
+          "end": 1.22,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " قطعی",
+          "start": 1.22,
+          "end": 1.66,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " نشده",
+          "start": 1.66,
+          "end": 2.22,
+          "probability": 0.99267578125
+        }
+      ]
+    }
+  ],
+  "auditory_review": "not_performed",
+  "use": "User supplied dialogue/performance reference; not automatically new character voice identity"
+}

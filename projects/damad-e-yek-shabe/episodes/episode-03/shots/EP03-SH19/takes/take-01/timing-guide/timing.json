@@ -1,0 +1,20 @@
+{
+  "method": "local espeak-ng fa165; synthetic rehearsal not natural actor measurement",
+  "speech": [
+    {
+      "speaker": "saman",
+      "duration": 2.7513378684807255
+    },
+    {
+      "speaker": "farhad",
+      "duration": 2.4034920634920636
+    }
+  ],
+  "sum": 5.154829931972789,
+  "duration_design": {
+    "seconds": 8,
+    "physical_action_allowance": "About2sec for rise/contact and small turn; estimate, not measured rehearsal",
+    "release": "Can overlap end of dialogue; no need to hold handshake for entire exchange"
+  },
+  "external_credits": 0
+}

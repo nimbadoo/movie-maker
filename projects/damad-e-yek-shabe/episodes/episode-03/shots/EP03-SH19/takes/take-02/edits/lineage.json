@@ -1,0 +1,26 @@
+{
+  "output": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/edits/EP03-SH19-assembled-review-v1.mp4",
+  "sha256": "778eb51433013e1b51b5c2df01fccd463a46fca3ad1205c84f87b631a8bfa3f4",
+  "segments": [
+    {
+      "source": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-01/edits/EP03-SH19-rise-only-v1.mp4",
+      "sha256": "74906ef31b955b7cbb0f96a9b8b79d5cce2eea598d253f473178beff03e6a924",
+      "range": [
+        0,
+        1.916666667
+      ]
+    },
+    {
+      "source": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/video.mp4",
+      "sha256": "99c7b4b3d896afa39af7f5e4cc9dd5b900c6e55ab19d7de2d19753ea73db6b2c",
+      "range": [
+        0,
+        5.6
+      ]
+    }
+  ],
+  "audio": "Native audio each segment, trimmed and AAC reencoded; no voice conversion/no freeze/no inserted silence",
+  "selection": "accepted_standalone_edit",
+  "purpose": "Review direct cut from healthy rise to closer two-person contact; clip1 not adopted as full prior take",
+  "selection_evidence": "User خوبه. بریم بعدی"
+}

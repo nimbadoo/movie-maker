@@ -1,0 +1,58 @@
+{
+  "shot": "EP04-SH13",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "tool_calls_this_rebuild": 1,
+  "request": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-rebuild-v3-prompt.txt",
+  "requests": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-rebuild-v3-prompt.txt",
+      "sha256": "277c201abafb93134f1a2122825ccaa1a6b5068ac976d878f9089df55041d6ed"
+    }
+  ],
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0",
+      "role": "authoritative_adopted_layout"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH02/images/EP04-SH02-start-v3.png",
+      "sha256": "dbd5637164e92395a438095e239ef8f00e9c2ef9a399d62fabeae780abcb7714",
+      "role": "rebuilt_identity_and_costume_reference"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v4.png",
+      "sha256": "5e4993897e47a6385c3bd1cf39b29850a01f2ea1f225facac367e3fe52956fbd",
+      "role": "rebuilt_identity_and_costume_reference"
+    }
+  ],
+  "additional_reference": null,
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-start-v3.png",
+    "sha256": "9a2bcb0af8848ee346d297d0618404d20fdec74b5ad70e80cf1514076af992ea",
+    "width": 941,
+    "height": 1672
+  },
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-a27d1eef-2a45-4c44-81a5-87d2ec35557c.png",
+  "superseded_output": {
+    "path": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-start-v2.png",
+    "sha256": "ef9845f00729b82aa8614572aed97721c0b8909b1406f761fa4d3df190e3ebc3",
+    "width": 941,
+    "height": 1672
+  },
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "authorization": "الان با توجه به این نقشهٔ خانه ... همه‌شون رو باید چک کنی و دوباره بسازی و جایگزین کنی.",
+  "video_or_audio_generated": false,
+  "flow_generation_submitted": false,
+  "flow_credits_consumed": 0,
+  "cost": {
+    "builtin_price": "not_exposed"
+  }
+}

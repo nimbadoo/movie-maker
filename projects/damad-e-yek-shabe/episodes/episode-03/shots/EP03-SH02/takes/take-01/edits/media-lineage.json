@@ -1,0 +1,74 @@
+{
+  "shot": "EP03-SH02",
+  "take": "take-01",
+  "source_flow_asset_id": "1fd45b03-7db8-4f9b-a9a3-09896857defe",
+  "assets": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/video.mp4",
+      "sha256": "6ef1dcb00f0d4b0d8719d6a72e92c1ae7e51685028a3990a3c0a5938116e7082",
+      "bytes": 547530
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/source-audio.wav",
+      "sha256": "a95d382351a73727226008ee01f5a1c5a6bd019e83e32948360d70d052fde94b",
+      "bytes": 1155150
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/speech-source.wav",
+      "sha256": "2555f835f6338cfa0cd75ba47949aea84d27702592e67861f056473b4d7fe6e5",
+      "bytes": 499278
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/saman-seed-vc.wav",
+      "sha256": "20b955b3453840d42d4cb2ff690f7d1461da3e28575aae1baf28a28e4ac19611",
+      "bytes": 457808
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/converted-full-audio.wav",
+      "sha256": "05f89160b446dfe582e89c908f6d0fc8edc4b97cc2ce7f59c11ad29f1513ef96",
+      "bytes": 1732652
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/edits/EP03-SH02-review-v1.mp4",
+      "sha256": "9e59d4160793a0f2c9fee7f1535984e4723a123cf4fd8e2ed6026c1ab921b44b",
+      "bytes": 532191
+    }
+  ],
+  "voice_conversion": {
+    "method": "Seed-VC",
+    "reference": "projects/damad-e-yek-shabe/episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+    "reference_sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+    "seed": 42,
+    "steps": 30,
+    "length_adjust": 1.0,
+    "cfg": 0.7,
+    "source_range": [
+      0,
+      5.2
+    ],
+    "converted_duration_seconds": 5.189659863945578,
+    "peak": 0.4446336328983307,
+    "time_stretch": false,
+    "pitch_shift": false,
+    "boundary_crossfade_seconds": 0.05,
+    "original_ambience_after_conversion_window": true
+  },
+  "review_cut": {
+    "in": 0,
+    "out": "full6.02s source",
+    "video_stream_copy": true,
+    "no_content_hidden": true
+  },
+  "final_adoption": false,
+  "open_issues": [
+    "Nazli turns near lens from approximately2.2s onward; original gaze direction not maintained",
+    "Converted ASR recovers دعوتم correctly; actual vowels and performance still require listening",
+    "New converted Saman voice identity and actual lip sync need review"
+  ],
+  "review_status": "converted_audio_not_selected",
+  "reason_codes": [
+    "EYELINE_DRIFT_NAZLI",
+    "VOICE_AND_LIP_REVIEW_PENDING"
+  ],
+  "user_audio_choice": "original Flow audio with ambience"
+}

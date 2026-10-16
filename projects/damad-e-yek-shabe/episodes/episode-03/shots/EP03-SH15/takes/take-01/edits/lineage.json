@@ -1,0 +1,15 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "8aab081d750542af8623d4187b6007e81f07f95c3d427a4e952a2585900837b2",
+  "output": "EP03-SH15-review-v1.mp4",
+  "output_sha256": "c004e1923084f3f759689514450a835ce27f7465df794c4378a72e9e10715bb1",
+  "source_range_seconds": [
+    0,
+    1.0
+  ],
+  "video_frames": 24,
+  "video_fps": 24,
+  "operation": "Local trim, H264 CRF18; original audio content retained within range and AAC reencoded; no voice conversion, music insertion, silence or freeze",
+  "selection": "not_selected",
+  "reason": "Exclude early Farhad standing and later Saman lensward gaze; shortened action incomplete relative to full intended beat"
+}

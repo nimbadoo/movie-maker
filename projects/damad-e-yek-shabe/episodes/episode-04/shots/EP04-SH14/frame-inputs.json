@@ -1,0 +1,55 @@
+{
+  "shot": "EP04-SH14",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v4.png",
+      "sha256": "5e4993897e47a6385c3bd1cf39b29850a01f2ea1f225facac367e3fe52956fbd"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH02/images/EP04-SH02-start-v3.png",
+      "sha256": "dbd5637164e92395a438095e239ef8f00e9c2ef9a399d62fabeae780abcb7714"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH06/images/EP04-SH06-start-v1.png",
+      "sha256": "9c521130e5c7b40a3150cabe044be03f4c729c6b31d0b005736c2779ef7eac26"
+    }
+  ],
+  "requests": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH14/frame-request.txt",
+      "sha256": "e9e914ca0c101b5cc4dfd67973b9d3066c5282178836f52496534828f16cb1fd"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-final-correction-prompt.txt",
+      "sha256": "9299e45c3e9188ea844c1793d3c2993fe94db866ce1f829ca68fab572666a30a"
+    }
+  ],
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-start-v2.png",
+    "sha256": "d92979471024b05256b55e039f8f9d767d399371a9ac67bc1d7b6b1cf5ba932e",
+    "width": 941,
+    "height": 1672
+  },
+  "superseded_output": null,
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "authorization": "User accepted autonomous stage completion; stop only for new creative decision, unsolved contradiction or external credit cost",
+  "flow_credits_consumed": 0,
+  "video_or_audio_generated": false,
+  "camera": "کنار بیرونی فرهاد در شمال‌شرق، رو به دو صندلی در جنوب؛ همان سمت دوربین۱۵.",
+  "blocking": "سامان چپ و نازلی راست ایستاده کنار صندلی خود، شانه فرهاد نشسته پایین راست.",
+  "technical_note": "آشپزخانه و راهرو پشت دوربین، دیوار جنوب پشت جوان‌ها، تلویزیون چپ و پنجره راست. ارتفاع سر فرهادِ نشسته پایین‌تر از جوان‌هاست. نقش اشتباه دایره‌ای پیراهن سامان پیدا و به بافت شبکه‌ای مرجع اصلاح شد.",
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-79334fa5-be46-4739-8035-f303f34c9067.png",
+  "new_generation_calls": 2
+}

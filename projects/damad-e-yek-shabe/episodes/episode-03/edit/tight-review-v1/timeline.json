@@ -1,0 +1,416 @@
+{
+  "skill": "review-and-assemble",
+  "status": "user_accepted_final_episode_edit",
+  "data": {
+    "reviews": [
+      {
+        "shot_segment": "EP03-SH01",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH02",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH15",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/EP03-SH15-introduction-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH19",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/edits/EP03-SH19-assembled-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH03",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/takes/take-01/edits/EP03-SH03-invitation-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH04",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/edits/EP03-SH04-reply-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH20",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/takes/take-02/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH05",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH05/takes/take-01/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH06",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH06/takes/take-01/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH16",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/takes/take-01/edits/EP03-SH16-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH17",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/edits/EP03-SH17-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH07",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/takes/take-01/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH08",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH08/takes/take-01/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH09",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH09/takes/take-01/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH10",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH10/takes/take-01/video.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      },
+      {
+        "shot_segment": "EP03-SH11-SH14-SH18",
+        "media_asset": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/edit/section-11-18-v1/EP03-SH11-14-SH18-review-v1.mp4",
+        "decision": "selected",
+        "basis": "existing explicit user selection; new timing for review"
+      }
+    ],
+    "selected_takes": [
+      {
+        "shot": "EP03-SH01",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-review-v1.mp4",
+        "sha256": "57d35050a9fc813e24896c410df3c55f3ee54075fd1dc5b2eb215100a2881f0c"
+      },
+      {
+        "shot": "EP03-SH02",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/video.mp4",
+        "sha256": "6ef1dcb00f0d4b0d8719d6a72e92c1ae7e51685028a3990a3c0a5938116e7082"
+      },
+      {
+        "shot": "EP03-SH15",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/EP03-SH15-introduction-review-v1.mp4",
+        "sha256": "2f8fc550122b870094e1f44c44f9e1acd478162eec88e99f11db0a37b8614350"
+      },
+      {
+        "shot": "EP03-SH19",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/edits/EP03-SH19-assembled-review-v1.mp4",
+        "sha256": "778eb51433013e1b51b5c2df01fccd463a46fca3ad1205c84f87b631a8bfa3f4"
+      },
+      {
+        "shot": "EP03-SH03",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/takes/take-01/edits/EP03-SH03-invitation-review-v1.mp4",
+        "sha256": "a8c00edff117d8bbb3ca729ed15dd41d95d5db7c0e32eb693dddfe22c52f3d85"
+      },
+      {
+        "shot": "EP03-SH04",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/edits/EP03-SH04-reply-review-v1.mp4",
+        "sha256": "f3d96af149748ac3dee04a44c47184c652741af606d7f22989d4e459baf4ba8f"
+      },
+      {
+        "shot": "EP03-SH20",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/takes/take-02/video.mp4",
+        "sha256": "094c233b418f2ab1f5b69f8d7298ab86c55d93ff33a5a3e4ca12603b1d6ecdaa"
+      },
+      {
+        "shot": "EP03-SH05",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH05/takes/take-01/video.mp4",
+        "sha256": "b832c055d0ef235aac8a83806d75e02ae84d82d253b37a17b88d5171f6c1e725"
+      },
+      {
+        "shot": "EP03-SH06",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH06/takes/take-01/video.mp4",
+        "sha256": "37850c38273b7d7bc4ed219da53933605fab4de36b6aaaf72c447c88d4114cb1"
+      },
+      {
+        "shot": "EP03-SH16",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/takes/take-01/edits/EP03-SH16-review-v1.mp4",
+        "sha256": "1d0401f8117bf8981cb5a94890196e63128f9fb66887d5c6560c0d9759c88e22"
+      },
+      {
+        "shot": "EP03-SH17",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/edits/EP03-SH17-review-v1.mp4",
+        "sha256": "128d3929a046bf5559e342b44717463333ca2dcd954d66447197bb6d9b94c7ca"
+      },
+      {
+        "shot": "EP03-SH07",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/takes/take-01/video.mp4",
+        "sha256": "9bafa79bbaa9fb2cf7d1ca134ed4c8b78a13a920e04ca55ec1d396dec12e7da6"
+      },
+      {
+        "shot": "EP03-SH08",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH08/takes/take-01/video.mp4",
+        "sha256": "e8caac725d73ac08476f98bacf39534e9c8a6fba85e889f58247343c268c8493"
+      },
+      {
+        "shot": "EP03-SH09",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH09/takes/take-01/video.mp4",
+        "sha256": "55eabc2da476b65462c367dd0f9fe2cf29e7fce09c0d09facd3b3be0f11dd806"
+      },
+      {
+        "shot": "EP03-SH10",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH10/takes/take-01/video.mp4",
+        "sha256": "3fae7ff9f54a6940888b00aa23f9ee02ad4736eb91e469d177cf58133f58f29b"
+      },
+      {
+        "shot": "EP03-SH11-SH14-SH18",
+        "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/edit/section-11-18-v1/EP03-SH11-14-SH18-review-v1.mp4",
+        "sha256": "75eb381dae968e3f16fe1655e7ad4de2239f965549ca61c7430393615e20cba1"
+      }
+    ],
+    "timeline": [
+      {
+        "shot": "EP03-SH01",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/EP03-SH01-review-v1.mp4",
+        "sha256": "57d35050a9fc813e24896c410df3c55f3ee54075fd1dc5b2eb215100a2881f0c",
+        "source_in": 0.375,
+        "source_out": 6.125,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 0,
+        "timeline_out": 5.75
+      },
+      {
+        "shot": "EP03-SH02",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/takes/take-01/video.mp4",
+        "sha256": "6ef1dcb00f0d4b0d8719d6a72e92c1ae7e51685028a3990a3c0a5938116e7082",
+        "source_in": 1.0833333333333333,
+        "source_out": 5.083333333333333,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 5.75,
+        "timeline_out": 9.75
+      },
+      {
+        "shot": "EP03-SH15",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/EP03-SH15-introduction-review-v1.mp4",
+        "sha256": "2f8fc550122b870094e1f44c44f9e1acd478162eec88e99f11db0a37b8614350",
+        "source_in": 0.0,
+        "source_out": 5.083333333333333,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 9.75,
+        "timeline_out": 14.833333333333332
+      },
+      {
+        "shot": "EP03-SH19",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH19/takes/take-02/edits/EP03-SH19-assembled-review-v1.mp4",
+        "sha256": "778eb51433013e1b51b5c2df01fccd463a46fca3ad1205c84f87b631a8bfa3f4",
+        "source_in": 0.5,
+        "source_out": 7.416666666666667,
+        "reason": "Preserve rise, hand contact, release and both lines; remove only initial idle",
+        "timeline_in": 14.833333333333332,
+        "timeline_out": 21.75
+      },
+      {
+        "shot": "EP03-SH03",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH03/takes/take-01/edits/EP03-SH03-invitation-review-v1.mp4",
+        "sha256": "a8c00edff117d8bbb3ca729ed15dd41d95d5db7c0e32eb693dddfe22c52f3d85",
+        "source_in": 0.375,
+        "source_out": 7.166666666666667,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 21.75,
+        "timeline_out": 28.541666666666668
+      },
+      {
+        "shot": "EP03-SH04",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH04/takes/take-02/edits/EP03-SH04-reply-review-v1.mp4",
+        "sha256": "f3d96af149748ac3dee04a44c47184c652741af606d7f22989d4e459baf4ba8f",
+        "source_in": 0.375,
+        "source_out": 2.9166666666666665,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 28.541666666666668,
+        "timeline_out": 31.083333333333336
+      },
+      {
+        "shot": "EP03-SH20",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/takes/take-02/video.mp4",
+        "sha256": "094c233b418f2ab1f5b69f8d7298ab86c55d93ff33a5a3e4ca12603b1d6ecdaa",
+        "source_in": 0.7083333333333334,
+        "source_out": 3.75,
+        "reason": "Enter as sitting begins; exit after all seated, removing settled hold",
+        "timeline_in": 31.083333333333336,
+        "timeline_out": 34.125
+      },
+      {
+        "shot": "EP03-SH05",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH05/takes/take-01/video.mp4",
+        "sha256": "b832c055d0ef235aac8a83806d75e02ae84d82d253b37a17b88d5171f6c1e725",
+        "source_in": 0.375,
+        "source_out": 5.5,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 34.125,
+        "timeline_out": 39.25
+      },
+      {
+        "shot": "EP03-SH06",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH06/takes/take-01/video.mp4",
+        "sha256": "37850c38273b7d7bc4ed219da53933605fab4de36b6aaaf72c447c88d4114cb1",
+        "source_in": 0.25,
+        "source_out": 5.666666666666667,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 39.25,
+        "timeline_out": 44.666666666666664
+      },
+      {
+        "shot": "EP03-SH16",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH16/takes/take-01/edits/EP03-SH16-review-v1.mp4",
+        "sha256": "1d0401f8117bf8981cb5a94890196e63128f9fb66887d5c6560c0d9759c88e22",
+        "source_in": 0.25,
+        "source_out": 1.9583333333333333,
+        "reason": "Preserve approach and lowering tray; remove brief initial hold",
+        "timeline_in": 44.666666666666664,
+        "timeline_out": 46.375
+      },
+      {
+        "shot": "EP03-SH17",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/takes/take-01/edits/EP03-SH17-review-v1.mp4",
+        "sha256": "128d3929a046bf5559e342b44717463333ca2dcd954d66447197bb6d9b94c7ca",
+        "source_in": 0.4166666666666667,
+        "source_out": 3.25,
+        "reason": "Preserve descent, saucer contact and finger release; remove holds",
+        "timeline_in": 46.375,
+        "timeline_out": 49.208333333333336
+      },
+      {
+        "shot": "EP03-SH07",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/takes/take-01/video.mp4",
+        "sha256": "9bafa79bbaa9fb2cf7d1ca134ed4c8b78a13a920e04ca55ec1d396dec12e7da6",
+        "source_in": 1.0,
+        "source_out": 3.875,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 49.208333333333336,
+        "timeline_out": 52.083333333333336
+      },
+      {
+        "shot": "EP03-SH08",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH08/takes/take-01/video.mp4",
+        "sha256": "e8caac725d73ac08476f98bacf39534e9c8a6fba85e889f58247343c268c8493",
+        "source_in": 1.0,
+        "source_out": 3.5833333333333335,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 52.083333333333336,
+        "timeline_out": 54.66666666666667
+      },
+      {
+        "shot": "EP03-SH09",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH09/takes/take-01/video.mp4",
+        "sha256": "55eabc2da476b65462c367dd0f9fe2cf29e7fce09c0d09facd3b3be0f11dd806",
+        "source_in": 0.375,
+        "source_out": 5.833333333333333,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 54.66666666666667,
+        "timeline_out": 60.12500000000001
+      },
+      {
+        "shot": "EP03-SH10",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH10/takes/take-01/video.mp4",
+        "sha256": "3fae7ff9f54a6940888b00aa23f9ee02ad4736eb91e469d177cf58133f58f29b",
+        "source_in": 0.375,
+        "source_out": 4.0,
+        "reason": "Trim external low-level margins only; retain complete continuous dialogue and natural internal pauses",
+        "timeline_in": 60.12500000000001,
+        "timeline_out": 63.75000000000001
+      },
+      {
+        "shot": "EP03-SH11-SH14-SH18",
+        "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/edit/section-11-18-v1/EP03-SH11-14-SH18-review-v1.mp4",
+        "sha256": "75eb381dae968e3f16fe1655e7ad4de2239f965549ca61c7430393615e20cba1",
+        "source_in": 0,
+        "source_out": 15.458333333333334,
+        "reason": "Whole accepted final section; picture timing and audio edit unchanged",
+        "nested_timeline": "../section-11-18-v1/timeline.json",
+        "timeline_in": 63.75000000000001,
+        "timeline_out": 79.20833333333334
+      }
+    ],
+    "quality_control": {
+      "ready": false,
+      "decode_passed": true,
+      "source_hashes_verified": true,
+      "duration_seconds": 79.20833333333334,
+      "previous_duration_seconds": 92.43,
+      "saved_seconds": 13.221666666666664,
+      "external_credits": 0,
+      "speech_speed": 1,
+      "internal_dialogue_cuts": 0,
+      "final_section_editorial_preserved": true,
+      "independent_listening": false,
+      "continuous_playback": false,
+      "open_issues": [
+        "Accepted source gaze/prosody limitations retained",
+        "Speech boundaries checked by timing/energy and ASR, not independent listening"
+      ],
+      "final_section_audio_correlation": 0.9999212711134224,
+      "cut_sample_times": [
+        5.625,
+        5.875,
+        9.625,
+        9.875,
+        14.708333333333332,
+        14.958333333333332,
+        21.625,
+        21.875,
+        28.416666666666668,
+        28.666666666666668,
+        30.958333333333336,
+        31.208333333333336,
+        34.0,
+        34.25,
+        39.125,
+        39.375,
+        44.541666666666664,
+        44.791666666666664,
+        46.25,
+        46.5,
+        49.083333333333336,
+        49.333333333333336,
+        51.958333333333336,
+        52.208333333333336,
+        54.54166666666667,
+        54.79166666666667,
+        60.00000000000001,
+        60.25000000000001,
+        63.62500000000001,
+        63.87500000000001
+      ],
+      "actual_cut_frames_seen": 30,
+      "source_action_samples_seen": true,
+      "machine_dialogue_coverage": "All original spoken turns present in final transcript; no internal dialogue edit; ASR hallucinations in silent tail ignored",
+      "visual_result": "Tray approach, saucer placement and release retained; seated settling shortened after completion; no missing/black cut in sampled frames",
+      "user_final_edit_acceptance": true
+    },
+    "export_manifest": "../final-v1/manifest.json"
+  },
+  "output": {
+    "path": "EP03-tight-review-v1.mp4",
+    "sha256": "d7202ac012c5d50f1e790d7aae4b6b402d719a9a0b1ccfbe3630cfd67b6ca597",
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/edit/tight-review-v1/EP03-tight-review-v1.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.7.100\n  Duration: 00:01:19.21, start: 0.000000, bitrate: 930 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1, progressive), 360x640 [SAR 1:1 DAR 9:16], 731 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.19.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n"
+  },
+  "user_acceptance": {
+    "reply": "خب پس همین نسخهٔ یک دقیقه و نوزده ثانیه‌ای رو تأیید می‌کنم. خروجی نهایی قسمت سوم رو آماده کن، فعلاً منتشر نکن.",
+    "sha256": "d7202ac012c5d50f1e790d7aae4b6b402d719a9a0b1ccfbe3630cfd67b6ca597",
+    "publication_authorized": false
+  }
+}

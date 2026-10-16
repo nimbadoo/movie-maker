@@ -1,0 +1,197 @@
+{
+  "method": "local ASR; not human listening or voice identity verification",
+  "results": {
+    "reference": {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-01/shots/EP01-SH02/audio/EP01-SH02-voice-candidate-v1.wav",
+      "duration_seconds": 3.536,
+      "transcription": {
+        "text": " چایی رو بذار، بشین حرف بزنین",
+        "segments": [
+          {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 3.02,
+            "text": " چایی رو بذار، بشین حرف بزنین",
+            "tokens": [
+              50365,
+              34766,
+              995,
+              4135,
+              4135,
+              12602,
+              2407,
+              4724,
+              8848,
+              9640,
+              12399,
+              4724,
+              8592,
+              32151,
+              11331,
+              28480,
+              4724,
+              11622,
+              1863,
+              32151,
+              50519
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.12485887787558815,
+            "compression_ratio": 0.9444444444444444,
+            "no_speech_prob": 8.663119527296814e-11,
+            "words": [
+              {
+                "word": " چایی",
+                "start": 0.0,
+                "end": 0.62,
+                "probability": 0.9755859375
+              },
+              {
+                "word": " رو",
+                "start": 0.62,
+                "end": 0.74,
+                "probability": 0.9912109375
+              },
+              {
+                "word": " بذار،",
+                "start": 0.74,
+                "end": 1.46,
+                "probability": 0.853515625
+              },
+              {
+                "word": " بشین",
+                "start": 1.46,
+                "end": 2.12,
+                "probability": 0.98876953125
+              },
+              {
+                "word": " حرف",
+                "start": 2.12,
+                "end": 2.44,
+                "probability": 0.9970703125
+              },
+              {
+                "word": " بزنین",
+                "start": 2.44,
+                "end": 3.02,
+                "probability": 0.98046875
+              }
+            ]
+          }
+        ],
+        "language": "fa"
+      }
+    },
+    "converted": {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/audio/voice-lock-test/mother-converted-v1.wav",
+      "duration_seconds": 4.0055,
+      "transcription": {
+        "text": " اه آقا سامان شما که همسایی طبقه بالای فیران",
+        "segments": [
+          {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 3.98,
+            "text": " اه آقا سامان شما که همسایی طبقه بالای فیران",
+            "tokens": [
+              50365,
+              1975,
+              3224,
+              19753,
+              4587,
+              995,
+              8608,
+              10943,
+              7649,
+              13412,
+              15042,
+              7565,
+              3224,
+              8032,
+              2304,
+              3794,
+              995,
+              4135,
+              4135,
+              23032,
+              3555,
+              4587,
+              3224,
+              20666,
+              995,
+              4135,
+              6156,
+              4135,
+              2288,
+              7649,
+              50578
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.3322579264640808,
+            "compression_ratio": 1.0833333333333333,
+            "no_speech_prob": 1.14946260842963e-10,
+            "words": [
+              {
+                "word": " اه",
+                "start": 0.0,
+                "end": 0.4,
+                "probability": 0.94580078125
+              },
+              {
+                "word": " آقا",
+                "start": 0.4,
+                "end": 0.98,
+                "probability": 0.86572265625
+              },
+              {
+                "word": " سامان",
+                "start": 0.98,
+                "end": 1.54,
+                "probability": 0.99267578125
+              },
+              {
+                "word": " شما",
+                "start": 1.54,
+                "end": 2.44,
+                "probability": 0.95068359375
+              },
+              {
+                "word": " که",
+                "start": 2.44,
+                "end": 2.62,
+                "probability": 0.99267578125
+              },
+              {
+                "word": " همسایی",
+                "start": 2.62,
+                "end": 3.14,
+                "probability": 0.96630859375
+              },
+              {
+                "word": " طبقه",
+                "start": 3.14,
+                "end": 3.58,
+                "probability": 0.97900390625
+              },
+              {
+                "word": " بالای",
+                "start": 3.58,
+                "end": 3.74,
+                "probability": 0.978515625
+              },
+              {
+                "word": " فیران",
+                "start": 3.74,
+                "end": 3.98,
+                "probability": 0.236572265625
+              }
+            ]
+          }
+        ],
+        "language": "fa"
+      }
+    }
+  }
+}

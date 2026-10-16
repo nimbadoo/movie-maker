@@ -1,0 +1,11 @@
+{
+  "source": "takes/take-01/edits/v2/part-01.mp4",
+  "duration": 0.766341,
+  "decoded_video_frames": 22,
+  "decoded_audio_frames": 36,
+  "source_in": 0.508,
+  "source_out": 1.272,
+  "method": "Exact file copy of existing first segment; second phrase excluded",
+  "episode_assembly_changed": false,
+  "paid_actions": 0
+}

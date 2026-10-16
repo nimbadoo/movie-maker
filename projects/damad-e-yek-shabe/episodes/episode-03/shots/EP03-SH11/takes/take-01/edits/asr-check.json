@@ -1,0 +1,84 @@
+{
+  "text": " مامان، فعلا داریم همدیگر رو میشناسیم",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.68,
+      "text": " مامان، فعلا داریم همدیگر رو میشناسیم",
+      "tokens": [
+        50365,
+        3714,
+        10943,
+        7649,
+        12399,
+        6156,
+        3615,
+        15040,
+        11778,
+        9640,
+        4135,
+        2304,
+        8032,
+        2304,
+        3215,
+        4135,
+        16761,
+        2288,
+        12602,
+        2407,
+        48478,
+        8592,
+        8315,
+        3794,
+        4135,
+        2304,
+        50599
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.15747501168932235,
+      "compression_ratio": 1.0151515151515151,
+      "no_speech_prob": 9.046065979623208e-11,
+      "words": [
+        {
+          "word": " مامان،",
+          "start": 0.0,
+          "end": 2.14,
+          "probability": 0.94140625
+        },
+        {
+          "word": " فعلا",
+          "start": 2.14,
+          "end": 2.94,
+          "probability": 0.9619140625
+        },
+        {
+          "word": " داریم",
+          "start": 2.94,
+          "end": 3.3,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " همدیگر",
+          "start": 3.3,
+          "end": 3.82,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " رو",
+          "start": 3.82,
+          "end": 3.92,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " میشناسیم",
+          "start": 3.92,
+          "end": 4.68,
+          "probability": 0.98388671875
+        }
+      ]
+    }
+  ],
+  "limitation": "ASR may hallucinate on silent clips; no auditory review; not proof of absence of speech or music"
+}

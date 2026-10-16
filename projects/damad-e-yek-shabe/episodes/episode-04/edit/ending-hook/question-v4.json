@@ -1,0 +1,16 @@
+{
+  "status": "user_approved_ending_overlay",
+  "revision": "User requested large centered ending text",
+  "source": "EP04-with-hook-v2.mp4",
+  "output": "EP04-with-hook-v4.mp4",
+  "sha256": "36c74e2a7859afbf50a02616d9d765b959514a32bcb520f4dbcff20c5b22e1fe",
+  "font_size": 34,
+  "alignment": "center",
+  "lines": 3,
+  "seconds": 68.54166666666667,
+  "audio_stream_copied": true,
+  "complete_decode": true,
+  "external_cost": 0,
+  "visual_review": "Viewed actual rendered frame at66.5: large centered three-line text; faces clear, readable against clothing and room.",
+  "approval_evidence": "User selected همین ظاهر تأیید است"
+}

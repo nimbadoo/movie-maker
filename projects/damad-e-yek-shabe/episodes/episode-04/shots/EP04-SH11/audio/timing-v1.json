@@ -1,0 +1,20 @@
+{
+  "source": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-04/shots/EP04-SH11/audio/EP04-D11-user-timing-v1.m4a",
+  "sha256": "90bd3bb4b48ed9492ecfeb7bebd92320f38e78ed708233aaef2fe9617376430b",
+  "container_seconds": 3.84,
+  "decoded_seconds": 3.796,
+  "sample_rate": 48000,
+  "channels": 1,
+  "method": "ffmpeg silencedetect -45dB d0.15; offline mlx whisper turbo fa temperature0 no initial prompt",
+  "activity_start": 0.873896,
+  "activity_end": 2.757396,
+  "asr_end": 2.86,
+  "internal_pause_seconds": 0.790708,
+  "conservative_speech_span": 1.9861039999999999,
+  "head_tail_margin": 0.4,
+  "turn_allowance": 0.5,
+  "required_seconds": 2.886104,
+  "edit_target": 3,
+  "listening_claimed": false,
+  "source_cleanup_note": "Duplicate root baham.m4a removed after byte-identical comparison; canonical shot-owned source retained."
+}

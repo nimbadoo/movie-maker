@@ -1,0 +1,34 @@
+{
+  "skill": "review-and-assemble",
+  "decision": "selected",
+  "partially_reviewed": true,
+  "selected_takes": [
+    {
+      "shot": "EP03-SH18",
+      "take": "take-01",
+      "media": "edits/review-silent-0.95s.mp4",
+      "sha256": "5c31db1a08ac2dcbf8e83a5921004466d30a7ed405cb0f3d23a0c016c7470b67",
+      "source_range_seconds": [
+        0,
+        0.95
+      ],
+      "audio_tracks": 0
+    }
+  ],
+  "timeline": [],
+  "qc": {
+    "ready": false,
+    "decode": "passed",
+    "visual_samples": 32,
+    "sampling_interval_seconds": 0.125,
+    "continuous_playback_review": false,
+    "preview_audio_tracks": 0,
+    "open_issues": [
+      "Requested eye shift is not clearly readable",
+      "Source introduces Saman face around one second; preview ends before this intrusion"
+    ],
+    "known_limitations_accepted_by_user": true
+  },
+  "export": null,
+  "user_evidence": "تأیید همین مکث کوتاه برای تدوین"
+}

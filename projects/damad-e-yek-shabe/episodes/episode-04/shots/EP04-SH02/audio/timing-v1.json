@@ -1,0 +1,14 @@
+{
+  "source": "episodes/episode-04/dialogs-input/02.m4a",
+  "sha256": "36733ccdd003d3370e68dd3008a86cc5035e91ce62925da38a1dbfa73809b3ea",
+  "method": "ffmpeg silencedetect -45dB d0.15 plus offline whisper turbo fa word timestamps; no listening claim",
+  "activity_start": 0.305563,
+  "conservative_asr_end": 2.52,
+  "speech_span_with_pauses": 2.214437,
+  "margins": 0.4,
+  "action_allowance": 0,
+  "required_seconds": 2.614437,
+  "edit_target": 3.5,
+  "asr": " نه، فیلن چیزی به مادرت نگو",
+  "asr_is_not_canonical_dialogue": true
+}

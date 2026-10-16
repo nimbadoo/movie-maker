@@ -1,0 +1,51 @@
+{
+  "shot": "EP04-SH05",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "tool_calls": 2,
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0",
+      "role": "shared_house_geometry"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH02/images/EP04-SH02-start-v3.png",
+      "sha256": "dbd5637164e92395a438095e239ef8f00e9c2ef9a399d62fabeae780abcb7714",
+      "role": "nazli_identity_costume"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-start-v3.png",
+      "sha256": "591f8afd0c3007829762ce069383950510c31c9b08374a492c96003653494a70",
+      "role": "saman_identity_costume"
+    }
+  ],
+  "requests": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-initial-prompt.txt",
+      "sha256": "3120ea3093760717eafb804191d469d7179d9b13a7c5769fc035a2ed10e1d6b0"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-edit-prompt.txt",
+      "sha256": "dcd54b5fd59d1b3cb65881a39957fc77eb46592b5da7722a43d60f13c5cf1907"
+    }
+  ],
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-start-v2.png",
+    "sha256": "80bdbd89384cece4b3e68d8ec64e3dbd05b84e0b5a5e7c1291180cf46af17610",
+    "width": 941,
+    "height": 1672
+  },
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-81551508-07fd-473b-bbf4-7612a7146afb.png",
+  "initial_rejection": "invented_kitchen_window_removed_by_targeted_edit",
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "video_or_audio_generated": false,
+  "flow_credits_consumed": 0,
+  "builtin_price": "not_exposed"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "user_approved_title",
+  "source": "EP04-with-recap-v3.mp4",
+  "output": "EP04-with-recap-v4.mp4",
+  "sha256": "d786e5d380c88ad4dbc8d19ceec61c317d4fba1e65f91d242796738d79e6d00c",
+  "title": "قسمت چهارم",
+  "start_seconds": 8.92,
+  "end_seconds": 10.92,
+  "fade_out_ms": 500,
+  "duration_seconds": 66.70833333333333,
+  "frames": 1601,
+  "audio": "copied without re-encoding",
+  "external_cost": 0,
+  "complete_decode": true,
+  "visual_review": "Viewed last recap frame, title appearance, full title, fade-out and post-title frame. Persian text legible above face, no overlap.",
+  "approval_evidence": "User selected عنوان تأیید است",
+  "approval_scope": "Two-second title overlay in v4; not full episode or publication approval"
+}

@@ -1,0 +1,11 @@
+{
+  "appearance_version": "appearance-v1",
+  "sha256": {
+    "episodes/episode-03/shots/EP03-SH16/images/EP03-SH16-tea-return-spacing-v4.png": "c7568bd87e6939dca3569e0508bd932a94738a823e0a23e8aa50792aa0906edb",
+    "episodes/episode-03/references/EP03-continuation-storyboard-v2.png": "c99a587e88ff97d5b29a64e5ebf8a342b63c45c1a856a0677e9338951ce28051",
+    "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4",
+    "episodes/episode-02/references/01-saman-portrait-v1.png": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621",
+    "episodes/episode-03/shots/EP03-SH16/images/EP03-SH16-tea-return-spacing-v5.png": "339a336f622fe85f787133382af5e382f01cf7dccfffb257c42b26e8edacba6b"
+  },
+  "scope": "still-image review; no video submission"
+}

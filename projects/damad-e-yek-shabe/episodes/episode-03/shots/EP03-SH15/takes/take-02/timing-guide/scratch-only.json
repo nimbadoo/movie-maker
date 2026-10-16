@@ -1,0 +1,11 @@
+{
+  "method": "local espeak-ng Persian synthetic timing rehearsal",
+  "text": "خُوش اومَدین. ایشون فَرهاد، پِسَرِ خواهرَم.",
+  "wpm_setting": 165,
+  "duration_seconds": 4.009387755102041,
+  "production_audio": false,
+  "natural_acting_verified": false,
+  "external_credits": 0,
+  "chosen_provider_seconds": 6,
+  "reason": "4sec timing rehearsal leaves no start/end margin in4sec option;6sec next available"
+}

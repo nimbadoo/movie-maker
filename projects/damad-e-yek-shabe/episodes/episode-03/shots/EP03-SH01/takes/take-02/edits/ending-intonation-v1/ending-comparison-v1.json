@@ -1,0 +1,47 @@
+{
+  "order": [
+    "original",
+    "local_question_edit"
+  ],
+  "source_range_seconds": [
+    4.08,
+    6.1
+  ],
+  "separator_silence_seconds": 0.65,
+  "output_duration_seconds": 4.69,
+  "gain_change": false,
+  "speed_change": false,
+  "sample_exact_copy_verified": true,
+  "inputs": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/source-audio.wav",
+      "sha256": "95caa9790e6b360bf1d48fa1c829d33c21c8113f785884886f1d7aa95dd3fa5b"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/ending-intonation-v1/mother-original-ending-question-v1.wav",
+      "sha256": "92666ada8fcac036d43863eca1955312964fe0394dae0c40f082227dfead66dd"
+    }
+  ],
+  "output": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-02/edits/ending-intonation-v1/mother-ending-original-then-question-v1.wav",
+    "sha256": "12e1fdf122f7efab71ff8a1c0aa9dad720f2cf55a696aa9314b50cd2e1976035"
+  },
+  "timeline": [
+    {
+      "label": "original",
+      "start": 0,
+      "end": 2.0199999999999996
+    },
+    {
+      "label": "silence",
+      "start": 2.0199999999999996,
+      "end": 2.6699999999999995
+    },
+    {
+      "label": "question_edit",
+      "start": 2.6699999999999995,
+      "end": 4.6899999999999995
+    }
+  ],
+  "external_credits": 0
+}

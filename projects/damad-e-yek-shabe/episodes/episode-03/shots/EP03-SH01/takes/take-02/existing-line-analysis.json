@@ -1,0 +1,116 @@
+{
+  "source": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-01/video.mp4",
+  "source_sha256": "9c1d0b9fa4041f4c47d6b7bd4b018b8865eeb9e662b2e876811fc76930dc6783",
+  "method": "local mlx-whisper turbo ASR; not human listening",
+  "decoded_audio_seconds": 4.0106875,
+  "transcription": " اه، آقا سامان، شما که همسایی طبقه بالای مالیدید،",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.98,
+      "text": " اه، آقا سامان، شما که همسایی طبقه بالای مالیدید،",
+      "tokens": [
+        50365,
+        1975,
+        3224,
+        12399,
+        19753,
+        4587,
+        995,
+        8608,
+        10943,
+        7649,
+        12399,
+        13412,
+        15042,
+        7565,
+        3224,
+        8032,
+        2304,
+        3794,
+        995,
+        4135,
+        4135,
+        23032,
+        3555,
+        4587,
+        3224,
+        20666,
+        995,
+        4135,
+        3714,
+        6027,
+        4135,
+        3215,
+        4135,
+        3215,
+        12399,
+        50565
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.39866473223711996,
+      "compression_ratio": 1.1578947368421053,
+      "no_speech_prob": 2.0515182608260574e-10,
+      "words": [
+        {
+          "word": " اه،",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.8466796875
+        },
+        {
+          "word": " آقا",
+          "start": 0.66,
+          "end": 0.98,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " سامان،",
+          "start": 0.98,
+          "end": 1.86,
+          "probability": 0.9443359375
+        },
+        {
+          "word": " شما",
+          "start": 1.86,
+          "end": 2.46,
+          "probability": 1.0
+        },
+        {
+          "word": " که",
+          "start": 2.46,
+          "end": 2.62,
+          "probability": 1.0
+        },
+        {
+          "word": " همسایی",
+          "start": 2.62,
+          "end": 3.14,
+          "probability": 0.92724609375
+        },
+        {
+          "word": " طبقه",
+          "start": 3.14,
+          "end": 3.58,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " بالای",
+          "start": 3.58,
+          "end": 3.74,
+          "probability": 0.98828125
+        },
+        {
+          "word": " مالیدید،",
+          "start": 3.74,
+          "end": 3.98,
+          "probability": 0.287841796875
+        }
+      ]
+    }
+  ],
+  "original_unchanged": true,
+  "voice_identity_match_verified": false
+}

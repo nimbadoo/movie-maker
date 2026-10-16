@@ -1,0 +1,70 @@
+{
+  "skill": "compile-generation-prompts",
+  "request_id": "EP04-SH01-take-01-v1",
+  "bundle_sha256": "2f050df7e09403c54716070a9167c33eb9233ee34ed36fcca834ac1a663bfdca",
+  "status": "succeeded_pending_user_review",
+  "submitted": true,
+  "data": {
+    "shot_ir": {
+      "shot": "EP04-SH01",
+      "beat": "answer_to_mother",
+      "assets": [
+        "CH-SAM",
+        "CH-NAZ",
+        "CH-FAR"
+      ],
+      "edit_target_seconds": 2.5
+    },
+    "storyboard_frames": [
+      {
+        "path": "images/EP04-SH01-start-v3.png",
+        "sha256": "591f8afd0c3007829762ce069383950510c31c9b08374a492c96003653494a70"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "id": "EP04-SH01-take-01-v1",
+        "segment": "EP04-SH01",
+        "beat": "answer_to_mother",
+        "assets": [
+          "CH-SAM",
+          "CH-NAZ",
+          "CH-FAR"
+        ],
+        "prompt_file": "prompt.txt",
+        "prompt_sha256": "0d66b0f2b6c91d7b4ba18317141839ffeba32ec3d086502f5d7de80f71e2fed5"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow UI",
+        "settings": {
+          "model": "Omni 1.1 Flash",
+          "seconds": 8,
+          "quality": "360p",
+          "aspect_ratio": "9:16",
+          "audio": true,
+          "outputs": 1,
+          "mode": "Frames",
+          "first_frame_only": true
+        },
+        "cost": {
+          "unit": "Flow credits",
+          "per_attempt": 6,
+          "attempts": 1,
+          "ceiling": 6,
+          "price_source": "Live UI flow-cost-check-v1.jpg and current pre-submit UI",
+          "verified_at": "2026-10-15T20:58:18.853369+00:00"
+        },
+        "input_roles": {
+          "images/EP04-SH01-start-v3.png": "first_frame"
+        }
+      }
+    ],
+    "quality_gate": {
+      "preparation_passed": true,
+      "submission_authorized": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "08227dcae9ee9373edad76fcdd7fdc01e82ad8681fe80b5e28127ca39a342762",
+  "output": "EP04-SH09-review-cut-v1.mp4",
+  "output_sha256": "8a36239aee17dfa15119f5e72724c934d2fb18c235b6585d2c814d68cd7f6b3a",
+  "source_range": [
+    0.875,
+    4.375
+  ],
+  "source_frames": [
+    21,
+    105
+  ],
+  "source_audio_samples": [
+    42000,
+    210000
+  ],
+  "seconds": 3.5,
+  "frames": 84,
+  "fps": 24,
+  "internal_cut": false,
+  "speed_change": false,
+  "voice_conversion": false,
+  "external_credit_cost": 0,
+  "user_accepted": false
+}

@@ -1,0 +1,32 @@
+{
+  "shot": "EP03-SH07",
+  "status": "accepted_for_continuation",
+  "tool": "image_gen",
+  "source": "/Users/hrmohseni/.codex/generated_images/01a13b59-b333-7783-b775-93d5492f7c81/exec-e7b7de9f-8441-4111-8c4b-7986f9ac259b.png",
+  "image_sha256": "b71eae9bc2858b33003f3a27345045192d8908083e4d0faf58c9f24512e06e00",
+  "prompt_file": "EP03-SH07-seated-after-tea-v4-prompt.txt",
+  "references": [
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH07/images/EP03-SH07-seated-after-tea-v3.png",
+      "sha256": "e4e2966041a190137156725eb02a7e465c4d9633dcee7ec89a0fe2a0c096dc4d"
+    },
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH17/images/EP03-SH17-serving-close-v4.png",
+      "sha256": "e5e237c9fb88dc266727bc87eae7ebbba5144a832071c873eb036b8351cde9af"
+    },
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    {
+      "path": "/Users/hrmohseni/dev/movie-maker/projects/damad-e-yek-shabe/episodes/episode-02/references/01-saman-portrait-v1.png",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    }
+  ],
+  "scope": "saucer pattern",
+  "user_approval": {
+    "date": "2026-10-15",
+    "evidence": "مرحله بعد رو بریم",
+    "scope": "still frame continuation only"
+  }
+}

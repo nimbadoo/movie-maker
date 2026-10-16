@@ -1,0 +1,94 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH15",
+  "take": "take-02",
+  "request_id": "EP03-SH15-take-02",
+  "idempotency_key": "EP03-SH15-take-02-ae77d28872f43cb53944bef790aa3583cf1fad32e9b6b0e8ca3dc0655ac7ca18",
+  "bundle_sha256": "ae77d28872f43cb53944bef790aa3583cf1fad32e9b6b0e8ca3dc0655ac7ca18",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T15:43:06.680348+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 5,
+    "ceiling": 5,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "provider_job_id": "9318297f-337d-4793-8de0-77df172c49d9",
+  "completed_at": "2026-10-15T15:47:29.427506+00:00",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH15-take-02-attempt-1",
+        "compiled_request": "review-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH15-take-02-ae77d28872f43cb53944bef790aa3583cf1fad32e9b6b0e8ca3dc0655ac7ca18",
+        "state": "succeeded",
+        "provider_job_id": "9318297f-337d-4793-8de0-77df172c49d9"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/video.mp4",
+        "sha256": "7a4b3b8d53c6e23399320ab3a0b2de0d1020f0af04c4db1fdc2b887ef691aece",
+        "bytes": 1076834,
+        "producing_job": "EP03-SH15-take-02-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/EP03-SH15-introduction-review-v1.mp4",
+        "sha256": "2f8fc550122b870094e1f44c44f9e1acd478162eec88e99f11db0a37b8614350",
+        "bytes": 835154,
+        "producing_job": "EP03-SH15-take-02-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/source-audio.wav",
+        "sha256": "0231dfcea209f6a30a3353685b2565cd8939a0179fe816d937fdfff3be6027e3",
+        "bytes": 1155150,
+        "producing_job": "EP03-SH15-take-02-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 5,
+      "approved_ceiling": 5,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_edit_credits": 0
+    },
+    "execution_gate": {
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  },
+  "request": {
+    "take": "take-02",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH15-guided-entry-house-v1.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 6,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "price_source": "Live IAB settings6s360p x1 shows5credits",
+      "verified_at": "2026-10-15T15:42:00.512767+00:00"
+    }
+  }
+}

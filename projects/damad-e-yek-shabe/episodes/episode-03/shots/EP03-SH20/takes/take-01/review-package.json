@@ -1,0 +1,60 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH20",
+  "take": "take-01",
+  "status": "generated_rejected_third_chair",
+  "ready": false,
+  "submitted": true,
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/images/EP03-SH20-before-sitting-house-v3.png",
+    "sha256": "6d7d53a443a3e3d65292da8dc30d6d4b82b59f4c2a478c58476bbdadfd1208c7",
+    "role": "standing_guest_before_sitting"
+  },
+  "prompt_sha256": "fd3f5c43ced4c83efff090074cfd970e77a5d4a5a2ba7efe79d073c066655bf6",
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 4,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "source": "Live IAB4sec360p x1 settings",
+      "verified_at": "2026-10-15T18:53:57.330498+00:00"
+    }
+  },
+  "dialogue": null,
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 4,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "477cdbfa208ccaf3b4e28246e1b902bf1be49046a962a51fd5cd3377621d1098"
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "477cdbfa208ccaf3b4e28246e1b902bf1be49046a962a51fd5cd3377621d1098"
+  },
+  "open_issues": [
+    "Third armchair appears behind Saman while original two chairs remain",
+    "User changed blocking to all3 sit together; old guest-first prompt obsolete"
+  ],
+  "editorial_elision": "Nazli kitchen walk and Saman approach omitted by cut; only physical sitting generated",
+  "image_lineage": {
+    "sources": [
+      "images/EP03-SH20-guest-seated-v2.png",
+      "../EP03-SH03/images/EP03-SH03-chair-invite-house-v5.png"
+    ],
+    "generated": "exec-51113e90-42d5-4c90-b7d0-34d43e328d80.png"
+  }
+}

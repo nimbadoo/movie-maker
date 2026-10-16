@@ -1,0 +1,40 @@
+{
+  "skill": "execute-media-generation",
+  "job_id": "EP04-SH15-take-01-attempt-1",
+  "request_id": "EP04-SH15-take-01-v1",
+  "bundle_sha256": "f2012d7cba629991a33e3069c4ef9afba6a8de29d106bee5b78d73dbbc547dc1",
+  "idempotency_key": "f2012d7cba629991a33e3069c4ef9afba6a8de29d106bee5b78d73dbbc547dc1-attempt-1",
+  "status": "succeeded",
+  "submission_started": true,
+  "provider": "Google Flow UI",
+  "model": "Omni 1.1 Flash",
+  "attempt": 1,
+  "retry_authorized": false,
+  "cost": {
+    "submitted_price": 6,
+    "ceiling": 6,
+    "unit": "Flow credits",
+    "actual": null,
+    "actual_evidence": "one successful submission at displayed6credits; ledger not independently checked"
+  },
+  "user_authorization": "این تایید — exact displayed SH15 package and6credit ceiling",
+  "created_at": "2026-10-15T20:35:08.515655+00:00",
+  "input_note": "Existing Flow SH14-start-v2 asset reused; local SH15 copy byte-identical",
+  "attempts_submitted": 1,
+  "submitted_at": "2026-10-15T20:36:01.001952+00:00",
+  "provider_asset_id": "dc2fef25-8975-47c8-83b2-4c4b6542b7be",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH15/takes/take-01/video.mp4",
+      "sha256": "c66f184f39c308bb929ee4ae2f9a1f899bab6534714e93a01c0c26e6f976cc48",
+      "frames": 192,
+      "job_id": "EP04-SH15-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH15/takes/take-01/edits/EP04-SH15-review-cut-v1.mp4",
+      "sha256": "5c23033da94ab19dd13b41d324e8047f38580116917303d38cb42e3c1c0daebe",
+      "frames": 36,
+      "job_id": "EP04-SH15-take-01-attempt-1"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Animate the approved starting frame at natural speed, vertical 9:16. Maintain exact identity, wardrobe, room geometry, eyelines and prop state. A single-speaker close-up or medium close-up of مادر (CH-MNZ), seated in the same fixed sofa position established in the scene map. The other two characters remain silent and offscreen in their fixed physical positions; do not show their mouths or add any other dialogue. Only a small eye/head/expression change required by the per-line performance direction. No walking, pouring, gesturing with extra hands or moving the door.
+One speaking turn only. Only مادر owns the voice and the visible lip movements; never assign these words to another character. Start after the preceding turn, no overlap or extra voice. Use the user-approved per-line emotion, intent and delivery below; directions and IDs are not spoken.
+Read Persian vowel marks as pronunciation cues, not pauses. Natural colloquial Persian; رو and تو have short /o/, final و in استکانو and حرفامونو is /o/, نازلی is nāzli with no extra vowel between z and l. Do not rewrite the wording or speed up speech. Quiet apartment ambience, no music, narration or subtitles.
+PERFORMANCE DIRECTIONS FOR EP01-D25 / مادر — NOT SPOKEN; do not read these instructions aloud:
+شناسهٔ گوینده: CH-MNZ
+مخاطب و نما: نازلی؛ EP01-SH25
+جای گوینده و شنونده‌ها: نشسته روی بخش چپ مبل؛ رو به نازلی مقابل مبل. فقط گوینده داخل قاب؛ دو شخصیت دیگر در جای ثابت خارج قاب‌اند.
+نوبت و بازهٔ گفتار: نوبت 20 از ۲۳؛ بازهٔ تخمینی 52.3–55.7 ثانیه؛ بدون هم‌پوشانی.
+مالک صدا و لب‌خوانی: مادر / CH-MNZ؛ فقط همین گوینده، با هویت صوتی برداشت‌های قبلی؛ ثبات صدا باید شنیده و سنجیده شود.
+رفتار شنونده‌ها: ساکت و خارج قاب؛ هیچ لب‌خوانی یا صدای اضافی ندارند.
+حالت و شدت: نگرانی و اصرار مهارشده ۲/۵
+قصد گوینده: روشن‌کردن ماجرا برای خانواده
+نوع جمله و شیوهٔ بیان: امری سپس توضیحی، جدی اما دعوت‌کننده و یک‌نفس
+رفتار قابل‌دیدن: نگاه منتظر، دست‌ها ثابت
+وضعیت جهت بازی: تأییدشده توسط کاربر با درخواست شروع ساخت؛ پذیرش برداشت واقعی جداست.
+وضعیت نوبت و چیدمان: تأییدشده؛ چیدمان و قاب‌های مصوب قبلی حفظ شوند.
+SPOKEN DIALOGUE ONLY — مادر: «اِمْشَب بیاد خونِه‌مون تا بِبینیم این کیِه.»
+Target usable shot duration about 3.4s, subject to natural spoken delivery. If the selected tool length cannot fit the line, revise the shot timing before generating.
+Concerned family representative, calm and curious rather than threatening. Match Mother voice identity to the existing approved takes; do not invent a new voice.

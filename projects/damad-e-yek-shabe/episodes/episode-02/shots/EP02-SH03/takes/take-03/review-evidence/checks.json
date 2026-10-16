@@ -1,0 +1,137 @@
+{
+  "skill": "review-and-assemble",
+  "media_asset": "EP02-SH03-take-03",
+  "shot_segment": "EP02-SH03",
+  "review_status": "selected",
+  "review_scope": "local_asr_visual_and_syncnet_with_unresolved_checks",
+  "sample_times_seconds": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    3.25,
+    3.5,
+    3.75,
+    4.0,
+    4.25,
+    4.5,
+    4.75,
+    5.0,
+    5.25,
+    5.5,
+    5.75,
+    6.0,
+    6.25,
+    6.5,
+    6.75,
+    7.0,
+    7.25,
+    7.5,
+    7.75,
+    8.0,
+    8.25,
+    8.5,
+    8.75,
+    9.0,
+    9.25,
+    9.5,
+    9.75
+  ],
+  "source_sha256": "f27bc84034384f469ebfd5dd4f5fd3b6f4031aae94614062fc977f9d50f816e1",
+  "audio_peak": 0.7713878154754639,
+  "samples_ge_0_999": 0,
+  "near_silent_intervals_seconds": [
+    [
+      0.0,
+      0.18
+    ],
+    [
+      4.98,
+      5.58
+    ],
+    [
+      7.16,
+      7.58
+    ],
+    [
+      9.72,
+      10.0
+    ]
+  ],
+  "threshold_rms": 0.001,
+  "window_seconds": 0.02,
+  "checks": {
+    "dialogue_complete": "all_three_sentences_and_final_word_recognized_but_disputed_verb",
+    "natural_speech": "subjective_listening_unverified_timing_available",
+    "phoneme_lip_sync": "inconclusive_low_confidence_temporally_unstable_syncnet",
+    "sampled_gaze": "toward_partner_no_camera_gaze_observed",
+    "sampled_listener_lips": "appear_closed",
+    "hand_performance": "unrequested_gestures_observed"
+  },
+  "data": {
+    "reviews": [
+      {
+        "media_asset": "EP02-SH03-take-03",
+        "shot_segment": "EP02-SH03",
+        "decision": "selected",
+        "reason_codes": [
+          "EXPLICIT_USER_ACCEPTANCE"
+        ]
+      }
+    ],
+    "selected_takes": [
+      {
+        "shot": "EP02-SH03",
+        "take": "take-03",
+        "in": 0,
+        "out": 10
+      }
+    ],
+    "timeline": null,
+    "quality_control": {
+      "blocking": [
+        "disputed_verb",
+        "lip_sync_inconclusive",
+        "natural_performance_unverified"
+      ],
+      "acceptance_override": "User accepts actual take despite previously disclosed automated uncertainty; no new automated pass claimed"
+    },
+    "export_manifest": null
+  },
+  "no_generation": true,
+  "no_edit_replacement": false,
+  "asr": {
+    "initial_prompt": null,
+    "language": "fa",
+    "temperature": 0,
+    "condition_on_previous_text": false,
+    "models": [
+      "mlx-community/whisper-turbo",
+      "mlx-community/whisper-small-mlx"
+    ],
+    "suspected_word_source_interval_seconds": [
+      3.26,
+      3.56
+    ],
+    "expected": "آشنا شدن",
+    "turbo_recognized": "آشنا شدم",
+    "small_recognized": "اشنا شودم",
+    "isolated_turbo_recognized": "آشنا شدم",
+    "interpretation": "suspected_mismatch_not_confirmed_auditory_fact",
+    "last_word_end_seconds": 9.62
+  },
+  "method_sources": [
+    "https://github.com/ml-explore/mlx-examples/tree/main/whisper",
+    "https://github.com/joonson/syncnet_python"
+  ],
+  "acceptance_basis": "explicit human user acceptance and full-take insertion request, 2026-10-14"
+}

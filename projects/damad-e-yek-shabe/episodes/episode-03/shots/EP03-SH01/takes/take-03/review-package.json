@@ -1,0 +1,129 @@
+{
+  "skill": "compile-generation-prompts",
+  "request_id": "EP03-SH01-take-03-continuous-surprised-question-v1",
+  "data": {
+    "shot_ir": {
+      "shot": "EP03-SH01",
+      "segment": "EP03-D01",
+      "beat": "mother_recognizes_neighbor_at_door",
+      "assets": [
+        "CH-MNZ",
+        "CH-SAM"
+      ],
+      "speaker": "CH-MNZ",
+      "listener": "CH-SAM",
+      "start_state": "both standing at already-open doorway",
+      "end_state": "same positions; mother awaits reply",
+      "camera": "static vertical doorway medium",
+      "dialogue": "اِ، آقا سامان! شُما کِه هَمْسایِهٔ طَبَقِهٔ بالایِ مایین؟",
+      "performance": "restrained surprise, continuous colloquial Persian, natural interrogative ending",
+      "user_recording_role": "performance_intent_only_no_voice_conversion"
+    },
+    "storyboard_frames": [
+      {
+        "role": "accepted_start_frame",
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/images/EP03-SH01-door-welcome-house-v1.png",
+        "sha256": "ff98812a3536bcc8fdcecf1afef2d47167ab4c5d6c7191e2a084af71bcbf954c"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "id": "EP03-SH01-take-03",
+        "segment": "EP03-D01",
+        "prompt_path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/takes/take-03/prompt.txt",
+        "prompt_sha256": "8787624fb6f5e2414c32fc5b9bea2b538daa07ba2800ebaa62b508609940b2ee",
+        "duration_seconds": 8,
+        "voice_identity_required": true
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "generation_mode": "Frames",
+        "resolution": "360p",
+        "aspect_ratio": "9:16",
+        "duration_seconds": 8,
+        "count": 1,
+        "quoted_credits": 6,
+        "quote_source": "ui-price.png and live account settings 2026-10-15",
+        "assets": [
+          {
+            "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH01/images/EP03-SH01-door-welcome-house-v1.png",
+            "role": "first_frame"
+          }
+        ],
+        "compatibility": {
+          "result": "blocked",
+          "issues": [
+            {
+              "code": "VOICE_REFERENCE_ROUTE_UNRESOLVED",
+              "detail": "Frames does not support the requested arbitrary voice reference; no voice-identity guarantee from prompt text.",
+              "alternatives": [
+                "Verify video-reference edit route and its cost without generation",
+                "Evaluate native Persian generated speech to mother reference locally only after agreeing exact target and naturalness gate; never reuse rejected user recording conversion"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "quality_gate": {
+      "shot": "EP03-SH01",
+      "take": "take-03",
+      "ready": false,
+      "open_issues": [
+        "VOICE_REFERENCE_ROUTE_UNRESOLVED",
+        "NEW_DELIVERY_TIMING_NOT_MEASURED",
+        "FULL_IDENTITY_RECHECK_PENDING",
+        "FINAL_PACKAGE_AND_COST_NOT_APPROVED"
+      ],
+      "consumed_attempts": 0,
+      "content_approval": {
+        "approved": false
+      },
+      "cost_approval": {
+        "approved": false
+      },
+      "submission_state": "draft_not_submitted"
+    }
+  },
+  "cost": {
+    "quote_only": true,
+    "unit": "Flow credits",
+    "one_video_quote": 6,
+    "approved_spend": 0,
+    "actual_spend": 0,
+    "total_voice_preserving_route_cost": null
+  },
+  "no_generation_called": true,
+  "video_reference_investigation": {
+    "date": "2026-10-15",
+    "status": "provider_completed_local_persistence_blocked",
+    "report": "voice-route-review.md",
+    "prompt": "video-edit-prompt.txt",
+    "prompt_sha256": "eff5238c1a3f671b5a2f37c80e13c6f4566fe39b96f7e16e180da2358ee507bf",
+    "model": "Omni 1.1 Flash",
+    "mode": "Ingredients",
+    "source_media_id": "c97ed2c4-cb4e-4683-ad20-42672c3b6b65",
+    "source_video": "../take-02/video.mp4",
+    "source_sha256": "dafa81e028033c2213909f965970f5572b11b3b46ce4f0269e5f0b93fa7e0af6",
+    "duration_seconds": 8,
+    "resolution": "360p",
+    "aspect_ratio": "9:16",
+    "outputs": 1,
+    "live_quote_credits": 10,
+    "public_edit_price_credits": 40,
+    "price_discrepancy_recorded": true,
+    "quote_evidence": "ui-video-reference-price.png",
+    "voice_preservation": "supported_in_general_unverified_for_this_Persian_performance",
+    "approved_credits": 10,
+    "consumed_credits": 10,
+    "submissions": 1,
+    "max_attempts": 1,
+    "bundle_sha256": "eb5da943a801e4c2ebccf71542d44c562cb09e9fef45b97d5108385d3a55538d",
+    "execution_preflight": "video-edit-preflight.md",
+    "provider_job_id": "4f488688-5f21-42cd-81b0-eb782bf01a33"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "shot": "EP04-SH15",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "reuse_existing_still",
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-start-v2.png",
+      "sha256": "d92979471024b05256b55e039f8f9d767d399371a9ac67bc1d7b6b1cf5ba932e"
+    }
+  ],
+  "requests": [],
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH14/images/EP04-SH14-start-v2.png",
+    "sha256": "d92979471024b05256b55e039f8f9d767d399371a9ac67bc1d7b6b1cf5ba932e",
+    "width": 941,
+    "height": 1672
+  },
+  "superseded_output": null,
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "authorization": "User accepted autonomous stage completion; stop only for new creative decision, unsolved contradiction or external credit cost",
+  "flow_credits_consumed": 0,
+  "video_or_audio_generated": false,
+  "camera": "دوربین و قاب دقیقاً مشترک با۱۴؛ برای آغاز واکنش از همان عکس بدون تغییر فاصله استفاده می‌شود.",
+  "blocking": "سامان چپ و نازلی راست ایستاده، نگاه ابتدا به فرهادِ نشسته.",
+  "technical_note": "تولیدهای نزدیکِ آزمایشی فاصله دو نفر را عوض و یک انگشتر تازه اضافه کردند؛ هیچ‌کدام انتخاب نشدند. مطابق اصل استفاده از منبع موجود، قاب۱۴ بدون تولید مجدد ورودی قاب شروع۱۵ است. واکنش چشم نازلی بعداً در ویدیو انجام می‌شود؛ قاب ثابت آن حرکت را اثبات نمی‌کند. اندازه بازتر از طرح اولیه برای حفظ هندسه ثبت شده است.",
+  "reused_frame": "EP04-SH14-start-v2",
+  "rejected_attempts": [
+    "exec-3706e3e5-1bee-44c7-983d-fa28da70d754.png",
+    "exec-2f1439da-0285-475e-9fce-4a330a54da87.png"
+  ],
+  "new_generation_calls": 2,
+  "selected_reuse_calls": 0
+}

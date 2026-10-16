@@ -1,0 +1,52 @@
+{
+  "skill": "review-and-assemble",
+  "data": {
+    "reviews": [
+      {
+        "media_asset": "EP03-SH12-take02-source",
+        "shot_segment": "EP03-SH12",
+        "decision": "selected",
+        "partially_reviewed": true,
+        "reason_codes": [
+          "QUESTION_PROSODY_AUDITORY_REVIEW_PENDING",
+          "NUMERIC_PITCH_NOT_PROOF_OF_IMPROVEMENT",
+          "VOICE_IDENTITY_UNVERIFIED",
+          "CONTINUOUS_MOTION_REVIEW_PENDING"
+        ],
+        "visual_sampling": {
+          "fps": 8,
+          "frames_seen": 48,
+          "range_seconds": [
+            0,
+            6
+          ]
+        },
+        "preview_range_seconds": [
+          0.25,
+          4.8
+        ],
+        "user_evidence": "User accepts with known prosody limitation due to time and directs next shot."
+      }
+    ],
+    "selected_takes": [
+      {
+        "shot": "EP03-SH12",
+        "take": "take-02",
+        "media": "edits/EP03-SH12-question-review-v2.mp4",
+        "sha256": "e34db493a407e70b68193714bba4d76051cfaa63b1acdbffea5cf2ba783f0f9d",
+        "range_seconds": [
+          0,
+          4.55
+        ],
+        "known_limitation": "Question intonation not resolved to user satisfaction; accepted for progress."
+      }
+    ],
+    "timeline": [],
+    "quality_control": {
+      "ready": false,
+      "decode_passed": true,
+      "assembly_continuity_verified": false
+    },
+    "export_manifest": null
+  }
+}

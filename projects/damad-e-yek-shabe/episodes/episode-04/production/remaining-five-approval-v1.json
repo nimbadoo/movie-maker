@@ -1,0 +1,55 @@
+{
+  "shots": [
+    {
+      "shot": "EP04-SH02",
+      "frame": "episodes/episode-04/shots/EP04-SH02/images/EP04-SH02-start-v5.png",
+      "frame_sha256": "f65cd2eb5dfe552f67809fa23bf2cd85e54644f3930b6069cd29c2570a1eb54a",
+      "prompt": "episodes/episode-04/shots/EP04-SH02/takes/take-01/prompt.txt",
+      "prompt_sha256": "2c91667f146115fe5f4d2854613e88dbcd137cc80c2f04997aa04040263f9236",
+      "max_attempts": 1,
+      "credit_ceiling": 6
+    },
+    {
+      "shot": "EP04-SH03",
+      "frame": "episodes/episode-04/shots/EP04-SH03/images/EP04-SH03-start-v2.png",
+      "frame_sha256": "0869906e46160fc8e66fbb2e367dc52f40e4a57f4b212c0943bb3ec27946e4af",
+      "prompt": "episodes/episode-04/shots/EP04-SH03/takes/take-01/prompt.txt",
+      "prompt_sha256": "c2cc44ea33ba391b0e19132ffd4bc0aa01c08eb63ee18bdb1a598ad9fa85c194",
+      "max_attempts": 1,
+      "credit_ceiling": 6
+    },
+    {
+      "shot": "EP04-SH04",
+      "frame": "episodes/episode-04/shots/EP04-SH04/images/EP04-SH04-start-v5.png",
+      "frame_sha256": "4529aa29a857aad2e923d7db224222a72dc72fb9262c40109d48c134e5b132ca",
+      "prompt": "episodes/episode-04/shots/EP04-SH04/takes/take-01/prompt.txt",
+      "prompt_sha256": "57b6c4892426a18ad66b549a4bb6af914572a86f78940bbcba86625beab56d1d",
+      "max_attempts": 1,
+      "credit_ceiling": 6
+    },
+    {
+      "shot": "EP04-SH13",
+      "frame": "episodes/episode-04/shots/EP04-SH13/images/EP04-SH13-start-v3.png",
+      "frame_sha256": "9a2bcb0af8848ee346d297d0618404d20fdec74b5ad70e80cf1514076af992ea",
+      "prompt": "episodes/episode-04/shots/EP04-SH13/takes/take-01/prompt.txt",
+      "prompt_sha256": "236e2d349da0a052ecd694a910984e38f5c9c57911dbe78317d788c6172d69ec",
+      "max_attempts": 1,
+      "credit_ceiling": 6
+    },
+    {
+      "shot": "EP04-SH05",
+      "frame": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-start-v2.png",
+      "frame_sha256": "80bdbd89384cece4b3e68d8ec64e3dbd05b84e0b5a5e7c1291180cf46af17610",
+      "prompt": "episodes/episode-04/shots/EP04-SH05/takes/take-01/prompt.txt",
+      "prompt_sha256": "66d76735c3dff20bdc748a043d013c98d6a453f311de970b0f15f4cccc08d240",
+      "max_attempts": 1,
+      "credit_ceiling": 6
+    }
+  ],
+  "max_submissions": 5,
+  "credit_ceiling": 30,
+  "approval": true,
+  "submitted": false,
+  "user_reply": "تأیید",
+  "approval_evidence": "Current explicit user approval of exact linked five-shot package and30credit total ceiling"
+}

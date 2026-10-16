@@ -1,0 +1,193 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- main:
+  - navigation:
+    - button "Home":
+      - img: home
+    - heading "دامادِ یک‌شبه — قسمت ۳" [level=1]
+    - textbox "Editable text":
+      - /placeholder: ""
+      - text: دامادِ یک‌شبه — قسمت ۳
+  - button "More options for the project":
+    - img: more_vert
+  - button "Search":
+    - img: search
+  - textbox "Search"
+  - button "Filtering and sorting options":
+    - img: filter_list
+  - button "Add media menu":
+    - img: add
+  - button "Product help":
+    - img: help
+  - button "Settings":
+    - img: settings_2
+  - button "More options":
+    - img: more_vert
+  - button "Account details":
+    - generic "PRO tier": PRO
+    - 'button "Google Account: Mina Momenzadeh (minamoomenzadeh@gmail.com), Google membership"':
+  - navigation "Project navigation":
+    - button "All media":
+      - img: dashboard
+      - generic: All media
+    - button "Images":
+      - img: image
+      - generic: Images
+    - button "Videos":
+      - img: videocam
+      - generic: Videos
+    - button "Characters":
+      - img: accessibility_new
+      - generic: Characters
+    - button "Scenes":
+      - img: movie
+      - generic: Scenes
+    - button "Uploads":
+      - img: drive_folder_upload
+      - generic: Uploads
+    - separator
+    - link "Tools":
+      - /url: /project/0290053e-8dcd-4881-91ca-09cde9a42b7c/tools
+      - img: apps_spark_2
+      - generic: Tools
+    - link "Create tool":
+      - /url: /project/0290053e-8dcd-4881-91ca-09cde9a42b7c/create-tool
+      - img: add
+      - generic: Create tool
+    - link "Bin":
+      - /url: /project/0290053e-8dcd-4881-91ca-09cde9a42b7c/trash
+      - img: delete
+      - generic: Bin
+    - button "Collapse":
+      - img: left_panel_close
+      - generic: Collapse
+  - group "Nazli speaking to mother":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH04-tea-reply-house-v5.png":
+    - img "Tile displaying a user's image"
+  - group "مادر دعوت به نشستن می‌کند":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "Mother speaking to Saman":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH03-chair-invite-house-v5.png":
+    - img "Tile displaying a user's image"
+  - group "دو مرد در حال دست دادن…":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH19-two-men-before-contact-v2.png":
+    - img "Tile displaying a user's image"
+  - group "Men shaking hands and talking":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH19-start-from-approved-introduction-v1.png":
+    - img "Tile displaying a user's image"
+  - group "مادر خوشامدگویی به فرهاد گفت":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "مهمانان در پذیرایی":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH15-guided-entry-house-v1.png":
+    - img "Tile displaying a user's image"
+  - group "سامان سلام و تشکر کردن":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH02-door-reply-v6.png":
+    - img "Tile displaying a user's image"
+  - group "مادر سامان را می‌شناسد":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH01-door-welcome-house-v1.png":
+    - img "Tile displaying a user's image"
+  - group "EP03-SH01 — pilot — take1":
+    - img "Generated video thumbnail"
+    - img: play_circle
+    - generic: 360p
+  - group "EP03-SH01-start-v3.png":
+    - img "Tile displaying a user's image"
+  - button "Start"
+  - button "Swap first and last frames":
+    - img: swap_horiz
+  - button "End"
+  - generic: What do you want to create?
+  - textbox "What do you want to create?":
+    - paragraph
+  - button "Agent":
+    - generic: Agent
+  - button "Settings trigger":
+    - text: Video · 360p · 6s
+    - img: crop_9_16
+    - text: x1
+  - button "Start generation" [disabled]:
+    - img: arrow_forward
+  - paragraph: Google Flow can make mistakes, so double-check it
+- generic "Mode":
+  - radiogroup:
+    - radio "Image":
+      - img: image
+      - generic: Image
+    - radio "Video" [checked]:
+      - img: videocam
+      - generic: Video
+- generic "Video type":
+  - radiogroup:
+    - radio "Frames" [checked]:
+      - img: crop_free
+      - generic: Frames
+    - radio "Ingredients":
+      - img: chrome_extension
+      - generic: Ingredients
+- generic "Aspect ratio":
+  - radiogroup:
+    - radio "16:9":
+      - img: crop_16_9
+      - generic: 16:9
+    - radio "9:16" [checked]:
+      - img: crop_9_16
+      - generic: 9:16
+- separator
+- button "Select model family":
+  - text: Omni 1.1 Flash
+  - img: arrow_drop_down
+- generic "Video resolution":
+  - radiogroup:
+    - radio "360p 360p generates faster at lower resolution" [checked]:
+      - generic: 360p
+      - img "360p generates faster at lower resolution": info
+    - radio "720p":
+      - generic: 720p
+- generic "Video duration":
+  - radiogroup:
+    - radio "4s":
+      - generic: 4s
+    - radio "6s" [checked] [active]:
+      - generic: 6s
+    - radio "8s":
+      - generic: 8s
+    - radio "10s":
+      - generic: 10s
+- generic "Output count":
+  - radiogroup:
+    - radio "x1" [checked]:
+      - generic: x1
+    - radio "x2":
+      - generic: x2
+    - radio "x3":
+      - generic: x3
+    - radio "x4":
+      - generic: x4
+- text: Generating will use
+- link "5 credits":
+  - /url: https://support.google.com/googleone?p=g1_ai_credit_menu

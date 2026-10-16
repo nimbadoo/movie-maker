@@ -1,0 +1,40 @@
+{
+  "skill": "execute-media-generation",
+  "job_id": "EP04-SH03-take-01-attempt-1",
+  "request_id": "EP04-SH03-take-01-v1",
+  "bundle_sha256": "ef4b23d054e43edbd461715b993b84524fa3482d8d54c9d39d1fa1fc75d9c4bf",
+  "idempotency_key": "ef4b23d054e43edbd461715b993b84524fa3482d8d54c9d39d1fa1fc75d9c4bf-attempt-1",
+  "status": "succeeded",
+  "submission_started": true,
+  "provider": "Google Flow UI",
+  "model": "Omni 1.1 Flash",
+  "attempt": 1,
+  "retry_authorized": false,
+  "cost": {
+    "submitted_price": 6,
+    "ceiling": 6,
+    "unit": "Flow credits",
+    "actual": null,
+    "actual_evidence": "one successful submission at displayed6credits; batch5submissions30credits; account ledger not independently inspected"
+  },
+  "user_authorization": "Current explicit five-shot exact batch approval ceiling30credits",
+  "created_at": "2026-10-15T21:16:50.263407+00:00",
+  "attempts_submitted": 1,
+  "submitted_at": "2026-10-15T21:19:58.574Z",
+  "provider_asset_url": "https://flow.google.com/project/21998463-d51a-4d5b-a767-035108973a0a/edit/39d19559-c595-4c76-ae47-070fffa0aae5",
+  "provider_asset_id": "39d19559-c595-4c76-ae47-070fffa0aae5",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH03/takes/take-01/video.mp4",
+      "sha256": "aeeceb9518123d2062031924869cefaedae7df715d9bd52a6238a4ca1bfff2d7",
+      "frames": 192,
+      "job_id": "EP04-SH03-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH03/takes/take-01/edits/EP04-SH03-review-cut-v1.mp4",
+      "sha256": "c883cca47fd6d616f0a6ac803d15d5f2d04812a23f47fd0044bd229e0a51dc33",
+      "frames": 99,
+      "job_id": "EP04-SH03-take-01-attempt-1"
+    }
+  ]
+}

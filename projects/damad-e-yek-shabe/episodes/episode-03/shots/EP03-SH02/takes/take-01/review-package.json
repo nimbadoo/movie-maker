@@ -1,0 +1,87 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH02",
+  "beat": "EP03-D02",
+  "take": "take-01",
+  "status": "user_selected_original_flow_audio",
+  "ready": false,
+  "submitted": true,
+  "prompt_sha256": "598f63364470070290dcb5154392bf18d81de4eb4c0f75dfb3f9f49c92c34474",
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH02/images/EP03-SH02-door-reply-v6.png",
+    "sha256": "10e00b157348ab96e20934233f520894351f22225e2d29b07f9680a69259f78a",
+    "role": "accepted_start_frame"
+  },
+  "voice_reference": {
+    "character": "CH-SAM",
+    "path": "projects/damad-e-yek-shabe/episodes/episode-02/shots/EP02-SH05/audio/EP02-SH05-voice-candidate-v1.wav",
+    "sha256": "6e7ed1224ab17015abbd0481129a7966c4d1c654eab011903c3cb5e44b6ff6b7",
+    "role": "local_conversion_target_not_flow_input"
+  },
+  "voice_postprocess": {
+    "route": "Seed-VC local conversion",
+    "reference_is_locked": true,
+    "steps": 30,
+    "length_adjust": 1.0,
+    "cfg": 0.7,
+    "seed": 42,
+    "device": "MPS conversion + CPU vocoder",
+    "external_credits": 0,
+    "future_output_identity_verified": false,
+    "lip_sync_verified": false,
+    "no_alternate_voice_without_review": true,
+    "applied_to_take": true,
+    "selected_for_edit": false,
+    "user_rejection_reason": "Converted speech feels dry/studio-like; original Flow environmental sound preferred"
+  },
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "project_url": "https://flow.google.com/project/0290053e-8dcd-4881-91ca-09cde9a42b7c",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "seconds": 6,
+      "resolution": "360p",
+      "aspect_ratio": "9:16",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "source": "Live IAB settings panel; ui-prepared.png",
+      "verified_at": "2026-10-15T13:39:19.463755+00:00"
+    }
+  },
+  "timing_guide": {
+    "report": "timing-guide/scratch-only.json",
+    "duration_seconds": 3.695011337868481,
+    "role": "scratch timing only, not production speech"
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "8375e6deaee26f116a4ea76071158d7adda492c29e6e36f4f89729d58416c98c"
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 5,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "8375e6deaee26f116a4ea76071158d7adda492c29e6e36f4f89729d58416c98c"
+  },
+  "open_issues": [
+    "Nazli eye-line drifts toward lens from approximately2.2s",
+    "Converted Saman voice identity, actual pronunciation and lip sync need listening review"
+  ],
+  "post_generation_gates": [
+    "Full final word کردین and approved text",
+    "Saman identity against his own voice reference",
+    "Actual audio-lip synchronization",
+    "Nazli and mother silent; no listener lip speech",
+    "Physical and spatial continuity and next-shot connection"
+  ]
+}

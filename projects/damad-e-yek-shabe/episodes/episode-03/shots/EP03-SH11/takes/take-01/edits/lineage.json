@@ -1,0 +1,13 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "8395a4448df07104e602f45d2d2b84a0e7c78918454495f5bbe6dc6df5c13ae1",
+  "output": "EP03-SH11-review-v1.mp4",
+  "output_sha256": "d89c686d2dfd138a99709ab8cd548e30295c0ac77f8a230aaa6d6cb718a53986",
+  "source_range_seconds": [
+    0,
+    5.1
+  ],
+  "native_audio_preserved": true,
+  "audio_processing": "AAC reencoding for trim only; no voice conversion, speed/pitch/gain edit, isolation, inserted silence, or freeze",
+  "selection": "not_selected"
+}

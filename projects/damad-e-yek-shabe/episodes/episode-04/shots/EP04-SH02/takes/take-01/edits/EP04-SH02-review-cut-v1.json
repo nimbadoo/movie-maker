@@ -1,0 +1,11 @@
+{
+  "source": "video.mp4",
+  "in": 1.0,
+  "out": 4.0,
+  "output": "edits/EP04-SH02-review-cut-v1.mp4",
+  "seconds": 3.0,
+  "frames": 72,
+  "internal_cut": false,
+  "speed_change": false,
+  "voice_conversion": false
+}

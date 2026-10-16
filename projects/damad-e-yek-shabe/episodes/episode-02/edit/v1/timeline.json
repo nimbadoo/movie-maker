@@ -1,0 +1,395 @@
+{
+  "episode": "EP02",
+  "dialogue_revision": 2,
+  "output": "episodes/episode-02/edit/v1/EP02-SC02-review-v1.mp4",
+  "status": "review assembly, not final acceptance",
+  "timeline_seconds": 49.62,
+  "actual_seconds": 49.842729,
+  "fps": 30.0,
+  "width": 360,
+  "height": 640,
+  "decoded_video_frames": 1494,
+  "decoded_audio_frames": 2333,
+  "timeline": [
+    {
+      "shot": "EP02-SH01",
+      "turn": 1,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH01/takes/take-01/video.mp4",
+      "sha256": "b727aa7e3dd6587dd100e4036c08a113ed73e377b37b361eed13484f07ec50f3",
+      "source_duration": 4.032,
+      "in": 0.448,
+      "out": 4.032,
+      "timeline_in": 0,
+      "duration": 3.584,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 9728,
+          "end": 18432
+        },
+        {
+          "start": 41472,
+          "end": 61952
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 3.584
+    },
+    {
+      "shot": "EP02-SH02",
+      "turn": 2,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH02/takes/take-01/video.mp4",
+      "sha256": "5665cb285a977b9327b40999ef65aeac5f47138741309183d349690d961ac376",
+      "source_duration": 6.016,
+      "in": 0.352,
+      "out": 5.8,
+      "timeline_in": 3.584,
+      "duration": 5.448,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 8192,
+          "end": 25600
+        },
+        {
+          "start": 41472,
+          "end": 56832
+        },
+        {
+          "start": 59904,
+          "end": 89600
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 9.032
+    },
+    {
+      "shot": "EP02-SH03",
+      "turn": 3,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH03/takes/take-01/video.mp4",
+      "sha256": "35c620aebc271734dbfdc0955b229b26a45c93ea7b7ecf98755ae30db6a846f2",
+      "source_duration": 6.016,
+      "in": 1.088,
+      "out": 5.032,
+      "timeline_in": 9.032,
+      "duration": 3.944,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 19968,
+          "end": 57856
+        },
+        {
+          "start": 61440,
+          "end": 77312
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 12.976
+    },
+    {
+      "shot": "EP02-SH04",
+      "turn": 4,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH04/takes/take-01/video.mp4",
+      "sha256": "d8900dfb7091ca49e3d23358e8bebbe0033a957deebd290cc915afb5fd6ba854",
+      "source_duration": 4.01,
+      "in": 0.608,
+      "out": 3.08,
+      "timeline_in": 12.976,
+      "duration": 2.472,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 12288,
+          "end": 22016
+        },
+        {
+          "start": 33792,
+          "end": 46080
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 15.448
+    },
+    {
+      "shot": "EP02-SH05",
+      "turn": 5,
+      "take": 2,
+      "source": "episodes/episode-02/shots/EP02-SH05/takes/take-02/video.mp4",
+      "sha256": "6a21550c5d6e7850d7f579ca0233b7dd31b1a993774a2a13cb13f31ff3eb550a",
+      "source_duration": 4.01,
+      "in": 0.448,
+      "out": 3.208,
+      "timeline_in": 15.448,
+      "duration": 2.76,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 9728,
+          "end": 48128
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 18.208
+    },
+    {
+      "shot": "EP02-SH06",
+      "turn": 6,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH06/takes/take-01/video.mp4",
+      "sha256": "9036024848672d8c9a99af8ee15ea09657d794090ebc0f1ef11ff0c1ace24281",
+      "source_duration": 4.01,
+      "in": 0.992,
+      "out": 2.728,
+      "timeline_in": 18.208,
+      "duration": 1.736,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 18432,
+          "end": 40448
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 19.944
+    },
+    {
+      "shot": "EP02-SH07",
+      "turn": 7,
+      "take": 2,
+      "source": "episodes/episode-02/shots/EP02-SH07/takes/take-02/video.mp4",
+      "sha256": "a525b58363b333b6bbb1f75b1cc0e60a32b4b1ea353b1f6f18e6f0048c2d2813",
+      "source_duration": 6.016,
+      "in": 0.384,
+      "out": 5.256,
+      "timeline_in": 19.944,
+      "duration": 4.872,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 8704,
+          "end": 35328
+        },
+        {
+          "start": 50688,
+          "end": 80896
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 24.816
+    },
+    {
+      "shot": "EP02-SH08",
+      "turn": 8,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH08/takes/take-01/video.mp4",
+      "sha256": "a3aad4514228b63468dc27c5f8aa47288fd39b840aad16bc343c18bfd1b4372e",
+      "source_duration": 6.016,
+      "in": 1.472,
+      "out": 5.672,
+      "timeline_in": 24.816,
+      "duration": 4.2,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 26112,
+          "end": 38912
+        },
+        {
+          "start": 51200,
+          "end": 87552
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 29.016
+    },
+    {
+      "shot": "EP02-SH09",
+      "turn": 9,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH09/takes/take-01/video.mp4",
+      "sha256": "c18f6c9bac34ef13a5d5e2251240d909a89b8bdfd62eed74b72a50a9fcfe692f",
+      "source_duration": 6.016,
+      "in": 0.384,
+      "out": 5.064,
+      "timeline_in": 29.016,
+      "duration": 4.68,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 8704,
+          "end": 77824
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 33.696
+    },
+    {
+      "shot": "EP02-SH10",
+      "turn": 10,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH10/takes/take-01/video.mp4",
+      "sha256": "511bc897bc9eeee9512787aa8fd927f72e767b703bfed14a1cd79a0e2ddede13",
+      "source_duration": 6.016,
+      "in": 0.448,
+      "out": 4.872,
+      "timeline_in": 33.696,
+      "duration": 4.424,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 9728,
+          "end": 23040
+        },
+        {
+          "start": 30208,
+          "end": 43008
+        },
+        {
+          "start": 52224,
+          "end": 74752
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 38.12
+    },
+    {
+      "shot": "EP02-SH11",
+      "turn": 11,
+      "take": 2,
+      "source": "episodes/episode-02/shots/EP02-SH11/takes/take-02/video.mp4",
+      "sha256": "0bc2e4e3de70db715df306c2d646ae14ab57a515f9915bf2a3a9b0a23e664504",
+      "source_duration": 4.01,
+      "in": 0.48,
+      "out": 2.376,
+      "timeline_in": 38.12,
+      "duration": 1.896,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 10240,
+          "end": 34816
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 40.016
+    },
+    {
+      "shot": "EP02-SH12",
+      "turn": 12,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH12/takes/take-01/video.mp4",
+      "sha256": "06415fbd5107fb26d0b15b867e8009c6d651e29daa34e284e41e1ed007adf634",
+      "source_duration": 4.01,
+      "in": 1.216,
+      "out": 2.088,
+      "timeline_in": 40.016,
+      "duration": 0.872,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 22016,
+          "end": 30208
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 40.888
+    },
+    {
+      "shot": "EP02-SH13",
+      "turn": 13,
+      "take": 2,
+      "source": "episodes/episode-02/shots/EP02-SH13/takes/take-02/video.mp4",
+      "sha256": "258ca7289aa4b433481806817228c38b85f4e699bf38c507344d4e7f663cc50a",
+      "source_duration": 4.01,
+      "in": 0.96,
+      "out": 3.208,
+      "timeline_in": 40.888,
+      "duration": 2.248,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 17920,
+          "end": 48128
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 43.136
+    },
+    {
+      "shot": "EP02-SH14",
+      "turn": 14,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH14/takes/take-01/video.mp4",
+      "sha256": "2b08def90fe0f1f20aa198238f3ac7a949c06bb7cc2a5668990d8dcb86dee8c5",
+      "source_duration": 6.016,
+      "in": 0.416,
+      "out": 3.784,
+      "timeline_in": 43.136,
+      "duration": 3.368,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 9216,
+          "end": 31232
+        },
+        {
+          "start": 35328,
+          "end": 57344
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": false,
+      "timeline_out": 46.504
+    },
+    {
+      "shot": "EP02-SH15",
+      "turn": 15,
+      "take": 1,
+      "source": "episodes/episode-02/shots/EP02-SH15/takes/take-01/video.mp4",
+      "sha256": "22e936a61b3aedfc41bd658f16381829310d25c8231984674f3e4c8176484a35",
+      "source_duration": 4.01,
+      "in": 0.608,
+      "out": 3.724,
+      "timeline_in": 46.504,
+      "duration": 3.116,
+      "reason": "Trim outer nonspeech only, retain internal speech/pauses and original speed; 160ms lead,200ms tail",
+      "speech_ranges": [
+        {
+          "start": 12288,
+          "end": 35840
+        },
+        {
+          "start": 43520,
+          "end": 54784
+        }
+      ],
+      "status": "applied in review cut; final audiovisual acceptance pending",
+      "reused_pilot": true,
+      "timeline_out": 49.62
+    }
+  ],
+  "limitations": [
+    "ASR does not prove exact pronunciation or voice identity.",
+    "Sampled frame review does not prove full continuous lip sync or all motion.",
+    "Final user acceptance pending."
+  ],
+  "file_path_base": "film project root; external original download paths are provenance"
+}

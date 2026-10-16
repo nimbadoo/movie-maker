@@ -1,0 +1,152 @@
+{
+  "skill": "compile-generation-prompts",
+  "status": "generated_for_review_not_selected",
+  "upstream": {
+    "story_blueprint": "../../continuity.md#dialogue-revision-v3",
+    "production_assets": "../../../../references/visuals/character-bible.md",
+    "shot_plan": "shot.md",
+    "house": "../../../../house/README.md"
+  },
+  "data": {
+    "shot_ir": {
+      "segment": "EP03-SH11",
+      "beat": "EP03-D11",
+      "asset_ids": [
+        "CH-NAZ",
+        "CH-MNZ",
+        "house-v2"
+      ],
+      "dialogue": "مامان، فِعْلاً داریم هَمْدیگِه رُو می‌شْناسیم.",
+      "start": "نازلی نشسته و شنونده؛ مادر حاشیه راست",
+      "action": "اصلاح ملایم برداشت مادر از جدیت سامان",
+      "end": "لب بسته، نگاه به مادر؛ بدون جواب تازه",
+      "camera": "static medium close-up",
+      "duration": {
+        "synthetic_rehearsal_seconds": 3.4036734693877553,
+        "human_timing_verified": false,
+        "proposed_generation_seconds": 6,
+        "estimated_edit_seconds": [
+          3.8,
+          4.5
+        ]
+      }
+    },
+    "storyboard_frames": [
+      {
+        "id": "EP03-SH11-start-v5",
+        "path": "images/EP03-SH11-house-close-v5.png",
+        "sha256": "ccee50e6a146bfd61de81de1dc6bcc1d472c5dd85a1316df3b6408d08a76c413",
+        "status": "technical_visible_region_reviewed_user_not_approved"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "id": "EP03-SH11-take-01",
+        "segment": "EP03-SH11",
+        "beat": "EP03-D11",
+        "asset_ids": [
+          "CH-NAZ",
+          "CH-MNZ",
+          "house-v2"
+        ],
+        "prompt": "takes/take-01/prompt.txt",
+        "mode": "image-to-video",
+        "first_frame": "images/EP03-SH11-house-close-v5.png"
+      }
+    ],
+    "provider_requests": [
+      {
+        "provider": "Google Flow",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "reference_roles": {
+          "images/EP03-SH11-house-close-v5.png": "first_frame_with_embedded_identity"
+        },
+        "proposed_seconds": 6,
+        "aspect_ratio": "9:16",
+        "quality": "360p",
+        "outputs": 1,
+        "compatibility": "image-to-video visually verified; user approved native voice experimental scope",
+        "last_frame_required": false,
+        "mismatch_alternatives": [
+          "Preserve approved voice with a verified supported route before submission; do not substitute voice silently."
+        ],
+        "quoted_price_for_proposal": 5,
+        "observed_other_setting": {
+          "seconds": 4,
+          "credits": 4
+        },
+        "submit": false,
+        "price_evidence": "takes/take-01/ui-price-6s.png",
+        "price_verified_at": "2026-10-15T17:34:10.455653+00:00"
+      }
+    ],
+    "quality_gate": {
+      "ready": true,
+      "open_issues": [],
+      "schema_validation": "Full request-envelope validation unavailable: referenced shared schema absent in installed skill. No schema-validity claim.",
+      "deferred_acceptance": [
+        "Voice identity and generated lip sync",
+        "Adjacent-video final assembly, including SH10 background issue"
+      ]
+    }
+  },
+  "authorization": {
+    "content": true,
+    "cost": true,
+    "attempts_consumed": 1,
+    "flow_submissions": 1,
+    "content_scope": "User approved shot summary, exact text and performance; not full technical bundle or cost",
+    "content_evidence": "تأیید می‌کنم. حالا شروع کن. حالا شروع کن، تأیید می‌کنم.",
+    "cost_scope": {
+      "outputs": 1,
+      "seconds": 6,
+      "credits_ceiling": 5,
+      "automatic_retry": false
+    },
+    "cost_evidence": "User تأیید after explicit quote of 5 credits for one experimental 6-second take; voice limitation disclosed",
+    "bundle_sha256": "685ed616c89b8a4000a93945eb1fe72048a22b85b1baa554ebe2aac217919c49"
+  },
+  "assets": [
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH11/images/EP03-SH11-house-close-v5.png",
+      "sha256": "ccee50e6a146bfd61de81de1dc6bcc1d472c5dd85a1316df3b6408d08a76c413"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    {
+      "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH11/takes/take-01/prompt.txt",
+      "sha256": "aee5323b47fd53f7e8e360b42e2ce8a2ba2b6444d51c4e7885d52a53240bb8d3"
+    }
+  ],
+  "image_lineage": {
+    "v4": {
+      "output": "images/EP03-SH11-house-v4.png",
+      "role": "intermediate_not_for_video",
+      "inputs": [
+        "images/EP03-SH11-brake-v3.png",
+        "../../../../house/apartment-cutaway-v2.png",
+        "../../../../episodes/episode-01/references/01-casting-and-living-room-concept-v1.png"
+      ]
+    },
+    "v5": {
+      "output": "images/EP03-SH11-house-close-v5.png",
+      "inputs": [
+        "images/EP03-SH11-house-v4.png",
+        "../../../../episodes/episode-01/references/01-casting-and-living-room-concept-v1.png"
+      ]
+    },
+    "method": "built_in_image_gen",
+    "prompts": "images/image-edit-prompts-v4-v5.txt",
+    "flow_submissions": 0
+  },
+  "execution_blocker": null,
+  "output_review": "review.md"
+}

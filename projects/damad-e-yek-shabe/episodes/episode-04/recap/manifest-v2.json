@@ -1,0 +1,56 @@
+{
+  "skill": "review-and-assemble",
+  "status": "recap_candidate",
+  "recap_seconds": 8.916666666666666,
+  "full_video_seconds": 66.70833333333333,
+  "inputs": [
+    {
+      "shot": "EP01-SH03",
+      "path": "episodes/episode-01/shots/EP01-SH03/takes/take-01/video.mp4",
+      "in": 1.25,
+      "out": 3.4166666666666665,
+      "sha256": "c9cb5f1e72fbbb8912583f436e45efb20ab98b0d0beb0ece8e0762e667c0b50c",
+      "role": "Nazli claims she loves another person"
+    },
+    {
+      "shot": "EP02-SH08",
+      "path": "episodes/episode-02/shots/EP02-SH08/takes/take-01/video.mp4",
+      "sha256": "a3aad4514228b63468dc27c5f8aa47288fd39b840aad16bc343c18bfd1b4372e",
+      "in": 1.25,
+      "out": 5.583333333,
+      "role": "Nazli actor and one-night role premise"
+    },
+    {
+      "shot": "EP03-SH14",
+      "path": "episodes/episode-03/shots/EP03-SH14/takes/take-01/edits/EP03-SH14-review-v1.mp4",
+      "sha256": "2e18f4002f3d8349051583e5b118abb9aa4c36e72e4f6a539981fde74eebaf10",
+      "in": 0,
+      "out": 2.4166666666666665,
+      "role": "Complete first request to speak with his mother; context label resolves pronoun"
+    }
+  ],
+  "body": "episodes/episode-04/edit/EP04-assembly-v2.mp4",
+  "outputs": [
+    {
+      "file": "episodes/episode-04/recap/EP04-previously-v2.mp4",
+      "frames": 214,
+      "sha256": "add333c7a0c4a96b5cc5d101ee4d4387ac6ef6d1d29e69e409c4e370b316d80f",
+      "complete_decode": true
+    },
+    {
+      "file": "episodes/episode-04/edit/EP04-with-recap-v2.mp4",
+      "frames": 1601,
+      "sha256": "307664f3b7d0107d41916af1fcc5a9c6f5f319687770b7cdc48af7074711add6",
+      "complete_decode": true
+    }
+  ],
+  "no_speed_change": true,
+  "external_cost": 0,
+  "listening_claimed": false,
+  "full_episode_final": false,
+  "approval_status": "revision-needed",
+  "supersedes": "manifest-v1.json",
+  "revision_reason": "User requested partially black and white recap",
+  "visual_review": "Nine one-second samples viewed: labels visible and clear of faces. Existing historical footage retained; no new house reconstruction.",
+  "asr_review": "All three intended utterances recognized; diagnostic only, no independent listening or lip-sync certification."
+}

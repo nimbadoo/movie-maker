@@ -1,0 +1,72 @@
+{
+  "skill": "review-and-assemble",
+  "shot": "EP04-SH09",
+  "take": "take-01",
+  "decision": "selected",
+  "media_assets": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH09/takes/take-01/video.mp4",
+      "sha256": "08227dcae9ee9373edad76fcdd7fdc01e82ad8681fe80b5e28127ca39a342762",
+      "job_id": "EP04-SH09-take-01-attempt-1"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH09/takes/take-01/edits/EP04-SH09-review-cut-v1.mp4",
+      "sha256": "8a36239aee17dfa15119f5e72724c934d2fb18c235b6585d2c814d68cd7f6b3a",
+      "job_id": "EP04-SH09-take-01-attempt-1"
+    }
+  ],
+  "selected_takes": [
+    {
+      "shot": "EP04-SH09",
+      "take": "take-01",
+      "path": "episodes/episode-04/shots/EP04-SH09/takes/take-01/edits/EP04-SH09-review-cut-v1.mp4",
+      "sha256": "8a36239aee17dfa15119f5e72724c934d2fb18c235b6585d2c814d68cd7f6b3a",
+      "trim": {
+        "in": 0,
+        "out": 3.5
+      },
+      "status": "user_accepted_shot"
+    }
+  ],
+  "export_manifest": null,
+  "timeline": [
+    {
+      "source": "video.mp4",
+      "in": 0.875,
+      "out": 4.375,
+      "output": "edits/EP04-SH09-review-cut-v1.mp4",
+      "seconds": 3.5,
+      "frames": 84,
+      "internal_cut": false,
+      "speed_change": false,
+      "voice_conversion": false,
+      "status": "candidate"
+    }
+  ],
+  "checks": {
+    "decode": "source192 and candidate84 frames fully decoded without error",
+    "visual": "16samples every0.5s viewed; no obvious face/costume/layout jump, small body/head changes and framing drift visible; no exact10cm movement measurement or continuous phoneme sync claim",
+    "source_asr": " نمیخوام مادرتو هم درگیر کنیم",
+    "cut_asr": " نمیخوام مادرتو هم درگیر کنیم",
+    "source_activity_seconds": [
+      1.143437,
+      4.062583
+    ],
+    "internal_pause_seconds": 0.662312,
+    "head_margin_to_strong_activity": 0.268437,
+    "tail_margin_after_asr_endpoint": 0.215,
+    "listening_review_claimed": false,
+    "voice_identity_accepted": false,
+    "lip_sync_accepted": false,
+    "camera_metric_verified": false
+  },
+  "blocking_items": [],
+  "provisional_episode_seconds": 48.5,
+  "external_credit_action": {
+    "submissions": 1,
+    "displayed_price": 6,
+    "ceiling": 6,
+    "retry_authorized": false
+  },
+  "user_acceptance": "اینم خیلی خوبه، بریم برای بعدی، سریع باشه."
+}

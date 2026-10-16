@@ -1,0 +1,12 @@
+{
+  "flow_audio_reference_status": "Upload through Ingredients attempted; no audio asset appeared; direct audio conditioning not verified",
+  "purpose": "Rhythmic sung playful delivery; reference performance, not instructions",
+  "audio_listening_status": "Unavailable: tool explicitly reports audio input unsupported",
+  "full_episode_changed": false,
+  "generation_submitted": false,
+  "source": "User attachment 2026-10-14",
+  "reference": "episodes/episode-02/shots/EP02-SH13/audio/EP02-SH13-user-rhythm-reference.m4a",
+  "shot": "EP02-SH13",
+  "sha256": "FA7261D07491CFB7040262275621B1E9EEDEE39D76F09A8F7A88590FB6EF841C",
+  "file_path_base": "film project root; external original download paths are provenance"
+}

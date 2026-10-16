@@ -1,0 +1,14 @@
+{
+  "source": "episodes/episode-04/dialogs-input/04.m4a",
+  "sha256": "759bbdf2477340f7f177d56c47969addca55c24a4f9866cfa1929f6819f721f5",
+  "method": "ffmpeg silencedetect -45dB d0.15 plus offline whisper turbo fa word timestamps; no listening claim",
+  "activity_start": 0.967646,
+  "conservative_asr_end": 3.9,
+  "speech_span_with_pauses": 2.932354,
+  "margins": 0.4,
+  "action_allowance": 0.5,
+  "required_seconds": 3.832354,
+  "edit_target": 4,
+  "asr": " می دونم ماما سامان یه لحظه می آید",
+  "asr_is_not_canonical_dialogue": true
+}

@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "role": "house-aligned corrected candidate for next generation package",
+  "source_frame": "images/EP03-SH15-guided-entry-v3.png",
+  "house_reference": "projects/damad-e-yek-shabe/house/apartment-cutaway-v2.png",
+  "sha256": "c0e777eff8b21b0fefd7fb69a9fe76a18b2bcf75b5db83fd0460214f4713f119",
+  "change": "Replace narrow kitchen doorway with broad open kitchen behind sofa; keep actors and clothes and blocking",
+  "flow_credits": 0,
+  "built_in_tool_cost_not_displayed": true,
+  "human_approval": "pending approval of next package"
+}

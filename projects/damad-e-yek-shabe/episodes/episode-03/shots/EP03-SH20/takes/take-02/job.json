@@ -1,0 +1,79 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH20",
+  "take": "take-02",
+  "request_id": "EP03-SH20-take-02",
+  "idempotency_key": "EP03-SH20-take-02-b8a16eed5cfef2220694e64bde8b813dab35f24189e51dc39ee11efc2e5a9345",
+  "bundle_sha256": "b8a16eed5cfef2220694e64bde8b813dab35f24189e51dc39ee11efc2e5a9345",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T19:44:04.074664+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 5,
+    "ceiling": 5,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "provider_job_id": "f38cef1c-eae4-423e-97fa-12015c19f5a1",
+  "request": {
+    "take": "take-02",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH20-three-standing-two-chairs-v4.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 6,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "price_source": "Live IAB settings6s360p x1 shows5credits",
+      "verified_at": "2026-10-15T19:41:01.890961+00:00"
+    }
+  },
+  "completed_at": "2026-10-15T20:00:37.938196+00:00",
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH20-take-02-attempt-1",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "state": "succeeded",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH20-take-02-b8a16eed5cfef2220694e64bde8b813dab35f24189e51dc39ee11efc2e5a9345",
+        "provider_job_id": "f38cef1c-eae4-423e-97fa-12015c19f5a1"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH20/takes/take-02/video.mp4",
+        "sha256": "094c233b418f2ab1f5b69f8d7298ab86c55d93ff33a5a3e4ca12603b1d6ecdaa",
+        "bytes": 1060958,
+        "producing_job": "EP03-SH20-take-02-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 5,
+      "approved_ceiling": 5,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true
+    },
+    "execution_gate": {
+      "remaining_paid_attempts": 0
+    }
+  }
+}

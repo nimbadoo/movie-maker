@@ -1,0 +1,48 @@
+{
+  "shot": "EP04-SH01",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "tool_calls_this_rebuild": 1,
+  "request": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-rebuild-v3-prompt.txt",
+  "requests": [
+    {
+      "path": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-rebuild-v3-prompt.txt",
+      "sha256": "80762b7ce37da64b8d625a6c97c0955c4d1793218530595e7834a3d137dddbc3"
+    }
+  ],
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0",
+      "role": "authoritative_adopted_layout"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-start-v2.png",
+      "sha256": "0756466aa6e01aeaabfd14ed1b7085e370d27d9d1639b805af6b7e984ab2145f",
+      "role": "identity_and_costume_only_not_geometry"
+    }
+  ],
+  "additional_reference": null,
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-start-v3.png",
+    "sha256": "591f8afd0c3007829762ce069383950510c31c9b08374a492c96003653494a70",
+    "width": 941,
+    "height": 1672
+  },
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-4abad1ee-8977-4d74-a320-f77898901400.png",
+  "superseded_output": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-start-v2.png",
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "authorization": "الان با توجه به این نقشهٔ خانه ... همه‌شون رو باید چک کنی و دوباره بسازی و جایگزین کنی.",
+  "video_or_audio_generated": false,
+  "flow_generation_submitted": false,
+  "flow_credits_consumed": 0,
+  "cost": {
+    "builtin_price": "not_exposed"
+  }
+}

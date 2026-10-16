@@ -1,0 +1,94 @@
+{
+  "skill": "execute-media-generation",
+  "shot": "EP03-SH15",
+  "take": "take-01",
+  "request_id": "EP03-SH15-take-01",
+  "idempotency_key": "EP03-SH15-take-01-c11d55a6fc3d86ab6ed8cd3155a5af8149e20273937bd7fc43512cdb15c2b8df",
+  "bundle_sha256": "c11d55a6fc3d86ab6ed8cd3155a5af8149e20273937bd7fc43512cdb15c2b8df",
+  "provider": "Google Flow",
+  "browser": "iab",
+  "state": "succeeded",
+  "attempt": 1,
+  "submitted_at": "2026-10-15T15:20:20.626332+00:00",
+  "cost": {
+    "unit": "Flow credits",
+    "quoted": 4,
+    "ceiling": 4,
+    "submissions": 1,
+    "remaining_authorized_attempts": 0
+  },
+  "retry_allowed": false,
+  "provider_job_id": "12c856df-0267-4b48-b798-c0013f26bc86",
+  "completed_at": "2026-10-15T15:23:09.598998+00:00",
+  "request": {
+    "take": "take-01",
+    "prompt": "prompt.txt",
+    "preflight": "preflight.md",
+    "input_files": [
+      "images/EP03-SH15-guided-entry-house-v1.png"
+    ],
+    "settings": {
+      "model": "Omni 1.1 Flash",
+      "seconds": 4,
+      "quality": "360p",
+      "aspect_ratio": "9:16",
+      "audio": true,
+      "outputs": 1,
+      "mode": "Frames"
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 4,
+      "attempts": 1,
+      "ceiling": 4,
+      "price_source": "Live IAB settings4s360p x1 shows4credits",
+      "verified_at": "2026-10-15T15:20:03.615933+00:00"
+    }
+  },
+  "data": {
+    "jobs": [
+      {
+        "id": "EP03-SH15-take-01-attempt-1",
+        "compiled_request": "review-package.json",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "attempt": 1,
+        "idempotency_key": "EP03-SH15-take-01-c11d55a6fc3d86ab6ed8cd3155a5af8149e20273937bd7fc43512cdb15c2b8df",
+        "state": "succeeded",
+        "provider_job_id": "12c856df-0267-4b48-b798-c0013f26bc86"
+      }
+    ],
+    "media_assets": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-01/video.mp4",
+        "sha256": "8aab081d750542af8623d4187b6007e81f07f95c3d427a4e952a2585900837b2",
+        "bytes": 760953,
+        "producing_job": "EP03-SH15-take-01-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-01/edits/EP03-SH15-review-v1.mp4",
+        "sha256": "c004e1923084f3f759689514450a835ce27f7465df794c4378a72e9e10715bb1",
+        "bytes": 170550,
+        "producing_job": "EP03-SH15-take-01-attempt-1"
+      },
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-01/edits/source-audio.wav",
+        "sha256": "fec9aff68e6fc1c44072c4003cb4028d27ad366544eec7c4891f6e9b3ca39698",
+        "bytes": 770126,
+        "producing_job": "EP03-SH15-take-01-attempt-1"
+      }
+    ],
+    "cost_summary": {
+      "unit": "Flow credits",
+      "quoted_submission_cost": 4,
+      "approved_ceiling": 4,
+      "submissions": 1,
+      "actual_ledger_debit_not_independently_verified": true,
+      "local_edit_credits": 0
+    },
+    "execution_gate": {
+      "explicit_cost_approval": true,
+      "remaining_paid_attempts": 0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "shot": "EP04-SH06",
+  "date": "2026-10-15",
+  "status": "user_accepted_still",
+  "path_base": "project_root",
+  "tool": "builtin_image_gen",
+  "tool_calls": 1,
+  "request": "episodes/episode-04/shots/EP04-SH06/frame-request.txt",
+  "request_sha256": "34c2c5d408e4e053a91a58b346db7cda39e28306c92467fb61362e18b609a4e7",
+  "input_references": [
+    {
+      "path": "house/apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0",
+      "role": "shared_house_geometry"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH05/images/EP04-SH05-start-v2.png",
+      "sha256": "80bdbd89384cece4b3e68d8ec64e3dbd05b84e0b5a5e7c1291180cf46af17610",
+      "role": "approved_sh05_blocking_and_costume"
+    },
+    {
+      "path": "episodes/episode-04/shots/EP04-SH01/images/EP04-SH01-start-v3.png",
+      "sha256": "591f8afd0c3007829762ce069383950510c31c9b08374a492c96003653494a70",
+      "role": "saman_face_only_not_livingroom_background"
+    }
+  ],
+  "output": {
+    "path": "episodes/episode-04/shots/EP04-SH06/images/EP04-SH06-start-v1.png",
+    "sha256": "9c521130e5c7b40a3150cabe044be03f4c729c6b31d0b005736c2779ef7eac26",
+    "width": 941,
+    "height": 1672
+  },
+  "original_output": "/Users/hrmohseni/.codex/generated_images/01a13c40-b001-7521-ae27-ff26ac8ae26e/exec-18d43aed-0f0d-4d1b-92ac-379b8b2ceb14.png",
+  "output_user_acceptance": {
+    "date": "2026-10-15",
+    "evidence": "همه عکس‌ها اوکی بودن، فقط جهت صندلی نازلی در تصویر آخر مشکل دارد",
+    "scope": "current_frame_except_shot02"
+  },
+  "scope_authorization": "تایید. برو بعدی، در پاسخ به قاب۵ نسخهٔ۲",
+  "video_or_audio_generated": false,
+  "flow_credits_consumed": 0,
+  "builtin_price": "not_exposed"
+}

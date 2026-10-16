@@ -1,0 +1,241 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- main:
+  - navigation:
+    - button "Home":
+      - img: home
+    - heading "دامادِ یک‌شبه — قسمت ۳" [level=1]
+    - textbox "Editable text":
+      - /placeholder: ""
+      - text: دامادِ یک‌شبه — قسمت ۳
+  - button "More options for the project":
+    - img: more_vert
+  - button "Add media menu":
+    - img: add
+  - button "Product help":
+    - img: help
+  - button "More options":
+    - img: more_vert
+  - button "Account details":
+    - generic "PRO tier": PRO
+    - 'button "Google Account: Mina Momenzadeh (minamoomenzadeh@gmail.com), Google membership"':
+  - button "Search":
+    - img: search
+  - textbox "Search"
+  - button "Filtering and sorting options":
+    - img: filter_list
+  - group "EP03-SH14-from-selected-SH12-v1.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH14-from-selected-SH12-v1.png":
+      - img: image
+      - generic: EP03-SH14-from-selected-SH12-v1.png
+  - group "سامان صحبت با مادر":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "سامان صحبت با مادر":
+      - img: play_circle
+      - generic: سامان صحبت با مادر
+  - group "EP03-SH13-close-house-v4.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH13-close-house-v4.png":
+      - img: image
+      - generic: EP03-SH13-close-house-v4.png
+  - group "Mother asking about family aware…":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "Mother asking about family aware…":
+      - img: play_circle
+      - generic: Mother asking about family aware…
+  - group "مادر پرسش از سامان":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "مادر پرسش از سامان":
+      - img: play_circle
+      - generic: مادر پرسش از سامان
+  - group "EP03-SH12-open-kitchen-v4.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH12-open-kitchen-v4.png":
+      - img: image
+      - generic: EP03-SH12-open-kitchen-v4.png
+  - group "نازلی در حال صحبت با مادر…":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "نازلی در حال صحبت با مادر…":
+      - img: play_circle
+      - generic: نازلی در حال صحبت با مادر…
+  - group "EP03-SH11-house-close-v5.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH11-house-close-v5.png":
+      - img: image
+      - generic: EP03-SH11-house-close-v5.png
+  - group "Nazli speaking to mother":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "Nazli speaking to mother":
+      - img: play_circle
+      - generic: Nazli speaking to mother
+  - group "EP03-SH04-tea-reply-house-v5.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH04-tea-reply-house-v5.png":
+      - img: image
+      - generic: EP03-SH04-tea-reply-house-v5.png
+  - group "مادر دعوت به نشستن می‌کند":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "مادر دعوت به نشستن می‌کند":
+      - img: play_circle
+      - generic: مادر دعوت به نشستن می‌کند
+  - group "Mother speaking to Saman":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "Mother speaking to Saman":
+      - img: play_circle
+      - generic: Mother speaking to Saman
+  - group "EP03-SH03-chair-invite-house-v5.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH03-chair-invite-house-v5.png":
+      - img: image
+      - generic: EP03-SH03-chair-invite-house-v5.png
+  - group "دو مرد در حال دست دادن…":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "دو مرد در حال دست دادن…":
+      - img: play_circle
+      - generic: دو مرد در حال دست دادن…
+  - group "EP03-SH19-two-men-before-contact-v2.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH19-two-men-before-contact-v2.png":
+      - img: image
+      - generic: EP03-SH19-two-men-before-contact-v2.png
+  - group "Men shaking hands and talking":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "Men shaking hands and talking":
+      - img: play_circle
+      - generic: Men shaking hands and talking
+  - group "EP03-SH19-start-from-approved-introduction-v1.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH19-start-from-approved-introduction-v1.png":
+      - img: image
+      - generic: EP03-SH19-start-from-approved-introduction-v1.png
+  - group "مادر خوشامدگویی به فرهاد گفت":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "مادر خوشامدگویی به فرهاد گفت":
+      - img: play_circle
+      - generic: مادر خوشامدگویی به فرهاد گفت
+  - group "مهمانان در پذیرایی":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "مهمانان در پذیرایی":
+      - img: play_circle
+      - generic: مهمانان در پذیرایی
+  - group "EP03-SH15-guided-entry-house-v1.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH15-guided-entry-house-v1.png":
+      - img: image
+      - generic: EP03-SH15-guided-entry-house-v1.png
+  - group "سامان سلام و تشکر کردن":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "سامان سلام و تشکر کردن":
+      - img: play_circle
+      - generic: سامان سلام و تشکر کردن
+  - group "EP03-SH02-door-reply-v6.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH02-door-reply-v6.png":
+      - img: image
+      - generic: EP03-SH02-door-reply-v6.png
+  - group "مادر سامان را می‌شناسد":
+    - img "Generated video thumbnail"
+    - img: play_arrow
+    - button "مادر سامان را می‌شناسد":
+      - img: play_circle
+      - generic: مادر سامان را می‌شناسد
+  - group "EP03-SH01-door-welcome-house-v1.png":
+    - img "Tile displaying a user's image"
+    - button "EP03-SH01-door-welcome-house-v1.png":
+      - img: image
+      - generic: EP03-SH01-door-welcome-house-v1.png
+  - button "Image ingredient":
+    - img "Ingredient image"
+    - img: cancel
+  - button "Swap first and last frames":
+    - img: swap_horiz
+  - button "End"
+  - button "Clear prompt":
+    - img: close
+  - textbox "What do you want to create?":
+    - paragraph:
+      - text: نمای EP03-SH14؛ دستور اجرا، خوانده نشود.
+      - text: ورودی، قاب استخراج‌شده از برداشت منتخب مادر است؛ همان صورت، سن، موی پیشانی، فقط یک روسری زرشکی، تونیک و جای نشستن مادر در چپ کاناپه حفظ شوند. فرهاد با پیراهن کرم کنار او در سمت راست کاناپه بماند، صورتش پشت شانه/سر سامان پوشیده است؛ سامان با پیراهن آبی پیش‌زمینه راست و دهان خارج دید؛ نازلی خارج قاب. آشپزخانه باز، کاناپه، دست‌ها روی ران، نور و جای افراد ثابت بمانند. هیچ فرد، حلقه، تلفن، استکان یا دست تازه اضافه نشود؛ کسی بلند نشود.
+      - text: پس از پایان پاسخ سامان در نمای قبل، فقط مادر یک‌بار این دو بخش را بگوید؛ دیگران کاملاً ساکت و بدون لب‌زدن. نگاه مادر به چشم سامان در راست لنز، نه به دوربین یا فرهاد. «پَس باهاشون حَرْف بِزَنین.» درخواست نرم با جدیت آرام۲از۵ و پایان امری طبیعی است؛ بعد از پایان آن فقط مکث بسیار کوتاه میان دو جمله. «دوسْت دارَم یِه روز با هَم بیاین اینجا.» دعوت خبری با مهمان‌نوازی محتاطانه۲از۵، صدای کمی گرم‌تر، بدون تعیین روز یا فرض قبول خانواده. «با هَم» پیوسته و طبیعی شنیده شود؛ میان این دو واژه مکث نگذار. هیچ بخش این نما سؤال نیست؛ پایان دعوت خبری و کامل باشد، نه پرسشی یا کشیده.
+      - text: دوربین هم‌ارتفاع چشم نشسته و از کنار شانه سامان؛ در بخش دعوت فقط پیشروی مستقیم بسیار کوتاه و آرام در حد طراحی حدود۱۰سانتی‌متر، بدون دورزدن، تغییر محور یا بزرگ‌شدن مزاحم شانه سامان. بدن و دست مادر ثابت؛ پایان با یک تکان بسیار کوچک و طبیعی سر و نگاه به سامان. لب‌خوانی فقط مادر؛ پاسخ سامان اضافه نشود.
+      - text: "فقط این دیالوگ گفته شود؛ همهٔ دستورها و شناسه‌ها خوانده نشوند:"
+      - text: «پَس باهاشون حَرْف بِزَنین. دوسْت دارَم یِه روز با هَم بیاین اینجا.»
+      - text: "دستور پایان، خوانده نشود: همهٔ جمله تا «اینجا» کامل ادا شود؛ سپس لب‌ها بسته و نگاه حفظ شود. گفتار برای پرکردن۶ثانیه آهسته نشود، مکث نمایشی، نریشن، موسیقی و زیرنویس نساز. حاشیهٔ کوتاه آغاز و پایان کافی است؛ اضافه‌ها محلی کوتاه می‌شوند."
+  - button "Settings trigger" [active]:
+    - text: Video · 360p · 6s
+    - img: crop_9_16
+    - text: x1
+  - button "Start generation":
+    - img: arrow_forward
+  - paragraph: Google Flow can make mistakes, so double-check it
+- generic "Mode":
+  - radiogroup:
+    - radio "Image":
+      - img: image
+      - generic: Image
+    - radio "Video" [checked]:
+      - img: videocam
+      - generic: Video
+- generic "Video type":
+  - radiogroup:
+    - radio "Frames" [checked]:
+      - img: crop_free
+      - generic: Frames
+    - radio "Ingredients":
+      - img: chrome_extension
+      - generic: Ingredients
+- generic "Aspect ratio":
+  - radiogroup:
+    - radio "16:9":
+      - img: crop_16_9
+      - generic: 16:9
+    - radio "9:16" [checked]:
+      - img: crop_9_16
+      - generic: 9:16
+- separator
+- button "Select model family":
+  - text: Omni 1.1 Flash
+  - img: arrow_drop_down
+- generic "Video resolution":
+  - radiogroup:
+    - radio "360p" [checked]:
+      - generic: 360p
+    - radio "720p":
+      - generic: 720p
+- generic "Video duration":
+  - radiogroup:
+    - radio "4s":
+      - generic: 4s
+    - radio "6s" [checked]:
+      - generic: 6s
+    - radio "8s":
+      - generic: 8s
+    - radio "10s":
+      - generic: 10s
+- generic "Output count":
+  - radiogroup:
+    - radio "x1" [checked]:
+      - generic: x1
+    - radio "x2":
+      - generic: x2
+    - radio "x3":
+      - generic: x3
+    - radio "x4":
+      - generic: x4
+- text: Generating will use
+- link "5 credits":
+  - /url: https://support.google.com/googleone?p=g1_ai_credit_menu
+- generic: 360p generates faster at lower resolution

@@ -1,0 +1,134 @@
+{
+  "text": " خیلی خوشبختم از آشنایتون من هم همینطور سپاس",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 2.579999999999999,
+      "end": 5.16,
+      "text": " خیلی خوشبختم از آشنایتون",
+      "tokens": [
+        50365,
+        16490,
+        4135,
+        1211,
+        4135,
+        16490,
+        2407,
+        8592,
+        3555,
+        46456,
+        2304,
+        1975,
+        11622,
+        19753,
+        8592,
+        8315,
+        4135,
+        2655,
+        11536,
+        50624
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16848259501987034,
+      "compression_ratio": 1.0394736842105263,
+      "no_speech_prob": 1.2964374018764602e-10,
+      "words": [
+        {
+          "word": " خیلی",
+          "start": 2.579999999999999,
+          "end": 3.78,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " خوشبختم",
+          "start": 3.78,
+          "end": 4.34,
+          "probability": 0.84375
+        },
+        {
+          "word": " از",
+          "start": 4.34,
+          "end": 4.52,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " آشنایتون",
+          "start": 4.52,
+          "end": 5.16,
+          "probability": 0.8759765625
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5.16,
+      "end": 6.92,
+      "text": " من هم همینطور",
+      "tokens": [
+        50624,
+        9154,
+        8032,
+        2304,
+        8032,
+        2304,
+        32151,
+        9566,
+        13063,
+        50712
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16848259501987034,
+      "compression_ratio": 1.0394736842105263,
+      "no_speech_prob": 1.2964374018764602e-10,
+      "words": [
+        {
+          "word": " من",
+          "start": 5.16,
+          "end": 6.22,
+          "probability": 0.6455078125
+        },
+        {
+          "word": " هم",
+          "start": 6.22,
+          "end": 6.44,
+          "probability": 0.994140625
+        },
+        {
+          "word": " همینطور",
+          "start": 6.44,
+          "end": 6.92,
+          "probability": 0.986328125
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6.92,
+      "end": 7.64,
+      "text": " سپاس",
+      "tokens": [
+        50712,
+        8608,
+        27779,
+        32277,
+        50749
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.16848259501987034,
+      "compression_ratio": 1.0394736842105263,
+      "no_speech_prob": 1.2964374018764602e-10,
+      "words": [
+        {
+          "word": " سپاس",
+          "start": 6.92,
+          "end": 7.64,
+          "probability": 0.93017578125
+        }
+      ]
+    }
+  ],
+  "limitation": "Machine transcription only; two sentences detected, not proof of two correct voices or lip ownership, pronunciation or natural ambience. No auditory review."
+}

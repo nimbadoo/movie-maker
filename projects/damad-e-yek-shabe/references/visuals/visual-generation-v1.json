@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "generate",
+  "transparent_background": false,
+  "prompt": "Use case: photorealistic-natural. Create ONE cohesive four-panel preproduction visual concept board for a contemporary Iranian romantic-comedy mini-series called Damad-e Yek Shabe. This is a SINGLE review board, not approved production identities, not a poster. Three upper panels show waist-up casting portraits and the bottom wide panel shows their modest apartment living room, without people. Film still realism, natural human faces, warm understated comedy, soft late-afternoon window light, realistic skin and everyday clothes. Upper left: Nazli, Iranian woman approximately 27, oval face, dark brown shoulder-length hair worn naturally loose, lively intelligent eyes, teal simple blouse, dark trousers, assertive but approachable expression. Upper middle: Nazli's mother approximately 54, distinct mature face, dark hair with gray streaks, matte burgundy modest tunic, capable calm firm look, not caricature. Upper right: Farhad, Iranian man approximately 33, neatly combed short black hair, precise short beard, cream button-up shirt, self-assured slightly smug but not grotesque. Lower panel: believable modest present-day Iranian apartment living room, beige sofa along the back wall, simple Persian rug, small rectangular low wood coffee table with exactly three tea glasses, window on camera left gives soft warm light, apartment entry in depth right, kitchen doorway in depth center-left, no luxurious palace decor, no crowd. Maintain visual unity across the portraits and room. Thin neutral separations between panels. No text, no watermark, no logos, no extra faces, no wedding outfits. Clear facial detail suitable for choosing casting direction; no implication of approval.",
+  "file": "episodes/episode-01/references/01-casting-and-living-room-concept-v1.png",
+  "source_path": "C:\\Users\\momen\\.codex\\generated_images\\01a13208-3576-7443-b60d-b2202e3e3738\\exec-256128c3-3e4e-4da8-abd5-a57c655a74cb.png",
+  "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4",
+  "status": "user-approved casting and location direction; not a video start frame",
+  "review": "Three distinct faces, warm contemporary home, exactly three tea glasses; mother wears a burgundy headscarf although not explicitly requested. This is a concept board, not an active identity or a video starting frame. Individual neutral references and shot frames must be made only after casting direction is selected.",
+  "flow_credits_used": 0,
+  "approval": "همین ظاهر و خانه مناسب است؛ ادامه بده",
+  "file_path_base": "film project root; external original download paths are provenance"
+}

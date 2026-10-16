@@ -1,0 +1,22 @@
+{
+  "shot": "EP03-SH10",
+  "take": "take-01",
+  "status": "downloaded_for_review_not_selected",
+  "submissions": 1,
+  "quoted_credits": 4,
+  "balance_delta_verified": false,
+  "settings": {
+    "model": "Omni 1.1 Flash",
+    "seconds": 4,
+    "quality": "360p",
+    "aspect_ratio": "9:16",
+    "audio": true,
+    "outputs": 1
+  },
+  "submitted_at": "2026-10-15T21:51:35.158412+00:00",
+  "automatic_retry": false,
+  "output": "video.mp4",
+  "output_sha256": "3fae7ff9f54a6940888b00aa23f9ee02ad4736eb91e469d177cf58133f58f29b",
+  "asset_url": "https://flow.google.com/project/0290053e-8dcd-4881-91ca-09cde9a42b7c/edit/35f4b4d6-4b27-432f-a060-bec8e004fb8c",
+  "decode_verified": true
+}

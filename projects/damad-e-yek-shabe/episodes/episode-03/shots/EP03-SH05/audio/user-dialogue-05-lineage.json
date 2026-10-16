@@ -1,0 +1,14 @@
+{
+  "source": "../../../dialogs-input/5.m4a",
+  "copy": "user-dialogue-05.m4a",
+  "sha256": "b80447e1b37d78a8fcce9a73d74683fb3c6227a3b6f416777a481817014428e0",
+  "copy_sha256": "b80447e1b37d78a8fcce9a73d74683fb3c6227a3b6f416777a481817014428e0",
+  "role": "performance_and_pronunciation_reference_only",
+  "character_voice_identity": false,
+  "auditory_review": "not_performed",
+  "source_duration_seconds": 5.3106875,
+  "existing_machine_word_range_seconds": [
+    0,
+    4.68
+  ]
+}

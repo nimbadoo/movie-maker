@@ -1,0 +1,10 @@
+{
+  "source": "../../../dialogs-input/08.m4a",
+  "source_sha256": "e1cd53552002b26b833ca3b3bddcd524212de2dc0c4631959e1fb8571cdbc603",
+  "copy_sha256": "e1cd53552002b26b833ca3b3bddcd524212de2dc0c4631959e1fb8571cdbc603",
+  "duration_seconds": 3.049333,
+  "sample_rate_hz": 48000,
+  "channels": 1,
+  "role": "local_performance_reference_not_final_voice",
+  "auditory_review": "not_performed"
+}

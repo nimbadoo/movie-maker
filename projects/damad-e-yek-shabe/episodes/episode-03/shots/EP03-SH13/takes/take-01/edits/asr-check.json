@@ -1,0 +1,60 @@
+{
+  "text": " هنوز باهاشون حرف نزدم",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.06,
+      "text": " هنوز باهاشون حرف نزدم",
+      "tokens": [
+        50365,
+        8032,
+        1863,
+        2407,
+        11622,
+        4724,
+        40294,
+        33599,
+        11536,
+        11331,
+        28480,
+        8717,
+        11622,
+        40448,
+        50521
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.24297279119491577,
+      "compression_ratio": 0.8478260869565217,
+      "no_speech_prob": 1.0841378489390152e-10,
+      "words": [
+        {
+          "word": " هنوز",
+          "start": 0.0,
+          "end": 1.44,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " باهاشون",
+          "start": 1.44,
+          "end": 2.0,
+          "probability": 0.84521484375
+        },
+        {
+          "word": " حرف",
+          "start": 2.0,
+          "end": 2.6,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " نزدم",
+          "start": 2.6,
+          "end": 3.06,
+          "probability": 0.99609375
+        }
+      ]
+    }
+  ],
+  "limitation": "ASR may hallucinate on silent clips; no auditory review; not proof of absence of speech or music"
+}

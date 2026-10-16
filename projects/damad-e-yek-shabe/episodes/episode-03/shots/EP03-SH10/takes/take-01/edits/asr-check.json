@@ -1,0 +1,88 @@
+{
+  "text": " اگه نازلی هم بخواد من قصدم ازدواجه",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.82,
+      "text": " اگه نازلی هم بخواد من قصدم ازدواجه",
+      "tokens": [
+        50365,
+        1975,
+        16761,
+        3224,
+        8717,
+        31377,
+        1211,
+        4135,
+        8032,
+        2304,
+        4724,
+        9778,
+        14407,
+        3215,
+        9154,
+        12174,
+        9381,
+        40448,
+        1975,
+        11622,
+        3215,
+        2407,
+        26108,
+        3224,
+        50559
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1264943526341365,
+      "compression_ratio": 0.9841269841269841,
+      "no_speech_prob": 1.0538790673475518e-10,
+      "words": [
+        {
+          "word": " اگه",
+          "start": 0.0,
+          "end": 0.88,
+          "probability": 0.95947265625
+        },
+        {
+          "word": " نازلی",
+          "start": 0.88,
+          "end": 1.32,
+          "probability": 0.99609375
+        },
+        {
+          "word": " هم",
+          "start": 1.32,
+          "end": 1.44,
+          "probability": 0.8076171875
+        },
+        {
+          "word": " بخواد",
+          "start": 1.44,
+          "end": 2.04,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " من",
+          "start": 2.04,
+          "end": 2.76,
+          "probability": 0.76025390625
+        },
+        {
+          "word": " قصدم",
+          "start": 2.76,
+          "end": 3.22,
+          "probability": 0.84228515625
+        },
+        {
+          "word": " ازدواجه",
+          "start": 3.22,
+          "end": 3.82,
+          "probability": 0.9990234375
+        }
+      ]
+    }
+  ],
+  "limitation": "ASR may hallucinate on silent clips; no auditory review; not proof of absence of speech or music"
+}

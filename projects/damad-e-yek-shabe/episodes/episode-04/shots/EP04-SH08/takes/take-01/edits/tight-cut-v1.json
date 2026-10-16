@@ -1,0 +1,45 @@
+{
+  "source": "../video.mp4",
+  "source_sha256": "7d5d05fa5319c2788b11cb663ae6584ed0cc5091ac833adb9c5e1c432371840b",
+  "output": "EP04-SH08-original-tight-v1.mp4",
+  "output_sha256": "0d4c96eca0bd55ddb3a0ee28b44c4640c1baab074a4a34448646410f11675b9b",
+  "ranges": [
+    [
+      0.875,
+      1.875
+    ],
+    [
+      2.875,
+      4.875
+    ]
+  ],
+  "source_frame_ranges": [
+    [
+      21,
+      45
+    ],
+    [
+      69,
+      117
+    ]
+  ],
+  "source_sample_ranges": [
+    [
+      42000,
+      90000
+    ],
+    [
+      138000,
+      234000
+    ]
+  ],
+  "removed_internal_silence_seconds": 1,
+  "removed_duplicate": true,
+  "output_frames": 72,
+  "fps": 24,
+  "seconds": 3,
+  "external_credit_cost": 0,
+  "voice_conversion": false,
+  "speed_change": false,
+  "user_accepted": false
+}

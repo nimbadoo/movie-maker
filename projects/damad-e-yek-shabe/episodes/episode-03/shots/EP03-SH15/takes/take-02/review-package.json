@@ -1,0 +1,103 @@
+{
+  "skill": "compile-generation-prompts",
+  "shot": "EP03-SH15",
+  "take": "take-02",
+  "status": "accepted_standalone_edit",
+  "ready": false,
+  "submitted": true,
+  "dialogue": "خُوش اومَدین. ایشون فَرهاد، پِسَرِ خواهرَم.",
+  "prompt_sha256": "fa259cd74821a1237c0ba2f5ce13b9f661a160261e87aa4d84ecc622a87f3ea1",
+  "frame": {
+    "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/images/EP03-SH15-guided-entry-house-v1.png",
+    "sha256": "c0e777eff8b21b0fefd7fb69a9fe76a18b2bcf75b5db83fd0460214f4713f119",
+    "role": "existing_house_checked_start_frame"
+  },
+  "provider": {
+    "name": "Google Flow",
+    "browser": "iab_only",
+    "model": "Omni 1.1 Flash",
+    "settings": {
+      "mode": "Frames",
+      "aspect_ratio": "9:16",
+      "seconds": 6,
+      "resolution": "360p",
+      "outputs": 1,
+      "audio": true
+    },
+    "cost": {
+      "unit": "Flow credits",
+      "per_attempt": 5,
+      "attempts": 1,
+      "ceiling": 5,
+      "source": "Live IAB model settings panel shows5 credits",
+      "verified_at": "2026-10-15T15:37:14.184259+00:00"
+    }
+  },
+  "cost_approval": {
+    "approved": true,
+    "ceiling": 5,
+    "attempts": 1,
+    "user_reply": "تأیید",
+    "bundle_sha256": "ae77d28872f43cb53944bef790aa3583cf1fad32e9b6b0e8ca3dc0655ac7ca18"
+  },
+  "content_approval": {
+    "approved": true,
+    "user_reply": "تأیید",
+    "bundle_sha256": "ae77d28872f43cb53944bef790aa3583cf1fad32e9b6b0e8ca3dc0655ac7ca18"
+  },
+  "open_issues": [
+    "Assistant auditory and continuous-frame verification not performed; next-shot connection not yet reviewed"
+  ],
+  "audio_policy": "Native voice and ambience retained, reference identity not guaranteed, no automatic dry voice replacement",
+  "data": {
+    "shot_ir": {
+      "segment": "EP03-SH15",
+      "beat": "welcome_and_introduce",
+      "speaking_asset": "CH-MNZ",
+      "listener_assets": [
+        "CH-SAM",
+        "CH-FAR",
+        "CH-NAZ"
+      ],
+      "start": "Mother Saman Nazli standing Farhad sofa-right seated",
+      "end": "Same poses, Farhad still seated, introduction complete"
+    },
+    "storyboard_frames": [
+      {
+        "path": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/images/EP03-SH15-guided-entry-house-v1.png",
+        "role": "first_frame"
+      }
+    ],
+    "image_requests": [],
+    "video_requests": [
+      {
+        "request_id": "EP03-SH15-take-02",
+        "segment": "EP03-SH15",
+        "beat": "welcome_and_introduce",
+        "prompt": "prompt.txt",
+        "first_frame": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/images/EP03-SH15-guided-entry-house-v1.png"
+      }
+    ],
+    "provider_requests": [
+      {
+        "request_id": "EP03-SH15-take-02",
+        "provider": "Google Flow IAB",
+        "model": "Omni 1.1 Flash",
+        "mode": "Frames",
+        "compatibility": "Live start frame, vertical360p6s x1 supported; no voice-reference conditioning claimed",
+        "last_frame_required": false,
+        "mismatch_alternatives": []
+      }
+    ],
+    "quality_gate": {
+      "preproduction_checks": "documented in preflight.md",
+      "authorization": "consumed_one_attempt",
+      "output_verification": "sampled_visual_review_and_machine_ASR; not_finally_accepted"
+    }
+  },
+  "output_acceptance": {
+    "user_reply": "خوبه",
+    "selected_video": "projects/damad-e-yek-shabe/episodes/episode-03/shots/EP03-SH15/takes/take-02/edits/EP03-SH15-introduction-review-v1.mp4",
+    "sha256": "2f8fc550122b870094e1f44c44f9e1acd478162eec88e99f11db0a37b8614350"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "method": "librosa.pyin 75-500Hz,16k mono,1024window160hop; voiced median of first and last third of ASR-timed final word",
+  "measurements": [
+    {
+      "take": "take-01",
+      "word": " دارن؟",
+      "machine_word_range": [
+        3.9,
+        4.64
+      ],
+      "first_third_voiced_median_hz": 164.52374695419388,
+      "last_third_voiced_median_hz": 226.70274359887304,
+      "delta_semitones": 5.550072202730933
+    },
+    {
+      "take": "take-02",
+      "word": " دارن؟",
+      "machine_word_range": [
+        3.6,
+        4.34
+      ],
+      "first_third_voiced_median_hz": 173.30290453084095,
+      "last_third_voiced_median_hz": 233.34564103953613,
+      "delta_semitones": 5.150072202730934
+    }
+  ],
+  "limitations": "Numerical proxy only. Word boundaries and pitch estimator may err; no listening, not proof of interrogative prosody, naturalness, voice identity, or successful correction."
+}

@@ -1,0 +1,28 @@
+{
+  "skill": "review-and-assemble",
+  "status": "user_approved_recap",
+  "source_manifest": "manifest-v2.json",
+  "revision": "User requested partially black and white recap; saturation 0.15, body remains original color",
+  "recap_seconds": 8.916666666666666,
+  "full_seconds": 66.70833333333333,
+  "external_cost": 0,
+  "audio": "recap AAC copied without re-encoding; combined export re-encoded once",
+  "outputs": [
+    {
+      "path": "episodes/episode-04/recap/EP04-previously-v3.mp4",
+      "frames": 214,
+      "sha256": "752814fe191ab52f11ac9ce0e5291b9aeffa279905a5db30aa6185f32ca4f4a8",
+      "complete_decode": true
+    },
+    {
+      "path": "episodes/episode-04/edit/EP04-with-recap-v3.mp4",
+      "frames": 1601,
+      "sha256": "ad6cb900d78d7020529623cc4c9da3e4760260ac56435f1d50afa293c5ebed8b",
+      "complete_decode": true
+    }
+  ],
+  "listening_claimed": false,
+  "visual_review": "Viewed samples of all three recap scenes and first color body shot: near monochrome recap, legible titles, color resumes at episode start.",
+  "approval_evidence": "User selected همین نسخه تأیید است for near-monochrome recap v3",
+  "approval_scope": "Recap v3 only; no publication authorization or final full episode acceptance"
+}

@@ -1,0 +1,25 @@
+{
+  "tool": "local ffmpeg",
+  "source": "../edit/v5/EP02-full-with-approved-SH03.mp4",
+  "output": "EP02-instagram-v5.mp4",
+  "vf": "scale=1080:1920:flags=lanczos,setsar=1,fps=fps=30:start_time=0",
+  "af": "aresample=async=1:first_pts=0",
+  "video": {
+    "codec": "libx264",
+    "profile": "main",
+    "level": "4.0",
+    "bframes": 0,
+    "refs": 2,
+    "preset": "medium",
+    "crf": 18,
+    "pixel_format": "yuv420p",
+    "track_timescale": 30000
+  },
+  "audio": {
+    "codec": "aac",
+    "bitrate": "192k",
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "movflags": "+faststart"
+}

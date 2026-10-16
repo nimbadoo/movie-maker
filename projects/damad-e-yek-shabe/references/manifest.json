@@ -1,0 +1,71 @@
+{
+  "source": "user-provided ai_kimia examples",
+  "date": "2026-10-13",
+  "missing_episode": "not supplied; number not reliably established",
+  "files": [
+    {
+      "id": "REF-01",
+      "file": "references/videos/kimia page 1.MP4",
+      "original_path": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\kimia page 1.MP4",
+      "bytes": 33562614,
+      "sha256": "bd58f7e69cc27e78b29a0be2f64375fdcff22f39c06155217614e77de135c983",
+      "role": "historical visual alternative",
+      "review_method": "timestamped sampled frames + local automatic transcript; not full audio listening"
+    },
+    {
+      "id": "REF-02",
+      "file": "references/videos/kimia page 2.MP4",
+      "original_path": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\kimia page 2.MP4",
+      "bytes": 21902402,
+      "sha256": "2bfd06b3b1e33193e15b2fa5c0c948cc7726ef3a23382929291267b64c948d0d",
+      "role": "primary production and narrative reference",
+      "review_method": "timestamped sampled frames + local automatic transcript; not full audio listening"
+    },
+    {
+      "id": "REF-03",
+      "file": "references/videos/kimia page 3.MP4",
+      "original_path": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\kimia page 3.MP4",
+      "bytes": 13896875,
+      "sha256": "3717e4670d3e0a67d8e15bdc3b4bd00a2997a9ec95a46550f94428cb463d79e1",
+      "role": "primary production and narrative reference",
+      "review_method": "timestamped sampled frames + local automatic transcript; not full audio listening"
+    },
+    {
+      "id": "REF-04",
+      "file": "references/videos/kimia page 4.MP4",
+      "original_path": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\kimia page 4.MP4",
+      "bytes": 24443728,
+      "sha256": "7f497aee49ba3aba4549f42285bebe47380fd60f02f7a43621550d0355cd9d91",
+      "role": "primary production and narrative reference",
+      "review_method": "timestamped sampled frames + local automatic transcript; not full audio listening"
+    },
+    {
+      "id": "REF-05",
+      "file": "references/videos/kimia page 5.MP4",
+      "original_path": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\kimia page 5.MP4",
+      "bytes": 28464670,
+      "sha256": "de5285a18fcc1fe6dbc3bec36a451c415f7bbaf0cb9254ed134d3a4c36331094",
+      "role": "primary production and narrative reference",
+      "review_method": "timestamped sampled frames + local automatic transcript; not full audio listening"
+    },
+    {
+      "id": "REF-06",
+      "file": "references/videos/kimia page 6.MP4",
+      "original_path": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\kimia page 6.MP4",
+      "bytes": 17929828,
+      "sha256": "7111a38abc1f99d21f5f7d3e2b7ff726f6bf4036811da1dc6f26536ed11a3ae1",
+      "role": "primary production and narrative reference",
+      "review_method": "timestamped sampled frames + local automatic transcript; not full audio listening"
+    },
+    {
+      "id": "REF-07",
+      "file": "references/videos/kimia page 7.MP4",
+      "original_path": "C:\\Users\\momen\\Downloads\\Telegram Desktop\\kimia page 7.MP4",
+      "bytes": 32475046,
+      "sha256": "471d6d67a6c1e98100cec6d27510749f867acacfb7581353ff072068d4e8d649",
+      "role": "primary production and narrative reference",
+      "review_method": "timestamped sampled frames + local automatic transcript; not full audio listening"
+    }
+  ],
+  "file_path_base": "film project root; external original download paths are provenance"
+}
