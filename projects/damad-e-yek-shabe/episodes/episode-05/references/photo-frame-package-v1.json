@@ -17,17 +17,17 @@
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH05": {
-      "path": "shots/EP05-SH05/images/EP05-SH05-start-v2.png",
-      "sha256": "06b9fe90c7e46343a272d2ac843d65bd13c2e79681573543402b1951ab3533af",
+      "path": "shots/EP05-SH05/images/EP05-SH05-start-v3.png",
+      "sha256": "8628517fac7c7cfa300e177c86f1b67d2999a70eb71393e53fcbbe4795a0cc7f",
       "size": [
         851,
-        1848
+        1847
       ],
-      "native_aspect": 0.4604978354978355,
+      "native_aspect": 0.4607471575527883,
       "exact_9_16": false,
-      "generation_id": "table-continuity-v2",
-      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-deee9d49-e03a-421b-82b5-74765a00d296.png",
-      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v2-prompt.txt",
+      "generation_id": "chair-inward-v3",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-ecc90d76-8ea8-476a-afca-e1d9ef8af760.png",
+      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v3-prompt.txt",
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH06": {
@@ -145,7 +145,7 @@
   },
   "duration_seconds": 44.5416666667,
   "tool": "builtin image_gen.imagegen",
-  "generated_calls": 16,
+  "generated_calls": 19,
   "generated_final_files": 8,
   "existing_source_extracted_frames": 1,
   "flow_credits_used": 0,
@@ -196,7 +196,7 @@
     "user artistic acceptance of photographs pending",
     "audio and reconstructed-question auditory acceptance pending",
     "real video motion, exit, eye turn, lip sync and ending reaction not produced or checked",
-    "SH05 v2 chair axes inherited from user screenshot conflict with overhead 90-degree plan; unresolved before video submission. Tabletop continuity is visually verified separately."
+    "Exact metric 90-degree angle and chair spacing cannot be measured from the partly occluded single still; inward direction visually checked against plan, not a calibrated measurement."
   ],
   "generation_input_direction_diagram": "references/mother-direction-input-v1.png",
   "ui_checks": {
@@ -212,7 +212,7 @@
     "full_contact_sheet_viewed": true
   },
   "framing_adjustments": {
-    "EP05-SH05": "Wider v2 matches user episode4 tabletop reference; chair angle conflict with overhead plan remains open",
+    "EP05-SH05": "Wide v3: inward angled chairs with visible outward upholstery sides; tabletop stays tea-left/bowl-middle/tray-right. Numeric angle not measured.",
     "EP05-SH15-END": "Shared tighter two-shot; planned eye turn and emotion change not yet executed"
   },
   "table_reference": {
@@ -220,5 +220,11 @@
     "sha256": "ea8c3a6abeabb141c8632fcebf932634f2b270df70fdad7cce36a6bca87f6fbb",
     "view_toward_young": "tea image-left; nut bowl middle; empty tray image-right",
     "status": "observed and matched in SH05 v2"
+  },
+  "chair_correction": {
+    "attempts": 3,
+    "prompts": "references/chair-correction-prompts-v3.json",
+    "visual_review": "photo-review-v3.md in SH05",
+    "status": "inward orientation visually reviewed; exact numerical angle unmeasured"
   }
 }
