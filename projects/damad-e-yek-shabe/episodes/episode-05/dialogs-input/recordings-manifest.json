@@ -453,7 +453,7 @@
       "method": "local faster-whisper small CPU int8 fa beam5 temperature0 no prompt no VAD",
       "shot": "EP05-SH08",
       "speaker": "مادر",
-      "expected_text": "پَس چرا هَرچی می‌پُرسیدَم تُنده، می‌گُفتی نَه؟",
+      "expected_text": "پَس چرا هَرچی می‌پُرسیدَم تُندِه، می‌گُفتی نَه؟",
       "text_alignment_status": "machine_correspondence_only_not_auditioned",
       "tone_review": "not_performed",
       "pronunciation_review": "not_performed",
