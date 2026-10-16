@@ -64,8 +64,8 @@
       "recipient": "مادر و فرهادِ نشسته، خارج قاب",
       "tone": "خودمانی و ساده؛ قصد توضیح آشنایی و دعوت جمعی.",
       "action": "سامان چپ و نازلی راست با فاصله ثابت؛ سامان به جمع جواب می‌دهد، سپس نگاه کوتاه به مادر و نازلی؛ نازلی و فرهاد ساکت و بدون حرکت لب گفتاری.",
-      "frame": "shots/EP05-SH05/images/EP05-SH05-start-v3.png",
-      "frame_sha256": "8628517fac7c7cfa300e177c86f1b67d2999a70eb71393e53fcbbe4795a0cc7f",
+      "frame": "shots/EP05-SH05/images/EP05-SH05-start-v4.png",
+      "frame_sha256": "8f1a820171d0216d57b81dee59141b8aa305531961cc682abcf2a5901b0fb689",
       "frame_size": [
         851,
         1847
@@ -433,7 +433,7 @@
   ],
   "ending": {
     "frame_role": "destination_only_not_start",
-    "frame": "shots/EP05-SH15/images/EP05-SH15-ending-v2.png",
+    "frame": "shots/EP05-SH15/images/EP05-SH15-ending-v3.png",
     "prompt": "shots/EP05-SH15/takes/take-02/prompt.txt",
     "preflight": "shots/EP05-SH15/takes/take-02/preflight.md",
     "open_issues": [
@@ -441,8 +441,8 @@
       "قالب دقیق۹:۱۶و نسخهٔ برش باید قبل از ارسال دیده شوند.",
       "مجوز تولید و هزینه وجود ندارد."
     ],
-    "start_frame": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1.png",
-    "start_frame_sha256": "a553cdedef6967d328121d5ffa9a6e45b51dfdc5376dbba7f89124a4972c646a",
+    "start_frame": "shots/EP05-SH15/images/EP05-SH15-ending-start-v2.png",
+    "start_frame_sha256": "6f6676efd769546fe30fe31cf48ab993bd70085685cfe221a11a2348180eb324",
     "start_frame_role": "start_pose_both_look_at_mother_no_farhad"
   },
   "question_replay": {

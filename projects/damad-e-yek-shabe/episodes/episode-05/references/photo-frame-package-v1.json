@@ -17,17 +17,17 @@
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH05": {
-      "path": "shots/EP05-SH05/images/EP05-SH05-start-v3.png",
-      "sha256": "8628517fac7c7cfa300e177c86f1b67d2999a70eb71393e53fcbbe4795a0cc7f",
+      "path": "shots/EP05-SH05/images/EP05-SH05-start-v4.png",
+      "sha256": "8f1a820171d0216d57b81dee59141b8aa305531961cc682abcf2a5901b0fb689",
       "size": [
         851,
         1847
       ],
       "native_aspect": 0.4607471575527883,
       "exact_9_16": false,
-      "generation_id": "chair-inward-v3",
-      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-ecc90d76-8ea8-476a-afca-e1d9ef8af760.png",
-      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v3-prompt.txt",
+      "generation_id": "EP05-SH05-start-v4",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-eab99556-563c-4840-9216-2409bd4ea9ce.png",
+      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v4-prompt.txt",
       "role": "review_candidate_not_approved_generation_input"
     },
     "EP05-SH06": {
@@ -128,37 +128,38 @@
       "shared_owner": "EP05-SH07"
     },
     "EP05-SH15-END": {
-      "path": "shots/EP05-SH15/images/EP05-SH15-ending-v2.png",
-      "sha256": "2cae12f43c5bbca4d7e64ba19005f206eeb29476aae39fc48b1d6262456bcf03",
+      "path": "shots/EP05-SH15/images/EP05-SH15-ending-v3.png",
+      "sha256": "39ad6cbd68412a1308621c860e7d3853aa06fa58bb86766f9f4bbd06639294f8",
       "size": [
         851,
         1847
       ],
       "exact_9_16": false,
       "native_aspect": 0.4607471575527883,
-      "generation_id": "ending-spacing-v2",
-      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-0424ad1a-0842-42be-85c7-ab58a9589b73.png",
-      "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-v2-prompt.txt",
+      "generation_id": "EP05-SH15-ending-v3",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-2f6f422b-16de-4c03-8621-b213c6bbc8ee.png",
+      "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-v3-prompt.txt",
       "role": "proposed_destination_pose_not_motion_or_video_approval",
       "source_reference": "shots/EP05-SH05/images/EP05-SH05-start-v3.png"
     },
     "EP05-SH15-END-START": {
-      "path": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1.png",
-      "sha256": "a553cdedef6967d328121d5ffa9a6e45b51dfdc5376dbba7f89124a4972c646a",
+      "path": "shots/EP05-SH15/images/EP05-SH15-ending-start-v2.png",
+      "sha256": "6f6676efd769546fe30fe31cf48ab993bd70085685cfe221a11a2348180eb324",
       "size": [
         851,
         1847
       ],
       "exact_9_16": false,
       "role": "start_pose_candidate_both_look_at_mother_no_farhad",
-      "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-start-v1-prompt.txt",
-      "generation_id": "ending-start-v1",
-      "original_output": "C:/Users/momen/.codex/generated_images/01a14646-f317-7750-8b51-7d15cd8058a6/exec-405d02e1-b9f9-4ffd-8586-d592904f3bfb.png"
+      "prompt": "shots/EP05-SH15/images/EP05-SH15-ending-start-v2-prompt.txt",
+      "generation_id": "EP05-SH15-ending-start-v2",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-9f3bf536-f108-4016-b574-c24fb205436b.png",
+      "native_aspect": 0.4607471575527883
     }
   },
   "duration_seconds": 44.5416666667,
   "tool": "builtin image_gen.imagegen",
-  "generated_calls": 21,
+  "generated_calls": 24,
   "generated_final_files": 8,
   "existing_source_extracted_frames": 1,
   "flow_credits_used": 0,
@@ -244,5 +245,10 @@
     "report": "shots/EP05-SH15/ending-photo-review-v2.md",
     "status": "visually_compared_static_candidate",
     "video_generated": false
+  },
+  "leg_depth_repair": {
+    "report": "references/leg-depth-repair-v1.json",
+    "status": "static_candidate_rechecked_after_prior_error",
+    "old_geometry_acceptance_withdrawn": true
   }
 }

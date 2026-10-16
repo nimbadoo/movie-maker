@@ -31,7 +31,7 @@
     },
     "continuity": {
       "status": "pass",
-      "evidence": "قاب آغاز و مقصد جدا شدند؛ گزارش ending-start-review-v1.md بررسی ثابت و محدودیت حرکت را ثبت می‌کند."
+      "evidence": "قاب آغاز و مقصد جدا شدند؛ گزارش leg-depth-review-v1.md بررسی ثابت و محدودیت حرکت را ثبت می‌کند."
     }
   },
   "bundle_sha256": null,
