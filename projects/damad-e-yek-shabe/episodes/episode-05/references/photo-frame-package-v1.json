@@ -1,0 +1,217 @@
+{
+  "status": "photographic_review_candidates_static_checks_recorded_not_video_ready",
+  "date": "2026-10-17",
+  "assets": {
+    "EP05-SH03": {
+      "path": "shots/EP05-SH03/images/EP05-SH03-start-v1.png",
+      "sha256": "3d709adad15e7e7f26e7b96252a5e12c5285dfe6bf2074dd43837f89f8568ea9",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "Nresponse",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-3099be6d-c543-49c1-a28c-6fb96148e49e.png",
+      "prompt": "shots/EP05-SH03/images/EP05-SH03-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input"
+    },
+    "EP05-SH05": {
+      "path": "shots/EP05-SH05/images/EP05-SH05-start-v1.png",
+      "sha256": "b091090b6a29a1b859c6ad37ce4c3efbf8bf0c5ac3db4680607f5c34e7adc4fd",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "B3",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-aa8495cd-31cf-4a17-8034-aa10532a9041.png",
+      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input"
+    },
+    "EP05-SH06": {
+      "path": "shots/EP05-SH06/images/EP05-SH06-start-v1.png",
+      "sha256": "19270c19ac82f68a8c97bfb4eb2f84730407981f73ce558ec5d1369e80a6000b",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "N2",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-5cc30c19-fc45-4bd1-88d6-4a627df8896e.png",
+      "prompt": "shots/EP05-SH06/images/EP05-SH06-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input"
+    },
+    "EP05-SH07": {
+      "path": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
+      "sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "Sdown",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-b4a513a7-fa68-42ce-8dca-4065fe9dae36.png",
+      "prompt": "shots/EP05-SH07/images/EP05-SH07-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input"
+    },
+    "EP05-SH08": {
+      "path": "shots/EP05-SH08/images/EP05-SH08-start-v1.png",
+      "sha256": "400a12e63c68cde912b6b926bc1d4e6c8debcdc3fdb19c0b44cb7d1fbc21aaad",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "Mleft",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-8462e103-4c56-4a56-aa41-a80c7a4834f0.png",
+      "prompt": "shots/EP05-SH08/images/EP05-SH08-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input"
+    },
+    "EP05-SH14": {
+      "path": "shots/EP05-SH14/images/EP05-SH14-start-v1.png",
+      "sha256": "859384d9155caf42d4a71d5c86c551b6cfebb1138c14115f54aafe29e456c484",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "F",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-161633a0-ae26-44c6-b5e1-230038046bb8.png",
+      "prompt": "shots/EP05-SH14/images/EP05-SH14-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input"
+    },
+    "EP05-SH15": {
+      "path": "shots/EP05-SH15/images/EP05-SH15-start-v1.png",
+      "sha256": "195c24bc87e6621ada8d85c84ff6e9264c550ee4830544cfe074900da7ab3d68",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "Mfarewell",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-936bff17-2440-4b0f-bf9c-3e51a7420bd6.png",
+      "prompt": "shots/EP05-SH15/images/EP05-SH15-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input"
+    },
+    "EP05-SH02": {
+      "path": "shots/EP05-SH02/images/EP05-SH02-start-reference-v1.png",
+      "sha256": "93dd3b9cb9231a8644ca22025da02e40a790a92a19c5e5b7c5950dfba2c9d680",
+      "size": [
+        360,
+        640
+      ],
+      "exact_9_16": true,
+      "role": "frame_extracted_from_reconstructed_existing_question",
+      "source_video_sha256": "dab177f9a33ecbcbb19570ae12ebfbe321e55ebf7f8f0dcc1a4711ec69105457",
+      "generation_id": null
+    },
+    "EP05-SH10": {
+      "path": "shots/EP05-SH07/images/EP05-SH07-start-v1.png",
+      "sha256": "d52466cc4cd91d3fbacd66ee8c4e27ad6b358b3f14b18f2ef413df97b0fa7942",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "Sdown",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-b4a513a7-fa68-42ce-8dca-4065fe9dae36.png",
+      "prompt": "shots/EP05-SH07/images/EP05-SH07-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input",
+      "shared_owner": "EP05-SH07"
+    },
+    "EP05-SH15-END": {
+      "path": "shots/EP05-SH05/images/EP05-SH05-start-v1.png",
+      "sha256": "b091090b6a29a1b859c6ad37ce4c3efbf8bf0c5ac3db4680607f5c34e7adc4fd",
+      "size": [
+        941,
+        1672
+      ],
+      "native_aspect": 0.562799043062201,
+      "exact_9_16": false,
+      "generation_id": "B3",
+      "original_output": "C:\\Users\\momen\\.codex\\generated_images\\01a14646-f317-7750-8b51-7d15cd8058a6\\exec-aa8495cd-31cf-4a17-8034-aa10532a9041.png",
+      "prompt": "shots/EP05-SH05/images/EP05-SH05-start-v1-prompt.txt",
+      "role": "review_candidate_not_approved_generation_input",
+      "shared_owner": "EP05-SH05"
+    }
+  },
+  "duration_seconds": 44.5416666667,
+  "tool": "builtin image_gen.imagegen",
+  "generated_calls": 15,
+  "generated_final_files": 7,
+  "existing_source_extracted_frames": 1,
+  "flow_credits_used": 0,
+  "builtin_price": "not_exposed",
+  "no_external_paid_api_used": true,
+  "no_video_generated": true,
+  "reviewed_against": {
+    "house": {
+      "path": "house\\apartment-cutaway-v2.png",
+      "sha256": "3646dc1faad613c957d2b4f70e4125d4ab1cbcffd18ca3591942f4c0b7bdbdf0"
+    },
+    "plan": {
+      "path": "house\\apartment-plan-v1.svg",
+      "sha256": "4799de71672f45c2cad81992a6f2af5a086f7ce7be8d49ebbc2b42f5e7b4b222"
+    },
+    "identity": {
+      "path": "episodes\\episode-01\\references\\01-casting-and-living-room-concept-v1.png",
+      "sha256": "d9239bae43da329ed7a66c114d4fccb06f30446a34a05ddcdc1868a17b4c27c4"
+    },
+    "saman": {
+      "path": "episodes\\episode-02\\references\\01-saman-portrait-v1.png",
+      "sha256": "42be7ed4763ccc6ca6a06ca007b57354bbe06f06bceed23f746a4f76aaa05621"
+    },
+    "standing": {
+      "path": "episodes\\episode-04\\shots\\EP04-SH14\\images\\EP04-SH14-start-v2.png",
+      "sha256": "d92979471024b05256b55e039f8f9d767d399371a9ac67bc1d7b6b1cf5ba932e"
+    },
+    "mother_pose": {
+      "path": "episodes\\episode-04\\shots\\EP04-SH03\\images\\EP04-SH03-start-v2.png",
+      "sha256": "0869906e46160fc8e66fbb2e367dc52f40e4a57f4b212c0943bb3ec27946e4af"
+    },
+    "farhad": {
+      "path": "episodes\\episode-04\\shots\\EP04-SH12\\images\\EP04-SH12-start-v3.png",
+      "sha256": "ecd68abb6ff73285997215c3b956813f49c0228b0a2a7e06add8868f09d85a6c"
+    }
+  },
+  "rejects_fixed": [
+    "parallel or insufficiently verifiable chair geometry avoided by tighter crop without moving world furniture",
+    "Nazli looking near lens corrected",
+    "extra person and north-wall decor in Nazli close corrected",
+    "portrait bookshelf copied behind Saman removed",
+    "Saman excess curls corrected toward identity reference",
+    "different seated/standing addressee gaze directions separated",
+    "mother question head direction corrected with rasterized camera diagram"
+  ],
+  "remaining": [
+    "generated native images941x1672 are near9:16, not mathematically exact; do not claim delivery-ready crop; final framing normalization pending before generation submission",
+    "user artistic acceptance of photographs pending",
+    "audio and reconstructed-question auditory acceptance pending",
+    "real video motion, exit, eye turn, lip sync and ending reaction not produced or checked"
+  ],
+  "generation_input_direction_diagram": "references/mother-direction-input-v1.png",
+  "ui_checks": {
+    "offline": true,
+    "images_loaded": 10,
+    "all_loaded": true,
+    "page_errors": [],
+    "mobile_width": 375,
+    "horizontal_overflow": false,
+    "keyboard_details_opened": 1,
+    "desktop_screenshot_viewed": true,
+    "mobile_screenshot_viewed": true,
+    "full_contact_sheet_viewed": true
+  },
+  "framing_adjustments": {
+    "EP05-SH05": "Tighter two-shot to keep unverified chair geometry outside crop; furniture not moved",
+    "EP05-SH15-END": "Shared tighter two-shot; planned eye turn and emotion change not yet executed"
+  }
+}
