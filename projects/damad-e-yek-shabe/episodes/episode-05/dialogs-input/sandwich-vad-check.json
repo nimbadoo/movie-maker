@@ -1,0 +1,109 @@
+{
+  "method": "FFmpeg decoded sample coordinates; Silero VAD threshold .35 min speech100ms min silence250ms speech pad0; not auditioned; internal pauses preserved in full span",
+  "recordings": [
+    {
+      "file": "01.m4a",
+      "sha256": "1362029a688eddc6a7294a0abe263919adc563dab2e93ca3d623a92e9acd318e",
+      "speech_ranges": [
+        {
+          "start": 0.96,
+          "end": 2.976
+        }
+      ],
+      "duration_seconds": 3.86
+    },
+    {
+      "file": "02.m4a",
+      "sha256": "f79934ba1ea6f61c19c1beb4a9b507f1291394bcd6413e28abb066f78b9e3182",
+      "speech_ranges": [
+        {
+          "start": 1.184,
+          "end": 7.136
+        }
+      ],
+      "duration_seconds": 8.0413125
+    },
+    {
+      "file": "03.m4a",
+      "sha256": "fcf95433d8be2d1c5c5eddfa405a1df8383f18f7b5f8b6f19fe86cf6fc29e095",
+      "speech_ranges": [
+        {
+          "start": 1.216,
+          "end": 3.84
+        }
+      ],
+      "duration_seconds": 4.5426875
+    },
+    {
+      "file": "04.m4a",
+      "sha256": "bc088d7193ad7e99cad9c0c90eb11080fac8a274cc1de05b52bcaf11d50da4ba",
+      "speech_ranges": [
+        {
+          "start": 0.704,
+          "end": 1.952
+        },
+        {
+          "start": 2.432,
+          "end": 5.056
+        }
+      ],
+      "duration_seconds": 5.8226875
+    },
+    {
+      "file": "05.m4a",
+      "sha256": "ad38cf259a661af224e6f4d4b155d0a49a50fdf69242090d8685a681c7cf37b4",
+      "speech_ranges": [
+        {
+          "start": 0.928,
+          "end": 5.088
+        }
+      ],
+      "duration_seconds": 5.396
+    },
+    {
+      "file": "06.m4a",
+      "sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
+      "speech_ranges": [
+        {
+          "start": 1.056,
+          "end": 4.128
+        },
+        {
+          "start": 4.48,
+          "end": 5.44
+        }
+      ],
+      "duration_seconds": 5.908
+    },
+    {
+      "file": "07.m4a",
+      "sha256": "0e72ad31bd55764d41fb1fb6198149f2d96ba99974dec738cd32f90612f62d1f",
+      "speech_ranges": [
+        {
+          "start": 1.024,
+          "end": 2.176
+        },
+        {
+          "start": 2.528,
+          "end": 4.64
+        }
+      ],
+      "duration_seconds": 5.0546875
+    },
+    {
+      "file": "08.m4a",
+      "sha256": "f532f7cc14fb54ee6c86214f0fc4870eafc61b1f1fcb8be015e76dfe2ffc02ed",
+      "speech_ranges": [
+        {
+          "start": 0.96,
+          "end": 2.72
+        },
+        {
+          "start": 3.264,
+          "end": 7.968
+        }
+      ],
+      "duration_seconds": 8.468
+    }
+  ]
+}
