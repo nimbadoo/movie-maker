@@ -481,68 +481,68 @@
     },
     {
       "file": "06.m4a",
-      "sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
-      "decoded_duration_seconds": 5.908,
-      "machine_transcript": "گفتا هم اول ان شامیه که مهمونتونه عور نظنه.",
+      "sha256": "ca4661f9f5cb59e48601eb8e0eeb29faa7fdf8af8545b547f1551588a0d19c68",
+      "decoded_duration_seconds": 4.9693125,
+      "machine_transcript": "گفتم اول انشامی که مهمونتون هم خورون از انم",
       "segments": [
         {
           "start": 0.0,
-          "end": 5.3,
-          "text": " گفتا هم اول ان شامیه که مهمونتونه عور نظنه.",
+          "end": 3.84,
+          "text": " گفتم اول انشامی که مهمونتون هم خورون از انم",
           "words": [
             {
-              "word": " گفتا",
               "start": 0.0,
-              "end": 1.48,
-              "probability": 0.570486307144165
+              "end": 0.72,
+              "word": " گفتم",
+              "probability": 0.5760166446367899
             },
             {
-              "word": " هم",
-              "start": 1.48,
-              "end": 1.64,
-              "probability": 0.6619560867547989
-            },
-            {
+              "start": 0.72,
+              "end": 1.06,
               "word": " اول",
-              "start": 1.64,
-              "end": 1.86,
-              "probability": 0.6580116152763367
+              "probability": 0.710400402545929
             },
             {
-              "word": " ان",
-              "start": 1.86,
-              "end": 2.08,
-              "probability": 0.4733528196811676
+              "start": 1.06,
+              "end": 1.52,
+              "word": " انشامی",
+              "probability": 0.5710891559720039
             },
             {
-              "word": " شامیه",
-              "start": 2.08,
-              "end": 2.7,
-              "probability": 0.6001826301217079
-            },
-            {
+              "start": 1.52,
+              "end": 1.74,
               "word": " که",
-              "start": 2.7,
+              "probability": 0.9315156042575836
+            },
+            {
+              "start": 1.74,
+              "end": 2.38,
+              "word": " مهمونتون",
+              "probability": 0.7616469740867615
+            },
+            {
+              "start": 2.38,
               "end": 3.0,
-              "probability": 0.9251100122928619
+              "word": " هم",
+              "probability": 0.599516287446022
             },
             {
-              "word": " مهمونتونه",
               "start": 3.0,
-              "end": 4.04,
-              "probability": 0.6161384209990501
+              "end": 3.38,
+              "word": " خورون",
+              "probability": 0.7628720899422964
             },
             {
-              "word": " عور",
-              "start": 4.04,
-              "end": 4.74,
-              "probability": 0.5142656937241554
+              "start": 3.38,
+              "end": 3.56,
+              "word": " از",
+              "probability": 0.7525534331798553
             },
             {
-              "word": " نظنه.",
-              "start": 4.74,
-              "end": 5.3,
-              "probability": 0.6781265959143639
+              "start": 3.56,
+              "end": 3.84,
+              "word": " انم",
+              "probability": 0.5853082835674286
             }
           ]
         }
@@ -580,8 +580,11 @@
         "duration_seconds": 4.875,
         "status": "provisional_not_auditioned_not_applied"
       },
-      "detail_check": "06-detail-check.json",
-      "text_review": "improved_machine_correspondence_on_processed_variants; final phrase unstable; not auditory acceptance"
+      "detail_check": "06-rerecord-check-v1.json",
+      "text_review": "improved_machine_correspondence_on_processed_variants; final phrase unstable; not auditory acceptance",
+      "prior_sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
+      "review_status": "replacement_received_machine_only_not_auditioned_prior_timing_invalid",
+      "audition_performed": false
     },
     {
       "file": "07.m4a",

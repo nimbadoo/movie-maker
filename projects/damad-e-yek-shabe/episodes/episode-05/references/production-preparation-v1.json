@@ -1,7 +1,7 @@
 {
   "version": "production-preparation-v1",
   "date": "2026-10-17",
-  "status": "blocked_pending_auditory_review_final_inputs_provider_and_cost",
+  "status": "blocked_replacement06_audition_and_retiming_required",
   "duration_seconds": 44.541666666666664,
   "dialogue_jobs": [
     {
@@ -286,9 +286,9 @@
         "status": "exact_crop_applied_and_visually_reviewed"
       },
       "audio": "dialogs-input/06.m4a",
-      "audio_sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
-      "source_in": 0.8333333333333334,
-      "source_out": 5.708333333333333,
+      "audio_sha256": "ca4661f9f5cb59e48601eb8e0eeb29faa7fdf8af8545b547f1551588a0d19c68",
+      "source_in": null,
+      "source_out": null,
       "start": 26.166667,
       "end": 31.041667,
       "edit_seconds": 5.5,
@@ -312,10 +312,16 @@
       "prompt_sha256": "7ccab26381a49ae056cbdc35bf471b2b0656e9621a17a2b41fa6040809e96b3d",
       "preflight": "shots/EP05-SH10/takes/take-01/preflight.md",
       "open_issues": [
+        "ضبط۰۶جایگزین شده؛ مرز و مدت قدیمی باطل است و باززمان‌بندی نیاز دارد.",
         "شنیدن واقعی متن، لحن، تلفظ و سلامت مرزهای ضبط انجام نشده است.",
         "امکان حفظ هویت صدای مصوب با مدل و روش جاری تأیید نشده است.",
         "مدت و کیفیت و هزینهٔ همین ارسال در رابط زنده تأیید نشده؛ مجوز هزینه نداریم."
-      ]
+      ],
+      "prior_audio_sha256": "11776b289d610e7583905a8c7f50f734bd293f9ccd43be06eb3135cdae3251d1",
+      "prior_source_in": 0.8333333333333334,
+      "prior_source_out": 5.708333333333333,
+      "current_decoded_duration": 4.9693125,
+      "timing_status": "invalidated_do_not_apply_old_bounds"
     },
     {
       "shot": "EP05-SH14",

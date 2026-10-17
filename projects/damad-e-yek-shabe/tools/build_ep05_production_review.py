@@ -10,6 +10,9 @@ def savej(p,d):p.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 frames=readj(E/'references/photo-frame-package-v1.json')['assets']
 timing=readj(E/'edit/timing-plan-sandwich-v1.json')
+for item in timing['timeline']:
+    if item.get('kind')=='reference_dialogue' and sha(E/item['source'])!=item['source_sha256']:
+        raise SystemExit('STOP: recording changed; review replacement and update timing before rebuilding: '+item['source'])
 normalized_path=E/'references/input-frames-9x16-v1.json'
 normalized=readj(normalized_path) if normalized_path.exists() else {'assets':{}}
 inputs_ready=normalized.get('status')=='exact_crops_visually_reviewed_not_submission_approval'

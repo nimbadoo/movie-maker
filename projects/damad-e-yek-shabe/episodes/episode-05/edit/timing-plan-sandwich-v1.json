@@ -1,5 +1,5 @@
 {
-  "status": "complete_proposed_timing_not_final_media",
+  "status": "stale_after_replacement06_retiming_required_not_current_media_plan",
   "date": "2026-10-17",
   "fps_planning_grid": 24,
   "fps_note": "24fps follows episode4; frame grid for planning only, future source fps not yet selected",
@@ -186,13 +186,16 @@
       ],
       "speech_span_seconds": 4.384,
       "internal_pauses_preserved": true,
-      "review_status": "provisional_not_auditioned_not_applied",
+      "review_status": "old_source_and_bounds_invalid_for_replacement",
       "timeline_in_frame": 628,
       "timeline_out_frame": 745,
       "start_seconds": 26.166667,
       "end_seconds": 31.041667,
       "duration_frames": 117,
-      "duration_seconds": 4.875
+      "duration_seconds": 4.875,
+      "current_source_sha256": "ca4661f9f5cb59e48601eb8e0eeb29faa7fdf8af8545b547f1551588a0d19c68",
+      "current_source_duration_seconds": 4.9693125,
+      "old_bounds_invalid": true
     },
     {
       "kind": "reaction_laugh",
@@ -304,6 +307,7 @@
   "no_separate_recap": true,
   "no_interactive_outro_added": true,
   "open_items": [
+    "Replacement06 hash changed and duration4.969s; old trim through5.708s invalid; do not use old overall timing as current",
     "File06 exact pronunciation and whole-sentence auditory match unresolved",
     "All proposed trim boundaries need actual listening before application",
     "Historical selected question edit still missing; exact raw restored and separate candidate available; candidate audition and acceptance pending",
