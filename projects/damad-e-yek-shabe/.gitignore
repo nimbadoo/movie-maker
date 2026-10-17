@@ -1,5 +1,7 @@
 *.mp4
 *.m4a
+# Keep the original dialogue recordings for episode five in the repository.
+!episodes/episode-05/dialogs-input/*.m4a
 *.wav
 *.mp3
 [Dd]esktop.ini
